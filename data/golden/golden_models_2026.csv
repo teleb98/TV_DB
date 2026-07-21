@@ -1,0 +1,7 @@
+brand,series_name,marketing_name,generation_year,panel_tech,tier,os,model_code_base,resolution,refresh_rate_native,hdr_formats,processor,dimming,peak_brightness_nits,sku_full,size_inch,region,price_msrp,status,data_confidence
+삼성,QN990,Neo QLED 8K,2026,Neo-QLED,flagship,Tizen,QN990G,8K,,HDR10+|HLG,,mini-led,,KQ65QNG990GXKR,65,KR,,announced,low
+삼성,QN90,Neo QLED 4K,2026,Neo-QLED,flagship,Tizen,QN90G,4K,,HDR10+|HLG,,mini-led,,KQ65QNG90GXKR,65,KR,,announced,low
+삼성,S95,OLED,2026,QD-OLED,flagship,Tizen,S95G,4K,,HDR10+|HLG,,per-pixel,,KQ65SG95GXKR,65,KR,,announced,low
+LG,G,OLED evo G6,2026,WOLED,flagship,webOS,G6,4K,,Dolby Vision|HDR10|HLG,,per-pixel,,OLED65G6KNA,65,KR,,announced,low
+LG,C,OLED evo C6,2026,WOLED,high,webOS,C6,4K,,Dolby Vision|HDR10|HLG,,per-pixel,,OLED65C6KNA,65,KR,,announced,low
+LG,B,OLED B6,2026,WOLED,mid,webOS,B6,4K,,Dolby Vision|HDR10|HLG,,per-pixel,,OLED65B6KNA,65,KR,,announced,low

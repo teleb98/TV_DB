@@ -30,7 +30,8 @@ scripts/build_comparison_map.py 삼성↔경쟁사 동급 매핑 생성기 ✅
 agent/query.py                 상담봇 질의 함수 (compare/lineup/search) ✅
 agent/demo.py                  질의 데모 러너
 tools/inspect_page.py          실제 페이지→후보 셀렉터 추출 헬퍼
-data/golden/golden_models.csv  검증용 골든셋 (46개 모델, 2023~2025)
+data/golden/golden_models.csv       검증용 골든셋 (46개, 2023~2025 released)
+data/golden/golden_models_2026.csv  2026 발표 모델 (잠정, announced/low)
 ```
 
 ## 빠른 시작 (검증된 절차)
@@ -38,7 +39,8 @@ data/golden/golden_models.csv  검증용 골든셋 (46개 모델, 2023~2025)
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 createdb tvspec && psql tvspec -f schema/schema.sql            # 스키마(7 테이블)
 export PG_DSN="postgresql://localhost/tvspec"
-.venv/bin/python pipeline.py --load-golden data/golden/golden_models.csv  # 골든셋 적재
+.venv/bin/python pipeline.py --load-golden data/golden/golden_models.csv       # 골든셋(2023~25)
+.venv/bin/python pipeline.py --load-golden data/golden/golden_models_2026.csv  # 2026 발표(잠정)
 .venv/bin/python scripts/load_positioning.py data/golden/series_positioning.csv  # 라인업 설명
 .venv/bin/python scripts/build_comparison_map.py             # 비교축 생성
 .venv/bin/python scripts/load_prices.py data/golden/prices_kr.csv  # 가격 스냅샷→price_history
@@ -67,6 +69,8 @@ PG_DSN=postgresql://localhost/tvspec .venv/bin/python -m tests.test_samsung_fixt
 - [x] `series.positioning` 시드 + 라인업 추천(키워드 리트리벌, RAG 자리)
 - [x] 수집기 파싱 경로 픽스처 검증(fetch→parse→normalize→DB)
 - [x] 가격 스냅샷 파이프라인(`price_history` 축적, 추세/최저가 질의, 재적재 멱등)
+- [x] 수명주기 `status`(announced/released/eol) + `data_confidence` — 2026 잠정 데이터 격리
+- [ ] **2026 스펙/SKU 공식 확정 시 released/high 승격** (현재 삼성·LG 6종 announced/low, Sony/TCL/Hisense 보류)
 - [ ] **골든셋 스펙값 공식 대조 검수** (현재 대표값 — 정답지 확정 필요)
 - [ ] 실사이트 셀렉터 확정 + JS 사이트는 Playwright 연동(위 가이드)
 - [ ] recommend() 임베딩+pgvector로 승격(정식 RAG)

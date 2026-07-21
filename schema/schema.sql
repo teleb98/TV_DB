@@ -10,6 +10,7 @@ CREATE TYPE panel_tech    AS ENUM ('OLED','WOLED','QD-OLED','QLED','Neo-QLED','M
 CREATE TYPE dimming_type  AS ENUM ('none','edge-lit','full-array','mini-led','per-pixel');
 CREATE TYPE tier          AS ENUM ('flagship','high','mid','entry');
 CREATE TYPE smart_os      AS ENUM ('Tizen','webOS','Google-TV','Android-TV','Roku','VIDAA','Fire-TV','other');
+CREATE TYPE product_status AS ENUM ('announced','released','eol');   -- 수명주기: 발표/출시/단종
 
 -- ---------- 1. Brand ----------
 CREATE TABLE brand (
@@ -31,6 +32,8 @@ CREATE TABLE series (
     os              smart_os,
     key_features    TEXT[],                      -- ['Anti-Glare','144Hz','Dolby Atmos']
     positioning     TEXT,                        -- 라인업 포지셔닝 설명(RAG용)
+    status          product_status DEFAULT 'released',  -- 발표/출시/단종
+    data_confidence TEXT DEFAULT 'high',         -- high|med|low (잠정 데이터 구분)
     UNIQUE (brand_id, series_name, generation_year)
 );
 
