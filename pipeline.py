@@ -56,8 +56,9 @@ class Applier:
         if layer in ("model", "row") and self._series_id:
             self._model_id = d.upsert_model(self.cur, rec, self._series_id)
         if layer in ("variant", "row") and self._model_id and rec.get("sku_full"):
-            vid = d.upsert_variant(self.cur, rec, self._model_id)
-            d.append_price(self.cur, vid, rec)
+            # 모델 적재는 variant.price_msrp/street 만 갱신. price_history(이력)는
+            # 전용 로더(load_prices/collect_prices)가 채널·시점과 함께 관리 → 분리.
+            d.upsert_variant(self.cur, rec, self._model_id)
 
     def close(self, commit: bool):
         if self.conn:

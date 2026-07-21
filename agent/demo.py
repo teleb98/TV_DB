@@ -21,3 +21,4 @@ if __name__ == "__main__":
        query.recommend("밝은 거실 스포츠 게이밍 가성비"))
     _p("best_price('QN90D') — 옵션별 현재 최저가", query.best_price("QN90D"))
     _p("price_trend('KQ65QNA90DXKR') — 가격 추세", query.price_trend("KQ65QNA90DXKR"))
+    _p("price_by_region('QN90F') — 한/미 가격 비교", query.price_by_region("QN90F"))

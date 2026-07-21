@@ -175,6 +175,21 @@ def best_price(model_code: str, region: str = "KR") -> list[dict]:
         return cur.fetchall()
 
 
+def price_by_region(model_code: str) -> list[dict]:
+    """동일 모델의 지역별 현재가(KR/US…) — '미국이랑 한국 가격 차이?' 응답."""
+    with _conn() as c:
+        cur = c.cursor()
+        cur.execute("""
+            select v.region, v.sku_full,
+                   coalesce(v.price_street, v.price_msrp) price, v.currency
+            from variant v join model m on v.model_id=m.model_id
+            where m.model_code_base=%s
+              and coalesce(v.price_street, v.price_msrp) is not null
+            order by v.region
+        """, (model_code,))
+        return cur.fetchall()
+
+
 def price_trend(sku_full: str, region: str = "KR") -> list[dict]:
     """특정 SKU 가격 이력(추세) — captured_at 순."""
     with _conn() as c:

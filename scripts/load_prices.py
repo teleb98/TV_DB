@@ -30,8 +30,10 @@ def load(path: str):
                 skipped += 1
                 print(f"  ⏭ variant 없음: {r['sku_full']} ({r.get('region','KR')})")
                 continue
+            region = r.get("region", "KR")
+            currency = r.get("currency") or ("USD" if region == "US" else "KRW")
             db.upsert_price_snapshot(cur, vid, r["channel"], int(r["price"]),
-                                     captured_at=r["captured_at"])
+                                     captured_at=r["captured_at"], currency=currency)
             applied += 1
         conn.commit()
     print(f"가격 스냅샷 {applied}건 적재 / 스킵 {skipped}건")

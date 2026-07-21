@@ -54,6 +54,7 @@ echo "==> 4) 데이터 적재(멱등)"
 ./.venv/bin/python scripts/load_positioning.py data/golden/series_positioning.csv
 ./.venv/bin/python scripts/build_comparison_map.py
 ./.venv/bin/python scripts/load_prices.py data/golden/prices_kr.csv
+./.venv/bin/python scripts/load_prices.py data/golden/prices_us.csv
 
 echo "==> 5) pgvector + 임베딩(시맨틱 RAG)"
 if psql "$DB_NAME" -tAc "select 1 from pg_available_extensions where name='vector'" | grep -q 1; then

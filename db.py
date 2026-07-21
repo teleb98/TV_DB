@@ -157,15 +157,3 @@ def upsert_price_snapshot(cur, variant_id: int, channel: str, price: int,
         where v.variant_id=%s
     """, (variant_id, variant_id))
 
-
-# ---------- Price history (append-only) ----------
-def append_price(cur, variant_id: int, rec: dict):
-    price = _int(rec.get("price_street") or rec.get("price_msrp"))
-    if price is None:
-        return
-    cur.execute(
-        """INSERT INTO price_history(variant_id, channel, price, currency)
-           VALUES (%s, %s, %s, %s)""",
-        (variant_id, rec.get("channel", rec.get("source", "unknown")),
-         price, rec.get("currency", "KRW")),
-    )
