@@ -63,6 +63,17 @@ PG_DSN=postgresql://localhost/tvspec .venv/bin/python -m tests.test_samsung_fixt
   3. **헤드리스 브라우저**(Playwright)로 렌더 후 HTML 추출 → 기존 `parse()` 재사용
 - 셀렉터 확정 절차: `tools/inspect_page.py <url>` 로 후보 추출 → `config/selectors.py` 채움 → 픽스처처럼 골든셋으로 검증.
 
+## 가격 수집 스케줄링 (운영)
+```bash
+.venv/bin/python scripts/collect_prices.py         # 수동 1회(수집→스냅샷→price_history)
+# launchd 등록(매일 03:00):
+cp deploy/com.tvspecdb.prices.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.tvspecdb.prices.plist
+launchctl start com.tvspecdb.prices                # 즉시 1회 실행
+```
+- 러너는 타깃별 예외 격리 + 3xx 추종 → 한 소스 실패해도 배치 지속. 로그: `data/logs/`.
+- ⚠ danawa 셀렉터 미설정/JS 렌더링이면 0건 수집(정상 종료). 셀렉터 확정 시 자동 축적.
+
 ## 완료 / 남은 일
 - [x] 4계층 스키마 · 정규화 엔진(골든셋 46/46 통과, 2023~2025) · DB upsert(멱등)
 - [x] Comparison_Map 생성기 · Agent 질의계층(compare/lineup/search/recommend)
@@ -73,8 +84,8 @@ PG_DSN=postgresql://localhost/tvspec .venv/bin/python -m tests.test_samsung_fixt
 - [ ] **2026 스펙/SKU 공식 확정 시 released/high 승격** (현재 삼성·LG 6종 announced/low, Sony/TCL/Hisense 보류)
 - [ ] **골든셋 스펙값 공식 대조 검수** (현재 대표값 — 정답지 확정 필요)
 - [ ] 실사이트 셀렉터 확정 + JS 사이트는 Playwright 연동(위 가이드)
-- [ ] recommend() 임베딩+pgvector로 승격(정식 RAG)
-- [ ] 가격 수집 스케줄링(cron/주간) — `load_prices.py` 를 실수집 결과에 연결
+- [x] 가격 수집 스케줄링(launchd 매일) — `collect_prices.py` + `deploy/*.plist`, 예외격리
+- [ ] recommend() 임베딩+pgvector 승격 — `brew install pgvector` 후 CREATE EXTENSION 필요(현재 미설치)
 
 ## 준수사항
 - 크롤링 전 robots.txt/이용약관 확인, 가능하면 공식 API/제휴 우선

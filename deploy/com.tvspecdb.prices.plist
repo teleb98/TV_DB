@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  가격 수집 스케줄 (launchd LaunchAgent) — 매일 03:00 collect_prices.py 실행.
+  설치:
+    cp deploy/com.tvspecdb.prices.plist ~/Library/LaunchAgents/
+    launchctl load ~/Library/LaunchAgents/com.tvspecdb.prices.plist
+  해제: launchctl unload ~/Library/LaunchAgents/com.tvspecdb.prices.plist
+  즉시 1회: launchctl start com.tvspecdb.prices
+  ※ 경로/DSN 은 환경에 맞게 수정.
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.tvspecdb.prices</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/mac/tv-spec-db/.venv/bin/python</string>
+        <string>/Users/mac/tv-spec-db/scripts/collect_prices.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/mac/tv-spec-db</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PG_DSN</key>
+        <string>postgresql://localhost/tvspec</string>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/bin:/bin</string>
+    </dict>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key><integer>3</integer>
+        <key>Minute</key><integer>0</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/mac/tv-spec-db/data/logs/launchd.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/mac/tv-spec-db/data/logs/launchd.err.log</string>
+
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>

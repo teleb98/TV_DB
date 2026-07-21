@@ -20,7 +20,8 @@ def fetch_html(target: str, ua: str = "tv-spec-db/0.1", timeout: int = 20) -> st
     ⚠ 실사이트가 JS 렌더링/안티봇이면 정적 GET 실패 가능 → 헤드리스(Playwright) 필요."""
     if target.startswith(("http://", "https://")):
         import httpx
-        r = httpx.get(target, timeout=timeout, headers={"User-Agent": ua})
+        r = httpx.get(target, timeout=timeout, headers={"User-Agent": ua},
+                      follow_redirects=True)   # 카테고리 URL 등 3xx 추종
         r.raise_for_status()
         return r.text
     return pathlib.Path(target).read_text(encoding="utf-8")
@@ -55,11 +56,15 @@ class BaseCollector(abc.ABC):
 
     # --- 공통 유틸 ---
     def collect(self, targets: list[str]) -> list[RawRecord]:
+        """타깃별 예외를 격리 — 하나가 실패해도 나머지는 계속(스케줄 작업 견고성)."""
         out: list[RawRecord] = []
         for t in targets:
-            raw = self.fetch(t)
-            self._dump_raw(t, raw)                 # 원본 보존(재파싱/감사용)
-            out.extend(self.parse(raw, source_url=t))
+            try:
+                raw = self.fetch(t)
+                self._dump_raw(t, raw)             # 원본 보존(재파싱/감사용)
+                out.extend(self.parse(raw, source_url=t))
+            except Exception as e:
+                print(f"[warn] collect skip {t}: {type(e).__name__}: {e}")
             time.sleep(self.rate_limit_sec)
         return out
 

@@ -4,9 +4,11 @@ __pycache__/
 .venv/
 venv/
 
-# 수집 원본(대용량·재생성 가능)
+# 수집 원본·생성물(재생성 가능)
 data/raw/
 data/pdf/
+data/prices/
+data/logs/
 
 # 환경/비밀
 .env
