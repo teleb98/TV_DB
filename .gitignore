@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 수집 원본(대용량·재생성 가능)
+data/raw/
+data/pdf/
+
+# 환경/비밀
+.env
+*.log

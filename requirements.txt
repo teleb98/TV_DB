@@ -1,0 +1,5 @@
+httpx>=0.27          # HTTP 수집
+selectolax>=0.3      # 경량 HTML 파싱
+pypdf>=4.0           # 스펙시트 PDF 텍스트 추출
+anthropic>=0.40      # 스펙시트 LLM 구조화(spec_pdf)
+psycopg[binary]>=3.1 # PostgreSQL 적재(pipeline upsert)
