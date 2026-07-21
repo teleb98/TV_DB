@@ -5,9 +5,8 @@
 ⚠ 크롤링 전 robots.txt / 이용약관 확인. 가능하면 제휴 API 우선.
 """
 from __future__ import annotations
-import httpx
 from selectolax.parser import HTMLParser
-from .base import BaseCollector, RawRecord
+from .base import BaseCollector, RawRecord, fetch_html
 from config.selectors import DANAWA as SEL
 
 
@@ -16,9 +15,7 @@ class DanawaCollector(BaseCollector):
     rate_limit_sec = 2.5     # 예의상 넉넉히
 
     def fetch(self, target: str) -> str:
-        r = httpx.get(target, timeout=20, headers={"User-Agent": "tv-spec-db/0.1"})
-        r.raise_for_status()
-        return r.text
+        return fetch_html(target, ua="tv-spec-db/0.1")
 
     def parse(self, raw: str, source_url: str = "") -> list[RawRecord]:
         tree = HTMLParser(raw)

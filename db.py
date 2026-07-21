@@ -112,6 +112,15 @@ def upsert_variant(cur, rec: dict, model_id: int) -> int:
     return cur.fetchone()[0]
 
 
+# ---------- 조회 헬퍼 ----------
+def resolve_model_id(cur, model_code_base: str) -> int | None:
+    """model_code_base 로 model_id 조회(수집기 variant 적재 시 부모 모델 연결용)."""
+    cur.execute("select model_id from model where model_code_base = %s limit 1",
+                (model_code_base,))
+    row = cur.fetchone()
+    return row[0] if row else None
+
+
 # ---------- Price history (append-only) ----------
 def append_price(cur, variant_id: int, rec: dict):
     price = _int(rec.get("price_street") or rec.get("price_msrp"))

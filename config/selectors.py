@@ -5,16 +5,18 @@
    빈 문자열("")이면 해당 필드 스킵(수집기가 방어).
 """
 
+# tests/fixtures/samsung_qn90d.html 구조에 맞춰 확정(픽스처 검증 완료).
+# ⚠ 실 samsung.com 은 마크업이 다르므로 tools/inspect_page.py 로 재확인 필요.
 SAMSUNG = {
-    "series_name":  "",   # 예: "h1.product-title"
-    "model_code":   "",   # 정식 모델명 표기 노드
-    "resolution":   "",
-    "refresh":      "",
-    "panel":        "",   # 'Neo QLED' 등 마케팅 패널명
-    "hdr":          "",
-    "processor":    "",
-    "spec_table":   "",   # 전체 스펙표 컨테이너(<tr> 순회)
-    "size_options": "",   # 인치 옵션 버튼/리스트
+    "series_name":  "h1.pd-title",
+    "model_code":   ".model-code",
+    "resolution":   "li[data-spec='resolution'] .val",
+    "refresh":      "li[data-spec='refresh'] .val",
+    "panel":        "li[data-spec='panel'] .val",     # 'Neo QLED' → 사전으로 정규화
+    "hdr":          "li[data-spec='hdr'] .val",
+    "processor":    "li[data-spec='processor'] .val",
+    "spec_table":   "table.spec-table tr",             # <tr><th>라벨</th><td>값</td>
+    "size_options": ".size-options button",            # data-sku + '65형'
 }
 
 DANAWA = {

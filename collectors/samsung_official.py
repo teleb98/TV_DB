@@ -4,9 +4,8 @@
 ※ TODO 위치에 실제 셀렉터/엔드포인트를 채우면 동작.
 """
 from __future__ import annotations
-import httpx                      # TODO: requirements 에 추가
-from selectolax.parser import HTMLParser   # TODO: 경량 HTML 파서
-from .base import BaseCollector, RawRecord
+from selectolax.parser import HTMLParser
+from .base import BaseCollector, RawRecord, fetch_html
 from config.selectors import SAMSUNG as SEL
 
 
@@ -15,10 +14,8 @@ class SamsungOfficialCollector(BaseCollector):
     rate_limit_sec = 2.0
 
     def fetch(self, target: str) -> str:
-        # target = 제품 상세페이지 URL
-        r = httpx.get(target, timeout=20, headers={"User-Agent": "tv-spec-db/0.1"})
-        r.raise_for_status()
-        return r.text
+        # target = 제품 상세페이지 URL 또는 로컬 HTML 픽스처 경로
+        return fetch_html(target, ua="tv-spec-db/0.1")
 
     def parse(self, raw: str, source_url: str = "") -> list[RawRecord]:
         tree = HTMLParser(raw)
@@ -59,11 +56,19 @@ class SamsungOfficialCollector(BaseCollector):
 
     @staticmethod
     def _spec_table(tree) -> dict:
-        # TODO: 스펙표 <tr><th>/<td> 순회하여 {항목:값} dict 반환
-        return {}
+        """스펙표 <tr><th>라벨</th><td>값</td> 순회 → {라벨: 값} dict."""
+        out: dict[str, str] = {}
+        if not SEL["spec_table"]:
+            return out
+        for tr in tree.css(SEL["spec_table"]):
+            th = tr.css_first("th")
+            td = tr.css_first("td")
+            if th and td:
+                out[th.text(strip=True)] = td.text(strip=True)
+        return out
 
     @staticmethod
     def _parse_inch(text: str) -> int | None:
         import re
-        m = re.search(r"(\d{2,3})\s*(?:인치|\")", text)
+        m = re.search(r"(\d{2,3})\s*(?:형|인치|\")", text)   # '65형','65인치','65"'
         return int(m.group(1)) if m else None

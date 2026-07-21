@@ -43,12 +43,30 @@ export PG_DSN="postgresql://localhost/tvspec"
 .venv/bin/python -m agent.demo                                # 상담봇 질의 데모
 ```
 
+## 수집기 검증 & 실사이트 연결
+수집기 파싱 경로는 HTML 픽스처로 end-to-end 검증됨:
+```bash
+PG_DSN=postgresql://localhost/tvspec .venv/bin/python -m tests.test_samsung_fixture
+# fetch(픽스처)→parse→normalize→DB variant upsert, QN90D 55/65/75/85형 적재 확인
+```
+`collectors/base.py:fetch_html()` 는 http(s)면 GET, 아니면 로컬 파일 → 픽스처/실URL 공용.
+
+**⚠ 실사이트 연결 시 주의 (정적 크롤링 한계)**
+- samsung.com·다나와 제품페이지는 상당 부분 **JS 렌더링/안티봇** → `httpx`(정적)로는 스펙표가 안 잡힐 수 있음.
+- 대응 우선순위:
+  1. **공식 API/제휴 데이터**(다나와 제휴, 삼성 파트너 피드) — 가장 안정적
+  2. **공식 스펙시트 PDF**(`spec_pdf` 수집기) — 정확도 최상, JS 무관
+  3. **헤드리스 브라우저**(Playwright)로 렌더 후 HTML 추출 → 기존 `parse()` 재사용
+- 셀렉터 확정 절차: `tools/inspect_page.py <url>` 로 후보 추출 → `config/selectors.py` 채움 → 픽스처처럼 골든셋으로 검증.
+
 ## 완료 / 남은 일
 - [x] 4계층 스키마 · 정규화 엔진(골든셋 29/29 통과) · DB upsert(멱등)
-- [x] Comparison_Map 생성기 · Agent 질의계층(compare/lineup/search)
+- [x] Comparison_Map 생성기 · Agent 질의계층(compare/lineup/search/recommend)
+- [x] `series.positioning` 시드 + 라인업 추천(키워드 리트리벌, RAG 자리)
+- [x] 수집기 파싱 경로 픽스처 검증(fetch→parse→normalize→DB)
 - [ ] **골든셋 스펙값 공식 대조 검수** (현재 대표값 — 정답지 확정 필요)
-- [ ] 수집기 셀렉터 확정(`config/selectors.py`) — `tools/inspect_page.py` 활용
-- [ ] `series.positioning` 채우고 라인업 안내에 RAG 얹기
+- [ ] 실사이트 셀렉터 확정 + JS 사이트는 Playwright 연동(위 가이드)
+- [ ] recommend() 임베딩+pgvector로 승격(정식 RAG)
 - [ ] 가격 수집 스케줄링(주간) → `price_history` 축적
 
 ## 준수사항

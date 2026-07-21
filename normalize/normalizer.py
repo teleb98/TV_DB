@@ -93,6 +93,8 @@ def normalize_record(rec: dict) -> dict:
         out["refresh_rate_native"] = norm_refresh(out["refresh_rate"])
     if "size_inch" in out and not isinstance(out["size_inch"], int):
         out["size_inch"] = norm_inch(out["size_inch"])
-    if out.get("sku_full") and out.get("brand"):
-        out["model_code_base"] = base_model_code(out["sku_full"], out["brand"])
+    # base 모델코드: sku_full(옵션) 또는 model_code_raw(모델 페이지)에서 추출
+    code_src = out.get("sku_full") or out.get("model_code_raw")
+    if code_src and out.get("brand"):
+        out["model_code_base"] = base_model_code(code_src, out["brand"])
     return out

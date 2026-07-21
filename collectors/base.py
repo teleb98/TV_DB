@@ -15,6 +15,17 @@ from datetime import datetime, timezone
 RAW_DIR = pathlib.Path(__file__).resolve().parent.parent / "data" / "raw"
 
 
+def fetch_html(target: str, ua: str = "tv-spec-db/0.1", timeout: int = 20) -> str:
+    """target 이 http(s)면 HTTP GET, 아니면 로컬 파일로 읽음(픽스처 테스트용).
+    ⚠ 실사이트가 JS 렌더링/안티봇이면 정적 GET 실패 가능 → 헤드리스(Playwright) 필요."""
+    if target.startswith(("http://", "https://")):
+        import httpx
+        r = httpx.get(target, timeout=timeout, headers={"User-Agent": ua})
+        r.raise_for_status()
+        return r.text
+    return pathlib.Path(target).read_text(encoding="utf-8")
+
+
 @dataclass
 class RawRecord:
     """수집기가 뱉는 표준 중간 포맷 (아직 정규화 전)."""
