@@ -96,11 +96,10 @@ def normalize_record(rec: dict) -> dict:
         out["refresh_rate_native"] = norm_refresh(out["refresh_rate"])
     if "size_inch" in out and not isinstance(out["size_inch"], int):
         out["size_inch"] = norm_inch(out["size_inch"])
-    # base 모델코드: sku_full(옵션) 또는 model_code_raw(모델 페이지)에서 추출.
-    # 추출 실패(None) 시 입력에 이미 있던 model_code_base 는 보존(덮어쓰지 않음).
-    code_src = out.get("sku_full") or out.get("model_code_raw")
-    if code_src and out.get("brand"):
-        computed = base_model_code(code_src, out["brand"])
-        if computed:
-            out["model_code_base"] = computed
+    # base 모델코드 우선순위: 명시적 입력(큐레이션) > SKU/모델페이지에서 추출.
+    # 큐레이션 CSV(특히 지역별 SKU가 다른 US)는 제공값을 신뢰하고, 없을 때만 정규식 추출.
+    if not out.get("model_code_base"):
+        code_src = out.get("sku_full") or out.get("model_code_raw")
+        if code_src and out.get("brand"):
+            out["model_code_base"] = base_model_code(code_src, out["brand"])
     return out

@@ -50,6 +50,7 @@ fi
 echo "==> 4) 데이터 적재(멱등)"
 ./.venv/bin/python pipeline.py --load-golden data/golden/golden_models.csv
 ./.venv/bin/python pipeline.py --load-golden data/golden/golden_models_2026.csv
+./.venv/bin/python pipeline.py --load-golden data/golden/golden_models_us.csv   # US(USD) variant
 ./.venv/bin/python scripts/load_positioning.py data/golden/series_positioning.csv
 ./.venv/bin/python scripts/build_comparison_map.py
 ./.venv/bin/python scripts/load_prices.py data/golden/prices_kr.csv

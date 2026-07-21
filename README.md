@@ -34,6 +34,7 @@ agent/demo.py                  질의 데모 러너
 tools/inspect_page.py          실제 페이지→후보 셀렉터 추출 헬퍼
 data/golden/golden_models.csv       검증용 골든셋 (46개, 2023~2025 released)
 data/golden/golden_models_2026.csv  2026 발표 모델 (잠정, announced/low)
+data/golden/golden_models_us.csv    US(미국) variant — 동일 모델·US SKU·USD
 ```
 
 ## 빠른 시작 (검증된 절차)
@@ -84,6 +85,7 @@ launchctl start com.tvspecdb.prices                # 즉시 1회 실행
 - [x] `series.positioning` 시드 + 라인업 추천 **pgvector 시맨틱 RAG**(model2vec, 키워드 폴백)
 - [x] 수집기 파싱 경로 픽스처 검증(fetch→parse→normalize→DB)
 - [x] 가격 스냅샷 파이프라인(`price_history` 축적, 추세/최저가 질의, 재적재 멱등)
+- [x] 멀티리전(KR/US) — 동일 모델에 지역별 SKU·통화(KRW/USD) variant, 질의 `region` 파라미터
 - [x] 수명주기 `status`(announced/released/eol) + `data_confidence` — 2026 잠정 데이터 격리
 - [ ] **2026 스펙/SKU 공식 확정 시 released/high 승격** (현재 삼성·LG 6종 announced/low, Sony/TCL/Hisense 보류)
 - [ ] **골든셋 스펙값 공식 대조 검수** (현재 대표값 — 정답지 확정 필요)

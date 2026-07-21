@@ -165,10 +165,12 @@ def best_price(model_code: str, region: str = "KR") -> list[dict]:
     with _conn() as c:
         cur = c.cursor()
         cur.execute("""
-            select v.sku_full, v.size_inch, v.price_street, v.updated_at
+            select v.sku_full, v.size_inch,
+                   coalesce(v.price_street, v.price_msrp) price, v.currency, v.updated_at
             from variant v join model m on v.model_id=m.model_id
-            where m.model_code_base=%s and v.region=%s and v.price_street is not null
-            order by v.price_street
+            where m.model_code_base=%s and v.region=%s
+              and coalesce(v.price_street, v.price_msrp) is not null
+            order by price
         """, (model_code, region))
         return cur.fetchall()
 
@@ -195,7 +197,7 @@ def search(panel: str | None = None, resolution: str | None = None,
         cur.execute("""
             select b.name brand, s.marketing_name lineup, m.model_code_base code,
                    s.panel_tech panel, m.resolution, m.refresh_rate_native refresh,
-                   v.size_inch, v.price_street
+                   v.size_inch, coalesce(v.price_street, v.price_msrp) price, v.currency
             from variant v join model m on v.model_id=m.model_id
             join series s on m.series_id=s.series_id
             join brand b on s.brand_id=b.brand_id
@@ -204,7 +206,7 @@ def search(panel: str | None = None, resolution: str | None = None,
               and (%s::text is null or m.resolution=%s)
               and (%s::int  is null or m.refresh_rate_native >= %s)
               and (%s::text is null or s.tier::text=%s)
-              and (%s::int  is null or v.price_street <= %s)
+              and (%s::int  is null or coalesce(v.price_street, v.price_msrp) <= %s)
             order by b.name, m.model_code_base
         """, (region, panel, panel, resolution, resolution,
               min_refresh, min_refresh, tier, tier, max_price, max_price))

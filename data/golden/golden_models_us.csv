@@ -1,0 +1,12 @@
+brand,series_name,marketing_name,generation_year,panel_tech,tier,os,model_code_base,resolution,refresh_rate_native,hdr_formats,processor,dimming,peak_brightness_nits,sku_full,size_inch,region,price_msrp,currency
+삼성,QN90,Neo QLED 4K,2025,Neo-QLED,flagship,Tizen,QN90F,4K,,,,,,QN65QN90FAFXZA,65,US,1399,USD
+삼성,S95,OLED,2025,QD-OLED,flagship,Tizen,S95F,4K,,,,,,QN65S95FAFXZA,65,US,2299,USD
+삼성,S90,OLED,2025,QD-OLED,high,Tizen,S90F,4K,,,,,,QN65S90FAFXZA,65,US,,USD
+LG,G,OLED evo G5,2025,WOLED,flagship,webOS,G5,4K,,,,,,OLED65G5WUA,65,US,2299,USD
+LG,C,OLED evo C5,2025,WOLED,high,webOS,C5,4K,,,,,,OLED65C5PUA,65,US,1399,USD
+LG,B,OLED B5,2025,WOLED,mid,webOS,B5,4K,,,,,,OLED65B5PUA,65,US,1199,USD
+Sony,BRAVIA8II,BRAVIA 8 II,2025,QD-OLED,flagship,Google-TV,XR80II,4K,,,,,,K-65XR80M2,65,US,2398,USD
+TCL,QM8K,QM8K,2025,Mini-LED,flagship,Google-TV,QM8K,4K,,,,,,65QM8K,65,US,1299,USD
+TCL,QM7K,QM7K,2025,Mini-LED,high,Google-TV,QM7K,4K,,,,,,65QM7K,65,US,799,USD
+Hisense,U8,ULED U8QG,2025,Mini-LED,flagship,VIDAA,U8Q,4K,,,,,,65U8QG,65,US,2199,USD
+Hisense,U7,ULED U7QG,2025,Mini-LED,high,VIDAA,U7Q,4K,,,,,,65U7QG,65,US,,USD
