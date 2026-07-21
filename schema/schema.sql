@@ -106,7 +106,9 @@ CREATE TABLE price_history (
     channel      TEXT,                           -- 'danawa','coupang','samsung.com'
     price        INT,
     currency     TEXT DEFAULT 'KRW',
-    captured_at  TIMESTAMPTZ DEFAULT now()
+    captured_at  TIMESTAMPTZ DEFAULT now(),
+    -- 동일 SKU·채널·시점 중복 방지(재적재 멱등). 일/주 스냅샷은 captured_at 이 달라 공존.
+    UNIQUE (variant_id, channel, captured_at)
 );
 
 -- ---------- 인덱스 ----------

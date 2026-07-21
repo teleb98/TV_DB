@@ -19,3 +19,5 @@ if __name__ == "__main__":
        query.search(panel="WOLED", min_refresh=120))
     _p("recommend('밝은 거실 스포츠 게이밍 가성비') — 라인업 추천(RAG 자리)",
        query.recommend("밝은 거실 스포츠 게이밍 가성비"))
+    _p("best_price('QN90D') — 옵션별 현재 최저가", query.best_price("QN90D"))
+    _p("price_trend('KQ65QNA90DXKR') — 가격 추세", query.price_trend("KQ65QNA90DXKR"))

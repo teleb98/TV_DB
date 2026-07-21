@@ -121,6 +121,36 @@ def resolve_model_id(cur, model_code_base: str) -> int | None:
     return row[0] if row else None
 
 
+def resolve_variant_id(cur, sku_full: str, region: str = "KR") -> int | None:
+    """정식 SKU + 지역으로 variant_id 조회(가격 스냅샷 연결용)."""
+    cur.execute("select variant_id from variant where sku_full = %s and region = %s",
+                (sku_full, region))
+    row = cur.fetchone()
+    return row[0] if row else None
+
+
+def upsert_price_snapshot(cur, variant_id: int, channel: str, price: int,
+                          captured_at: str | None = None, currency: str = "KRW"):
+    """price_history 에 스냅샷 append + variant.price_street 를 최신가로 동기화.
+    captured_at(ISO 날짜) 지정 시 이력의 시점을 명시(트렌드 축적용)."""
+    if captured_at:
+        cur.execute("""insert into price_history(variant_id, channel, price, currency, captured_at)
+                       values (%s,%s,%s,%s,%s)
+                       on conflict (variant_id, channel, captured_at) do update
+                         set price = excluded.price""",
+                    (variant_id, channel, price, currency, captured_at))
+    else:
+        cur.execute("""insert into price_history(variant_id, channel, price, currency)
+                       values (%s,%s,%s,%s)""", (variant_id, channel, price, currency))
+    # variant 의 현재가는 '가장 최근 캡처' 기준으로 갱신
+    cur.execute("""
+        update variant v set price_street = ph.price, updated_at = now()
+        from (select price from price_history where variant_id=%s
+              order by captured_at desc limit 1) ph
+        where v.variant_id=%s
+    """, (variant_id, variant_id))
+
+
 # ---------- Price history (append-only) ----------
 def append_price(cur, variant_id: int, rec: dict):
     price = _int(rec.get("price_street") or rec.get("price_msrp"))

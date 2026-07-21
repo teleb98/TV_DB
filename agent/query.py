@@ -98,6 +98,33 @@ def recommend(query_text: str, brand: str | None = None, limit: int = 5) -> list
         return cur.fetchall()
 
 
+# ---------------------------------------------------------------- 가격
+def best_price(model_code: str, region: str = "KR") -> list[dict]:
+    """모델의 옵션별 현재 최저가(variant.price_street) — 상담봇 '얼마예요?' 응답."""
+    with _conn() as c:
+        cur = c.cursor()
+        cur.execute("""
+            select v.sku_full, v.size_inch, v.price_street, v.updated_at
+            from variant v join model m on v.model_id=m.model_id
+            where m.model_code_base=%s and v.region=%s and v.price_street is not null
+            order by v.price_street
+        """, (model_code, region))
+        return cur.fetchall()
+
+
+def price_trend(sku_full: str, region: str = "KR") -> list[dict]:
+    """특정 SKU 가격 이력(추세) — captured_at 순."""
+    with _conn() as c:
+        cur = c.cursor()
+        cur.execute("""
+            select ph.captured_at::date d, ph.channel, ph.price, ph.currency
+            from price_history ph join variant v on ph.variant_id=v.variant_id
+            where v.sku_full=%s and v.region=%s
+            order by ph.captured_at
+        """, (sku_full, region))
+        return cur.fetchall()
+
+
 # ---------------------------------------------------------------- 조건 검색
 def search(panel: str | None = None, resolution: str | None = None,
            min_refresh: int | None = None, tier: str | None = None,

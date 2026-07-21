@@ -39,8 +39,10 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 createdb tvspec && psql tvspec -f schema/schema.sql            # 스키마(7 테이블)
 export PG_DSN="postgresql://localhost/tvspec"
 .venv/bin/python pipeline.py --load-golden data/golden/golden_models.csv  # 골든셋 적재
-.venv/bin/python scripts/build_comparison_map.py              # 비교축 생성
-.venv/bin/python -m agent.demo                                # 상담봇 질의 데모
+.venv/bin/python scripts/load_positioning.py data/golden/series_positioning.csv  # 라인업 설명
+.venv/bin/python scripts/build_comparison_map.py             # 비교축 생성
+.venv/bin/python scripts/load_prices.py data/golden/prices_kr.csv  # 가격 스냅샷→price_history
+.venv/bin/python -m agent.demo                               # 상담봇 질의 데모
 ```
 
 ## 수집기 검증 & 실사이트 연결
@@ -64,10 +66,11 @@ PG_DSN=postgresql://localhost/tvspec .venv/bin/python -m tests.test_samsung_fixt
 - [x] Comparison_Map 생성기 · Agent 질의계층(compare/lineup/search/recommend)
 - [x] `series.positioning` 시드 + 라인업 추천(키워드 리트리벌, RAG 자리)
 - [x] 수집기 파싱 경로 픽스처 검증(fetch→parse→normalize→DB)
+- [x] 가격 스냅샷 파이프라인(`price_history` 축적, 추세/최저가 질의, 재적재 멱등)
 - [ ] **골든셋 스펙값 공식 대조 검수** (현재 대표값 — 정답지 확정 필요)
 - [ ] 실사이트 셀렉터 확정 + JS 사이트는 Playwright 연동(위 가이드)
 - [ ] recommend() 임베딩+pgvector로 승격(정식 RAG)
-- [ ] 가격 수집 스케줄링(주간) → `price_history` 축적
+- [ ] 가격 수집 스케줄링(cron/주간) — `load_prices.py` 를 실수집 결과에 연결
 
 ## 준수사항
 - 크롤링 전 robots.txt/이용약관 확인, 가능하면 공식 API/제휴 우선
