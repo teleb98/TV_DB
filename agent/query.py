@@ -29,7 +29,7 @@ def compare(samsung_code: str) -> dict:
         cur.execute("""
             select b.name brand, s.marketing_name lineup, m.model_code_base code,
                    s.panel_tech panel, m.resolution, m.refresh_rate_native refresh,
-                   m.processor, s.tier
+                   m.peak_brightness_nits nits, m.processor, s.tier
             from model m join series s on m.series_id=s.series_id
                          join brand b on s.brand_id=b.brand_id
             where m.model_code_base = %s and b.name='삼성'
@@ -41,7 +41,7 @@ def compare(samsung_code: str) -> dict:
         cur.execute("""
             select b.name brand, s.marketing_name lineup, m.model_code_base code,
                    s.panel_tech panel, m.resolution, m.refresh_rate_native refresh,
-                   m.processor, cm.confidence
+                   m.peak_brightness_nits nits, m.processor, cm.confidence
             from comparison_map cm
             join model sm on cm.samsung_model_id=sm.model_id
             join model m  on cm.competitor_model_id=m.model_id
