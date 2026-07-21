@@ -30,6 +30,7 @@ scripts/build_comparison_map.py 삼성↔경쟁사 동급 매핑 생성기 ✅
 embed/embedder.py              임베더(model2vec 다국어 + 해시 폴백)
 scripts/build_embeddings.py    positioning→pgvector 임베딩 적재
 agent/query.py                 상담봇 질의 (compare/lineup/search/recommend/가격/신제품) ✅
+agent/assistant.py             tool-use 에이전트(Claude가 질의도구 호출→자연어 답변) ✅
 agent/demo.py                  질의 데모 러너
 tools/inspect_page.py          실제 페이지→후보 셀렉터 추출 헬퍼
 data/golden/golden_models.csv       검증용 골든셋 (46개, 2023~2025 released)
@@ -49,7 +50,9 @@ export PG_DSN="postgresql://localhost/tvspec"
 .venv/bin/python scripts/load_prices.py data/golden/prices_kr.csv  # 가격 스냅샷→price_history
 psql tvspec -c "CREATE EXTENSION IF NOT EXISTS vector;"       # pgvector(RAG용)
 .venv/bin/python scripts/build_embeddings.py                 # 라인업 임베딩→series_embedding
-.venv/bin/python -m agent.demo                               # 상담봇 질의 데모
+.venv/bin/python -m agent.demo                               # 질의 함수 데모
+.venv/bin/python -m agent.assistant --selftest               # 에이전트 도구계층 검증(LLM 불필요)
+ANTHROPIC_API_KEY=... .venv/bin/python -m agent.assistant "QN90F랑 경쟁사 비교해줘"  # 자연어 상담
 ```
 
 ## 수집기 검증 & 실사이트 연결
@@ -87,6 +90,7 @@ launchctl start com.tvspecdb.prices                # 즉시 1회 실행
 - [x] 가격 스냅샷 파이프라인(`price_history` 축적, 추세/최저가 질의, 재적재 멱등)
 - [x] 멀티리전(KR 52·US 20 variant, 2023~2025) — 지역별 SKU·통화·가격이력 + `price_by_region()`
 - [x] 지역별 OS 차이 모델링 — `variant.os_override`(예: Hisense US=Google-TV vs KR=VIDAA)
+- [x] tool-use 에이전트 — 8개 질의도구를 Claude(claude-opus-4-8)에 노출, 자연어 상담(도구계층 검증 완료; 라이브는 `ANTHROPIC_API_KEY` 필요)
 - [x] 수명주기 `status`(announced/released/eol) + `data_confidence` — 2026 잠정 데이터 격리
 - [ ] **2026 스펙/SKU 공식 확정 시 released/high 승격** (현재 삼성·LG 6종 announced/low, Sony/TCL/Hisense 보류)
 - [ ] **골든셋 스펙값 공식 대조 검수** (현재 대표값 — 정답지 확정 필요)

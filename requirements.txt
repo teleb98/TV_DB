@@ -1,7 +1,7 @@
 httpx>=0.27          # HTTP 수집
 selectolax>=0.3      # 경량 HTML 파싱
 pypdf>=4.0           # 스펙시트 PDF 텍스트 추출
-anthropic>=0.40      # 스펙시트 LLM 구조화(spec_pdf)
+anthropic>=0.69      # 스펙시트 구조화(spec_pdf) + 상담 에이전트(tool-use, claude-opus-4-8)
 psycopg[binary]>=3.1 # PostgreSQL 적재(pipeline upsert)
 model2vec>=0.3        # 정적 다국어 임베딩(RAG, torch 불필요)
 # + PostgreSQL 확장 pgvector 필요: brew install pgvector 후 CREATE EXTENSION vector
