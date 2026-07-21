@@ -52,20 +52,23 @@ MODEL_RULES: dict[str, list[tuple[str, str]]] = {
         (r"(QN)(\d{2,3})",             r"\1\2"),       # 보수적 fallback
     ],
     "LG": [
-        (r"OLED\d{2}([A-Z]\d)",  r"\1"),               # OLED65G4→G4, C4, B4
-        (r"(QNED)(\d{2}[A-Z])",  r"\1\2"),             # QNED90T
+        (r"OLED\d{2}([A-Z]\d)",  r"\1"),               # OLED65G4→G4, C4, B4 / 2025 G5,C5,B5
+        (r"(QNED)(\d{2}[A-Z])",  r"\1\2"),             # QNED90T (2024)
+        (r"(QNED)(\d[A-Z])",     r"\1\2"),             # QNED9M (2025)
     ],
     "Sony": [
         (r"XR-?\d{2,3}([A-Z]\d{2}[A-Z])", r"\1"),      # 구형 SKU 내 A95L/X90L 형태
-        (r"(XR)(\d{2})\b",                r"\1\2"),      # 2024 신명명: K-65XR90→XR90
+        (r"(XR\d{2}II)",                  r"\1"),        # 2025: BRAVIA 8 II → XR80II
+        (r"(XR)(\d{2})\b",                r"\1\2"),      # 2024 XR90 / 2025 BRAVIA5 XR50
         (r"([AX]\d{2}[A-Z])\b",           r"\1"),         # A95L, A80L, X90L
     ],
     "TCL": [
-        (r"(QM\d{3}[A-Z])", r"\1"),                     # QM851G
-        (r"(C\d{3})",       r"\1"),                      # C855, C845 (앞 사이즈와 경계 없음)
+        (r"(QM\d{3}[A-Z])", r"\1"),                     # QM851G (2023/24)
+        (r"(QM\d[A-Z])",    r"\1"),                      # QM8K, QM7K, QM6K (2025)
+        (r"(C\d{3})",       r"\1"),                      # C855, C845
     ],
     "Hisense": [
-        (r"(U\d[A-Z])", r"\1"),                         # U8N, U7N, U6N, U8K
+        (r"(U\d[A-Z])", r"\1"),                         # U8N/U8K(24) · U8Q(G)(25) → U8Q
     ],
 }
 
@@ -93,8 +96,11 @@ def normalize_record(rec: dict) -> dict:
         out["refresh_rate_native"] = norm_refresh(out["refresh_rate"])
     if "size_inch" in out and not isinstance(out["size_inch"], int):
         out["size_inch"] = norm_inch(out["size_inch"])
-    # base 모델코드: sku_full(옵션) 또는 model_code_raw(모델 페이지)에서 추출
+    # base 모델코드: sku_full(옵션) 또는 model_code_raw(모델 페이지)에서 추출.
+    # 추출 실패(None) 시 입력에 이미 있던 model_code_base 는 보존(덮어쓰지 않음).
     code_src = out.get("sku_full") or out.get("model_code_raw")
     if code_src and out.get("brand"):
-        out["model_code_base"] = base_model_code(code_src, out["brand"])
+        computed = base_model_code(code_src, out["brand"])
+        if computed:
+            out["model_code_base"] = computed
     return out
