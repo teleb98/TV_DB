@@ -27,7 +27,9 @@ normalize/normalizer.py        모델명·마케팅명·단위 정규화 (성패
 db.py                          4계층 upsert (psycopg, ON CONFLICT) ✅
 pipeline.py                    수집→정규화→적재 + 골든 로더 ✅
 scripts/build_comparison_map.py 삼성↔경쟁사 동급 매핑 생성기 ✅
-agent/query.py                 상담봇 질의 함수 (compare/lineup/search) ✅
+embed/embedder.py              임베더(model2vec 다국어 + 해시 폴백)
+scripts/build_embeddings.py    positioning→pgvector 임베딩 적재
+agent/query.py                 상담봇 질의 (compare/lineup/search/recommend/가격/신제품) ✅
 agent/demo.py                  질의 데모 러너
 tools/inspect_page.py          실제 페이지→후보 셀렉터 추출 헬퍼
 data/golden/golden_models.csv       검증용 골든셋 (46개, 2023~2025 released)
@@ -44,6 +46,8 @@ export PG_DSN="postgresql://localhost/tvspec"
 .venv/bin/python scripts/load_positioning.py data/golden/series_positioning.csv  # 라인업 설명
 .venv/bin/python scripts/build_comparison_map.py             # 비교축 생성
 .venv/bin/python scripts/load_prices.py data/golden/prices_kr.csv  # 가격 스냅샷→price_history
+psql tvspec -c "CREATE EXTENSION IF NOT EXISTS vector;"       # pgvector(RAG용)
+.venv/bin/python scripts/build_embeddings.py                 # 라인업 임베딩→series_embedding
 .venv/bin/python -m agent.demo                               # 상담봇 질의 데모
 ```
 
@@ -77,7 +81,7 @@ launchctl start com.tvspecdb.prices                # 즉시 1회 실행
 ## 완료 / 남은 일
 - [x] 4계층 스키마 · 정규화 엔진(골든셋 46/46 통과, 2023~2025) · DB upsert(멱등)
 - [x] Comparison_Map 생성기 · Agent 질의계층(compare/lineup/search/recommend)
-- [x] `series.positioning` 시드 + 라인업 추천(키워드 리트리벌, RAG 자리)
+- [x] `series.positioning` 시드 + 라인업 추천 **pgvector 시맨틱 RAG**(model2vec, 키워드 폴백)
 - [x] 수집기 파싱 경로 픽스처 검증(fetch→parse→normalize→DB)
 - [x] 가격 스냅샷 파이프라인(`price_history` 축적, 추세/최저가 질의, 재적재 멱등)
 - [x] 수명주기 `status`(announced/released/eol) + `data_confidence` — 2026 잠정 데이터 격리
@@ -85,7 +89,7 @@ launchctl start com.tvspecdb.prices                # 즉시 1회 실행
 - [ ] **골든셋 스펙값 공식 대조 검수** (현재 대표값 — 정답지 확정 필요)
 - [ ] 실사이트 셀렉터 확정 + JS 사이트는 Playwright 연동(위 가이드)
 - [x] 가격 수집 스케줄링(launchd 매일) — `collect_prices.py` + `deploy/*.plist`, 예외격리
-- [ ] recommend() 임베딩+pgvector 승격 — `brew install pgvector` 후 CREATE EXTENSION 필요(현재 미설치)
+- [ ] 임베딩 대상 확대(model 스펙·리뷰까지) + Voyage 등 고품질 임베더 교체 검토
 
 ## 준수사항
 - 크롤링 전 robots.txt/이용약관 확인, 가능하면 공식 API/제휴 우선

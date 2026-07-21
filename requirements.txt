@@ -3,3 +3,6 @@ selectolax>=0.3      # 경량 HTML 파싱
 pypdf>=4.0           # 스펙시트 PDF 텍스트 추출
 anthropic>=0.40      # 스펙시트 LLM 구조화(spec_pdf)
 psycopg[binary]>=3.1 # PostgreSQL 적재(pipeline upsert)
+model2vec>=0.3        # 정적 다국어 임베딩(RAG, torch 불필요)
+# + PostgreSQL 확장 pgvector 필요: brew install pgvector 후 CREATE EXTENSION vector
+#   (pg16 등 미대응 버전은 소스 빌드: make PG_CONFIG=$(pg_config 경로) && make install)

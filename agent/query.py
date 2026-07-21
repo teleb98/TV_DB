@@ -86,12 +86,56 @@ def whats_new(year: int, brand: str | None = None) -> list[dict]:
         return cur.fetchall()
 
 
-# ---------------------------------------------------------------- 라인업 추천(RAG 자리)
+# ---------------------------------------------------------------- 라인업 추천(RAG)
+_embedder = None
+
+
+def _get_embedder():
+    global _embedder
+    if _embedder is None:
+        from embed.embedder import get_embedder
+        _embedder = get_embedder()
+    return _embedder
+
+
+def recommend_semantic(query_text: str, brand: str | None = None, limit: int = 5) -> list[dict]:
+    """자연어 니즈 → 임베딩 코사인 유사도(pgvector)로 라인업 추천 (정식 RAG).
+    키워드 매칭과 달리 동의어·의도까지 반영. series_embedding 필요."""
+    emb = _get_embedder()
+    qv = emb.encode([query_text])[0]
+    vec_str = "[" + ",".join(f"{x:.6f}" for x in qv) + "]"
+    with _conn() as c:
+        cur = c.cursor()
+        cur.execute("""
+            select b.name brand, s.marketing_name lineup, s.tier, s.generation_year yr,
+                   s.positioning, round((1 - (se.vec <=> %s::vector))::numeric, 3) score
+            from series_embedding se
+            join series s on se.series_id=s.series_id
+            join brand b on s.brand_id=b.brand_id
+            where (%s::text is null or b.name=%s)
+            order by se.vec <=> %s::vector
+            limit %s
+        """, (vec_str, brand, brand, vec_str, limit))
+        return cur.fetchall()
+
+
+def _has_embeddings() -> bool:
+    with _conn() as c:
+        cur = c.cursor()
+        cur.execute("select to_regclass('series_embedding')")
+        if cur.fetchone()["to_regclass"] is None:
+            return False
+        cur.execute("select count(*) n from series_embedding")
+        return cur.fetchone()["n"] > 0
+
+
 def recommend(query_text: str, brand: str | None = None, limit: int = 5) -> list[dict]:
-    """자연어 니즈 → 관련 라인업 추천.
-    현재: positioning 텍스트에 대한 키워드 리트리벌(토큰 매칭 수로 랭킹).
-    운영: 이 자리를 임베딩(Claude/Voyage)+pgvector 유사도로 교체하면 RAG 완성.
-    예) recommend('밝은 거실에서 스포츠 게임 가성비')"""
+    """라인업 추천. series_embedding 이 있으면 시맨틱(RAG), 없으면 키워드 폴백."""
+    if _has_embeddings():
+        try:
+            return recommend_semantic(query_text, brand, limit)
+        except Exception as e:
+            print(f"[recommend] 시맨틱 실패({type(e).__name__}) → 키워드 폴백")
     tokens = [t for t in query_text.replace(",", " ").split() if len(t) >= 2]
     if not tokens:
         return []
