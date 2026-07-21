@@ -1,47 +1,47 @@
-brand,series_name,marketing_name,generation_year,panel_tech,tier,os,model_code_base,resolution,refresh_rate_native,hdr_formats,processor,dimming,peak_brightness_nits,sku_full,size_inch,region,price_msrp
-삼성,QN900,Neo QLED 8K,2024,Neo-QLED,flagship,Tizen,QN900D,8K,240,HDR10+|HLG,NQ8 AI Gen3,mini-led,2200,KQ65QNA900DXKR,65,KR,
-삼성,QN800,Neo QLED 8K,2024,Neo-QLED,high,Tizen,QN800D,8K,240,HDR10+|HLG,NQ8 AI Gen3,mini-led,1600,KQ65QNA800DXKR,65,KR,
-삼성,QN90,Neo QLED 4K,2024,Neo-QLED,flagship,Tizen,QN90D,4K,144,HDR10+|HLG,NQ4 AI Gen2,mini-led,2500,KQ65QNA90DXKR,65,KR,
-삼성,QN85,Neo QLED 4K,2024,Neo-QLED,high,Tizen,QN85D,4K,120,HDR10+|HLG,NQ4 AI Gen2,mini-led,1400,KQ65QNA85DXKR,65,KR,
-삼성,S95,OLED,2024,QD-OLED,flagship,Tizen,S95D,4K,144,HDR10+|HLG,NQ4 AI Gen2,per-pixel,1900,KQ65SD95DXKR,65,KR,
-삼성,S90,OLED,2024,QD-OLED,high,Tizen,S90D,4K,144,HDR10+|HLG,NQ4 AI Gen2,per-pixel,1000,KQ65SD90DXKR,65,KR,
-삼성,DU8000,Crystal UHD,2024,LED-LCD,mid,Tizen,DU8000,4K,60,HDR10+|HLG,Crystal 4K,edge-lit,500,KU65DU8000FXKR,65,KR,
-삼성,QN95,Neo QLED 4K,2023,Neo-QLED,flagship,Tizen,QN95C,4K,144,HDR10+|HLG,NQ4 AI Gen2,mini-led,2000,KQ65QNC95CFXKR,65,KR,
-삼성,S95,OLED,2023,QD-OLED,flagship,Tizen,S95C,4K,144,HDR10+|HLG,NQ4 AI Gen2,per-pixel,1350,KQ65SC95CFXKR,65,KR,
-LG,G,OLED evo G4,2024,WOLED,flagship,webOS,G4,4K,144,Dolby Vision|HDR10|HLG,α11 AI,per-pixel,1500,OLED65G4KNA,65,KR,
-LG,C,OLED evo C4,2024,WOLED,high,webOS,C4,4K,144,Dolby Vision|HDR10|HLG,α9 Gen7,per-pixel,1065,OLED65C4KNA,65,KR,
-LG,B,OLED B4,2024,WOLED,mid,webOS,B4,4K,120,Dolby Vision|HDR10|HLG,α8 AI,per-pixel,650,OLED65B4KNA,65,KR,
-LG,QNED90,QNED,2024,Mini-LED,high,webOS,QNED90T,4K,144,Dolby Vision|HDR10|HLG,α8 AI,mini-led,1500,65QNED90TKA,65,KR,
-LG,QNED80,QNED,2024,LED-LCD,mid,webOS,QNED80T,4K,120,HDR10|HLG,α7 AI,edge-lit,500,65QNED80TKA,65,KR,
-LG,G,OLED evo G3,2023,WOLED,flagship,webOS,G3,4K,120,Dolby Vision|HDR10|HLG,α9 Gen6,per-pixel,1450,OLED65G3KNA,65,KR,
-LG,C,OLED evo C3,2023,WOLED,high,webOS,C3,4K,120,Dolby Vision|HDR10|HLG,α9 Gen6,per-pixel,800,OLED65C3KNA,65,KR,
-Sony,BRAVIA9,BRAVIA 9,2024,Mini-LED,flagship,Google-TV,XR90,4K,120,Dolby Vision|HDR10|HLG,XR Processor,mini-led,2300,K-65XR90,65,KR,
-Sony,BRAVIA8,BRAVIA 8,2024,WOLED,high,Google-TV,XR80,4K,120,Dolby Vision|HDR10|HLG,XR Processor,per-pixel,1300,K-65XR80,65,KR,
-Sony,BRAVIA7,BRAVIA 7,2024,Mini-LED,mid,Google-TV,XR70,4K,120,Dolby Vision|HDR10|HLG,XR Processor,mini-led,1700,K-65XR70,65,KR,
-Sony,A95L,BRAVIA A95L,2023,QD-OLED,flagship,Google-TV,A95L,4K,120,Dolby Vision|HDR10|HLG,XR Processor,per-pixel,1300,XR-65A95L,65,KR,
-Sony,A80L,BRAVIA A80L,2023,WOLED,high,Google-TV,A80L,4K,120,Dolby Vision|HDR10|HLG,XR Processor,per-pixel,1300,XR-65A80L,65,KR,
-Sony,X90L,BRAVIA X90L,2023,LED-LCD,mid,Google-TV,X90L,4K,120,Dolby Vision|HDR10|HLG,XR Processor,full-array,1300,XR-65X90L,65,KR,
-TCL,QM8,QM8,2024,Mini-LED,flagship,Google-TV,QM851G,4K,144,Dolby Vision|HDR10+|HLG,AiPQ Pro,mini-led,3000,65QM851G,65,KR,
-TCL,C855,C855,2024,Mini-LED,high,Google-TV,C855,4K,144,Dolby Vision|HDR10+|HLG,AiPQ Pro,mini-led,2500,65C855,65,KR,
-TCL,C845,C845,2023,Mini-LED,high,Google-TV,C845,4K,144,Dolby Vision|HDR10+|HLG,AiPQ,mini-led,2000,65C845,65,KR,
-Hisense,U8,ULED U8N,2024,Mini-LED,flagship,VIDAA,U8N,4K,144,Dolby Vision|HDR10+|HLG,Hi-View Engine,mini-led,2600,65U8N,65,KR,
-Hisense,U7,ULED U7N,2024,Mini-LED,high,VIDAA,U7N,4K,144,Dolby Vision|HDR10+|HLG,Hi-View Engine,mini-led,1500,65U7N,65,KR,
-Hisense,U6,ULED U6N,2024,Mini-LED,mid,VIDAA,U6N,4K,60,Dolby Vision|HDR10+|HLG,Hi-View Engine,mini-led,600,65U6N,65,KR,
-Hisense,U8,ULED U8K,2023,Mini-LED,flagship,VIDAA,U8K,4K,144,Dolby Vision|HDR10+|HLG,Hi-View Engine,mini-led,1500,65U8K,65,KR,
-삼성,QN990,Neo QLED 8K,2025,Neo-QLED,flagship,Tizen,QN990F,8K,165,HDR10+|HLG,NQ8 AI Gen3,mini-led,2300,KQ65QNF990FXKR,65,KR,
-삼성,QN90,Neo QLED 4K,2025,Neo-QLED,flagship,Tizen,QN90F,4K,165,HDR10+|HLG,NQ4 AI Gen3,mini-led,2100,KQ65QNF90FXKR,65,KR,
-삼성,QN85,Neo QLED 4K,2025,Neo-QLED,high,Tizen,QN85F,4K,144,HDR10+|HLG,NQ4 AI Gen3,mini-led,1500,KQ65QNF85FXKR,65,KR,
-삼성,S95,OLED,2025,QD-OLED,flagship,Tizen,S95F,4K,165,HDR10+|HLG,NQ4 AI Gen3,per-pixel,2132,KQ65SF95FXKR,65,KR,
-삼성,S90,OLED,2025,QD-OLED,high,Tizen,S90F,4K,144,HDR10+|HLG,NQ4 AI Gen3,per-pixel,1300,KQ65SF90FXKR,65,KR,
-LG,G,OLED evo G5,2025,WOLED,flagship,webOS,G5,4K,165,Dolby Vision|HDR10|HLG,α11 AI Gen2,per-pixel,2295,OLED65G5KNA,65,KR,
-LG,C,OLED evo C5,2025,WOLED,high,webOS,C5,4K,144,Dolby Vision|HDR10|HLG,α9 Gen8,per-pixel,1180,OLED65C5KNA,65,KR,
-LG,B,OLED B5,2025,WOLED,mid,webOS,B5,4K,120,Dolby Vision|HDR10|HLG,α8 AI Gen2,per-pixel,700,OLED65B5KNA,65,KR,
-LG,QNED9M,QNED evo,2025,Mini-LED,high,webOS,QNED9M,4K,144,Dolby Vision|HDR10|HLG,α8 AI Gen2,mini-led,1500,65QNED9MKA,65,KR,
-Sony,BRAVIA8II,BRAVIA 8 II,2025,QD-OLED,flagship,Google-TV,XR80II,4K,120,Dolby Vision|HDR10|HLG,XR Processor,per-pixel,2100,K-65XR80II,65,KR,
-Sony,BRAVIA5,BRAVIA 5,2025,Mini-LED,high,Google-TV,XR50,4K,120,Dolby Vision|HDR10|HLG,XR Processor,mini-led,2000,K-65XR50,65,KR,
-TCL,QM8K,QM8K,2025,Mini-LED,flagship,Google-TV,QM8K,4K,144,Dolby Vision|HDR10+|HLG,AiPQ Pro,mini-led,3035,65QM8K,65,KR,
-TCL,QM7K,QM7K,2025,Mini-LED,high,Google-TV,QM7K,4K,144,Dolby Vision|HDR10+|HLG,AiPQ Pro,mini-led,2000,65QM7K,65,KR,
-TCL,QM6K,QM6K,2025,Mini-LED,mid,Google-TV,QM6K,4K,144,Dolby Vision|HDR10+|HLG,AiPQ,mini-led,1300,65QM6K,65,KR,
-Hisense,U8,ULED U8QG,2025,Mini-LED,flagship,VIDAA,U8Q,4K,165,Dolby Vision|HDR10+|HLG,Hi-View AI Engine X,mini-led,3200,65U8QG,65,KR,
-Hisense,U7,ULED U7QG,2025,Mini-LED,high,VIDAA,U7Q,4K,165,Dolby Vision|HDR10+|HLG,Hi-View AI Engine,mini-led,2000,65U7QG,65,KR,
-Hisense,U6,ULED U6QG,2025,Mini-LED,mid,VIDAA,U6Q,4K,144,Dolby Vision|HDR10+|HLG,Hi-View AI Engine,mini-led,1000,65U6QG,65,KR,
+brand,series_name,marketing_name,generation_year,panel_tech,tier,os,model_code_base,resolution,refresh_rate_native,hdr_formats,processor,dimming,peak_brightness_nits,sku_full,size_inch,region,price_msrp,gaming_features,connectivity
+삼성,QN900,Neo QLED 8K,2024,Neo-QLED,flagship,Tizen,QN900D,8K,240,HDR10+|HLG,NQ8 AI Gen3,mini-led,2200,KQ65QNA900DXKR,65,KR,,VRR|ALLM|240Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,QN800,Neo QLED 8K,2024,Neo-QLED,high,Tizen,QN800D,8K,240,HDR10+|HLG,NQ8 AI Gen3,mini-led,1600,KQ65QNA800DXKR,65,KR,,VRR|ALLM|240Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,QN90,Neo QLED 4K,2024,Neo-QLED,flagship,Tizen,QN90D,4K,144,HDR10+|HLG,NQ4 AI Gen2,mini-led,2500,KQ65QNA90DXKR,65,KR,,VRR|ALLM|144Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,QN85,Neo QLED 4K,2024,Neo-QLED,high,Tizen,QN85D,4K,120,HDR10+|HLG,NQ4 AI Gen2,mini-led,1400,KQ65QNA85DXKR,65,KR,,VRR|ALLM|120Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,S95,OLED,2024,QD-OLED,flagship,Tizen,S95D,4K,144,HDR10+|HLG,NQ4 AI Gen2,per-pixel,1900,KQ65SD95DXKR,65,KR,,VRR|ALLM|144Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,S90,OLED,2024,QD-OLED,high,Tizen,S90D,4K,144,HDR10+|HLG,NQ4 AI Gen2,per-pixel,1000,KQ65SD90DXKR,65,KR,,VRR|ALLM|144Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,DU8000,Crystal UHD,2024,LED-LCD,mid,Tizen,DU8000,4K,60,HDR10+|HLG,Crystal 4K,edge-lit,500,KU65DU8000FXKR,65,KR,,ALLM|60Hz,HDMI2.0 x3|eARC|WiFi|Bluetooth
+삼성,QN95,Neo QLED 4K,2023,Neo-QLED,flagship,Tizen,QN95C,4K,144,HDR10+|HLG,NQ4 AI Gen2,mini-led,2000,KQ65QNC95CFXKR,65,KR,,VRR|ALLM|144Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,S95,OLED,2023,QD-OLED,flagship,Tizen,S95C,4K,144,HDR10+|HLG,NQ4 AI Gen2,per-pixel,1350,KQ65SC95CFXKR,65,KR,,VRR|ALLM|144Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+LG,G,OLED evo G4,2024,WOLED,flagship,webOS,G4,4K,144,Dolby Vision|HDR10|HLG,α11 AI,per-pixel,1500,OLED65G4KNA,65,KR,,VRR|ALLM|144Hz|G-Sync|FreeSync|Dolby Vision Gaming,HDMI2.1 x4|eARC|WiFi|Bluetooth
+LG,C,OLED evo C4,2024,WOLED,high,webOS,C4,4K,144,Dolby Vision|HDR10|HLG,α9 Gen7,per-pixel,1065,OLED65C4KNA,65,KR,,VRR|ALLM|144Hz|G-Sync|FreeSync|Dolby Vision Gaming,HDMI2.1 x4|eARC|WiFi|Bluetooth
+LG,B,OLED B4,2024,WOLED,mid,webOS,B4,4K,120,Dolby Vision|HDR10|HLG,α8 AI,per-pixel,650,OLED65B4KNA,65,KR,,VRR|ALLM|120Hz|G-Sync|FreeSync|Dolby Vision Gaming,HDMI2.1 x2|eARC|WiFi|Bluetooth
+LG,QNED90,QNED,2024,Mini-LED,high,webOS,QNED90T,4K,144,Dolby Vision|HDR10|HLG,α8 AI,mini-led,1500,65QNED90TKA,65,KR,,VRR|ALLM|144Hz|G-Sync|FreeSync|Dolby Vision Gaming,HDMI2.1 x2|eARC|WiFi|Bluetooth
+LG,QNED80,QNED,2024,LED-LCD,mid,webOS,QNED80T,4K,120,HDR10|HLG,α7 AI,edge-lit,500,65QNED80TKA,65,KR,,VRR|ALLM|120Hz|G-Sync|FreeSync|Dolby Vision Gaming,HDMI2.0 x3|eARC|WiFi|Bluetooth
+LG,G,OLED evo G3,2023,WOLED,flagship,webOS,G3,4K,120,Dolby Vision|HDR10|HLG,α9 Gen6,per-pixel,1450,OLED65G3KNA,65,KR,,VRR|ALLM|120Hz|G-Sync|FreeSync|Dolby Vision Gaming,HDMI2.1 x4|eARC|WiFi|Bluetooth
+LG,C,OLED evo C3,2023,WOLED,high,webOS,C3,4K,120,Dolby Vision|HDR10|HLG,α9 Gen6,per-pixel,800,OLED65C3KNA,65,KR,,VRR|ALLM|120Hz|G-Sync|FreeSync|Dolby Vision Gaming,HDMI2.1 x4|eARC|WiFi|Bluetooth
+Sony,BRAVIA9,BRAVIA 9,2024,Mini-LED,flagship,Google-TV,XR90,4K,120,Dolby Vision|HDR10|HLG,XR Processor,mini-led,2300,K-65XR90,65,KR,,VRR|ALLM|120Hz|Auto HDR Tone Mapping|Dolby Vision Gaming,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Sony,BRAVIA8,BRAVIA 8,2024,WOLED,high,Google-TV,XR80,4K,120,Dolby Vision|HDR10|HLG,XR Processor,per-pixel,1300,K-65XR80,65,KR,,VRR|ALLM|120Hz|Auto HDR Tone Mapping|Dolby Vision Gaming,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Sony,BRAVIA7,BRAVIA 7,2024,Mini-LED,mid,Google-TV,XR70,4K,120,Dolby Vision|HDR10|HLG,XR Processor,mini-led,1700,K-65XR70,65,KR,,VRR|ALLM|120Hz|Auto HDR Tone Mapping|Dolby Vision Gaming,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Sony,A95L,BRAVIA A95L,2023,QD-OLED,flagship,Google-TV,A95L,4K,120,Dolby Vision|HDR10|HLG,XR Processor,per-pixel,1300,XR-65A95L,65,KR,,VRR|ALLM|120Hz|Auto HDR Tone Mapping|Dolby Vision Gaming,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Sony,A80L,BRAVIA A80L,2023,WOLED,high,Google-TV,A80L,4K,120,Dolby Vision|HDR10|HLG,XR Processor,per-pixel,1300,XR-65A80L,65,KR,,VRR|ALLM|120Hz|Auto HDR Tone Mapping|Dolby Vision Gaming,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Sony,X90L,BRAVIA X90L,2023,LED-LCD,mid,Google-TV,X90L,4K,120,Dolby Vision|HDR10|HLG,XR Processor,full-array,1300,XR-65X90L,65,KR,,VRR|ALLM|120Hz|Auto HDR Tone Mapping|Dolby Vision Gaming,HDMI2.1 x2|eARC|WiFi|Bluetooth
+TCL,QM8,QM8,2024,Mini-LED,flagship,Google-TV,QM851G,4K,144,Dolby Vision|HDR10+|HLG,AiPQ Pro,mini-led,3000,65QM851G,65,KR,,VRR|ALLM|144Hz|FreeSync Premium Pro|Game Master,HDMI2.1 x2|eARC|WiFi|Bluetooth
+TCL,C855,C855,2024,Mini-LED,high,Google-TV,C855,4K,144,Dolby Vision|HDR10+|HLG,AiPQ Pro,mini-led,2500,65C855,65,KR,,VRR|ALLM|144Hz|FreeSync Premium Pro|Game Master,HDMI2.1 x2|eARC|WiFi|Bluetooth
+TCL,C845,C845,2023,Mini-LED,high,Google-TV,C845,4K,144,Dolby Vision|HDR10+|HLG,AiPQ,mini-led,2000,65C845,65,KR,,VRR|ALLM|144Hz|FreeSync Premium Pro|Game Master,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Hisense,U8,ULED U8N,2024,Mini-LED,flagship,VIDAA,U8N,4K,144,Dolby Vision|HDR10+|HLG,Hi-View Engine,mini-led,2600,65U8N,65,KR,,VRR|ALLM|144Hz|FreeSync Premium Pro|Game Mode Pro,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Hisense,U7,ULED U7N,2024,Mini-LED,high,VIDAA,U7N,4K,144,Dolby Vision|HDR10+|HLG,Hi-View Engine,mini-led,1500,65U7N,65,KR,,VRR|ALLM|144Hz|FreeSync Premium Pro|Game Mode Pro,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Hisense,U6,ULED U6N,2024,Mini-LED,mid,VIDAA,U6N,4K,60,Dolby Vision|HDR10+|HLG,Hi-View Engine,mini-led,600,65U6N,65,KR,,ALLM|60Hz,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Hisense,U8,ULED U8K,2023,Mini-LED,flagship,VIDAA,U8K,4K,144,Dolby Vision|HDR10+|HLG,Hi-View Engine,mini-led,1500,65U8K,65,KR,,VRR|ALLM|144Hz|FreeSync Premium Pro|Game Mode Pro,HDMI2.1 x2|eARC|WiFi|Bluetooth
+삼성,QN990,Neo QLED 8K,2025,Neo-QLED,flagship,Tizen,QN990F,8K,165,HDR10+|HLG,NQ8 AI Gen3,mini-led,2300,KQ65QNF990FXKR,65,KR,,VRR|ALLM|165Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,QN90,Neo QLED 4K,2025,Neo-QLED,flagship,Tizen,QN90F,4K,165,HDR10+|HLG,NQ4 AI Gen3,mini-led,2100,KQ65QNF90FXKR,65,KR,,VRR|ALLM|165Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,QN85,Neo QLED 4K,2025,Neo-QLED,high,Tizen,QN85F,4K,144,HDR10+|HLG,NQ4 AI Gen3,mini-led,1500,KQ65QNF85FXKR,65,KR,,VRR|ALLM|144Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,S95,OLED,2025,QD-OLED,flagship,Tizen,S95F,4K,165,HDR10+|HLG,NQ4 AI Gen3,per-pixel,2132,KQ65SF95FXKR,65,KR,,VRR|ALLM|165Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,S90,OLED,2025,QD-OLED,high,Tizen,S90F,4K,144,HDR10+|HLG,NQ4 AI Gen3,per-pixel,1300,KQ65SF90FXKR,65,KR,,VRR|ALLM|144Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+LG,G,OLED evo G5,2025,WOLED,flagship,webOS,G5,4K,165,Dolby Vision|HDR10|HLG,α11 AI Gen2,per-pixel,2295,OLED65G5KNA,65,KR,,VRR|ALLM|165Hz|G-Sync|FreeSync|Dolby Vision Gaming,HDMI2.1 x4|eARC|WiFi|Bluetooth
+LG,C,OLED evo C5,2025,WOLED,high,webOS,C5,4K,144,Dolby Vision|HDR10|HLG,α9 Gen8,per-pixel,1180,OLED65C5KNA,65,KR,,VRR|ALLM|144Hz|G-Sync|FreeSync|Dolby Vision Gaming,HDMI2.1 x4|eARC|WiFi|Bluetooth
+LG,B,OLED B5,2025,WOLED,mid,webOS,B5,4K,120,Dolby Vision|HDR10|HLG,α8 AI Gen2,per-pixel,700,OLED65B5KNA,65,KR,,VRR|ALLM|120Hz|G-Sync|FreeSync|Dolby Vision Gaming,HDMI2.1 x2|eARC|WiFi|Bluetooth
+LG,QNED9M,QNED evo,2025,Mini-LED,high,webOS,QNED9M,4K,144,Dolby Vision|HDR10|HLG,α8 AI Gen2,mini-led,1500,65QNED9MKA,65,KR,,VRR|ALLM|144Hz|G-Sync|FreeSync|Dolby Vision Gaming,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Sony,BRAVIA8II,BRAVIA 8 II,2025,QD-OLED,flagship,Google-TV,XR80II,4K,120,Dolby Vision|HDR10|HLG,XR Processor,per-pixel,2100,K-65XR80II,65,KR,,VRR|ALLM|120Hz|Auto HDR Tone Mapping|Dolby Vision Gaming,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Sony,BRAVIA5,BRAVIA 5,2025,Mini-LED,high,Google-TV,XR50,4K,120,Dolby Vision|HDR10|HLG,XR Processor,mini-led,2000,K-65XR50,65,KR,,VRR|ALLM|120Hz|Auto HDR Tone Mapping|Dolby Vision Gaming,HDMI2.1 x2|eARC|WiFi|Bluetooth
+TCL,QM8K,QM8K,2025,Mini-LED,flagship,Google-TV,QM8K,4K,144,Dolby Vision|HDR10+|HLG,AiPQ Pro,mini-led,3035,65QM8K,65,KR,,VRR|ALLM|144Hz|FreeSync Premium Pro|Game Master,HDMI2.1 x2|eARC|WiFi|Bluetooth
+TCL,QM7K,QM7K,2025,Mini-LED,high,Google-TV,QM7K,4K,144,Dolby Vision|HDR10+|HLG,AiPQ Pro,mini-led,2000,65QM7K,65,KR,,VRR|ALLM|144Hz|FreeSync Premium Pro|Game Master,HDMI2.1 x2|eARC|WiFi|Bluetooth
+TCL,QM6K,QM6K,2025,Mini-LED,mid,Google-TV,QM6K,4K,144,Dolby Vision|HDR10+|HLG,AiPQ,mini-led,1300,65QM6K,65,KR,,VRR|ALLM|144Hz|FreeSync Premium Pro|Game Master,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Hisense,U8,ULED U8QG,2025,Mini-LED,flagship,VIDAA,U8Q,4K,165,Dolby Vision|HDR10+|HLG,Hi-View AI Engine X,mini-led,3200,65U8QG,65,KR,,VRR|ALLM|165Hz|FreeSync Premium Pro|Game Mode Pro,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Hisense,U7,ULED U7QG,2025,Mini-LED,high,VIDAA,U7Q,4K,165,Dolby Vision|HDR10+|HLG,Hi-View AI Engine,mini-led,2000,65U7QG,65,KR,,VRR|ALLM|165Hz|FreeSync Premium Pro|Game Mode Pro,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Hisense,U6,ULED U6QG,2025,Mini-LED,mid,VIDAA,U6Q,4K,144,Dolby Vision|HDR10+|HLG,Hi-View AI Engine,mini-led,1000,65U6QG,65,KR,,VRR|ALLM|144Hz|FreeSync Premium Pro|Game Mode Pro,HDMI2.1 x2|eARC|WiFi|Bluetooth

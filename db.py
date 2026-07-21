@@ -81,7 +81,11 @@ def upsert_model(cur, rec: dict, series_id: int) -> int:
              hdr_formats         = COALESCE(EXCLUDED.hdr_formats, model.hdr_formats),
              processor           = COALESCE(EXCLUDED.processor, model.processor),
              dimming             = COALESCE(EXCLUDED.dimming, model.dimming),
-             peak_brightness_nits = COALESCE(EXCLUDED.peak_brightness_nits, model.peak_brightness_nits)
+             peak_brightness_nits = COALESCE(EXCLUDED.peak_brightness_nits, model.peak_brightness_nits),
+             connectivity        = COALESCE(EXCLUDED.connectivity, model.connectivity),
+             gaming_features     = COALESCE(EXCLUDED.gaming_features, model.gaming_features),
+             audio_channels      = COALESCE(EXCLUDED.audio_channels, model.audio_channels),
+             smart_os_version    = COALESCE(EXCLUDED.smart_os_version, model.smart_os_version)
            RETURNING model_id""",
         {"sid": series_id, "mc": rec.get("model_code_base"), "res": rec.get("resolution"),
          "rr": _int(rec.get("refresh_rate_native")), "hdr": _arr(rec.get("hdr_formats")),
