@@ -176,13 +176,17 @@ def best_price(model_code: str, region: str = "KR") -> list[dict]:
 
 
 def price_by_region(model_code: str) -> list[dict]:
-    """동일 모델의 지역별 현재가(KR/US…) — '미국이랑 한국 가격 차이?' 응답."""
+    """동일 모델의 지역별 현재가·OS(KR/US…) — '미국이랑 한국 가격 차이?' 응답.
+    os 는 지역별 실효 OS(variant.os_override 우선, 없으면 series.os)."""
     with _conn() as c:
         cur = c.cursor()
         cur.execute("""
             select v.region, v.sku_full,
-                   coalesce(v.price_street, v.price_msrp) price, v.currency
-            from variant v join model m on v.model_id=m.model_id
+                   coalesce(v.price_street, v.price_msrp) price, v.currency,
+                   coalesce(v.os_override, s.os) os
+            from variant v
+            join model m on v.model_id=m.model_id
+            join series s on m.series_id=s.series_id
             where m.model_code_base=%s
               and coalesce(v.price_street, v.price_msrp) is not null
             order by v.region

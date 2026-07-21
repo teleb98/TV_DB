@@ -98,14 +98,15 @@ def upsert_variant(cur, rec: dict, model_id: int) -> int:
     cur.execute(
         """INSERT INTO variant(model_id, sku_full, size_inch, region, color, stand_type,
                                peak_brightness_nits, local_dimming_zones, weight_kg, power_w,
-                               price_msrp, price_street, currency, availability, source_url)
+                               price_msrp, price_street, currency, os_override, availability, source_url)
            VALUES (%(mid)s, %(sku)s, %(sz)s, %(rg)s, %(col)s, %(st)s, %(pb)s, %(ld)s,
                    %(wt)s, %(pw)s, %(msrp)s, %(street)s,
                    COALESCE(%(cur)s, CASE WHEN %(rg)s='US' THEN 'USD' ELSE 'KRW' END),
-                   %(av)s, %(url)s)
+                   %(osov)s, %(av)s, %(url)s)
            ON CONFLICT (sku_full, region) DO UPDATE SET
              price_msrp   = COALESCE(EXCLUDED.price_msrp, variant.price_msrp),
              price_street = COALESCE(EXCLUDED.price_street, variant.price_street),
+             os_override  = COALESCE(EXCLUDED.os_override, variant.os_override),
              availability = COALESCE(EXCLUDED.availability, variant.availability),
              updated_at   = now()
            RETURNING variant_id""",
@@ -114,7 +115,8 @@ def upsert_variant(cur, rec: dict, model_id: int) -> int:
          "pb": _int(rec.get("peak_brightness_nits")), "ld": _int(rec.get("local_dimming_zones")),
          "wt": rec.get("weight_kg"), "pw": _int(rec.get("power_w")),
          "msrp": _int(rec.get("price_msrp")), "street": _int(rec.get("price_street")),
-         "cur": rec.get("currency"), "av": rec.get("availability"), "url": rec.get("source_url")},
+         "cur": rec.get("currency"), "osov": rec.get("os_override") or None,
+         "av": rec.get("availability"), "url": rec.get("source_url")},
     )
     return cur.fetchone()[0]
 

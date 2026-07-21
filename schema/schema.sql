@@ -65,6 +65,7 @@ CREATE TABLE variant (
     region              TEXT DEFAULT 'KR',       -- 'KR','US'
     color               TEXT,
     stand_type          TEXT,                    -- 'stand','wall','pedestal'
+    os_override         smart_os,                -- 지역별 OS 차이(예: Hisense US=Google-TV, KR=VIDAA). NULL이면 series.os 사용
     -- 인치별로 실제 달라지는 값(override) --
     peak_brightness_nits INT,
     local_dimming_zones  INT,
