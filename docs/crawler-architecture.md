@@ -20,7 +20,10 @@
 - **검증**: `playwright --version`, chromium 실행 확인
 - **난이도**: 낮음 (브라우저 ~150MB 다운로드)
 
-## Phase 1 — 렌더링 Fetcher (Playwright)  ★즉효
+## Phase 1 — 렌더링 Fetcher (Playwright)  ★즉효  ✅완료
+> 구현됨: `collectors/render.py` + `base.fetch_html` RENDER_HOSTS 분기.
+> 검증: 다나와 정적 268KB → 렌더 448KB(+67%, 가격 '원' 206건). 셀렉터 확정은 후속.
+
 - **목표**: JS/안티봇 사이트(다나와·쿠팡·Best Buy)를 헤드리스로 렌더 후 기존 `parse()` 재사용
 - **산출물**: `collectors/render.py`(`render_html(url)`), `base.fetch_html` 도메인 분기
 - **핵심코드**:

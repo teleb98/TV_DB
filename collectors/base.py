@@ -14,11 +14,26 @@ from datetime import datetime, timezone
 
 RAW_DIR = pathlib.Path(__file__).resolve().parent.parent / "data" / "raw"
 
+# JS 렌더링/안티봇으로 정적 GET이 안 되는 호스트 → 헤드리스 렌더 사용(Phase 1).
+RENDER_HOSTS = {
+    "prod.danawa.com", "www.danawa.com", "search.danawa.com",
+    "www.coupang.com", "www.bestbuy.com",
+}
 
-def fetch_html(target: str, ua: str = "tv-spec-db/0.1", timeout: int = 20) -> str:
-    """target 이 http(s)면 HTTP GET, 아니면 로컬 파일로 읽음(픽스처 테스트용).
-    ⚠ 실사이트가 JS 렌더링/안티봇이면 정적 GET 실패 가능 → 헤드리스(Playwright) 필요."""
+
+def _host(url: str) -> str:
+    from urllib.parse import urlparse
+    return (urlparse(url).hostname or "").lower()
+
+
+def fetch_html(target: str, ua: str = "tv-spec-db/0.1", timeout: int = 20,
+               force_render: bool = False) -> str:
+    """target 이 http(s)면 HTTP GET(또는 RENDER_HOSTS면 헤드리스 렌더), 아니면 로컬 파일.
+    force_render=True 면 도메인 무관 렌더. Playwright 미설치면 렌더 경로에서 예외."""
     if target.startswith(("http://", "https://")):
+        if force_render or _host(target) in RENDER_HOSTS:
+            from .render import render_html
+            return render_html(target, ua=ua, timeout=timeout * 1000)
         import httpx
         r = httpx.get(target, timeout=timeout, headers={"User-Agent": ua},
                       follow_redirects=True)   # 카테고리 URL 등 3xx 추종
