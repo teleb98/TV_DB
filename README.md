@@ -21,6 +21,8 @@ config/targets.py              소스별 수집 타깃 URL (국내/북미)
 config/selectors.py            소스별 CSS 셀렉터 (한 곳 관리)
 collectors/base.py             수집기 공통 뼈대 (fetch→parse→RawRecord) + 렌더 도메인 분기
 collectors/render.py           렌더링 Fetcher(Playwright) — JS/안티봇 사이트 ✅
+crawler/frontier.py            크롤 큐 + 원본해시 변경감지(재크롤 스킵) ✅
+crawler/change_detector.py     가격인하/신제품/단종 이벤트 발행 ✅
 collectors/samsung_official.py 삼성 공식 (정확도 우선)   [셀렉터 미정]
 collectors/danawa.py           다나와 (커버리지·가격 우선) [셀렉터 미정]
 collectors/spec_pdf.py         스펙시트 PDF→Claude 구조화  [STUB]

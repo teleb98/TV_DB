@@ -19,9 +19,12 @@ SAMSUNG = {
     "size_options": ".size-options button",            # data-sku + '65형'
 }
 
+# 렌더된 다나와 DOM에서 발견한 컨테이너 계열(2026 BEM). 상품카드 클래스는 확인됨.
+# ⚠ 정확한 TV '카테고리 상품 그리드' URL(cate 코드)로 재확인 필요 — 현재 리스트엔 광고 레일 혼재.
+#   model_name/price 는 카드 내부 정제 셀렉터로 후속 확정.
 DANAWA = {
-    "product_card": "",   # 상품 리스트의 각 카드 컨테이너
-    "model_name":   "",   # 카드 내 모델명
+    "product_card": "li.prod-list__item",   # 상품 카드(광고 카드 class*=ad 제외 필요)
+    "model_name":   "a.prod-list__link",     # 모델명 링크(텍스트에 할인율·가격 혼입 → 정제 필요)
     "brand":        "",
-    "price":        "",   # 최저가 표기
+    "price":        ".prod-list__price",     # 가격 영역(숫자만 추출)
 }

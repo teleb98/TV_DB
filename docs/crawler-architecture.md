@@ -43,7 +43,10 @@
 - **검증**: 렌더 HTML을 `inspect_page.py`로 셀렉터 추출 → 픽스처 테스트(`test_samsung_fixture` 패턴)로 파싱 0→N건
 - **난이도**: 중
 
-## Phase 2 — Frontier/Queue + Raw Store 해시 (1~2일)
+## Phase 2 — Frontier/Queue + Raw Store 해시 (1~2일)  ✅완료
+> 구현: `crawler/frontier.py`(seed/due/record_crawl/mark_failed) + `crawl_queue`/`crawl_raw`.
+> 검증: 동일 해시 재크롤 스킵, 변경분만 crawl_raw 저장, 백오프.
+
 - **목표**: 크롤 대상 관리 + 원본 보존 + 변경 없으면 파싱 스킵(비용 절감)
 - **산출물**: `crawl_queue`·`crawl_raw` 테이블(schema), `crawler/frontier.py`
 - **스키마**:
@@ -62,7 +65,10 @@
 - **검증**: 같은 URL 2회 크롤 → 해시 동일 시 "파싱 스킵" 로그, 큐 status 전이 확인
 - **난이도**: 중
 
-## Phase 3 — 변경 감지 & 이벤트 (1일)
+## Phase 3 — 변경 감지 & 이벤트 (1일)  ✅완료
+> 구현: `crawler/change_detector.py`(price_drop/new_model/eol) + `crawl_event`.
+> 검증: 축적 가격이력에서 8건 인하 이벤트(U8QG -36%, G5 -28% 등), 멱등.
+
 - **목표**: 해시 diff로 가격변동·신제품·EOL 이벤트 발행 → 재임베딩/알림 트리거
 - **산출물**: `crawler/change_detector.py`, `crawl_event` 테이블
 - **로직**:

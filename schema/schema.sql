@@ -115,7 +115,33 @@ CREATE TABLE price_history (
     UNIQUE (variant_id, channel, captured_at)
 );
 
+-- ---------- 8. Crawl_Queue (크롤 프론티어) ----------
+CREATE TABLE crawl_queue (
+    id           BIGSERIAL PRIMARY KEY,
+    url          TEXT NOT NULL,
+    source       TEXT NOT NULL,                  -- 'danawa','samsung_official',...
+    priority     INT DEFAULT 5,                  -- 낮을수록 먼저
+    status       TEXT DEFAULT 'pending',         -- pending|done|failed
+    content_hash TEXT,                            -- 직전 원본 해시(변경감지)
+    last_crawled TIMESTAMPTZ,
+    next_due     TIMESTAMPTZ DEFAULT now(),       -- 다음 크롤 예정 시각
+    fail_count   INT DEFAULT 0,
+    UNIQUE (url, source)
+);
+
+-- ---------- 9. Crawl_Raw (원본 스냅샷 이력; 파일은 data/raw/) ----------
+CREATE TABLE crawl_raw (
+    id           BIGSERIAL PRIMARY KEY,
+    url          TEXT NOT NULL,
+    source       TEXT NOT NULL,
+    content_hash TEXT NOT NULL,
+    path         TEXT,                            -- data/raw/ 파일 경로
+    fetched_at   TIMESTAMPTZ DEFAULT now()
+);
+
 -- ---------- 인덱스 ----------
+CREATE INDEX idx_queue_due  ON crawl_queue(status, next_due);
+CREATE INDEX idx_raw_url    ON crawl_raw(url, fetched_at DESC);
 CREATE INDEX idx_series_brand   ON series(brand_id);
 CREATE INDEX idx_model_series   ON model(series_id);
 CREATE INDEX idx_variant_model  ON variant(model_id);
