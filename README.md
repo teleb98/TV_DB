@@ -116,6 +116,7 @@ launchctl kickstart -k gui/501/com.tvspecdb.web  # 재시작
 - [x] **삼성 2026 모델코드 정정(2026-07-25)** — QN990G→**QN990H**(85·98), S95G→**S95H**, QN90G→**QN80H**(QN90 라인 2026 단종 → 4K Neo QLED 최상위 QN80H). 골든셋·SKU·사이즈·비교맵 정합.
 - [x] **2026 삼성 라인업 보강** — S99H(프리미엄 QD-OLED)·S90H·S85H(WOLED)·QN70H(Neo QLED 4K) 추가 → 2026 삼성 7종, 전체 **62종**.
 - [x] **인치별 variant 확장 + 가격**(`scripts/expand_variants.py`) — size_variants_in 기준 인치별 variant 생성(82→**267행**). 실제 판매 SKU 미상이라 **구성 SKU `{code}-{size}IN-{region}`**(estimated_fields에 `sku_full` 표기), 물리스펙은 사이즈별 보강. 공식 확인된 **US 인치별 MSRP**(QN90F·QM6K·QM7K, 18건) price_history 적재.
+- [x] **엔트리 모델 스펙 정밀 보강** — Q6F·Q7F·U8000F·UA77·QNED80A·QD6QF·S5·BRAVIA 2 II의 로컬디밍(Q7F edge-lit)·HDR 포맷(HDR10 보강)·HDMI 포트수(4포트 정정)·VRR 유무(BRAVIA 2 II VRR 제거)·프로세서를 공식/RTINGS 사양으로 정정.
 - [x] **온라인몰 실판매가**(`scripts/load_retail_prices.py`) — WebSearch(2026-07) 확인가로 멀티채널 price_history 적재: **bestbuy·walmart·amazon**(+official-msrp). LG C5/G5·Sony 8 II·TCL QM8K·Hisense U8 등.
 - [x] **국내가(KR)**(`scripts/load_kr_prices.py`) — 한국어 검색으로 **다나와·SSG** 국내 실판매가 적재(KRW): LG G5 65″ 257만·삼성 S95F 65″ 396만 등. 채널: danawa·ssg.
 - [x] **실측 성능(RTINGS 등)**(`measurement` 테이블, `scripts/load_measurements.py`) — HDR 실측 피크·입력랙·DCI-P3·rec2020·명암비. **37종**(2024~2026 플래그십~엔트리, 브랜드별 삼성12·LG9·Sony6·Hisense5·TCL5), 출처(source) 표기. API `GET /api/measurements?model=`(밝기순 랭킹). ※Huawei·Xiaomi는 전문 실측 리뷰 부재로 미수집. DisplaySpecifications 봇차단·TechSpecs API 키필요로 미연동(tuner/vesa_mm 컬럼만 준비).

@@ -1,6 +1,6 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-07-25T18:50:55.017348+09:00",
+  "generated_at": "2026-07-25T23:44:34.766822+09:00",
   "model_count": 79,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
@@ -1408,6 +1408,7 @@
       "refresh_rate_native": 60,
       "hdr_formats": [
         "HDR10+",
+        "HDR10",
         "HLG"
       ],
       "processor": "Q4 AI",
@@ -1557,10 +1558,11 @@
       "refresh_rate_native": 60,
       "hdr_formats": [
         "HDR10+",
+        "HDR10",
         "HLG"
       ],
       "processor": "Q4 AI",
-      "dimming": "none",
+      "dimming": "edge-lit",
       "peak_brightness_nits": 400,
       "audio_channels": "2.0",
       "audio_output_w": 20,
@@ -3860,6 +3862,7 @@
       "refresh_rate_native": 60,
       "hdr_formats": [
         "HDR10+",
+        "HDR10",
         "HLG"
       ],
       "processor": "Crystal 4K",
@@ -5712,6 +5715,7 @@
       "refresh_rate_native": 60,
       "hdr_formats": [
         "Dolby Vision",
+        "HDR10",
         "HDR10+",
         "HLG"
       ],
@@ -5722,7 +5726,7 @@
       "audio_output_w": 20,
       "smart_os_version": "VIDAA U",
       "connectivity": [
-        "HDMI2.0 x3",
+        "HDMI2.0 x4",
         "eARC",
         "WiFi",
         "Bluetooth"
@@ -9746,7 +9750,7 @@
       "audio_output_w": 20,
       "smart_os_version": "webOS 25",
       "connectivity": [
-        "HDMI2.0 x3",
+        "HDMI2.0 x4",
         "eARC",
         "WiFi",
         "Bluetooth"
@@ -10435,7 +10439,7 @@
       "audio_output_w": 20,
       "smart_os_version": "webOS 25",
       "connectivity": [
-        "HDMI2.0 x3",
+        "HDMI2.0 x4",
         "eARC",
         "WiFi",
         "Bluetooth"
@@ -12037,21 +12041,21 @@
         "HDR10",
         "HLG"
       ],
-      "processor": null,
+      "processor": "4K Processor X1",
       "dimming": "none",
       "peak_brightness_nits": 400,
       "audio_channels": "2.0",
       "audio_output_w": 20,
       "smart_os_version": "Google TV",
       "connectivity": [
-        "HDMI2.1 x2",
+        "HDMI2.0 x4",
         "eARC",
         "WiFi",
         "Bluetooth"
       ],
       "gaming_features": [
         "ALLM",
-        "VRR"
+        "Auto HDR Tone Mapping"
       ],
       "size_variants_in": [
         43,
@@ -14982,6 +14986,7 @@
       "refresh_rate_native": 60,
       "hdr_formats": [
         "Dolby Vision",
+        "HDR10",
         "HDR10+",
         "HLG"
       ],
