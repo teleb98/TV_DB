@@ -1429,7 +1429,7 @@
         "fullscreen_nits": null,
         "input_lag_ms": null,
         "dci_p3_pct": 100.0,
-        "rec2020_pct": null,
+        "rec2020_pct": 74.0,
         "contrast": "inf",
         "source": "avforums",
         "measured_date": "2025-04-01"
