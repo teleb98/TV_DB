@@ -1159,7 +1159,7 @@
           "local_dimming_zones": null,
           "audio_output_w": 60,
           "price_msrp": null,
-          "price_street": 3590000,
+          "price_street": 2576000,
           "currency": "KRW",
           "availability": "판매중",
           "source_url": "https://www.lge.co.kr",
@@ -1175,6 +1175,12 @@
               "price": 3590000,
               "currency": "KRW",
               "d": "2026-07-01"
+            },
+            {
+              "channel": "danawa",
+              "price": 2576000,
+              "currency": "KRW",
+              "d": "2026-07-25"
             }
           ]
         },
