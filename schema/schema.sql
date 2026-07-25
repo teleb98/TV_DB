@@ -183,6 +183,17 @@ CREATE TABLE model_alias (
 CREATE INDEX idx_alias_model ON model_alias(model_id);
 CREATE INDEX idx_alias_name  ON model_alias(model_name);
 
+-- ---------- 13. Model_Feature (브랜드 마케팅 feature; 우선순위 순, rank1=제품페이지 최상단) ----------
+CREATE TABLE model_feature (
+    id       BIGSERIAL PRIMARY KEY,
+    model_id INT NOT NULL REFERENCES model(model_id) ON DELETE CASCADE,
+    rank     INT NOT NULL,            -- 1=최상단(가장 중요) … n
+    feature  TEXT NOT NULL,           -- 브랜드 표기 기능명
+    source   TEXT DEFAULT 'brand-site',
+    UNIQUE (model_id, rank)
+);
+CREATE INDEX idx_feature_model ON model_feature(model_id, rank);
+
 -- ---------- 인덱스 ----------
 CREATE INDEX idx_queue_due  ON crawl_queue(status, next_due);
 CREATE INDEX idx_raw_url    ON crawl_raw(url, fetched_at DESC);

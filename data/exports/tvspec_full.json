@@ -1,6 +1,6 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-07-26T06:04:10.086817+09:00",
+  "generated_at": "2026-07-26T06:12:20.655870+09:00",
   "model_count": 100,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
@@ -287,7 +287,8 @@
           "model_name": "QN65LS03HAFXZA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -515,7 +516,8 @@
           "model_name": "UN65M70HAFXZA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -689,7 +691,8 @@
           "model_name": "UN65M80HAFXZA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -918,7 +921,8 @@
           "model_name": "KQ65QN70HXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -1119,7 +1123,8 @@
           "model_name": "KQ65QN80HXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -1232,7 +1237,8 @@
           "model_name": "KQ85QN990HXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -1435,7 +1441,8 @@
           "model_name": "QN65R85HAFXZA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -1609,7 +1616,8 @@
           "model_name": "QN65R95HAFXZA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -1805,7 +1813,8 @@
           "model_name": "KQ65S85HXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -2037,7 +2046,8 @@
           "model_name": "KQ65S90HXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -2213,7 +2223,8 @@
           "model_name": "KQ65S95HXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -2380,7 +2391,8 @@
           "model_name": "KQ65S99HXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -2658,7 +2670,8 @@
           "model_name": "UN65U8000HFXZA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -2911,7 +2924,8 @@
           "model_name": "QN65LS03FAFXZA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -3055,7 +3069,8 @@
           "model_name": "QN65LS03FWFXZA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -3221,7 +3236,8 @@
           "model_name": "QN65Q6FAFXZA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -3471,7 +3487,8 @@
           "model_name": "QN65Q7FAFXZA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -3711,7 +3728,8 @@
           "model_name": "QN65Q8FAFXZA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -3893,7 +3911,8 @@
           "model_name": "QN65QN70FAFXZA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -4037,7 +4056,8 @@
           "model_name": "KQ65QNF800FXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -4248,7 +4268,8 @@
           "model_name": "KQ65QNF80FXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -4430,7 +4451,8 @@
           "model_name": "KQ65QNF85FXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -5018,6 +5040,43 @@
           "model_name": "QN65QN90FAFXZA",
           "kind": "sku_root"
         }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "feature": "Samsung Vision AI",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 2,
+          "feature": "Glare Free 반사방지",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 3,
+          "feature": "Quantum Mini LED Pro(Quantum Matrix Plus)",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 4,
+          "feature": "NQ4 AI Gen3 프로세서·4K AI Upscaling Pro",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 5,
+          "feature": "Motion Xcelerator 165Hz",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 6,
+          "feature": "Neo Quantum HDR+",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 7,
+          "feature": "Object Tracking Sound+·Gaming Hub",
+          "source": "samsung.com"
+        }
       ]
     },
     {
@@ -5192,7 +5251,8 @@
           "model_name": "QE65QN95FATXXU",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -5375,7 +5435,8 @@
           "model_name": "KQ65QNF990FXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -5789,7 +5850,8 @@
           "model_name": "QN65S90FAFXZA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -6126,6 +6188,43 @@
           "model_name": "QN65S95FAFXZA",
           "kind": "sku_root"
         }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "feature": "Samsung Vision AI",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 2,
+          "feature": "역대 최고 밝기 OLED·OLED HDR Pro",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 3,
+          "feature": "OLED Glare Free",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 4,
+          "feature": "NQ4 AI Gen3 프로세서",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 5,
+          "feature": "Motion Xcelerator 165Hz",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 6,
+          "feature": "Click to Search·Live Translate",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 7,
+          "feature": "Infinity One Design·One Connect",
+          "source": "samsung.com"
+        }
       ]
     },
     {
@@ -6404,7 +6503,8 @@
           "model_name": "UN65U8000FFXZA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -6484,7 +6584,8 @@
           "model_name": "KU65DU8000FXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -6628,7 +6729,8 @@
           "model_name": "KQ65QNA800DXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -6801,7 +6903,8 @@
           "model_name": "KQ65QNA85DXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -7041,7 +7144,8 @@
           "model_name": "QN65QN900DAFXZA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -7538,7 +7642,8 @@
           "model_name": "QN65QN90DAFXZA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -7772,7 +7877,8 @@
           "model_name": "KQ65SD90DXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -8020,7 +8126,8 @@
           "model_name": "QN65S95DAFXZA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -8105,7 +8212,8 @@
           "model_name": "KQ65QNC95CFXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "삼성",
@@ -8188,7 +8296,8 @@
           "model_name": "KQ65SC95CFXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Hisense",
@@ -8389,7 +8498,8 @@
           "model_name": "65U6SF",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Hisense",
@@ -8624,7 +8734,8 @@
           "model_name": "65U7SG",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Hisense",
@@ -8875,7 +8986,8 @@
           "model_name": "65QD6QF",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Hisense",
@@ -9089,7 +9201,8 @@
           "model_name": "65U6QG",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Hisense",
@@ -9447,7 +9560,8 @@
           "model_name": "65U7QG",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Hisense",
@@ -9846,6 +9960,43 @@
           "model_name": "65U8QG",
           "kind": "sku_root"
         }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "feature": "MiniLED Pro·5000nit 피크",
+          "source": "hisense-usa.com"
+        },
+        {
+          "rank": 2,
+          "feature": "QLED Color(10억+ 색)",
+          "source": "hisense-usa.com"
+        },
+        {
+          "rank": 3,
+          "feature": "Full Array Local Dimming(무헤일로)",
+          "source": "hisense-usa.com"
+        },
+        {
+          "rank": 4,
+          "feature": "165Hz 네이티브",
+          "source": "hisense-usa.com"
+        },
+        {
+          "rank": 5,
+          "feature": "Anti-Glare Low Reflection Pro",
+          "source": "hisense-usa.com"
+        },
+        {
+          "rank": 6,
+          "feature": "Dolby Atmos 82W 4.1.2ch",
+          "source": "hisense-usa.com"
+        },
+        {
+          "rank": 7,
+          "feature": "Google TV",
+          "source": "hisense-usa.com"
+        }
       ]
     },
     {
@@ -9964,7 +10115,8 @@
           "model_name": "116UX",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Hisense",
@@ -10309,7 +10461,8 @@
           "model_name": "55U6N",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Hisense",
@@ -10523,7 +10676,8 @@
           "model_name": "65U7N",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Hisense",
@@ -10888,7 +11042,8 @@
           "model_name": "65U8N",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Hisense",
@@ -11006,7 +11161,8 @@
           "model_name": "75U9N",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Hisense",
@@ -11092,7 +11248,8 @@
           "model_name": "65U8K",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Huawei",
@@ -11264,7 +11421,8 @@
           "model_name": "HW-VISION5-65",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Huawei",
@@ -11405,7 +11563,8 @@
           "model_name": "HW-VISIONSE-65",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Huawei",
@@ -11577,7 +11736,8 @@
           "model_name": "HW-VISIONX-65",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -11784,7 +11944,8 @@
           "model_name": "OLED65B6KNA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -12019,7 +12180,8 @@
           "model_name": "OLED65C6KNA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -12226,7 +12388,8 @@
           "model_name": "OLED65G6KNA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -12430,7 +12593,8 @@
           "model_name": "65QNED80BUA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -12664,7 +12828,8 @@
           "model_name": "65QNED85UQA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -12868,7 +13033,8 @@
           "model_name": "65QNED92TUA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -13216,7 +13382,8 @@
           "model_name": "OLED65B5PUA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -13632,7 +13799,8 @@
           "model_name": "OLED65C5PUA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -14027,6 +14195,43 @@
           "model_name": "OLED65G5WUA",
           "kind": "sku_root"
         }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "feature": "Brightness Booster Ultimate(최대 +45%)",
+          "source": "lg.com"
+        },
+        {
+          "rank": 2,
+          "feature": "α11 AI 프로세서 Gen2",
+          "source": "lg.com"
+        },
+        {
+          "rank": 3,
+          "feature": "Perfect Black(OLED evo)",
+          "source": "lg.com"
+        },
+        {
+          "rank": 4,
+          "feature": "4K 165Hz VRR(G-Sync·FreeSync Premium)",
+          "source": "lg.com"
+        },
+        {
+          "rank": 5,
+          "feature": "webOS 25(350+ 채널·클라우드 게이밍)",
+          "source": "lg.com"
+        },
+        {
+          "rank": 6,
+          "feature": "One Wall Design",
+          "source": "lg.com"
+        },
+        {
+          "rank": 7,
+          "feature": "Dolby Vision·Dolby Atmos",
+          "source": "lg.com"
+        }
       ]
     },
     {
@@ -14200,7 +14405,8 @@
           "model_name": "OLED65M5PUA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -14397,7 +14603,8 @@
           "model_name": "65QNED80ARA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -14629,7 +14836,8 @@
           "model_name": "65QNED85AUA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -14803,7 +15011,8 @@
           "model_name": "65QNED90AUA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -14959,7 +15168,8 @@
           "model_name": "65QNED9MKA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -15153,7 +15363,8 @@
           "model_name": "65UA7700PUA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -15362,7 +15573,8 @@
           "model_name": "OLED65B4KNA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -15772,7 +15984,8 @@
           "model_name": "OLED65C4PUA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -16133,7 +16346,8 @@
           "model_name": "OLED65G4WUA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -16217,7 +16431,8 @@
           "model_name": "65QNED80TKA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -16304,7 +16519,8 @@
           "model_name": "65QNED90TKA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -16390,7 +16606,8 @@
           "model_name": "OLED65C3KNA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "LG",
@@ -16476,7 +16693,8 @@
           "model_name": "OLED65G3KNA",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Sony",
@@ -16736,7 +16954,8 @@
           "model_name": "K-65S30M2",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Sony",
@@ -16968,7 +17187,8 @@
           "model_name": "K-65XR70M2",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Sony",
@@ -17151,7 +17371,8 @@
           "model_name": "K-65XR95M2",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Sony",
@@ -17345,7 +17566,8 @@
           "model_name": "K-65S20M2",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Sony",
@@ -17559,7 +17781,8 @@
           "model_name": "K-65XR50",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Sony",
@@ -17776,6 +17999,38 @@
           "model_name": "K-65XR80M2",
           "kind": "sku_root"
         }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "feature": "XR 프로세서",
+          "source": "sony-marketing"
+        },
+        {
+          "rank": 2,
+          "feature": "QD-OLED 최대 밝기·색재현",
+          "source": "sony-marketing"
+        },
+        {
+          "rank": 3,
+          "feature": "Perfect for PlayStation 5(Auto HDR Tone Mapping)",
+          "source": "sony-marketing"
+        },
+        {
+          "rank": 4,
+          "feature": "Acoustic Surface Audio+",
+          "source": "sony-marketing"
+        },
+        {
+          "rank": 5,
+          "feature": "Studio Calibrated 모드(Netflix·Prime)",
+          "source": "sony-marketing"
+        },
+        {
+          "rank": 6,
+          "feature": "Google TV·BRAVIA",
+          "source": "sony-marketing"
+        }
       ]
     },
     {
@@ -17961,7 +18216,8 @@
           "model_name": "K-65XR70",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Sony",
@@ -18104,7 +18360,8 @@
           "model_name": "K-65XR80",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Sony",
@@ -18339,7 +18596,8 @@
           "model_name": "K-65XR90",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Sony",
@@ -18520,7 +18778,8 @@
           "model_name": "XR-65A80L",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Sony",
@@ -18764,7 +19023,8 @@
           "model_name": "XR-65A95L",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Sony",
@@ -18977,7 +19237,8 @@
           "model_name": "XR-65X90L",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "TCL",
@@ -19210,7 +19471,8 @@
           "model_name": "65QM6L",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "TCL",
@@ -19415,7 +19677,8 @@
           "model_name": "65QM7L",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "TCL",
@@ -19621,7 +19884,8 @@
           "model_name": "65QM8L",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "TCL",
@@ -20073,7 +20337,8 @@
           "model_name": "65QM6K",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "TCL",
@@ -20530,7 +20795,8 @@
           "model_name": "65QM7K",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "TCL",
@@ -20857,6 +21123,43 @@
           "model_name": "65QM8K",
           "kind": "sku_root"
         }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "feature": "5000nit·Precise Dimming(5000+ 존, 30M:1)",
+          "source": "tcl.com"
+        },
+        {
+          "rank": 2,
+          "feature": "Halo Control(Micro-OD)",
+          "source": "tcl.com"
+        },
+        {
+          "rank": 3,
+          "feature": "Audio by Bang & Olufsen",
+          "source": "tcl.com"
+        },
+        {
+          "rank": 4,
+          "feature": "4K 144Hz·288 VRR 게이밍",
+          "source": "tcl.com"
+        },
+        {
+          "rank": 5,
+          "feature": "AiPQ Pro 프로세서",
+          "source": "tcl.com"
+        },
+        {
+          "rank": 6,
+          "feature": "QD-Mini LED·QLED Color",
+          "source": "tcl.com"
+        },
+        {
+          "rank": 7,
+          "feature": "Google TV",
+          "source": "tcl.com"
+        }
       ]
     },
     {
@@ -21041,7 +21344,8 @@
           "model_name": "65QM9K",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "TCL",
@@ -21292,7 +21596,8 @@
           "model_name": "55S551G",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "TCL",
@@ -21468,7 +21773,8 @@
           "model_name": "65C855",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "TCL",
@@ -21826,7 +22132,8 @@
           "model_name": "65QM851G",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "TCL",
@@ -22039,7 +22346,8 @@
           "model_name": "65C845",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Xiaomi",
@@ -22268,7 +22576,8 @@
           "model_name": "XM-A-PRO-65",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Xiaomi",
@@ -22443,7 +22752,8 @@
           "model_name": "XM-S-MINILED-65",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Xiaomi",
@@ -22586,7 +22896,8 @@
           "model_name": "XM-S-OLED-65",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     }
   ]
 }

@@ -86,8 +86,16 @@ def build():
             r["measurement"] = fetch_measurement(conn, mid)
             r["certification"] = fetch_certification(conn, mid)
             r["region_names"] = fetch_aliases(conn, mid)
+            r["features"] = fetch_features(conn, mid)
             records.append(r)
     return records
+
+
+def fetch_features(conn, model_id):
+    cur = conn.cursor()
+    cur.execute("""select rank, feature, source from model_feature
+                   where model_id=%s order by rank""", (model_id,))
+    return cur.fetchall()
 
 
 def fetch_aliases(conn, model_id):

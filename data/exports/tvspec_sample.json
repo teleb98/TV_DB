@@ -620,6 +620,43 @@
           "model_name": "QN65QN90FAFXZA",
           "kind": "sku_root"
         }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "feature": "Samsung Vision AI",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 2,
+          "feature": "Glare Free 반사방지",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 3,
+          "feature": "Quantum Mini LED Pro(Quantum Matrix Plus)",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 4,
+          "feature": "NQ4 AI Gen3 프로세서·4K AI Upscaling Pro",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 5,
+          "feature": "Motion Xcelerator 165Hz",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 6,
+          "feature": "Neo Quantum HDR+",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 7,
+          "feature": "Object Tracking Sound+·Gaming Hub",
+          "source": "samsung.com"
+        }
       ]
     },
     {
@@ -803,7 +840,8 @@
           "model_name": "KQ65QNF990FXKR",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     },
     {
       "brand": "Hisense",
@@ -1202,6 +1240,43 @@
           "model_name": "65U8QG",
           "kind": "sku_root"
         }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "feature": "MiniLED Pro·5000nit 피크",
+          "source": "hisense-usa.com"
+        },
+        {
+          "rank": 2,
+          "feature": "QLED Color(10억+ 색)",
+          "source": "hisense-usa.com"
+        },
+        {
+          "rank": 3,
+          "feature": "Full Array Local Dimming(무헤일로)",
+          "source": "hisense-usa.com"
+        },
+        {
+          "rank": 4,
+          "feature": "165Hz 네이티브",
+          "source": "hisense-usa.com"
+        },
+        {
+          "rank": 5,
+          "feature": "Anti-Glare Low Reflection Pro",
+          "source": "hisense-usa.com"
+        },
+        {
+          "rank": 6,
+          "feature": "Dolby Atmos 82W 4.1.2ch",
+          "source": "hisense-usa.com"
+        },
+        {
+          "rank": 7,
+          "feature": "Google TV",
+          "source": "hisense-usa.com"
+        }
       ]
     },
     {
@@ -1597,6 +1672,43 @@
           "model_name": "OLED65G5WUA",
           "kind": "sku_root"
         }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "feature": "Brightness Booster Ultimate(최대 +45%)",
+          "source": "lg.com"
+        },
+        {
+          "rank": 2,
+          "feature": "α11 AI 프로세서 Gen2",
+          "source": "lg.com"
+        },
+        {
+          "rank": 3,
+          "feature": "Perfect Black(OLED evo)",
+          "source": "lg.com"
+        },
+        {
+          "rank": 4,
+          "feature": "4K 165Hz VRR(G-Sync·FreeSync Premium)",
+          "source": "lg.com"
+        },
+        {
+          "rank": 5,
+          "feature": "webOS 25(350+ 채널·클라우드 게이밍)",
+          "source": "lg.com"
+        },
+        {
+          "rank": 6,
+          "feature": "One Wall Design",
+          "source": "lg.com"
+        },
+        {
+          "rank": 7,
+          "feature": "Dolby Vision·Dolby Atmos",
+          "source": "lg.com"
+        }
       ]
     },
     {
@@ -1841,7 +1953,8 @@
           "model_name": "XR-65A95L",
           "kind": "sku_root"
         }
-      ]
+      ],
+      "features": []
     }
   ]
 }
