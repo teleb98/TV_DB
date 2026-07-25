@@ -126,6 +126,7 @@ launchctl kickstart -k gui/501/com.tvspecdb.web  # 재시작
 - [x] **실측 성능(RTINGS 등)**(`measurement` 테이블, `scripts/load_measurements.py`) — HDR 실측 피크·입력랙·DCI-P3·rec2020·명암비. **37종**(2024~2026 플래그십~엔트리, 브랜드별 삼성12·LG9·Sony6·Hisense5·TCL5), 출처(source) 표기. API `GET /api/measurements?model=`(밝기순 랭킹). ※Huawei·Xiaomi는 전문 실측 리뷰 부재로 미수집. DisplaySpecifications 봇차단·TechSpecs API 키필요로 미연동(tuner/vesa_mm 컬럼만 준비).
 - [x] **누락 모델 추가(2025)** — TCL QM9K·삼성 QN800F(8K)·Sony BRAVIA 2 II·삼성 Q7F/Q8F(QLED)·삼성 The Frame LS03F·삼성 QN80F·Hisense UX(RGB 6000nit)·LG QNED85A/QNED90A → 전체 **72종**. Hisense U8Q 오디오 4.1.2ch 실측.
 - [x] **2024 라인업 인치 세분화** — QN90D·S95D·G4·C4·A95L·X90L·QM851G·U8N 등 2024 주요 모델에 size_variants_in 추가(공식/RTINGS). 연도 커버리지: 2026·2025 전량, 2024 17/20.
+- [x] **추가 플래그십/누락 모델(2024~2026)** — LG **M5**(무선 OLED, 65~97″)·삼성 **QN95F**(EU 4K 플래그십)·**The Frame Pro**(Neo QLED Mini-LED)·Hisense **U9N**(2024 5000nit)·TCL **QM8L**(2026 SQD 6000nit)·Hisense **U6N**(2024 엔트리) → 전체 **84종**.
 - [x] **엔트리·미드 UHD 확장** — 삼성 Q6F(QLED)·Crystal UHD U8000F · LG UA77(UHD)·QNED80A · Hisense QD6QF(Fire TV) · TCL S5(4K LED)·Sony BRAVIA 3 II 추가 → 전체 **79종**, entry 다수 포함.
 - [x] **Huawei/Xiaomi 실모델 정비** — VisionSE→실제 Vision Smart Screen 5 SE(Mini-LED 240Hz, 55/65/75 확인), VisionX→V5 Pro, S-OLED→S Pro OLED 로 명칭·패널 정정. variant **450행**.
 - [ ] **골든셋 스펙값 공식 대조 검수** (현재 대표값 — 정답지 확정 필요)

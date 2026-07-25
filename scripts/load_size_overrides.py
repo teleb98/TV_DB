@@ -20,7 +20,7 @@ OVERRIDES: dict[str, dict] = {
     "S99H":  {"panel": {"WOLED": [83]}},                  # 2026: 83"만 WOLED
     "LS03F": {"refresh": {60: [32, 43, 50]}},             # The Frame 소형 60Hz
     "Q8F":   {"refresh": {60: [43, 50]}},                 # 소형 60Hz, 대형 120Hz
-    "QN85F": {"refresh": {}},                             # (플레이스홀더)
+    "M5":    {"refresh": {120: [97]}},                    # 97"만 120Hz(나머지 144Hz)
 }
 
 
