@@ -51,6 +51,8 @@ CREATE TABLE model (
     connectivity        TEXT[],                  -- ['HDMI2.1 x4','eARC','WiFi6E','BT5.3']
     gaming_features     TEXT[],                  -- ['VRR','ALLM','G-Sync','FreeSync']
     size_variants_in    INT[],                   -- 제공 인치 목록(공식 사이트 확인). 예: {55,65,77,83,97}
+    tuner               TEXT,                    -- ATSC 1.0/3.0, DVB 등 (DisplaySpecifications)
+    vesa_mm             TEXT,                    -- VESA 마운트(예: 400x300)
     estimated_fields    TEXT[],                  -- 규칙기반 추정치인 컬럼명 목록(provenance.py 기준). 예: {audio_channels,audio_output_w}
     UNIQUE (series_id, model_code_base)
 );
@@ -137,6 +139,20 @@ CREATE TABLE crawl_raw (
     content_hash TEXT NOT NULL,
     path         TEXT,                            -- data/raw/ 파일 경로
     fetched_at   TIMESTAMPTZ DEFAULT now()
+);
+
+-- ---------- 10. Measurement (RTINGS 등 실측 성능; 모델당 1행) ----------
+CREATE TABLE measurement (
+    model_id             INT PRIMARY KEY REFERENCES model(model_id) ON DELETE CASCADE,
+    peak_brightness_nits INT,            -- 실측 HDR 피크(10% window)
+    fullscreen_nits      INT,            -- 실측 전체화면 밝기
+    input_lag_ms         NUMERIC(5,1),   -- 4K@120Hz 근사
+    dci_p3_pct           NUMERIC(4,1),
+    rec2020_pct          NUMERIC(4,1),
+    contrast             TEXT,           -- 네이티브 명암비 or 'inf'(OLED)
+    source               TEXT DEFAULT 'rtings',  -- rtings/flatpanelshd/avforums 등
+    measured_date        DATE,
+    updated_at           TIMESTAMPTZ DEFAULT now()
 );
 
 -- ---------- 인덱스 ----------

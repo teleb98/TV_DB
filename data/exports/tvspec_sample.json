@@ -565,7 +565,17 @@
             }
           ]
         }
-      ]
+      ],
+      "measurement": {
+        "peak_brightness_nits": 2500,
+        "fullscreen_nits": 800,
+        "input_lag_ms": null,
+        "dci_p3_pct": 91.0,
+        "rec2020_pct": null,
+        "contrast": null,
+        "source": "rtings",
+        "measured_date": "2025-05-01"
+      }
     },
     {
       "brand": "삼성",
@@ -722,7 +732,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Hisense",
@@ -1064,7 +1075,17 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": {
+        "peak_brightness_nits": 4300,
+        "fullscreen_nits": 944,
+        "input_lag_ms": null,
+        "dci_p3_pct": 95.0,
+        "rec2020_pct": null,
+        "contrast": null,
+        "source": "rtings",
+        "measured_date": "2025-06-01"
+      }
     },
     {
       "brand": "LG",
@@ -1402,7 +1423,17 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": {
+        "peak_brightness_nits": 2272,
+        "fullscreen_nits": null,
+        "input_lag_ms": null,
+        "dci_p3_pct": 100.0,
+        "rec2020_pct": null,
+        "contrast": "inf",
+        "source": "avforums",
+        "measured_date": "2025-04-01"
+      }
     },
     {
       "brand": "Sony",
@@ -1611,7 +1642,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     }
   ]
 }

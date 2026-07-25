@@ -50,6 +50,20 @@
 |---|---|
 | `variant.sku_full` | 인치 세분화(`scripts/expand_variants.py`)로 생성한 변형의 SKU는 구성값 **`{code}-{size}IN-{region}`** — 실제 판매 SKU 아님. `estimated_fields`에 `sku_full` 표기. 골든셋 원본 변형(대표 65인치 등, 실SKU)은 구성값 아님. 인치별 US 가격(QN90F·QM6K·QM7K)은 공식 확인 MSRP(구성 아님). |
 
+## ③-c MEASURED — 실측 성능 (measurement 테이블)
+
+RTINGS·FlatpanelsHD·AVForums 등 전문 리뷰 **실측치**. `measurement` 테이블(모델당 1행), 각 행 `source` 컬럼에 출처 표기. 추정 아님(실측). `model.peak_brightness_nits`(스펙/근사)와 **별개**로 `measurement.peak_brightness_nits`(실측)를 둔다.
+
+| 필드 | 의미 |
+|---|---|
+| `peak_brightness_nits` | HDR 10% window 실측 피크 |
+| `fullscreen_nits` | 전체화면 실측 밝기 |
+| `input_lag_ms` | 4K/120Hz 입력랙 |
+| `dci_p3_pct` / `rec2020_pct` | 색재현 커버리지 |
+| `contrast` | 네이티브 명암비(‘inf’=OLED) |
+
+로더 `scripts/load_measurements.py`(WebSearch 스니펫 확인). ※ DisplaySpecifications(SoC/RAM/tuner/VESA)는 봇차단으로 미수집 — `model.tuner`/`vesa_mm` 컬럼만 준비됨. TechSpecs API는 키 필요로 미연동.
+
 ## ④ SOURCED — 큐레이션 스펙 (골든셋 원본)
 `panel_tech·resolution·refresh_rate_native·hdr_formats·processor·dimming·sku_full·size_inch·region·price_*` 등은 골든셋 CSV의 큐레이션 대표값(공식 대조 검수 전제).
 

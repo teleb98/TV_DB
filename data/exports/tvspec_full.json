@@ -1,6 +1,6 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-07-25T18:31:56.071713+09:00",
+  "generated_at": "2026-07-25T18:38:28.279970+09:00",
   "model_count": 79,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
@@ -232,7 +232,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -403,7 +404,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -493,7 +495,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -659,7 +662,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -851,7 +855,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -991,7 +996,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -1131,7 +1137,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -1361,7 +1368,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -1509,7 +1517,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -1735,7 +1744,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -1945,7 +1955,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -2074,7 +2085,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -2257,7 +2269,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -2413,7 +2426,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -2946,7 +2960,17 @@
             }
           ]
         }
-      ]
+      ],
+      "measurement": {
+        "peak_brightness_nits": 2500,
+        "fullscreen_nits": 800,
+        "input_lag_ms": null,
+        "dci_p3_pct": 91.0,
+        "rec2020_pct": null,
+        "contrast": null,
+        "source": "rtings",
+        "measured_date": "2025-05-01"
+      }
     },
     {
       "brand": "삼성",
@@ -3103,7 +3127,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -3456,7 +3481,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -3740,7 +3766,17 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": {
+        "peak_brightness_nits": 3789,
+        "fullscreen_nits": null,
+        "input_lag_ms": 13.2,
+        "dci_p3_pct": 99.0,
+        "rec2020_pct": null,
+        "contrast": "inf",
+        "source": "rtings",
+        "measured_date": "2025-04-01"
+      }
     },
     {
       "brand": "삼성",
@@ -3992,7 +4028,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -4061,7 +4098,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -4190,7 +4228,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -4346,7 +4385,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -4560,7 +4600,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -4992,7 +5033,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -5196,7 +5238,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -5409,7 +5452,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -5483,7 +5527,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "삼성",
@@ -5555,7 +5600,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Hisense",
@@ -5782,7 +5828,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Hisense",
@@ -5968,7 +6015,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Hisense",
@@ -6283,7 +6331,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Hisense",
@@ -6625,7 +6674,17 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": {
+        "peak_brightness_nits": 4300,
+        "fullscreen_nits": 944,
+        "input_lag_ms": null,
+        "dci_p3_pct": 95.0,
+        "rec2020_pct": null,
+        "contrast": null,
+        "source": "rtings",
+        "measured_date": "2025-06-01"
+      }
     },
     {
       "brand": "Hisense",
@@ -6730,7 +6789,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Hisense",
@@ -6912,7 +6972,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Hisense",
@@ -7098,7 +7159,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Hisense",
@@ -7420,7 +7482,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Hisense",
@@ -7495,7 +7558,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Huawei",
@@ -7650,7 +7714,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Huawei",
@@ -7776,7 +7841,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Huawei",
@@ -7931,7 +7997,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "LG",
@@ -8098,7 +8165,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "LG",
@@ -8291,7 +8359,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "LG",
@@ -8458,7 +8527,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "LG",
@@ -8763,7 +8833,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "LG",
@@ -9132,7 +9203,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "LG",
@@ -9470,7 +9542,17 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": {
+        "peak_brightness_nits": 2272,
+        "fullscreen_nits": null,
+        "input_lag_ms": null,
+        "dci_p3_pct": 100.0,
+        "rec2020_pct": null,
+        "contrast": "inf",
+        "source": "avforums",
+        "measured_date": "2025-04-01"
+      }
     },
     {
       "brand": "LG",
@@ -9648,7 +9730,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "LG",
@@ -9859,7 +9942,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "LG",
@@ -10016,7 +10100,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "LG",
@@ -10148,7 +10233,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "LG",
@@ -10323,7 +10409,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "LG",
@@ -10504,7 +10591,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "LG",
@@ -10867,7 +10955,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "LG",
@@ -11185,7 +11274,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "LG",
@@ -11258,7 +11348,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "LG",
@@ -11334,7 +11425,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "LG",
@@ -11409,7 +11501,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "LG",
@@ -11484,7 +11577,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Sony",
@@ -11721,7 +11815,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Sony",
@@ -11896,7 +11991,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Sony",
@@ -12082,7 +12178,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Sony",
@@ -12254,7 +12351,17 @@
             }
           ]
         }
-      ]
+      ],
+      "measurement": {
+        "peak_brightness_nits": 1681,
+        "fullscreen_nits": 248,
+        "input_lag_ms": null,
+        "dci_p3_pct": 100.0,
+        "rec2020_pct": null,
+        "contrast": "inf",
+        "source": "flatpanelshd",
+        "measured_date": "2025-08-01"
+      }
     },
     {
       "brand": "Sony",
@@ -12413,7 +12520,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Sony",
@@ -12541,7 +12649,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Sony",
@@ -12750,7 +12859,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Sony",
@@ -12905,7 +13015,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Sony",
@@ -13114,7 +13225,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Sony",
@@ -13299,7 +13411,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "TCL",
@@ -13709,7 +13822,8 @@
             }
           ]
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "TCL",
@@ -14119,7 +14233,8 @@
             }
           ]
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "TCL",
@@ -14407,7 +14522,17 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": {
+        "peak_brightness_nits": 2752,
+        "fullscreen_nits": null,
+        "input_lag_ms": null,
+        "dci_p3_pct": 95.0,
+        "rec2020_pct": null,
+        "contrast": "6470:1",
+        "source": "rtings",
+        "measured_date": "2025-05-01"
+      }
     },
     {
       "brand": "TCL",
@@ -14565,7 +14690,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "TCL",
@@ -14792,7 +14918,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "TCL",
@@ -14951,7 +15078,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "TCL",
@@ -15266,7 +15394,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "TCL",
@@ -15460,7 +15589,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Xiaomi",
@@ -15668,7 +15798,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Xiaomi",
@@ -15826,7 +15957,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     },
     {
       "brand": "Xiaomi",
@@ -15954,7 +16086,8 @@
           ],
           "price_history": []
         }
-      ]
+      ],
+      "measurement": null
     }
   ]
 }
