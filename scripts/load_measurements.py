@@ -36,6 +36,7 @@ MEASURE: dict[str, tuple] = {
     "QM6K":   (700,  None, None, 90.0,  None, "7000:1", "2025-04-01", "reviews"),
     "QN80F":  (1106, 754,  None, 93.0,  None, None,     "2025-05-01", "techradar"),
     "QNED9M": (1400, None, None, 95.0,  None, None,     "2025-05-01", "reviews"),
+    "Q8F":    (1520, 420,  None, 93.0,  None, None,     "2025-06-01", "reviews"),
     # 2024
     "G4":     (1500, 235,  None, 97.5,  74.0, "inf",    "2024-04-01", "flatpanelshd"),
     "QN90D":  (2100, 800,  None, 90.0,  None, None,     "2024-05-01", "rtings"),
@@ -45,10 +46,16 @@ MEASURE: dict[str, tuple] = {
     "U8N":    (2629, 695,  None, 97.0,  83.0, None,     "2024-05-01", "avforums"),
     "X90L":   (1600, 800,  None, 94.0,  76.0, None,     "2024-05-01", "reviews"),
     "QM851G": (3583, None, None, 97.4,  None, None,     "2024-05-01", "rtings"),
+    "S90D":   (1015, 500,  None, 99.2,  95.0, "inf",    "2024-04-01", "reviews"),
+    "XR70":   (1456, 600,  None, 97.0,  None, None,     "2024-05-01", "avforums"),
+    "A80L":   (724,  None, None, 99.0,  None, "inf",    "2024-01-01", "reviews"),
+    "B4":     (659,  None, None, 97.0,  None, "inf",    "2024-04-01", "reviews"),
+    "U7N":    (1130, 658,  None, 96.0,  None, None,     "2024-05-01", "rtings"),
     # 2026
     "G6":     (2481, 471,  None, 99.7,  78.4, "inf",    "2026-03-01", "flatpanelshd"),
     "C6":     (1438, 236,  None, 99.7,  None, "inf",    "2026-03-01", "techradar"),
     "S95H":   (2704, 458,  None, 99.9,  None, "inf",    "2026-04-01", "reviews"),
+    "S90H":   (2450, None, None, 99.0,  None, "inf",    "2026-04-01", "reviews"),
 }
 
 
