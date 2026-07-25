@@ -115,6 +115,7 @@ launchctl kickstart -k gui/501/com.tvspecdb.web  # 재시작
 - [x] **인치 세분화(2025–2026)** — `model.size_variants_in INT[]`에 각 브랜드 공식 사이트 확인 제공 인치(`scripts/load_sizes.py`, 소스 주석). 33종 적재 **확인 27·추정 6**. 공식 확인 불가(Hisense U6Q·Huawei 3종·Xiaomi S-OLED/A-Pro)만 `estimated_fields`에 `size_variants_in` 표기.
 - [x] **삼성 2026 모델코드 정정(2026-07-25)** — QN990G→**QN990H**(85·98), S95G→**S95H**, QN90G→**QN80H**(QN90 라인 2026 단종 → 4K Neo QLED 최상위 QN80H). 골든셋·SKU·사이즈·비교맵 정합.
 - [x] **2026 삼성 라인업 보강** — S99H(프리미엄 QD-OLED)·S90H·S85H(WOLED)·QN70H(Neo QLED 4K) 추가 → 2026 삼성 7종, 전체 **62종**.
+- [x] **2026 released 스펙 완성(2026-07-26)**(`scripts/load_2026_specs.py`) — 발표시점 seed(announced)로 비어있던 삼성/LG 2026 OLED·Neo QLED 10종의 주사율·프로세서·밝기·게이밍·연결을 CES2026 이후 확정 실사양으로 채움(QN990H NQ8 Gen3·8K120/4K240·5×HDMI2.1, S99H 165Hz·48/83″WOLED, G6/C6 α11, B6 α8 Gen3 835nit). **2026 17종 스펙 100% 완비.**
 - [x] **인치별 variant 확장 + 가격**(`scripts/expand_variants.py`) — size_variants_in 기준 인치별 variant 생성(82→**267행**). 실제 판매 SKU 미상이라 **구성 SKU `{code}-{size}IN-{region}`**(estimated_fields에 `sku_full` 표기), 물리스펙은 사이즈별 보강. 공식 확인된 **US 인치별 MSRP**(QN90F·QM6K·QM7K, 18건) price_history 적재.
 - [x] **지역별 모델명 매핑**(`model_alias` 테이블, `scripts/build_aliases.py`) — Base_Model→Region_Model_Name. 실SKU(KR/US) + EPREL(EU) 자동 등재(105건). API `GET /api/aliases?model=`. 지역별 접미사 차이 통합의 기반.
 - [x] **사이즈별 세부 스펙 override**(`variant.panel_override`·`refresh_override`) — 같은 시리즈라도 사이즈마다 패널/주사율이 다른 경우(예: 삼성 S90 77/83″=WOLED, The Frame/Q8F 소형=60Hz)를 사이즈 단위로 기록. `scripts/load_size_overrides.py`.

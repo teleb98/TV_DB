@@ -1,6 +1,6 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-07-26T05:32:50.694222+09:00",
+  "generated_at": "2026-07-26T05:40:08.414219+09:00",
   "model_count": 90,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
@@ -51,19 +51,29 @@
       ],
       "model_code_base": "QN70H",
       "resolution": "4K",
-      "refresh_rate_native": null,
+      "refresh_rate_native": 120,
       "hdr_formats": [
         "HDR10+",
         "HLG"
       ],
-      "processor": null,
+      "processor": "NQ4 AI Gen2",
       "dimming": "mini-led",
-      "peak_brightness_nits": null,
+      "peak_brightness_nits": 750,
       "audio_channels": "2.2",
       "audio_output_w": 40,
       "smart_os_version": "Tizen 10.0",
-      "connectivity": null,
-      "gaming_features": null,
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "FreeSync Premium"
+      ],
       "size_variants_in": [
         43,
         50,
@@ -270,19 +280,30 @@
       ],
       "model_code_base": "QN80H",
       "resolution": "4K",
-      "refresh_rate_native": null,
+      "refresh_rate_native": 144,
       "hdr_formats": [
         "HDR10+",
         "HLG"
       ],
-      "processor": null,
+      "processor": "NQ4 AI Gen2",
       "dimming": "mini-led",
-      "peak_brightness_nits": null,
+      "peak_brightness_nits": 1100,
       "audio_channels": "4.2.2",
       "audio_output_w": 70,
       "smart_os_version": "Tizen 10.0",
-      "connectivity": null,
-      "gaming_features": null,
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "FreeSync Premium Pro",
+        "G-Sync"
+      ],
       "size_variants_in": [
         55,
         65,
@@ -460,19 +481,29 @@
       ],
       "model_code_base": "QN990H",
       "resolution": "8K",
-      "refresh_rate_native": null,
+      "refresh_rate_native": 165,
       "hdr_formats": [
         "HDR10+",
         "HLG"
       ],
-      "processor": null,
+      "processor": "NQ8 AI Gen3",
       "dimming": "mini-led",
-      "peak_brightness_nits": null,
+      "peak_brightness_nits": 2500,
       "audio_channels": "6.2.4",
       "audio_output_w": 90,
       "smart_os_version": "Tizen 10.0",
-      "connectivity": null,
-      "gaming_features": null,
+      "connectivity": [
+        "HDMI2.1 x5",
+        "eARC",
+        "WiFi6E",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "240Hz",
+        "FreeSync Premium Pro"
+      ],
       "size_variants_in": [
         85,
         98
@@ -940,19 +971,30 @@
       ],
       "model_code_base": "S85H",
       "resolution": "4K",
-      "refresh_rate_native": null,
+      "refresh_rate_native": 120,
       "hdr_formats": [
         "HDR10+",
         "HLG"
       ],
-      "processor": null,
+      "processor": "NQ4 AI Gen2",
       "dimming": "per-pixel",
-      "peak_brightness_nits": null,
+      "peak_brightness_nits": 800,
       "audio_channels": "2.0",
       "audio_output_w": 20,
       "smart_os_version": "Tizen 10.0",
-      "connectivity": null,
-      "gaming_features": null,
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "120Hz",
+        "FreeSync Premium",
+        "G-Sync"
+      ],
       "size_variants_in": [
         48,
         55,
@@ -1125,19 +1167,29 @@
       ],
       "model_code_base": "S90H",
       "resolution": "4K",
-      "refresh_rate_native": null,
+      "refresh_rate_native": 165,
       "hdr_formats": [
         "HDR10+",
         "HLG"
       ],
-      "processor": null,
+      "processor": "NQ4 AI Gen3",
       "dimming": "per-pixel",
-      "peak_brightness_nits": null,
+      "peak_brightness_nits": 2450,
       "audio_channels": "2.2",
       "audio_output_w": 40,
       "smart_os_version": "Tizen 10.0",
-      "connectivity": null,
-      "gaming_features": null,
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "165Hz",
+        "FreeSync Premium Pro"
+      ],
       "size_variants_in": [
         42,
         48,
@@ -1347,19 +1399,29 @@
       ],
       "model_code_base": "S95H",
       "resolution": "4K",
-      "refresh_rate_native": null,
+      "refresh_rate_native": 165,
       "hdr_formats": [
         "HDR10+",
         "HLG"
       ],
-      "processor": null,
+      "processor": "NQ4 AI Gen3",
       "dimming": "per-pixel",
-      "peak_brightness_nits": null,
+      "peak_brightness_nits": 2704,
       "audio_channels": "4.2.2",
       "audio_output_w": 70,
       "smart_os_version": "Tizen 10.0",
-      "connectivity": null,
-      "gaming_features": null,
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "165Hz",
+        "FreeSync Premium Pro"
+      ],
       "size_variants_in": [
         55,
         65,
@@ -1513,19 +1575,29 @@
       ],
       "model_code_base": "S99H",
       "resolution": "4K",
-      "refresh_rate_native": null,
+      "refresh_rate_native": 165,
       "hdr_formats": [
         "HDR10+",
         "HLG"
       ],
-      "processor": null,
+      "processor": "NQ4 AI Gen3",
       "dimming": "per-pixel",
-      "peak_brightness_nits": null,
+      "peak_brightness_nits": 2800,
       "audio_channels": "4.2.2",
       "audio_output_w": 70,
       "smart_os_version": "Tizen 10.0",
-      "connectivity": null,
-      "gaming_features": null,
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "165Hz",
+        "FreeSync Premium Pro"
+      ],
       "size_variants_in": [
         55,
         65,
@@ -10153,20 +10225,32 @@
       ],
       "model_code_base": "B6",
       "resolution": "4K",
-      "refresh_rate_native": null,
+      "refresh_rate_native": 120,
       "hdr_formats": [
         "Dolby Vision",
         "HDR10",
         "HLG"
       ],
-      "processor": null,
+      "processor": "α8 AI Gen3",
       "dimming": "per-pixel",
-      "peak_brightness_nits": null,
+      "peak_brightness_nits": 835,
       "audio_channels": "2.0",
       "audio_output_w": 20,
       "smart_os_version": "webOS 26",
-      "connectivity": null,
-      "gaming_features": null,
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "120Hz",
+        "G-Sync",
+        "FreeSync",
+        "Dolby Vision Gaming"
+      ],
       "size_variants_in": [
         48,
         55,
@@ -10314,7 +10398,16 @@
           "price_history": []
         }
       ],
-      "measurement": null,
+      "measurement": {
+        "peak_brightness_nits": 835,
+        "fullscreen_nits": null,
+        "input_lag_ms": null,
+        "dci_p3_pct": 99.0,
+        "rec2020_pct": null,
+        "contrast": "inf",
+        "source": "techradar",
+        "measured_date": "2026-05-01"
+      },
       "certification": null,
       "region_names": [
         {
@@ -10339,20 +10432,32 @@
       ],
       "model_code_base": "C6",
       "resolution": "4K",
-      "refresh_rate_native": null,
+      "refresh_rate_native": 144,
       "hdr_formats": [
         "Dolby Vision",
         "HDR10",
         "HLG"
       ],
-      "processor": null,
+      "processor": "α11 AI Gen2",
       "dimming": "per-pixel",
-      "peak_brightness_nits": null,
+      "peak_brightness_nits": 1438,
       "audio_channels": "2.2",
       "audio_output_w": 40,
       "smart_os_version": "webOS 26",
-      "connectivity": null,
-      "gaming_features": null,
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "G-Sync",
+        "FreeSync",
+        "Dolby Vision Gaming"
+      ],
       "size_variants_in": [
         42,
         48,
@@ -10562,20 +10667,32 @@
       ],
       "model_code_base": "G6",
       "resolution": "4K",
-      "refresh_rate_native": null,
+      "refresh_rate_native": 165,
       "hdr_formats": [
         "Dolby Vision",
         "HDR10",
         "HLG"
       ],
-      "processor": null,
+      "processor": "α11 AI Gen2",
       "dimming": "per-pixel",
-      "peak_brightness_nits": null,
+      "peak_brightness_nits": 2481,
       "audio_channels": "4.2",
       "audio_output_w": 60,
       "smart_os_version": "webOS 26",
-      "connectivity": null,
-      "gaming_features": null,
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "165Hz",
+        "G-Sync",
+        "FreeSync",
+        "Dolby Vision Gaming"
+      ],
       "size_variants_in": [
         55,
         65,

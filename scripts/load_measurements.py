@@ -56,6 +56,7 @@ MEASURE: dict[str, tuple] = {
     "G6":     (2481, 471,  None, 99.7,  78.4, "inf",    "2026-03-01", "flatpanelshd"),
     "C6":     (1438, 236,  None, 99.7,  None, "inf",    "2026-03-01", "techradar"),
     "S95H":   (2704, 458,  None, 99.9,  None, "inf",    "2026-04-01", "reviews"),
+    "B6":     (835,  None, None, 99.0,  None, "inf",    "2026-05-01", "techradar"),
     "S90H":   (2450, None, None, 99.0,  None, "inf",    "2026-04-01", "reviews"),
     "XR95II": (4250, None, None, 97.0,  90.0, None,     "2026-06-01", "reviews"),  # Bravia 9 II True RGB
 }
