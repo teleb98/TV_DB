@@ -70,9 +70,14 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "U8000H":  ([43, 50, 55, 58, 65, 70, 75, 85], True,  "samsung Crystal UHD U8000H 2026(43~85)"),
     "LS03H":   ([43, 50, 55, 65, 75, 85, 98],     True,  "samsung The Frame 2026 LS03H(43~98)"),
     "QM7L":    ([55, 65, 75, 85, 98],             True,  "RTINGS TCL QM7L 2026(55~98)"),
-    "QM6L":    ([50, 55, 65, 75, 85, 98],         False, "TCL QM6L 2026(세트 추정)"),
-    "U7SG":    ([55, 65, 75, 85, 100, 116],       False, "Hisense 2026 U7(55~116, 세트 추정)"),
-    "QNED85B": ([55, 65, 75, 86],                 False, "LG 2026 QNED85(세트 추정)"),
+    "QM6L":    ([50, 55, 65, 75, 85, 98],         False, "TCL QM6L 2026(FlatpanelsHD 등재, 세트 추정)"),
+    "U7SG":    ([55, 65, 75, 85, 100, 116],       False, "hisense-usa U7 2026(U7SG/U7SF, 55~116 세트 추정)"),
+    "QNED85B": ([65, 75, 86, 100],                True,  "lg.com 2026 QNED85(65/75/86/100)"),
+    # --- 공식 사이트 재확인 추가(2026) ---
+    "M70H":    ([43, 50, 55, 65, 75, 85],         True,  "samsung.com Mini LED M70H 2026(43~85)"),
+    "M80H":    ([55, 65, 75, 85],                 True,  "samsung.com Mini LED M80H 2026(55~85)"),
+    "U6SF":    ([55, 65, 75, 85, 100],            True,  "hisense-usa U6 2026(U6SF Pro, 55~100)"),
+    "QNED80B": ([50, 55, 65, 75, 85],             False, "lg.com 2026 QNED80(85 확인, 세트 추정)"),
     # --- 2024 주요 모델 인치(공식/RTINGS 확인) ---
     "QN90D":  ([43, 50, 55, 65, 75, 85, 98],      True,  "samsung QN90D 2024"),
     "QN900D": ([65, 75, 85],                      True,  "samsung QN900D 8K 2024"),
