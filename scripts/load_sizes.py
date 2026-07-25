@@ -51,6 +51,8 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "UA77":    ([50, 55, 65, 75, 86],             True,  "lg.com UA77 UHD(50~86)"),
     "QNED80A": ([50, 55, 65, 75, 86],             False, "lg.com QNED80A(50/75 확인, 세트 추정)"),
     "QD6QF":   ([43, 50, 55, 65, 75, 85, 100],    True,  "Best Buy/Hisense QD6QF Fire TV(43~100)"),
+    "S5":      ([43, 50, 55, 58, 65, 75, 85],     True,  "Best Buy/Amazon TCL S5 2025 4K LED(43~85)"),
+    "S30II":   ([43, 50, 55, 65, 75, 85, 98],     True,  "Sony BRAVIA 3 II(43~100, 7모델)"),
     # --- 2024 주요 모델 인치(공식/RTINGS 확인) ---
     "QN90D":  ([43, 50, 55, 65, 75, 85, 98],      True,  "samsung QN90D 2024"),
     "QN900D": ([65, 75, 85],                      True,  "samsung QN900D 8K 2024"),
@@ -80,7 +82,7 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     # --- Huawei 2025 (중국시장, DB 코드=큐레이션이라 실제 네이밍과 대응 불명확 → 미확정) ---
     "VisionX":  ([65, 75, 85, 98],                False, "Huawei Mini-LED 플래그십 계열 추정(코드 대응 미확정)"),
     "Vision5":  ([55, 65, 75, 85],                False, "Huawei Vision 5 계열 추정"),
-    "VisionSE": ([55, 65, 75],                    False, "Huawei Vision 5 SE 55/65/75 확인"),
+    "VisionSE": ([55, 65, 75],                    True,  "Huawei Vision Smart Screen 5 SE(Mini-LED 240Hz, 55/65/75)"),
     # --- Xiaomi 2025 ---
     "S-MiniLED": ([65, 75, 85, 100],              True,  "Xiaomi S Pro Mini LED 2025 65·75·85·100(확인)"),
     "S-OLED":    ([55, 65, 77],                   False, "Xiaomi OLED 글로벌 확인 제한(추정)"),
