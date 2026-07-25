@@ -45,6 +45,12 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "QN80F":  ([55, 65, 75, 85, 100],             True,  "samsung QN80F 2025 Neo QLED 4K(55~100)"),
     "Q8F":    ([43, 50, 55, 65, 75, 85],          True,  "reviews Samsung Q8F 2025(43~85)"),
     "QNED90A": ([55, 65, 75, 86],                 True,  "FlatpanelsHD LG QNED90A(55/65/75/86)"),
+    # --- 엔트리·미드 UHD/QLED(2025) ---
+    "Q6F":     ([55, 65, 75, 85],                 True,  "reviews Samsung Q6F 엔트리 QLED(55~85)"),
+    "U8000F":  ([43, 50, 55, 58, 65, 70, 75, 85], True,  "samsung Crystal UHD U8000F(43~85)"),
+    "UA77":    ([50, 55, 65, 75, 86],             True,  "lg.com UA77 UHD(50~86)"),
+    "QNED80A": ([50, 55, 65, 75, 86],             False, "lg.com QNED80A(50/75 확인, 세트 추정)"),
+    "QD6QF":   ([43, 50, 55, 65, 75, 85, 100],    True,  "Best Buy/Hisense QD6QF Fire TV(43~100)"),
     # --- 2024 주요 모델 인치(공식/RTINGS 확인) ---
     "QN90D":  ([43, 50, 55, 65, 75, 85, 98],      True,  "samsung QN90D 2024"),
     "QN900D": ([65, 75, 85],                      True,  "samsung QN900D 8K 2024"),
