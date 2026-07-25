@@ -52,7 +52,11 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "QNED80A": ([50, 55, 65, 75, 86],             False, "lg.com QNED80A(50/75 확인, 세트 추정)"),
     "QD6QF":   ([43, 50, 55, 65, 75, 85, 100],    True,  "Best Buy/Hisense QD6QF Fire TV(43~100)"),
     "S5":      ([43, 50, 55, 58, 65, 75, 85],     True,  "Best Buy/Amazon TCL S5 2025 4K LED(43~85)"),
-    "S30II":   ([43, 50, 55, 65, 75, 85, 98],     True,  "Sony BRAVIA 3 II(43~100, 7모델)"),
+    "XR30M2":  ([43, 50, 55, 65, 75, 85, 98],     True,  "Sony BRAVIA 3 II(K-xxXR30M2, 43~100)"),
+    "LS03HW":  ([65, 75, 85],                     True,  "samsung The Frame Pro LS03HW 2026(65/75/85)"),
+    "QNED84B": ([50, 55, 65, 75, 86, 100],        False, "amazon LG QNED84B 2026(50/65 확인, 세트 추정)"),
+    "QNED73B": ([50, 55, 65, 75, 86],             False, "amazon LG QNED73B 2026 Amazon Excl(50/65 확인, 추정)"),
+    "QNED92A": ([65, 75, 85, 97],                 False, "RTINGS LG QNED92A 2025 FALD(65/75/85, 세트 추정)"),
     # --- 추가 플래그십/누락 모델 ---
     "M5":      ([65, 77, 83, 97],                 True,  "lg.com OLED evo M5 무선(65~97)"),
     "QN95F":   ([55, 65, 75, 85],                 True,  "samsung QN95F 2025 EU 4K 플래그십(55~85)"),

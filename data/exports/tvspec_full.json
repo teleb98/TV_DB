@@ -1,7 +1,7 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-07-26T06:14:56.430969+09:00",
-  "model_count": 101,
+  "generated_at": "2026-07-26T06:19:56.931740+09:00",
+  "model_count": 105,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
     "estimated": {
@@ -285,6 +285,151 @@
         {
           "region": "US",
           "model_name": "QN65LS03HAFXZA",
+          "kind": "sku_root"
+        }
+      ],
+      "features": []
+    },
+    {
+      "brand": "삼성",
+      "lineup": "The Frame Pro",
+      "series_name": "LS03HW",
+      "year": 2026,
+      "panel_tech": "Neo-QLED",
+      "tier": "high",
+      "os": "Tizen",
+      "positioning": null,
+      "key_features": [
+        "Neo-QLED",
+        "120Hz",
+        "HDR10+",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "LS03HW",
+      "resolution": "4K",
+      "refresh_rate_native": 120,
+      "hdr_formats": [
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "NQ4 AI Gen3",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 1000,
+      "audio_channels": "2.2",
+      "audio_output_w": 40,
+      "smart_os_version": "Tizen 10.0",
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "FreeSync Premium"
+      ],
+      "size_variants_in": [
+        65,
+        75,
+        85
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "QN65LS03HWFXZA",
+          "size_inch": 65,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 170,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "LS03HW-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 200,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "LS03HW-85IN-US",
+          "size_inch": 85,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 29.5,
+          "power_w": 220,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "QN65LS03HWFXZA",
           "kind": "sku_root"
         }
       ],
@@ -12393,6 +12538,207 @@
     },
     {
       "brand": "LG",
+      "lineup": "QNED QNED73",
+      "series_name": "QNED73B",
+      "year": 2026,
+      "panel_tech": "Mini-LED",
+      "tier": "entry",
+      "os": "webOS",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "60Hz",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "QNED73B",
+      "resolution": "4K",
+      "refresh_rate_native": 60,
+      "hdr_formats": [
+        "HDR10",
+        "HLG"
+      ],
+      "processor": "α7 AI Gen3",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 500,
+      "audio_channels": "2.0",
+      "audio_output_w": 20,
+      "smart_os_version": "webOS 26",
+      "connectivity": [
+        "HDMI2.0 x3",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "ALLM",
+        "VRR"
+      ],
+      "size_variants_in": [
+        50,
+        55,
+        65,
+        75,
+        86
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w",
+        "size_variants_in"
+      ],
+      "variants": [
+        {
+          "sku_full": "QNED73B-50IN-US",
+          "size_inch": 50,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 17.5,
+          "power_w": 150,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QNED73B-55IN-US",
+          "size_inch": 55,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 19.0,
+          "power_w": 160,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "65QNED73BUA",
+          "size_inch": 65,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QNED73B-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QNED73B-86IN-US",
+          "size_inch": 86,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 30.0,
+          "power_w": 260,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "65QNED73BUA",
+          "kind": "sku_root"
+        }
+      ],
+      "features": []
+    },
+    {
+      "brand": "LG",
       "lineup": "QNED evo QNED80",
       "series_name": "QNED80B",
       "year": 2026,
@@ -12591,6 +12937,240 @@
         {
           "region": "US",
           "model_name": "65QNED80BUA",
+          "kind": "sku_root"
+        }
+      ],
+      "features": []
+    },
+    {
+      "brand": "LG",
+      "lineup": "QNED evo QNED84",
+      "series_name": "QNED84B",
+      "year": 2026,
+      "panel_tech": "Mini-LED",
+      "tier": "mid",
+      "os": "webOS",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "120Hz",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "QNED84B",
+      "resolution": "4K",
+      "refresh_rate_native": 120,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "processor": "α8 AI Gen3",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 900,
+      "audio_channels": "2.0",
+      "audio_output_w": 20,
+      "smart_os_version": "webOS 26",
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "120Hz",
+        "FreeSync"
+      ],
+      "size_variants_in": [
+        50,
+        55,
+        65,
+        75,
+        86,
+        100
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w",
+        "size_variants_in"
+      ],
+      "variants": [
+        {
+          "sku_full": "QNED84B-50IN-US",
+          "size_inch": 50,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 17.5,
+          "power_w": 150,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QNED84B-55IN-US",
+          "size_inch": 55,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 19.0,
+          "power_w": 160,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "65QNED84BUA",
+          "size_inch": 65,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QNED84B-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QNED84B-86IN-US",
+          "size_inch": 86,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 30.0,
+          "power_w": 260,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QNED84B-100IN-US",
+          "size_inch": 100,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 35.0,
+          "power_w": 300,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "65QNED84BUA",
           "kind": "sku_root"
         }
       ],
@@ -15134,6 +15714,192 @@
     },
     {
       "brand": "LG",
+      "lineup": "QNED evo QNED92A",
+      "series_name": "QNED92A",
+      "year": 2025,
+      "panel_tech": "Mini-LED",
+      "tier": "flagship",
+      "os": "webOS",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "144Hz",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "QNED92A",
+      "resolution": "4K",
+      "refresh_rate_native": 144,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "processor": "α8 AI Gen2",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 1520,
+      "audio_channels": "2.2",
+      "audio_output_w": 40,
+      "smart_os_version": "webOS 25",
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "G-Sync",
+        "FreeSync"
+      ],
+      "size_variants_in": [
+        65,
+        75,
+        85,
+        97
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w",
+        "size_variants_in"
+      ],
+      "variants": [
+        {
+          "sku_full": "65QNED92AUA",
+          "size_inch": 65,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QNED92A-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QNED92A-85IN-US",
+          "size_inch": 85,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QNED92A-97IN-US",
+          "size_inch": 97,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 34.0,
+          "power_w": 290,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": {
+        "peak_brightness_nits": 1450,
+        "fullscreen_nits": 770,
+        "input_lag_ms": null,
+        "dci_p3_pct": 97.0,
+        "rec2020_pct": null,
+        "contrast": null,
+        "source": "reviews",
+        "measured_date": "2025-05-01"
+      },
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "65QNED92AUA",
+          "kind": "sku_root"
+        }
+      ],
+      "features": []
+    },
+    {
+      "brand": "LG",
       "lineup": "QNED evo",
       "series_name": "QNED9M",
       "year": 2025,
@@ -16829,7 +17595,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
-      "model_code_base": "S30II",
+      "model_code_base": "XR30M2",
       "resolution": "4K",
       "refresh_rate_native": 120,
       "hdr_formats": [
@@ -16869,7 +17635,7 @@
       ],
       "variants": [
         {
-          "sku_full": "S30II-43IN-US",
+          "sku_full": "XR30M2-43IN-US",
           "size_inch": 43,
           "region": "US",
           "color": "Black",
@@ -16897,7 +17663,7 @@
           "price_history": []
         },
         {
-          "sku_full": "S30II-50IN-US",
+          "sku_full": "XR30M2-50IN-US",
           "size_inch": 50,
           "region": "US",
           "color": "Black",
@@ -16925,7 +17691,7 @@
           "price_history": []
         },
         {
-          "sku_full": "S30II-55IN-US",
+          "sku_full": "XR30M2-55IN-US",
           "size_inch": 55,
           "region": "US",
           "color": "Black",
@@ -16953,7 +17719,7 @@
           "price_history": []
         },
         {
-          "sku_full": "K-65S30M2",
+          "sku_full": "K-65XR30M2",
           "size_inch": 65,
           "region": "US",
           "color": "Black",
@@ -16980,7 +17746,7 @@
           "price_history": []
         },
         {
-          "sku_full": "S30II-75IN-US",
+          "sku_full": "XR30M2-75IN-US",
           "size_inch": 75,
           "region": "US",
           "color": "Black",
@@ -17008,7 +17774,7 @@
           "price_history": []
         },
         {
-          "sku_full": "S30II-85IN-US",
+          "sku_full": "XR30M2-85IN-US",
           "size_inch": 85,
           "region": "US",
           "color": "Black",
@@ -17036,7 +17802,7 @@
           "price_history": []
         },
         {
-          "sku_full": "S30II-98IN-US",
+          "sku_full": "XR30M2-98IN-US",
           "size_inch": 98,
           "region": "US",
           "color": "Black",
@@ -17070,6 +17836,11 @@
         {
           "region": "US",
           "model_name": "K-65S30M2",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "K-65XR30M2",
           "kind": "sku_root"
         }
       ],
