@@ -55,6 +55,8 @@ INDEX = {
         "GET /api/price/trend?sku=&region=": "SKU 가격 이력",
         "GET /api/measurements?model=QN90F": "RTINGS 등 실측 성능(밝기·입력랙·색재현·명암비)",
         "GET /api/certification?model=S90F": "EPREL 에너지등급·소비전력(SDR/HDR)·EU 모델명",
+        "GET /api/by_os?os=webOS": "OS별 모델(Tizen/webOS/Google-TV/VIDAA/Fire-TV/HarmonyOS)+버전",
+        "GET /api/aliases?model=QN90F": "지역별 모델명(KR/US/EU SKU) 매핑",
     },
     "search_vocab": {
         "panel": ["WOLED", "QD-OLED", "Neo-QLED", "Mini-LED", "LED-LCD"],
@@ -118,6 +120,33 @@ def measurements(code):
         return cur.fetchall()
 
 
+def by_os(os_name):
+    like = f"%{os_name}%" if os_name else None
+    with _conn() as c:
+        cur = c.cursor()
+        cur.execute("""
+            select s.os, m.smart_os_version os_version, b.name brand,
+                   s.generation_year yr, s.marketing_name lineup, m.model_code_base code
+            from model m join series s on m.series_id=s.series_id
+            join brand b on s.brand_id=b.brand_id
+            where (%s::text is null or s.os::text ilike %s)
+            order by s.os::text, s.generation_year desc, b.name
+        """, (os_name, like))
+        return cur.fetchall()
+
+
+def aliases(code):
+    with _conn() as c:
+        cur = c.cursor()
+        cur.execute("""
+            select m.model_code_base, a.region, a.model_name, a.kind
+            from model_alias a join model m on a.model_id=m.model_id
+            where (%s::text is null or m.model_code_base=%s)
+            order by m.model_code_base, a.region, a.kind
+        """, (code, code))
+        return cur.fetchall()
+
+
 def certification(code):
     with _conn() as c:
         cur = c.cursor()
@@ -164,6 +193,10 @@ def route(path: str, qs: dict):
         return 200, measurements(g("model"))
     if path == "/api/certification":
         return 200, certification(g("model"))
+    if path == "/api/by_os":
+        return 200, by_os(g("os"))
+    if path == "/api/aliases":
+        return 200, aliases(g("model"))
     if path == "/api/lineup":
         if not g("brand"):
             return 400, {"error": "brand 파라미터 필요"}

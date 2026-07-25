@@ -116,6 +116,9 @@ launchctl kickstart -k gui/501/com.tvspecdb.web  # 재시작
 - [x] **삼성 2026 모델코드 정정(2026-07-25)** — QN990G→**QN990H**(85·98), S95G→**S95H**, QN90G→**QN80H**(QN90 라인 2026 단종 → 4K Neo QLED 최상위 QN80H). 골든셋·SKU·사이즈·비교맵 정합.
 - [x] **2026 삼성 라인업 보강** — S99H(프리미엄 QD-OLED)·S90H·S85H(WOLED)·QN70H(Neo QLED 4K) 추가 → 2026 삼성 7종, 전체 **62종**.
 - [x] **인치별 variant 확장 + 가격**(`scripts/expand_variants.py`) — size_variants_in 기준 인치별 variant 생성(82→**267행**). 실제 판매 SKU 미상이라 **구성 SKU `{code}-{size}IN-{region}`**(estimated_fields에 `sku_full` 표기), 물리스펙은 사이즈별 보강. 공식 확인된 **US 인치별 MSRP**(QN90F·QM6K·QM7K, 18건) price_history 적재.
+- [x] **지역별 모델명 매핑**(`model_alias` 테이블, `scripts/build_aliases.py`) — Base_Model→Region_Model_Name. 실SKU(KR/US) + EPREL(EU) 자동 등재(105건). API `GET /api/aliases?model=`. 지역별 접미사 차이 통합의 기반.
+- [x] **사이즈별 세부 스펙 override**(`variant.panel_override`·`refresh_override`) — 같은 시리즈라도 사이즈마다 패널/주사율이 다른 경우(예: 삼성 S90 77/83″=WOLED, The Frame/Q8F 소형=60Hz)를 사이즈 단위로 기록. `scripts/load_size_overrides.py`.
+- [x] **OS 필터**(API `GET /api/by_os?os=`) — Tizen/webOS/Google-TV/VIDAA/Fire-TV/HarmonyOS + 버전(smart_os_version)으로 필터·비교.
 - [x] **인증/에너지(EPREL)**(`certification` 테이블, `scripts/load_certification.py`) — EU 에너지효율 등록DB 기반 에너지등급(SDR/HDR)·소비전력(W)·**EU 정식 모델명(파생 SKU 매핑)**. 6종(S90F·S95F·G5·XR80II·U8Q·QN90D). API `GET /api/certification?model=`. ※FCC·RRA(한국)는 직접조회 제약으로 컬럼만 준비.
 - [x] **엔트리 모델 스펙 정밀 보강** — Q6F·Q7F·U8000F·UA77·QNED80A·QD6QF·S5·BRAVIA 2 II의 로컬디밍(Q7F edge-lit)·HDR 포맷(HDR10 보강)·HDMI 포트수(4포트 정정)·VRR 유무(BRAVIA 2 II VRR 제거)·프로세서를 공식/RTINGS 사양으로 정정.
 - [x] **온라인몰 실판매가**(`scripts/load_retail_prices.py`) — WebSearch(2026-07) 확인가로 멀티채널 price_history 적재: **bestbuy·walmart·amazon**(+official-msrp). LG C5/G5·Sony 8 II·TCL QM8K·Hisense U8 등.

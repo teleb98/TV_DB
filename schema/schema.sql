@@ -79,6 +79,8 @@ CREATE TABLE variant (
     currency            TEXT DEFAULT 'KRW',
     availability        TEXT,                    -- 'in_stock','eol','preorder'
     source_url          TEXT,
+    panel_override      panel_tech,              -- 이 사이즈의 실제 패널(모델 기본과 다를 때, 예: S90 대형 WOLED)
+    refresh_override    INT,                     -- 이 사이즈의 실제 주사율(예: 소형 60Hz)
     estimated_fields    TEXT[],                  -- 규칙기반 추정치인 컬럼명 목록. 예: {weight_kg,power_w,local_dimming_zones,color,stand_type}
     updated_at          TIMESTAMPTZ DEFAULT now(),
     UNIQUE (sku_full, region)
@@ -168,6 +170,18 @@ CREATE TABLE certification (
     source           TEXT DEFAULT 'eprel',
     updated_at       TIMESTAMPTZ DEFAULT now()
 );
+
+-- ---------- 12. Model_Alias (지역별 모델명 매핑; Base_Model → Region_Model_Name) ----------
+CREATE TABLE model_alias (
+    id         BIGSERIAL PRIMARY KEY,
+    model_id   INT NOT NULL REFERENCES model(model_id) ON DELETE CASCADE,
+    region     TEXT NOT NULL,          -- KR/US/EU/Global
+    model_name TEXT NOT NULL,          -- 지역 모델명/SKU 루트
+    kind       TEXT DEFAULT 'sku_root',-- sku_root / eprel / marketing
+    UNIQUE (model_id, region, model_name)
+);
+CREATE INDEX idx_alias_model ON model_alias(model_id);
+CREATE INDEX idx_alias_name  ON model_alias(model_name);
 
 -- ---------- 인덱스 ----------
 CREATE INDEX idx_queue_due  ON crawl_queue(status, next_due);

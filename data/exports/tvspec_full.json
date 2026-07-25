@@ -1,6 +1,6 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-07-25T23:51:08.601783+09:00",
+  "generated_at": "2026-07-25T23:55:39.528184+09:00",
   "model_count": 79,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
@@ -84,6 +84,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 15.0,
           "power_w": 110,
           "local_dimming_zones": 512,
@@ -110,6 +112,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 130,
           "local_dimming_zones": 512,
@@ -136,6 +140,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": 512,
@@ -162,6 +168,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 512,
@@ -187,6 +195,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -213,6 +223,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -234,7 +246,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65QN70HXKR",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -283,6 +302,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": 1344,
@@ -309,6 +330,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 1344,
@@ -334,6 +357,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -360,6 +385,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -386,6 +413,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 35.0,
           "power_w": 260,
           "local_dimming_zones": 1344,
@@ -407,7 +436,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65QN80HXKR",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -453,6 +489,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -478,6 +516,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 250,
           "local_dimming_zones": 1344,
@@ -499,7 +539,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ85QN990HXKR",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -548,6 +595,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 14.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -573,6 +622,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -598,6 +649,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -622,6 +675,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -647,6 +702,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -667,7 +724,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65S85HXKR",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -717,6 +781,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 12.0,
           "power_w": 100,
           "local_dimming_zones": null,
@@ -742,6 +808,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 14.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -767,6 +835,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -792,6 +862,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -816,6 +888,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -841,6 +915,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -870,7 +946,14 @@
         "source": "reviews",
         "measured_date": "2026-04-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65S90HXKR",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -918,6 +1001,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -943,6 +1028,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -967,6 +1054,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 21.5,
           "power_w": 170,
           "local_dimming_zones": null,
@@ -992,6 +1081,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -1021,7 +1112,14 @@
         "source": "reviews",
         "measured_date": "2026-04-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65S95HXKR",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -1069,6 +1167,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -1094,6 +1194,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -1118,6 +1220,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -1143,6 +1247,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": "WOLED",
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -1163,7 +1269,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65S99HXKR",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -1226,6 +1339,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": 60,
           "weight_kg": 11.0,
           "power_w": 80,
           "local_dimming_zones": null,
@@ -1251,6 +1366,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": 60,
           "weight_kg": 15.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -1276,6 +1393,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": 60,
           "weight_kg": 17.5,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -1301,6 +1420,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": null,
@@ -1326,6 +1447,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": null,
@@ -1350,6 +1473,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": null,
@@ -1375,6 +1500,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": null,
@@ -1395,7 +1522,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "QN65LS03FAFXZA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -1452,6 +1586,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": null,
@@ -1477,6 +1613,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": null,
@@ -1501,6 +1639,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": null,
@@ -1526,6 +1666,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": null,
@@ -1546,7 +1688,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "QN65Q6FAFXZA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -1606,6 +1755,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 15.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -1631,6 +1782,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -1656,6 +1809,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": null,
@@ -1681,6 +1836,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": null,
@@ -1705,6 +1862,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": null,
@@ -1730,6 +1889,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": null,
@@ -1755,6 +1916,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 250,
           "local_dimming_zones": null,
@@ -1775,7 +1938,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "QN65Q7FAFXZA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -1837,6 +2007,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": 60,
           "weight_kg": 15.0,
           "power_w": 110,
           "local_dimming_zones": 48,
@@ -1863,6 +2035,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": 60,
           "weight_kg": 17.5,
           "power_w": 130,
           "local_dimming_zones": 48,
@@ -1889,6 +2063,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": 48,
@@ -1915,6 +2091,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 48,
@@ -1940,6 +2118,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 48,
@@ -1966,6 +2146,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 48,
@@ -1996,7 +2178,14 @@
         "source": "reviews",
         "measured_date": "2025-06-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "QN65Q8FAFXZA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -2055,6 +2244,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 512,
@@ -2080,6 +2271,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -2106,6 +2299,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -2127,7 +2322,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65QNF800FXKR",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -2188,6 +2390,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": 256,
@@ -2214,6 +2418,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 256,
@@ -2239,6 +2445,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 256,
@@ -2265,6 +2473,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 256,
@@ -2291,6 +2501,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 35.0,
           "power_w": 260,
           "local_dimming_zones": 256,
@@ -2321,7 +2533,14 @@
         "source": "techradar",
         "measured_date": "2025-05-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65QNF80FXKR",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -2381,6 +2600,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": 512,
@@ -2407,6 +2628,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 512,
@@ -2432,6 +2655,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -2458,6 +2683,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -2488,7 +2715,14 @@
         "source": "choose.tv",
         "measured_date": "2025-05-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65QNF85FXKR",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -2553,6 +2787,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 15.0,
           "power_w": 110,
           "local_dimming_zones": 1344,
@@ -2579,6 +2815,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 130,
           "local_dimming_zones": 1344,
@@ -2605,6 +2843,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": 1344,
@@ -2631,6 +2871,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 1344,
@@ -2663,6 +2905,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -2689,6 +2933,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -2715,6 +2961,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 250,
           "local_dimming_zones": 1344,
@@ -2741,6 +2989,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 40.0,
           "power_w": 300,
           "local_dimming_zones": 1344,
@@ -2767,6 +3017,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 15.0,
           "power_w": 110,
           "local_dimming_zones": 1344,
@@ -2793,6 +3045,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 130,
           "local_dimming_zones": 1344,
@@ -2826,6 +3080,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": 1344,
@@ -2859,6 +3115,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 1344,
@@ -2903,6 +3161,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -2936,6 +3196,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -2962,6 +3224,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 250,
           "local_dimming_zones": 1344,
@@ -2995,6 +3259,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 40.0,
           "power_w": 300,
           "local_dimming_zones": 1344,
@@ -3032,7 +3298,19 @@
         "source": "rtings",
         "measured_date": "2025-05-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65QNF90FXKR",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "QN65QN90FAFXZA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -3093,6 +3371,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 1344,
@@ -3118,6 +3398,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -3144,6 +3426,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -3170,6 +3454,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 250,
           "local_dimming_zones": 1344,
@@ -3200,7 +3486,14 @@
         "source": "reviews",
         "measured_date": "2025-05-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65QNF990FXKR",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -3262,6 +3555,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 12.0,
           "power_w": 100,
           "local_dimming_zones": null,
@@ -3287,6 +3582,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 14.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -3312,6 +3609,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -3337,6 +3636,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -3361,6 +3662,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": "WOLED",
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -3386,6 +3689,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": "WOLED",
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -3411,6 +3716,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 12.0,
           "power_w": 100,
           "local_dimming_zones": null,
@@ -3436,6 +3743,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 14.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -3461,6 +3770,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -3486,6 +3797,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -3510,6 +3823,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": "WOLED",
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -3535,6 +3850,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": "WOLED",
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -3573,7 +3890,24 @@
         "fcc_id": null,
         "rra_id": null,
         "source": "eprel"
-      }
+      },
+      "region_names": [
+        {
+          "region": "EU",
+          "model_name": "QE65S90FAT",
+          "kind": "eprel"
+        },
+        {
+          "region": "KR",
+          "model_name": "KQ65SF90FXKR",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "QN65S90FAFXZA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -3634,6 +3968,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -3659,6 +3995,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -3702,6 +4040,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -3727,6 +4067,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -3752,6 +4094,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -3777,6 +4121,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -3814,6 +4160,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -3839,6 +4187,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -3877,7 +4227,24 @@
         "fcc_id": null,
         "rra_id": null,
         "source": "eprel"
-      }
+      },
+      "region_names": [
+        {
+          "region": "EU",
+          "model_name": "QE65S95FAT",
+          "kind": "eprel"
+        },
+        {
+          "region": "KR",
+          "model_name": "KQ65SF95FXKR",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "QN65S95FAFXZA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -3938,6 +4305,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 15.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -3963,6 +4332,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -3988,6 +4359,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": null,
@@ -4013,6 +4386,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 20.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -4038,6 +4413,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": null,
@@ -4062,6 +4439,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.5,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -4087,6 +4466,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": null,
@@ -4112,6 +4493,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": null,
@@ -4132,7 +4515,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "UN65U8000FFXZA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -4184,6 +4574,8 @@
           "color": "Titan Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": null,
@@ -4203,7 +4595,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KU65DU8000FXKR",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -4262,6 +4661,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 512,
@@ -4287,6 +4688,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -4313,6 +4716,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -4334,7 +4739,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65QNA800DXKR",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -4394,6 +4806,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": 512,
@@ -4420,6 +4834,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 512,
@@ -4445,6 +4861,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -4471,6 +4889,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -4492,7 +4912,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65QNA85DXKR",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -4552,6 +4979,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 1344,
@@ -4584,6 +5013,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -4610,6 +5041,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -4636,6 +5069,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 1344,
@@ -4661,6 +5096,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -4687,6 +5124,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -4708,7 +5147,19 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65QNA900DXKR",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "QN65QN900DAFXZA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -4772,6 +5223,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 15.0,
           "power_w": 110,
           "local_dimming_zones": 1344,
@@ -4798,6 +5251,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 130,
           "local_dimming_zones": 1344,
@@ -4824,6 +5279,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": 1344,
@@ -4850,6 +5307,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 1344,
@@ -4888,6 +5347,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -4914,6 +5375,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -4940,6 +5403,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 250,
           "local_dimming_zones": 1344,
@@ -4966,6 +5431,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 15.0,
           "power_w": 110,
           "local_dimming_zones": 1344,
@@ -4992,6 +5459,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 130,
           "local_dimming_zones": 1344,
@@ -5018,6 +5487,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": 1344,
@@ -5044,6 +5515,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 1344,
@@ -5069,6 +5542,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -5095,6 +5570,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -5121,6 +5598,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 250,
           "local_dimming_zones": 1344,
@@ -5160,7 +5639,24 @@
         "fcc_id": null,
         "rra_id": null,
         "source": "eprel"
-      }
+      },
+      "region_names": [
+        {
+          "region": "EU",
+          "model_name": "QE65QN90DAT",
+          "kind": "eprel"
+        },
+        {
+          "region": "KR",
+          "model_name": "KQ65QNA90DXKR",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "QN65QN90DAFXZA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -5222,6 +5718,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": "WOLED",
+          "refresh_override": null,
           "weight_kg": 12.0,
           "power_w": 100,
           "local_dimming_zones": null,
@@ -5247,6 +5745,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": "WOLED",
+          "refresh_override": null,
           "weight_kg": 14.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -5272,6 +5772,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -5297,6 +5799,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -5321,6 +5825,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": "WOLED",
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -5346,6 +5852,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": "WOLED",
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -5375,7 +5883,14 @@
         "source": "reviews",
         "measured_date": "2024-04-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65SD90DXKR",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -5434,6 +5949,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -5459,6 +5976,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -5496,6 +6015,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -5521,6 +6042,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -5546,6 +6069,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -5570,6 +6095,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -5599,7 +6126,19 @@
         "source": "avforums",
         "measured_date": "2024-04-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65SD95DXKR",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "QN65S95DAFXZA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -5655,6 +6194,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 1344,
@@ -5675,7 +6216,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65QNC95CFXKR",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "삼성",
@@ -5730,6 +6278,8 @@
           "color": "Titan Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -5749,7 +6299,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "KQ65SC95CFXKR",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Hisense",
@@ -5810,6 +6367,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 15.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -5835,6 +6394,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -5860,6 +6421,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": null,
@@ -5885,6 +6448,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": null,
@@ -5909,6 +6474,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": null,
@@ -5934,6 +6501,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": null,
@@ -5959,6 +6528,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 35.0,
           "power_w": 260,
           "local_dimming_zones": null,
@@ -5979,7 +6550,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "65QD6QF",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Hisense",
@@ -6043,6 +6621,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 256,
@@ -6069,6 +6649,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 256,
@@ -6094,6 +6676,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 256,
@@ -6120,6 +6704,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 256,
@@ -6146,6 +6732,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 35.0,
           "power_w": 300,
           "local_dimming_zones": 256,
@@ -6176,7 +6764,14 @@
         "source": "reviews",
         "measured_date": "2025-06-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "65U6QG",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Hisense",
@@ -6240,6 +6835,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 512,
@@ -6266,6 +6863,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -6291,6 +6890,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -6317,6 +6918,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 512,
@@ -6343,6 +6946,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 35.0,
           "power_w": 300,
           "local_dimming_zones": 512,
@@ -6369,6 +6974,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 512,
@@ -6395,6 +7002,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": "Google-TV",
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -6420,6 +7029,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -6446,6 +7057,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 512,
@@ -6472,6 +7085,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 35.0,
           "power_w": 300,
           "local_dimming_zones": 512,
@@ -6502,7 +7117,19 @@
         "source": "reviews",
         "measured_date": "2025-06-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "65U7QG",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "65U7QG",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Hisense",
@@ -6566,6 +7193,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 1344,
@@ -6592,6 +7221,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -6624,6 +7255,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -6650,6 +7283,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 1344,
@@ -6676,6 +7311,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 35.0,
           "power_w": 300,
           "local_dimming_zones": 1344,
@@ -6702,6 +7339,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 1344,
@@ -6728,6 +7367,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": "Google-TV",
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -6766,6 +7407,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -6799,6 +7442,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 1344,
@@ -6825,6 +7470,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 35.0,
           "power_w": 300,
           "local_dimming_zones": 1344,
@@ -6864,7 +7511,24 @@
         "fcc_id": null,
         "rra_id": null,
         "source": "eprel"
-      }
+      },
+      "region_names": [
+        {
+          "region": "EU",
+          "model_name": "75U8QxxUK(EU)",
+          "kind": "eprel"
+        },
+        {
+          "region": "KR",
+          "model_name": "65U8QG",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "65U8QG",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Hisense",
@@ -6925,6 +7589,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 35.0,
           "power_w": 300,
           "local_dimming_zones": 1344,
@@ -6951,6 +7617,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 40.5,
           "power_w": 350,
           "local_dimming_zones": 1344,
@@ -6971,7 +7639,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "116UX",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Hisense",
@@ -7031,6 +7706,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 150,
           "local_dimming_zones": 256,
@@ -7057,6 +7734,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 256,
@@ -7083,6 +7762,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 256,
@@ -7108,6 +7789,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 256,
@@ -7134,6 +7817,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 256,
@@ -7155,7 +7840,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "65U6N",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Hisense",
@@ -7219,6 +7911,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 512,
@@ -7245,6 +7939,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -7270,6 +7966,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -7296,6 +7994,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 512,
@@ -7322,6 +8022,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 35.0,
           "power_w": 300,
           "local_dimming_zones": 512,
@@ -7352,7 +8054,14 @@
         "source": "rtings",
         "measured_date": "2024-05-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "65U7N",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Hisense",
@@ -7416,6 +8125,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 1344,
@@ -7442,6 +8153,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -7474,6 +8187,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -7500,6 +8215,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 1344,
@@ -7526,6 +8243,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 35.0,
           "power_w": 300,
           "local_dimming_zones": 1344,
@@ -7552,6 +8271,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 1344,
@@ -7578,6 +8299,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": "Google-TV",
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -7603,6 +8326,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -7629,6 +8354,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 1344,
@@ -7655,6 +8382,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 35.0,
           "power_w": 300,
           "local_dimming_zones": 1344,
@@ -7685,7 +8414,19 @@
         "source": "avforums",
         "measured_date": "2024-05-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "65U8N",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "65U8N",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Hisense",
@@ -7742,6 +8483,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -7762,7 +8505,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "65U8K",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Huawei",
@@ -7821,6 +8571,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 256,
@@ -7847,6 +8599,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 256,
@@ -7872,6 +8626,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 256,
@@ -7898,6 +8654,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 256,
@@ -7919,7 +8677,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "Global",
+          "model_name": "HW-VISION5-65",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Huawei",
@@ -7975,6 +8740,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": 48,
@@ -8001,6 +8768,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 48,
@@ -8026,6 +8795,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 48,
@@ -8047,7 +8818,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "Global",
+          "model_name": "HW-VISIONSE-65",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Huawei",
@@ -8106,6 +8884,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -8131,6 +8911,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -8157,6 +8939,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 512,
@@ -8183,6 +8967,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 290,
           "local_dimming_zones": 512,
@@ -8204,7 +8990,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "Global",
+          "model_name": "HW-VISIONX-65",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -8254,6 +9047,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 14.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -8279,6 +9074,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -8304,6 +9101,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -8328,6 +9127,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -8353,6 +9154,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -8373,7 +9176,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "OLED65B6KNA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -8424,6 +9234,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 12.0,
           "power_w": 100,
           "local_dimming_zones": null,
@@ -8449,6 +9261,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 14.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -8474,6 +9288,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -8499,6 +9315,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -8523,6 +9341,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -8548,6 +9368,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -8577,7 +9399,14 @@
         "source": "techradar",
         "measured_date": "2026-03-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "OLED65C6KNA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -8627,6 +9456,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -8652,6 +9483,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -8676,6 +9509,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -8701,6 +9536,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -8726,6 +9563,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 28.0,
           "power_w": 220,
           "local_dimming_zones": null,
@@ -8755,7 +9594,14 @@
         "source": "flatpanelshd",
         "measured_date": "2026-03-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "OLED65G6KNA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -8819,6 +9665,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 14.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -8844,6 +9692,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -8869,6 +9719,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -8893,6 +9745,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -8918,6 +9772,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -8943,6 +9799,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 14.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -8968,6 +9826,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -8993,6 +9853,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -9017,6 +9879,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -9042,6 +9906,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -9071,7 +9937,19 @@
         "source": "techradar",
         "measured_date": "2025-05-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "OLED65B5KNA",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "OLED65B5PUA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -9136,6 +10014,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 12.0,
           "power_w": 100,
           "local_dimming_zones": null,
@@ -9161,6 +10041,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 14.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -9186,6 +10068,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -9211,6 +10095,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -9235,6 +10121,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -9260,6 +10148,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -9285,6 +10175,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 12.0,
           "power_w": 100,
           "local_dimming_zones": null,
@@ -9310,6 +10202,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 14.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -9335,6 +10229,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -9360,6 +10256,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -9397,6 +10295,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -9422,6 +10322,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -9451,7 +10353,19 @@
         "source": "flatpanelshd",
         "measured_date": "2025-04-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "OLED65C5KNA",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "OLED65C5PUA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -9516,6 +10430,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -9541,6 +10457,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -9578,6 +10496,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -9603,6 +10523,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -9628,6 +10550,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 28.0,
           "power_w": 220,
           "local_dimming_zones": null,
@@ -9653,6 +10577,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -9678,6 +10604,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -9721,6 +10649,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -9746,6 +10676,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -9771,6 +10703,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 28.0,
           "power_w": 220,
           "local_dimming_zones": null,
@@ -9809,7 +10743,24 @@
         "fcc_id": null,
         "rra_id": null,
         "source": "eprel"
-      }
+      },
+      "region_names": [
+        {
+          "region": "EU",
+          "model_name": "OLED65G51LW",
+          "kind": "eprel"
+        },
+        {
+          "region": "KR",
+          "model_name": "OLED65G5KNA",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "OLED65G5WUA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -9870,6 +10821,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -9895,6 +10848,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": null,
@@ -9920,6 +10875,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": null,
@@ -9944,6 +10901,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": null,
@@ -9969,6 +10928,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 30.0,
           "power_w": 220,
           "local_dimming_zones": null,
@@ -9989,7 +10950,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "65QNED80ARA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -10052,6 +11020,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 150,
           "local_dimming_zones": 512,
@@ -10078,6 +11048,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 512,
@@ -10104,6 +11076,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -10129,6 +11103,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -10155,6 +11131,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 30.0,
           "power_w": 260,
           "local_dimming_zones": 512,
@@ -10181,6 +11159,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 35.0,
           "power_w": 300,
           "local_dimming_zones": 512,
@@ -10202,7 +11182,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "65QNED85AUA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -10263,6 +11250,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 512,
@@ -10289,6 +11278,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -10314,6 +11305,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -10340,6 +11333,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 30.0,
           "power_w": 260,
           "local_dimming_zones": 512,
@@ -10361,7 +11356,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "65QNED90AUA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -10423,6 +11425,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -10448,6 +11452,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -10474,6 +11480,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 30.0,
           "power_w": 260,
           "local_dimming_zones": 512,
@@ -10504,7 +11512,14 @@
         "source": "reviews",
         "measured_date": "2025-05-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "65QNED9MKA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -10562,6 +11577,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -10587,6 +11604,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": null,
@@ -10612,6 +11631,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": null,
@@ -10636,6 +11657,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": null,
@@ -10661,6 +11684,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 30.0,
           "power_w": 220,
           "local_dimming_zones": null,
@@ -10681,7 +11706,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "65UA7700PUA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -10745,6 +11777,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 14.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -10770,6 +11804,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -10795,6 +11831,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -10819,6 +11857,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -10844,6 +11884,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -10873,7 +11915,14 @@
         "source": "reviews",
         "measured_date": "2024-04-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "OLED65B4KNA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -10938,6 +11987,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 12.0,
           "power_w": 100,
           "local_dimming_zones": null,
@@ -10963,6 +12014,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 14.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -10988,6 +12041,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -11013,6 +12068,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -11044,6 +12101,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -11069,6 +12128,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -11094,6 +12155,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 12.0,
           "power_w": 100,
           "local_dimming_zones": null,
@@ -11119,6 +12182,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 14.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -11144,6 +12209,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -11169,6 +12236,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -11193,6 +12262,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -11218,6 +12289,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -11247,7 +12320,19 @@
         "source": "flatpanelshd",
         "measured_date": "2024-04-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "OLED65C4KNA",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "OLED65C4PUA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -11311,6 +12396,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -11336,6 +12423,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -11373,6 +12462,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -11398,6 +12489,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -11423,6 +12516,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 28.0,
           "power_w": 220,
           "local_dimming_zones": null,
@@ -11448,6 +12543,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -11473,6 +12570,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -11497,6 +12596,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -11522,6 +12623,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -11547,6 +12650,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 28.0,
           "power_w": 220,
           "local_dimming_zones": null,
@@ -11576,7 +12681,19 @@
         "source": "flatpanelshd",
         "measured_date": "2024-04-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "OLED65G4KNA",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "OLED65G4WUA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -11632,6 +12749,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": null,
@@ -11651,7 +12770,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "65QNED80TKA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -11709,6 +12835,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -11729,7 +12857,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "65QNED90TKA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -11787,6 +12922,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -11806,7 +12943,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "OLED65C3KNA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "LG",
@@ -11864,6 +13008,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -11883,7 +13029,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "OLED65G3KNA",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Sony",
@@ -11946,6 +13099,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 15.0,
           "power_w": 110,
           "local_dimming_zones": 48,
@@ -11972,6 +13127,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 130,
           "local_dimming_zones": 48,
@@ -11998,6 +13155,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": 48,
@@ -12024,6 +13183,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 48,
@@ -12049,6 +13210,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 48,
@@ -12075,6 +13238,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 48,
@@ -12101,6 +13266,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 250,
           "local_dimming_zones": 48,
@@ -12122,7 +13289,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "K-65S30M2",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Sony",
@@ -12180,6 +13354,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 15.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -12205,6 +13381,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -12230,6 +13408,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": null,
@@ -12255,6 +13435,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": null,
@@ -12279,6 +13461,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": null,
@@ -12299,7 +13483,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "K-65S20M2",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Sony",
@@ -12363,6 +13554,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 512,
@@ -12389,6 +13582,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -12414,6 +13609,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -12440,6 +13637,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 512,
@@ -12466,6 +13665,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 290,
           "local_dimming_zones": 512,
@@ -12496,7 +13697,14 @@
         "source": "hometheaterhifi",
         "measured_date": "2025-06-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "K-65XR50",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Sony",
@@ -12557,6 +13765,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -12582,6 +13792,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -12613,6 +13825,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -12638,6 +13852,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -12688,7 +13904,24 @@
         "fcc_id": null,
         "rra_id": null,
         "source": "eprel"
-      }
+      },
+      "region_names": [
+        {
+          "region": "EU",
+          "model_name": "K-65XR80M2",
+          "kind": "eprel"
+        },
+        {
+          "region": "KR",
+          "model_name": "K-65XR80II",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "K-65XR80M2",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Sony",
@@ -12751,6 +13984,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 256,
@@ -12777,6 +14012,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 256,
@@ -12802,6 +14039,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 256,
@@ -12828,6 +14067,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 256,
@@ -12858,7 +14099,14 @@
         "source": "avforums",
         "measured_date": "2024-05-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "K-65XR70",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Sony",
@@ -12919,6 +14167,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -12944,6 +14194,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -12968,6 +14220,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -12988,7 +14242,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "K-65XR80",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Sony",
@@ -13050,6 +14311,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -13075,6 +14338,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -13101,6 +14366,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 1344,
@@ -13127,6 +14394,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -13152,6 +14421,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -13178,6 +14449,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 1344,
@@ -13199,7 +14472,19 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "K-65XR90",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "K-65XR90",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Sony",
@@ -13262,6 +14547,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -13287,6 +14574,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -13311,6 +14600,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -13336,6 +14627,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 24.0,
           "power_w": 190,
           "local_dimming_zones": null,
@@ -13365,7 +14658,14 @@
         "source": "reviews",
         "measured_date": "2024-01-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "XR-65A80L",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Sony",
@@ -13426,6 +14726,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -13451,6 +14753,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -13482,6 +14786,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -13507,6 +14813,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -13532,6 +14840,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -13556,6 +14866,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -13585,7 +14897,19 @@
         "source": "avforums",
         "measured_date": "2024-01-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "XR-65A95L",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "XR-65A95L",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Sony",
@@ -13648,6 +14972,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": 48,
@@ -13674,6 +15000,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 48,
@@ -13699,6 +15027,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 48,
@@ -13725,6 +15055,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 48,
@@ -13751,6 +15083,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 250,
           "local_dimming_zones": 48,
@@ -13781,7 +15115,14 @@
         "source": "reviews",
         "measured_date": "2024-05-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "XR-65X90L",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "TCL",
@@ -13845,6 +15186,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 150,
           "local_dimming_zones": 256,
@@ -13871,6 +15214,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 256,
@@ -13897,6 +15242,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 256,
@@ -13922,6 +15269,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 256,
@@ -13948,6 +15297,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 256,
@@ -13974,6 +15325,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 290,
           "local_dimming_zones": 256,
@@ -14000,6 +15353,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 150,
           "local_dimming_zones": 256,
@@ -14033,6 +15388,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 256,
@@ -14066,6 +15423,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 256,
@@ -14099,6 +15458,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 256,
@@ -14132,6 +15493,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 256,
@@ -14165,6 +15528,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 290,
           "local_dimming_zones": 256,
@@ -14202,7 +15567,14 @@
         "source": "reviews",
         "measured_date": "2025-04-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "65QM6K",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "TCL",
@@ -14267,6 +15639,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 512,
@@ -14293,6 +15667,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -14318,6 +15694,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -14344,6 +15722,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 512,
@@ -14370,6 +15750,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 290,
           "local_dimming_zones": 512,
@@ -14396,6 +15778,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 40.0,
           "power_w": 340,
           "local_dimming_zones": 512,
@@ -14422,6 +15806,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 512,
@@ -14455,6 +15841,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -14487,6 +15875,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -14520,6 +15910,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 512,
@@ -14553,6 +15945,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 290,
           "local_dimming_zones": 512,
@@ -14586,6 +15980,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 40.0,
           "power_w": 340,
           "local_dimming_zones": 512,
@@ -14623,7 +16019,19 @@
         "source": "rtings",
         "measured_date": "2025-05-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "65QM7K",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "65QM7K",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "TCL",
@@ -14686,6 +16094,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -14718,6 +16128,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -14744,6 +16156,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 1344,
@@ -14770,6 +16184,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 290,
           "local_dimming_zones": 1344,
@@ -14796,6 +16212,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -14840,6 +16258,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -14866,6 +16286,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 1344,
@@ -14892,6 +16314,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 290,
           "local_dimming_zones": 1344,
@@ -14922,7 +16346,19 @@
         "source": "rtings",
         "measured_date": "2025-05-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "65QM8K",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "65QM8K",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "TCL",
@@ -14984,6 +16420,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -15009,6 +16447,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -15035,6 +16475,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 1344,
@@ -15061,6 +16503,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 290,
           "local_dimming_zones": 1344,
@@ -15091,7 +16535,14 @@
         "source": "tomsguide",
         "measured_date": "2025-10-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "65QM9K",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "TCL",
@@ -15152,6 +16603,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 15.0,
           "power_w": 110,
           "local_dimming_zones": null,
@@ -15177,6 +16630,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -15202,6 +16657,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": null,
@@ -15226,6 +16683,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 20.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -15251,6 +16710,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": null,
@@ -15276,6 +16737,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": null,
@@ -15301,6 +16764,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": null,
@@ -15321,7 +16786,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "55S551G",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "TCL",
@@ -15384,6 +16856,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -15409,6 +16883,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -15435,6 +16911,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 512,
@@ -15461,6 +16939,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 290,
           "local_dimming_zones": 512,
@@ -15482,7 +16962,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "65C855",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "TCL",
@@ -15546,6 +17033,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -15571,6 +17060,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -15597,6 +17088,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 1344,
@@ -15623,6 +17116,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 290,
           "local_dimming_zones": 1344,
@@ -15649,6 +17144,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 40.0,
           "power_w": 340,
           "local_dimming_zones": 1344,
@@ -15675,6 +17172,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 1344,
@@ -15700,6 +17199,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 1344,
@@ -15726,6 +17227,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 1344,
@@ -15752,6 +17255,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 290,
           "local_dimming_zones": 1344,
@@ -15778,6 +17283,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 40.0,
           "power_w": 340,
           "local_dimming_zones": 1344,
@@ -15808,7 +17315,19 @@
         "source": "rtings",
         "measured_date": "2024-05-01"
       },
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "65QM851G",
+          "kind": "sku_root"
+        },
+        {
+          "region": "US",
+          "model_name": "65QM851G",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "TCL",
@@ -15873,6 +17392,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 160,
           "local_dimming_zones": 512,
@@ -15899,6 +17420,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -15931,6 +17454,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -15957,6 +17482,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 512,
@@ -15983,6 +17510,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 34.5,
           "power_w": 290,
           "local_dimming_zones": 512,
@@ -16004,7 +17533,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "KR",
+          "model_name": "65C845",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Xiaomi",
@@ -16064,6 +17600,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 15.0,
           "power_w": 110,
           "local_dimming_zones": 48,
@@ -16090,6 +17628,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 17.5,
           "power_w": 130,
           "local_dimming_zones": 48,
@@ -16116,6 +17656,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 19.0,
           "power_w": 140,
           "local_dimming_zones": 48,
@@ -16142,6 +17684,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 170,
           "local_dimming_zones": 48,
@@ -16167,6 +17711,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 200,
           "local_dimming_zones": 48,
@@ -16193,6 +17739,8 @@
           "color": "Black",
           "stand_type": "양측 다리",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 220,
           "local_dimming_zones": 48,
@@ -16214,7 +17762,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "Global",
+          "model_name": "XM-A-PRO-65",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Xiaomi",
@@ -16276,6 +17831,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 23.0,
           "power_w": 200,
           "local_dimming_zones": 512,
@@ -16301,6 +17858,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 26.0,
           "power_w": 220,
           "local_dimming_zones": 512,
@@ -16327,6 +17886,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 29.5,
           "power_w": 260,
           "local_dimming_zones": 512,
@@ -16353,6 +17914,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 35.0,
           "power_w": 300,
           "local_dimming_zones": 512,
@@ -16374,7 +17937,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "Global",
+          "model_name": "XM-S-MINILED-65",
+          "kind": "sku_root"
+        }
+      ]
     },
     {
       "brand": "Xiaomi",
@@ -16435,6 +18005,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 16.0,
           "power_w": 130,
           "local_dimming_zones": null,
@@ -16460,6 +18032,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 18.5,
           "power_w": 150,
           "local_dimming_zones": null,
@@ -16484,6 +18058,8 @@
           "color": "Black",
           "stand_type": "중앙 스탠드",
           "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
           "weight_kg": 22.0,
           "power_w": 180,
           "local_dimming_zones": null,
@@ -16504,7 +18080,14 @@
         }
       ],
       "measurement": null,
-      "certification": null
+      "certification": null,
+      "region_names": [
+        {
+          "region": "Global",
+          "model_name": "XM-S-OLED-65",
+          "kind": "sku_root"
+        }
+      ]
     }
   ]
 }

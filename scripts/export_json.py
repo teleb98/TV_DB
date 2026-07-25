@@ -59,7 +59,8 @@ def fetch_variants(conn, model_id):
     cur = conn.cursor()
     cur.execute("""
         select v.variant_id, v.sku_full, v.size_inch, v.region, v.color,
-               v.stand_type, v.os_override, v.weight_kg, v.power_w,
+               v.stand_type, v.os_override, v.panel_override, v.refresh_override,
+               v.weight_kg, v.power_w,
                v.local_dimming_zones, v.audio_output_w,
                v.price_msrp, v.price_street, v.currency, v.availability, v.source_url,
                v.estimated_fields
@@ -84,8 +85,16 @@ def build():
             r["variants"] = fetch_variants(conn, mid)
             r["measurement"] = fetch_measurement(conn, mid)
             r["certification"] = fetch_certification(conn, mid)
+            r["region_names"] = fetch_aliases(conn, mid)
             records.append(r)
     return records
+
+
+def fetch_aliases(conn, model_id):
+    cur = conn.cursor()
+    cur.execute("""select region, model_name, kind from model_alias
+                   where model_id=%s order by region, kind""", (model_id,))
+    return cur.fetchall()
 
 
 def fetch_measurement(conn, model_id):
