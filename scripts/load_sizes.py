@@ -78,6 +78,7 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "M80H":    ([55, 65, 75, 85],                 True,  "samsung.com Mini LED M80H 2026(55~85)"),
     "U6SF":    ([55, 65, 75, 85, 100],            True,  "hisense-usa U6 2026(U6SF Pro, 55~100)"),
     "QNED80B": ([50, 55, 65, 75, 85],             False, "lg.com 2026 QNED80(85 확인, 세트 추정)"),
+    "W6":      ([77, 83],                          True,  "lg.com OLED evo W6 Wallpaper 2026(77/83)"),
     # --- 2024 주요 모델 인치(공식/RTINGS 확인) ---
     "QN90D":  ([43, 50, 55, 65, 75, 85, 98],      True,  "samsung QN90D 2024"),
     "QN900D": ([65, 75, 85],                      True,  "samsung QN900D 8K 2024"),

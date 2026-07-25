@@ -1,7 +1,7 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-07-26T06:12:20.655870+09:00",
-  "model_count": 100,
+  "generated_at": "2026-07-26T06:14:56.430969+09:00",
+  "model_count": 101,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
     "estimated": {
@@ -13031,6 +13031,124 @@
         {
           "region": "US",
           "model_name": "65QNED92TUA",
+          "kind": "sku_root"
+        }
+      ],
+      "features": []
+    },
+    {
+      "brand": "LG",
+      "lineup": "OLED evo W6 Wallpaper",
+      "series_name": "W",
+      "year": 2026,
+      "panel_tech": "WOLED",
+      "tier": "flagship",
+      "os": "webOS",
+      "positioning": null,
+      "key_features": [
+        "WOLED",
+        "165Hz",
+        "고휘도(2000nit+)",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "W6",
+      "resolution": "4K",
+      "refresh_rate_native": 165,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "processor": "α11 AI Gen3",
+      "dimming": "per-pixel",
+      "peak_brightness_nits": 2600,
+      "audio_channels": "4.2",
+      "audio_output_w": 60,
+      "smart_os_version": "webOS 26",
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "165Hz",
+        "G-Sync",
+        "FreeSync",
+        "Dolby Vision Gaming"
+      ],
+      "size_variants_in": [
+        77,
+        83
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "OLED77W6PUA",
+          "size_inch": 77,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "W6-83IN-US",
+          "size_inch": 83,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 24.0,
+          "power_w": 190,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "OLED77W6PUA",
           "kind": "sku_root"
         }
       ],
