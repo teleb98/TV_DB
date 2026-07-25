@@ -117,7 +117,8 @@ launchctl kickstart -k gui/501/com.tvspecdb.web  # 재시작
 - [x] **2026 삼성 라인업 보강** — S99H(프리미엄 QD-OLED)·S90H·S85H(WOLED)·QN70H(Neo QLED 4K) 추가 → 2026 삼성 7종, 전체 **62종**.
 - [x] **인치별 variant 확장 + 가격**(`scripts/expand_variants.py`) — size_variants_in 기준 인치별 variant 생성(82→**267행**). 실제 판매 SKU 미상이라 **구성 SKU `{code}-{size}IN-{region}`**(estimated_fields에 `sku_full` 표기), 물리스펙은 사이즈별 보강. 공식 확인된 **US 인치별 MSRP**(QN90F·QM6K·QM7K, 18건) price_history 적재.
 - [x] **온라인몰 실판매가**(`scripts/load_retail_prices.py`) — WebSearch(2026-07) 확인가로 멀티채널 price_history 적재: **bestbuy·walmart·amazon**(+danawa·official-msrp). LG C5/G5·Sony 8 II·TCL QM8K·Hisense U8 등. (Naver·Alibaba는 US 검색 제한으로 미포함.)
-- [x] **누락 모델 추가(2025)** — TCL QM9K·삼성 QN800F(8K)·Sony BRAVIA 2 II·삼성 Q7F(QLED)·삼성 The Frame LS03F·Hisense UX(RGB Mini-LED 6000nit)·LG QNED85A → 전체 **69종**(삼성24·LG15·Sony9·Hisense8·TCL7·Huawei3·Xiaomi3). Hisense U8Q 오디오 4.1.2ch 실측 반영.
+- [x] **누락 모델 추가(2025)** — TCL QM9K·삼성 QN800F(8K)·Sony BRAVIA 2 II·삼성 Q7F/Q8F(QLED)·삼성 The Frame LS03F·삼성 QN80F·Hisense UX(RGB 6000nit)·LG QNED85A/QNED90A → 전체 **72종**. Hisense U8Q 오디오 4.1.2ch 실측.
+- [x] **2024 라인업 인치 세분화** — QN90D·S95D·G4·C4·A95L·X90L·QM851G·U8N 등 2024 주요 모델에 size_variants_in 추가(공식/RTINGS). variant **407행**으로 확대. 연도 커버리지: 2026·2025 전량, 2024 17/20.
 - [ ] **골든셋 스펙값 공식 대조 검수** (현재 대표값 — 정답지 확정 필요)
 - [ ] 실사이트 셀렉터 확정 + JS 사이트는 Playwright 연동(위 가이드)
 - [x] 가격 수집 스케줄링(launchd 매일) — `collect_prices.py` + `deploy/*.plist`, 예외격리

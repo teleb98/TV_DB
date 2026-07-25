@@ -1440,12 +1440,41 @@
         "Auto HDR Tone Mapping",
         "Dolby Vision Gaming"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        55,
+        65,
+        77
+      ],
       "estimated_fields": [
         "audio_channels",
         "audio_output_w"
       ],
       "variants": [
+        {
+          "sku_full": "A95L-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
         {
           "sku_full": "XR-65A95L",
           "size_inch": 65,
@@ -1478,6 +1507,56 @@
           ]
         },
         {
+          "sku_full": "A95L-77IN-KR",
+          "size_inch": 77,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "A95L-55IN-US",
+          "size_inch": 55,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
           "sku_full": "XR-65A95L",
           "size_inch": 65,
           "region": "US",
@@ -1496,6 +1575,31 @@
           "estimated_fields": [
             "color",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "A95L-77IN-US",
+          "size_inch": 77,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],

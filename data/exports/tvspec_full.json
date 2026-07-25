@@ -1,7 +1,7 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-07-25T17:44:34.818499+09:00",
-  "model_count": 69,
+  "generated_at": "2026-07-25T18:15:52.131273+09:00",
+  "model_count": 72,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
     "estimated": {
@@ -1591,6 +1591,216 @@
     },
     {
       "brand": "삼성",
+      "lineup": "QLED Q8F",
+      "series_name": "Q8",
+      "year": 2025,
+      "panel_tech": "QLED",
+      "tier": "mid",
+      "os": "Tizen",
+      "positioning": null,
+      "key_features": [
+        "QLED",
+        "120Hz",
+        "HDR10+",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "Q8F",
+      "resolution": "4K",
+      "refresh_rate_native": 120,
+      "hdr_formats": [
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "Q4 AI",
+      "dimming": "full-array",
+      "peak_brightness_nits": 600,
+      "audio_channels": "2.0",
+      "audio_output_w": 20,
+      "smart_os_version": "Tizen 9.0",
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "120Hz",
+        "FreeSync"
+      ],
+      "size_variants_in": [
+        43,
+        50,
+        55,
+        65,
+        75,
+        85
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "Q8F-43IN-US",
+          "size_inch": 43,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 15.0,
+          "power_w": 110,
+          "local_dimming_zones": 48,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "Q8F-50IN-US",
+          "size_inch": 50,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 17.5,
+          "power_w": 130,
+          "local_dimming_zones": 48,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "Q8F-55IN-US",
+          "size_inch": 55,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 19.0,
+          "power_w": 140,
+          "local_dimming_zones": 48,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN65Q8FAFXZA",
+          "size_inch": 65,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 23.0,
+          "power_w": 170,
+          "local_dimming_zones": 48,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "Q8F-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 200,
+          "local_dimming_zones": 48,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "Q8F-85IN-US",
+          "size_inch": 85,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 220,
+          "local_dimming_zones": 48,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ]
+    },
+    {
+      "brand": "삼성",
       "lineup": "Neo QLED 8K",
       "series_name": "QN800",
       "year": 2025,
@@ -1701,6 +1911,189 @@
           "power_w": 220,
           "local_dimming_zones": 512,
           "audio_output_w": 90,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ]
+    },
+    {
+      "brand": "삼성",
+      "lineup": "Neo QLED 4K",
+      "series_name": "QN80",
+      "year": 2025,
+      "panel_tech": "Neo-QLED",
+      "tier": "mid",
+      "os": "Tizen",
+      "positioning": null,
+      "key_features": [
+        "Neo-QLED",
+        "120Hz",
+        "HDR10+",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "QN80F",
+      "resolution": "4K",
+      "refresh_rate_native": 120,
+      "hdr_formats": [
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "NQ4 AI Gen2",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 1100,
+      "audio_channels": "2.0",
+      "audio_output_w": 20,
+      "smart_os_version": "Tizen 9.0",
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "120Hz",
+        "FreeSync Premium Pro"
+      ],
+      "size_variants_in": [
+        55,
+        65,
+        75,
+        85,
+        100
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "QN80F-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 19.0,
+          "power_w": 140,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "KQ65QNF80FXKR",
+          "size_inch": 65,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 23.0,
+          "power_w": 170,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN80F-75IN-KR",
+          "size_inch": 75,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 200,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN80F-85IN-KR",
+          "size_inch": 85,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 220,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN80F-100IN-KR",
+          "size_inch": 100,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 35.0,
+          "power_w": 260,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
           "price_msrp": null,
           "price_street": null,
           "currency": "KRW",
@@ -3298,7 +3691,11 @@
         "240Hz",
         "FreeSync Premium Pro"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        65,
+        75,
+        85
+      ],
       "estimated_fields": [
         "audio_channels",
         "audio_output_w"
@@ -3324,6 +3721,58 @@
             "color",
             "local_dimming_zones",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN800D-75IN-KR",
+          "size_inch": 75,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 200,
+          "local_dimming_zones": 512,
+          "audio_output_w": 90,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN800D-85IN-KR",
+          "size_inch": 85,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 220,
+          "local_dimming_zones": 512,
+          "audio_output_w": 90,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -3371,12 +3820,43 @@
         "120Hz",
         "FreeSync Premium Pro"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        55,
+        65,
+        75,
+        85
+      ],
       "estimated_fields": [
         "audio_channels",
         "audio_output_w"
       ],
       "variants": [
+        {
+          "sku_full": "QN85D-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 19.0,
+          "power_w": 140,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
         {
           "sku_full": "KQ65QNA85DXKR",
           "size_inch": 65,
@@ -3397,6 +3877,58 @@
             "color",
             "local_dimming_zones",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN85D-75IN-KR",
+          "size_inch": 75,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 200,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN85D-85IN-KR",
+          "size_inch": 85,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 220,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -3445,7 +3977,11 @@
         "240Hz",
         "FreeSync Premium Pro"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        65,
+        75,
+        85
+      ],
       "estimated_fields": [
         "audio_channels",
         "audio_output_w"
@@ -3484,6 +4020,58 @@
           ]
         },
         {
+          "sku_full": "QN900D-75IN-KR",
+          "size_inch": 75,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 200,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 90,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN900D-85IN-KR",
+          "size_inch": 85,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 90,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
           "sku_full": "QN65QN900DAFXZA",
           "size_inch": 65,
           "region": "US",
@@ -3503,6 +4091,58 @@
             "color",
             "local_dimming_zones",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN900D-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 200,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 90,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN900D-85IN-US",
+          "size_inch": 85,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 90,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -3551,12 +4191,98 @@
         "144Hz",
         "FreeSync Premium Pro"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        43,
+        50,
+        55,
+        65,
+        75,
+        85,
+        98
+      ],
       "estimated_fields": [
         "audio_channels",
         "audio_output_w"
       ],
       "variants": [
+        {
+          "sku_full": "QN90D-43IN-KR",
+          "size_inch": 43,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 15.0,
+          "power_w": 110,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN90D-50IN-KR",
+          "size_inch": 50,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 17.5,
+          "power_w": 130,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN90D-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 19.0,
+          "power_w": 140,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
         {
           "sku_full": "KQ65QNA90DXKR",
           "size_inch": 65,
@@ -3596,6 +4322,162 @@
           ]
         },
         {
+          "sku_full": "QN90D-75IN-KR",
+          "size_inch": 75,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 200,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN90D-85IN-KR",
+          "size_inch": 85,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN90D-98IN-KR",
+          "size_inch": 98,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 34.5,
+          "power_w": 250,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN90D-43IN-US",
+          "size_inch": 43,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 15.0,
+          "power_w": 110,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN90D-50IN-US",
+          "size_inch": 50,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 17.5,
+          "power_w": 130,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN90D-55IN-US",
+          "size_inch": 55,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 19.0,
+          "power_w": 140,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
           "sku_full": "QN65QN90DAFXZA",
           "size_inch": 65,
           "region": "US",
@@ -3615,6 +4497,84 @@
             "color",
             "local_dimming_zones",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN90D-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 200,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN90D-85IN-US",
+          "size_inch": 85,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN90D-98IN-US",
+          "size_inch": 98,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 34.5,
+          "power_w": 250,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -3662,12 +4622,94 @@
         "144Hz",
         "FreeSync Premium Pro"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        42,
+        48,
+        55,
+        65,
+        77,
+        83
+      ],
       "estimated_fields": [
         "audio_channels",
         "audio_output_w"
       ],
       "variants": [
+        {
+          "sku_full": "S90D-42IN-KR",
+          "size_inch": 42,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 12.0,
+          "power_w": 100,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "S90D-48IN-KR",
+          "size_inch": 48,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 14.0,
+          "power_w": 110,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "S90D-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
         {
           "sku_full": "KQ65SD90DXKR",
           "size_inch": 65,
@@ -3687,6 +4729,56 @@
           "estimated_fields": [
             "color",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "S90D-77IN-KR",
+          "size_inch": 77,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "S90D-83IN-KR",
+          "size_inch": 83,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 24.0,
+          "power_w": 190,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -3734,12 +4826,41 @@
         "144Hz",
         "FreeSync Premium Pro"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        55,
+        65,
+        77
+      ],
       "estimated_fields": [
         "audio_channels",
         "audio_output_w"
       ],
       "variants": [
+        {
+          "sku_full": "S95D-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
         {
           "sku_full": "KQ65SD95DXKR",
           "size_inch": 65,
@@ -3778,6 +4899,56 @@
           ]
         },
         {
+          "sku_full": "S95D-77IN-KR",
+          "size_inch": 77,
+          "region": "KR",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "S95D-55IN-US",
+          "size_inch": 55,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
           "sku_full": "QN65S95DAFXZA",
           "size_inch": 65,
           "region": "US",
@@ -3796,6 +4967,31 @@
           "estimated_fields": [
             "color",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "S95D-77IN-US",
+          "size_inch": 77,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -4935,12 +6131,71 @@
         "ALLM",
         "60Hz"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        50,
+        55,
+        65,
+        75,
+        85
+      ],
       "estimated_fields": [
         "audio_channels",
-        "audio_output_w"
+        "audio_output_w",
+        "size_variants_in"
       ],
       "variants": [
+        {
+          "sku_full": "U6N-50IN-KR",
+          "size_inch": 50,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 17.5,
+          "power_w": 150,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.hisense.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "U6N-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 19.0,
+          "power_w": 160,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.hisense.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
         {
           "sku_full": "65U6N",
           "size_inch": 65,
@@ -4961,6 +6216,58 @@
             "color",
             "local_dimming_zones",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "U6N-75IN-KR",
+          "size_inch": 75,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.hisense.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "U6N-85IN-KR",
+          "size_inch": 85,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.hisense.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -5010,12 +6317,45 @@
         "FreeSync Premium Pro",
         "Game Mode Pro"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        55,
+        65,
+        75,
+        85,
+        100
+      ],
       "estimated_fields": [
         "audio_channels",
-        "audio_output_w"
+        "audio_output_w",
+        "size_variants_in"
       ],
       "variants": [
+        {
+          "sku_full": "U7N-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 19.0,
+          "power_w": 160,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.hisense.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
         {
           "sku_full": "65U7N",
           "size_inch": 65,
@@ -5036,6 +6376,84 @@
             "color",
             "local_dimming_zones",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "U7N-75IN-KR",
+          "size_inch": 75,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.hisense.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "U7N-85IN-KR",
+          "size_inch": 85,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.hisense.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "U7N-100IN-KR",
+          "size_inch": 100,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 35.0,
+          "power_w": 300,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.hisense.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -5086,12 +6504,44 @@
         "FreeSync Premium Pro",
         "Game Mode Pro"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        55,
+        65,
+        75,
+        85,
+        100
+      ],
       "estimated_fields": [
         "audio_channels",
         "audio_output_w"
       ],
       "variants": [
+        {
+          "sku_full": "U8N-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 19.0,
+          "power_w": 160,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.hisense.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
         {
           "sku_full": "65U8N",
           "size_inch": 65,
@@ -5125,6 +6575,110 @@
           ]
         },
         {
+          "sku_full": "U8N-75IN-KR",
+          "size_inch": 75,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.hisense.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "U8N-85IN-KR",
+          "size_inch": 85,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.hisense.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "U8N-100IN-KR",
+          "size_inch": 100,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 35.0,
+          "power_w": 300,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.hisense.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "U8N-55IN-US",
+          "size_inch": 55,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 19.0,
+          "power_w": 160,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.hisense.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
           "sku_full": "65U8N",
           "size_inch": 65,
           "region": "US",
@@ -5144,6 +6698,84 @@
             "color",
             "local_dimming_zones",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "U8N-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.hisense.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "U8N-85IN-US",
+          "size_inch": 85,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.hisense.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "U8N-100IN-US",
+          "size_inch": 100,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 35.0,
+          "power_w": 300,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.hisense.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -7407,6 +9039,163 @@
     },
     {
       "brand": "LG",
+      "lineup": "QNED evo QNED90A",
+      "series_name": "QNED90",
+      "year": 2025,
+      "panel_tech": "Mini-LED",
+      "tier": "high",
+      "os": "webOS",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "120Hz",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "QNED90A",
+      "resolution": "4K",
+      "refresh_rate_native": 120,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "processor": "α8 AI Gen2",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 800,
+      "audio_channels": "2.2",
+      "audio_output_w": 40,
+      "smart_os_version": "webOS 25",
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "120Hz",
+        "FreeSync"
+      ],
+      "size_variants_in": [
+        55,
+        65,
+        75,
+        86
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "QNED90A-55IN-US",
+          "size_inch": 55,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 19.0,
+          "power_w": 160,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "65QNED90AUA",
+          "size_inch": 65,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QNED90A-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QNED90A-86IN-US",
+          "size_inch": 86,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 30.0,
+          "power_w": 260,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ]
+    },
+    {
+      "brand": "LG",
       "lineup": "QNED evo",
       "series_name": "QNED9M",
       "year": 2025,
@@ -7580,12 +9369,68 @@
         "FreeSync",
         "Dolby Vision Gaming"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        48,
+        55,
+        65,
+        77,
+        83
+      ],
       "estimated_fields": [
         "audio_channels",
         "audio_output_w"
       ],
       "variants": [
+        {
+          "sku_full": "B4-48IN-KR",
+          "size_inch": 48,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 14.0,
+          "power_w": 110,
+          "local_dimming_zones": null,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "B4-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
         {
           "sku_full": "OLED65B4KNA",
           "size_inch": 65,
@@ -7605,6 +9450,56 @@
           "estimated_fields": [
             "color",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "B4-77IN-KR",
+          "size_inch": 77,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "B4-83IN-KR",
+          "size_inch": 83,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 24.0,
+          "power_w": 190,
+          "local_dimming_zones": null,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -7655,12 +9550,94 @@
         "FreeSync",
         "Dolby Vision Gaming"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        42,
+        48,
+        55,
+        65,
+        77,
+        83
+      ],
       "estimated_fields": [
         "audio_channels",
         "audio_output_w"
       ],
       "variants": [
+        {
+          "sku_full": "C4-42IN-KR",
+          "size_inch": 42,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 12.0,
+          "power_w": 100,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "C4-48IN-KR",
+          "size_inch": 48,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 14.0,
+          "power_w": 110,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "C4-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
         {
           "sku_full": "OLED65C4KNA",
           "size_inch": 65,
@@ -7693,6 +9670,131 @@
           ]
         },
         {
+          "sku_full": "C4-77IN-KR",
+          "size_inch": 77,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "C4-83IN-KR",
+          "size_inch": 83,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 24.0,
+          "power_w": 190,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "C4-42IN-US",
+          "size_inch": 42,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 12.0,
+          "power_w": 100,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "C4-48IN-US",
+          "size_inch": 48,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 14.0,
+          "power_w": 110,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "C4-55IN-US",
+          "size_inch": 55,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
           "sku_full": "OLED65C4PUA",
           "size_inch": 65,
           "region": "US",
@@ -7711,6 +9813,56 @@
           "estimated_fields": [
             "color",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "C4-77IN-US",
+          "size_inch": 77,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "C4-83IN-US",
+          "size_inch": 83,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 24.0,
+          "power_w": 190,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -7761,12 +9913,43 @@
         "FreeSync",
         "Dolby Vision Gaming"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        55,
+        65,
+        77,
+        83,
+        97
+      ],
       "estimated_fields": [
         "audio_channels",
         "audio_output_w"
       ],
       "variants": [
+        {
+          "sku_full": "G4-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
         {
           "sku_full": "OLED65G4KNA",
           "size_inch": 65,
@@ -7805,6 +9988,106 @@
           ]
         },
         {
+          "sku_full": "G4-77IN-KR",
+          "size_inch": 77,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "G4-83IN-KR",
+          "size_inch": 83,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 24.0,
+          "power_w": 190,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "G4-97IN-KR",
+          "size_inch": 97,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 28.0,
+          "power_w": 220,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "G4-55IN-US",
+          "size_inch": 55,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
           "sku_full": "OLED65G4WUA",
           "size_inch": 65,
           "region": "US",
@@ -7823,6 +10106,81 @@
           "estimated_fields": [
             "color",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "G4-77IN-US",
+          "size_inch": 77,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "G4-83IN-US",
+          "size_inch": 83,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 24.0,
+          "power_w": 190,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "G4-97IN-US",
+          "size_inch": 97,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 28.0,
+          "power_w": 220,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -8704,12 +11062,44 @@
         "Auto HDR Tone Mapping",
         "Dolby Vision Gaming"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        55,
+        65,
+        75,
+        85
+      ],
       "estimated_fields": [
         "audio_channels",
-        "audio_output_w"
+        "audio_output_w",
+        "size_variants_in"
       ],
       "variants": [
+        {
+          "sku_full": "XR70-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 19.0,
+          "power_w": 160,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
         {
           "sku_full": "K-65XR70",
           "size_inch": 65,
@@ -8730,6 +11120,58 @@
             "color",
             "local_dimming_zones",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "XR70-75IN-KR",
+          "size_inch": 75,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "XR70-85IN-KR",
+          "size_inch": 85,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -8779,12 +11221,41 @@
         "Auto HDR Tone Mapping",
         "Dolby Vision Gaming"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        55,
+        65,
+        77
+      ],
       "estimated_fields": [
         "audio_channels",
         "audio_output_w"
       ],
       "variants": [
+        {
+          "sku_full": "XR80-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
         {
           "sku_full": "K-65XR80",
           "size_inch": 65,
@@ -8804,6 +11275,31 @@
           "estimated_fields": [
             "color",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "XR80-77IN-KR",
+          "size_inch": 77,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -8854,7 +11350,11 @@
         "Auto HDR Tone Mapping",
         "Dolby Vision Gaming"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        65,
+        75,
+        85
+      ],
       "estimated_fields": [
         "audio_channels",
         "audio_output_w"
@@ -8886,6 +11386,58 @@
           "price_history": []
         },
         {
+          "sku_full": "XR90-75IN-KR",
+          "size_inch": 75,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "XR90-85IN-KR",
+          "size_inch": 85,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
           "sku_full": "K-65XR90",
           "size_inch": 65,
           "region": "US",
@@ -8905,6 +11457,58 @@
             "color",
             "local_dimming_zones",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "XR90-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "XR90-85IN-US",
+          "size_inch": 85,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -8954,12 +11558,43 @@
         "Auto HDR Tone Mapping",
         "Dolby Vision Gaming"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        55,
+        65,
+        77,
+        83
+      ],
       "estimated_fields": [
         "audio_channels",
-        "audio_output_w"
+        "audio_output_w",
+        "size_variants_in"
       ],
       "variants": [
+        {
+          "sku_full": "A80L-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
         {
           "sku_full": "XR-65A80L",
           "size_inch": 65,
@@ -8979,6 +11614,56 @@
           "estimated_fields": [
             "color",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "A80L-77IN-KR",
+          "size_inch": 77,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "A80L-83IN-KR",
+          "size_inch": 83,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 24.0,
+          "power_w": 190,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -9028,12 +11713,41 @@
         "Auto HDR Tone Mapping",
         "Dolby Vision Gaming"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        55,
+        65,
+        77
+      ],
       "estimated_fields": [
         "audio_channels",
         "audio_output_w"
       ],
       "variants": [
+        {
+          "sku_full": "A95L-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
         {
           "sku_full": "XR-65A95L",
           "size_inch": 65,
@@ -9066,6 +11780,56 @@
           ]
         },
         {
+          "sku_full": "A95L-77IN-KR",
+          "size_inch": 77,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "A95L-55IN-US",
+          "size_inch": 55,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
           "sku_full": "XR-65A95L",
           "size_inch": 65,
           "region": "US",
@@ -9084,6 +11848,31 @@
           "estimated_fields": [
             "color",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "A95L-77IN-US",
+          "size_inch": 77,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -9133,12 +11922,44 @@
         "Auto HDR Tone Mapping",
         "Dolby Vision Gaming"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        55,
+        65,
+        75,
+        85,
+        98
+      ],
       "estimated_fields": [
         "audio_channels",
         "audio_output_w"
       ],
       "variants": [
+        {
+          "sku_full": "X90L-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 19.0,
+          "power_w": 140,
+          "local_dimming_zones": 48,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
         {
           "sku_full": "XR-65X90L",
           "size_inch": 65,
@@ -9159,6 +11980,84 @@
             "color",
             "local_dimming_zones",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "X90L-75IN-KR",
+          "size_inch": 75,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 200,
+          "local_dimming_zones": 48,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "X90L-85IN-KR",
+          "size_inch": 85,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 220,
+          "local_dimming_zones": 48,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "X90L-98IN-KR",
+          "size_inch": 98,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "weight_kg": 34.5,
+          "power_w": 250,
+          "local_dimming_zones": 48,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -10475,7 +13374,12 @@
         "FreeSync Premium Pro",
         "Game Master"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        65,
+        75,
+        85,
+        98
+      ],
       "estimated_fields": [
         "audio_channels",
         "audio_output_w"
@@ -10501,6 +13405,84 @@
             "color",
             "local_dimming_zones",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "C855-75IN-KR",
+          "size_inch": 75,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "C855-85IN-KR",
+          "size_inch": 85,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "C855-98IN-KR",
+          "size_inch": 98,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 34.5,
+          "power_w": 290,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -10551,7 +13533,13 @@
         "FreeSync Premium Pro",
         "Game Master"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        65,
+        75,
+        85,
+        98,
+        115
+      ],
       "estimated_fields": [
         "audio_channels",
         "audio_output_w"
@@ -10583,6 +13571,110 @@
           "price_history": []
         },
         {
+          "sku_full": "QM851G-75IN-KR",
+          "size_inch": 75,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QM851G-85IN-KR",
+          "size_inch": 85,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QM851G-98IN-KR",
+          "size_inch": 98,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 34.5,
+          "power_w": 290,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QM851G-115IN-KR",
+          "size_inch": 115,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 40.0,
+          "power_w": 340,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
           "sku_full": "65QM851G",
           "size_inch": 65,
           "region": "US",
@@ -10602,6 +13694,110 @@
             "color",
             "local_dimming_zones",
             "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QM851G-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QM851G-85IN-US",
+          "size_inch": 85,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QM851G-98IN-US",
+          "size_inch": 98,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 34.5,
+          "power_w": 290,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QM851G-115IN-US",
+          "size_inch": 115,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 40.0,
+          "power_w": 340,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
             "stand_type",
             "weight_kg"
           ],
@@ -10652,12 +13848,45 @@
         "FreeSync Premium Pro",
         "Game Master"
       ],
-      "size_variants_in": null,
+      "size_variants_in": [
+        55,
+        65,
+        75,
+        85,
+        98
+      ],
       "estimated_fields": [
         "audio_channels",
-        "audio_output_w"
+        "audio_output_w",
+        "size_variants_in"
       ],
       "variants": [
+        {
+          "sku_full": "C845-55IN-KR",
+          "size_inch": 55,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 19.0,
+          "power_w": 160,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
         {
           "sku_full": "65C845",
           "size_inch": 65,
@@ -10689,6 +13918,84 @@
               "d": "2026-07-01"
             }
           ]
+        },
+        {
+          "sku_full": "C845-75IN-KR",
+          "size_inch": 75,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "C845-85IN-KR",
+          "size_inch": 85,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "C845-98IN-KR",
+          "size_inch": 98,
+          "region": "KR",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "weight_kg": 34.5,
+          "power_w": 290,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
         }
       ]
     },
