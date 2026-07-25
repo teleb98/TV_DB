@@ -29,9 +29,18 @@ MEASURE: dict[str, tuple] = {
     "QM9K":   (5413, None, None, 97.0,  77.3, None,     "2025-10-01", "tomsguide"),
     "U8Q":    (4300, 944,  None, 95.0,  None, None,     "2025-06-01", "rtings"),
     "U7Q":    (3000, None, None, 93.0,  None, None,     "2025-06-01", "reviews"),
+    "U6Q":    (1000, None, None, None,  None, None,     "2025-06-01", "reviews"),
+    "B5":     (688,  None, 9.0,  99.0,  None, "inf",    "2025-05-01", "techradar"),
+    "QN85F":  (1700, None, None, 90.0,  None, None,     "2025-05-01", "choose.tv"),
+    "QN990F": (2109, 394,  None, 94.0,  None, None,     "2025-05-01", "reviews"),
+    "QM6K":   (700,  None, None, 90.0,  None, "7000:1", "2025-04-01", "reviews"),
     # 2024
     "G4":     (1500, 235,  None, 97.5,  74.0, "inf",    "2024-04-01", "flatpanelshd"),
     "QN90D":  (2100, 800,  None, 90.0,  None, None,     "2024-05-01", "rtings"),
+    "C4":     (1049, 200,  13.0, 96.0,  None, "inf",    "2024-04-01", "flatpanelshd"),
+    "A95L":   (1348, None, None, 99.9,  None, "inf",    "2024-01-01", "avforums"),
+    # 2026
+    "G6":     (2481, 471,  None, 99.7,  78.4, "inf",    "2026-03-01", "flatpanelshd"),
 }
 
 
