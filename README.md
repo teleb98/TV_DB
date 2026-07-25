@@ -2,8 +2,9 @@
 
 스펙 비교 상담봇 + 라인업 안내 Agent를 위한 제품정보 DB 구축 프로젝트.
 
-- **대상**: 삼성 / LG / Sony / TCL / Hisense · 국내(KR)→북미(US) · 최근 3년
+- **대상**: 삼성 / LG / Sony / TCL / Hisense / Huawei / Xiaomi · KR/US/EU/Global · 2023~2026
 - **핵심**: 옵션(Variant) 단위까지 모델링 + 삼성↔경쟁사 비교축
+- **모델 추가**: 📄 [**claude.ai 파일 첨부로 DB 추가하기**](docs/ADD_VIA_CLAUDE.md) — 스펙시트·리테일 페이지를 첨부하면 골든 CSV로 변환→한 줄 적재
 
 ## 데이터 모델 (4계층)
 ```
