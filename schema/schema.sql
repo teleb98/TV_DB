@@ -9,8 +9,7 @@
 CREATE TYPE panel_tech    AS ENUM ('OLED','WOLED','QD-OLED','QLED','Neo-QLED','Mini-LED','LED-LCD','Micro-LED');
 CREATE TYPE dimming_type  AS ENUM ('none','edge-lit','full-array','mini-led','per-pixel');
 CREATE TYPE tier          AS ENUM ('flagship','high','mid','entry');
-CREATE TYPE smart_os      AS ENUM ('Tizen','webOS','Google-TV','Android-TV','Roku','VIDAA','Fire-TV','other');
-CREATE TYPE product_status AS ENUM ('announced','released','eol');   -- 수명주기: 발표/출시/단종
+CREATE TYPE smart_os      AS ENUM ('Tizen','webOS','Google-TV','Android-TV','Roku','VIDAA','Fire-TV','HarmonyOS','other');
 
 -- ---------- 1. Brand ----------
 CREATE TABLE brand (
@@ -32,8 +31,6 @@ CREATE TABLE series (
     os              smart_os,
     key_features    TEXT[],                      -- ['Anti-Glare','144Hz','Dolby Atmos']
     positioning     TEXT,                        -- 라인업 포지셔닝 설명(RAG용)
-    status          product_status DEFAULT 'released',  -- 발표/출시/단종
-    data_confidence TEXT DEFAULT 'high',         -- high|med|low (잠정 데이터 구분)
     UNIQUE (brand_id, series_name, generation_year)
 );
 
@@ -53,6 +50,8 @@ CREATE TABLE model (
     smart_os_version    TEXT,
     connectivity        TEXT[],                  -- ['HDMI2.1 x4','eARC','WiFi6E','BT5.3']
     gaming_features     TEXT[],                  -- ['VRR','ALLM','G-Sync','FreeSync']
+    size_variants_in    INT[],                   -- 제공 인치 목록(공식 사이트 확인). 예: {55,65,77,83,97}
+    estimated_fields    TEXT[],                  -- 규칙기반 추정치인 컬럼명 목록(provenance.py 기준). 예: {audio_channels,audio_output_w}
     UNIQUE (series_id, model_code_base)
 );
 
@@ -78,6 +77,7 @@ CREATE TABLE variant (
     currency            TEXT DEFAULT 'KRW',
     availability        TEXT,                    -- 'in_stock','eol','preorder'
     source_url          TEXT,
+    estimated_fields    TEXT[],                  -- 규칙기반 추정치인 컬럼명 목록. 예: {weight_kg,power_w,local_dimming_zones,color,stand_type}
     updated_at          TIMESTAMPTZ DEFAULT now(),
     UNIQUE (sku_full, region)
 );

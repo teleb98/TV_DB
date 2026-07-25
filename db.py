@@ -46,23 +46,18 @@ def upsert_brand(cur, rec: dict) -> int:
 def upsert_series(cur, rec: dict, brand_id: int) -> int:
     cur.execute(
         """INSERT INTO series(brand_id, series_name, marketing_name, generation_year,
-                              panel_tech, tier, os, key_features, positioning,
-                              status, data_confidence)
-           VALUES (%(bid)s, %(sn)s, %(mn)s, %(gy)s, %(pt)s, %(tier)s, %(os)s, %(kf)s, %(pos)s,
-                   COALESCE(%(st)s::product_status, 'released'), COALESCE(%(dc)s, 'high'))
+                              panel_tech, tier, os, key_features, positioning)
+           VALUES (%(bid)s, %(sn)s, %(mn)s, %(gy)s, %(pt)s, %(tier)s, %(os)s, %(kf)s, %(pos)s)
            ON CONFLICT (brand_id, series_name, generation_year) DO UPDATE SET
              marketing_name = COALESCE(EXCLUDED.marketing_name, series.marketing_name),
              panel_tech     = COALESCE(EXCLUDED.panel_tech, series.panel_tech),
              tier           = COALESCE(EXCLUDED.tier, series.tier),
-             positioning    = COALESCE(EXCLUDED.positioning, series.positioning),
-             status         = EXCLUDED.status,
-             data_confidence = EXCLUDED.data_confidence
+             positioning    = COALESCE(EXCLUDED.positioning, series.positioning)
            RETURNING series_id""",
         {"bid": brand_id, "sn": rec.get("series_name"), "mn": rec.get("marketing_name"),
          "gy": _int(rec.get("generation_year")), "pt": rec.get("panel_tech"),
          "tier": rec.get("tier"), "os": rec.get("os"),
-         "kf": _arr(rec.get("key_features")), "pos": rec.get("positioning"),
-         "st": rec.get("status"), "dc": rec.get("data_confidence")},
+         "kf": _arr(rec.get("key_features")), "pos": rec.get("positioning")},
     )
     return cur.fetchone()[0]
 

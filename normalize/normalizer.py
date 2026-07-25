@@ -17,6 +17,8 @@ PANEL_MAP = {
 BRAND_MAP = {
     "samsung": "삼성", "삼성전자": "삼성", "lg전자": "LG", "lg": "LG",
     "sony": "Sony", "소니": "Sony", "tcl": "TCL", "hisense": "Hisense", "하이센스": "Hisense",
+    "huawei": "Huawei", "화웨이": "Huawei",
+    "xiaomi": "Xiaomi", "샤오미": "Xiaomi", "mi": "Xiaomi",
 }
 
 
@@ -69,6 +71,16 @@ MODEL_RULES: dict[str, list[tuple[str, str]]] = {
     ],
     "Hisense": [
         (r"(U\d[A-Z])", r"\1"),                         # U8N/U8K(24) · U8Q(G)(25) → U8Q
+    ],
+    "Huawei": [                                          # Vision 스마트스크린 (HarmonyOS)
+        (r"VISION\s?X", "VisionX"),                     # Vision X (Mini-LED 플래그십)
+        (r"VISION\s?SE", "VisionSE"),
+        (r"VISION\s?(\d)", r"Vision\1"),                # Vision 5 등
+    ],
+    "Xiaomi": [                                          # TV S / A 시리즈
+        (r"S\s?PRO?\s?MINI(\s?LED)?", "S-MiniLED"),     # TV S Pro Mini LED
+        (r"S\s?OLED", "S-OLED"),
+        (r"A\s?PRO", "A-Pro"),
     ],
 }
 

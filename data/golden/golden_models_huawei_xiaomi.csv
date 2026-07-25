@@ -1,0 +1,7 @@
+brand,series_name,marketing_name,generation_year,panel_tech,tier,os,model_code_base,resolution,refresh_rate_native,hdr_formats,processor,dimming,peak_brightness_nits,sku_full,size_inch,region,price_msrp,gaming_features,connectivity
+Huawei,Vision X,Vision X Mini LED,2025,Mini-LED,high,HarmonyOS,VisionX,4K,144,HDR10|HLG,Honghu 900,mini-led,1600,HW-VISIONX-65,65,Global,,VRR|ALLM|144Hz,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Huawei,Vision 5,Vision Smart Screen 5,2025,Mini-LED,mid,HarmonyOS,Vision5,4K,120,HDR10|HLG,Honghu 818,mini-led,1000,HW-VISION5-65,65,Global,,VRR|ALLM|120Hz,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Huawei,Vision SE,Vision Smart Screen SE,2025,LED-LCD,mid,HarmonyOS,VisionSE,4K,60,HDR10|HLG,Honghu,full-array,400,HW-VISIONSE-65,65,Global,,ALLM,HDMI2.0 x3|eARC|WiFi|Bluetooth
+Xiaomi,S Pro Mini LED,Xiaomi TV S Pro Mini LED,2025,Mini-LED,high,Google-TV,S-MiniLED,4K,144,Dolby Vision|HDR10+|HLG,MediaTek,mini-led,2000,XM-S-MINILED-65,65,Global,,VRR|ALLM|144Hz|Dolby Vision Gaming,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Xiaomi,S OLED,Xiaomi TV S OLED,2025,WOLED,high,Google-TV,S-OLED,4K,144,Dolby Vision|HDR10+|HLG,MediaTek,per-pixel,1300,XM-S-OLED-65,65,Global,,VRR|ALLM|144Hz|Dolby Vision Gaming,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Xiaomi,A Pro,Xiaomi TV A Pro,2025,LED-LCD,mid,Google-TV,A-Pro,4K,60,Dolby Vision|HDR10|HLG,MediaTek,full-array,400,XM-A-PRO-65,65,Global,,ALLM,HDMI2.1 x1|eARC|WiFi|Bluetooth

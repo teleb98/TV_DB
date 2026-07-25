@@ -42,5 +42,7 @@ Python 은 항상 프로젝트 `.venv` 사용. 스크립트는 절대경로 또�
 - **생성기 성격 파일 수정 시 검증 필수**: 스키마·정규화·적재 변경 후 골든셋으로 회귀 확인.
 - 데이터 변경(모델/가격/설명) → 해당 로더 재실행. 임베딩 대상(positioning) 바뀌면 `build_embeddings.py` 재실행.
 - 실사이트 수집기(samsung_official/danawa)는 **셀렉터 미확정**(config/selectors.py). JS 렌더링 사이트는 정적 파싱 실패 가능 → Playwright 필요.
-- 2026 모델은 `status='announced'/data_confidence='low'`(잠정). 공식 확정 시 승격.
+- `series.status`/`data_confidence` 컬럼은 제거됨(2026-07-25). 수명주기 라벨 미사용.
+- 브랜드 7종: 삼성·LG·Sony·TCL·Hisense(KR/US) + Huawei·Xiaomi(2025, region=Global). Huawei OS=HarmonyOS(smart_os enum 추가됨).
+- **추정 데이터 표기**: 규칙기반 근사치는 `model`/`variant.estimated_fields`(TEXT[])로 행별 표기. 근거 단일소스 `provenance.py`(ESTIMATED/DERIVED/RULE_DERIVED) + `docs/DATA_PROVENANCE.md`. 빈 필드 보강은 `scripts/enrich_fill_empties.py`(멱등, IS NULL 가드). 새 필드 추정 시 `provenance.ESTIMATED`에 등록해야 표기·범례에 반영됨.
 - 커밋은 사용자가 요청할 때만.

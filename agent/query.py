@@ -61,8 +61,7 @@ def lineup(brand: str, year: int | None = None) -> list[dict]:
         cur = c.cursor()
         cur.execute("""
             select s.marketing_name lineup, s.tier, s.generation_year yr,
-                   s.panel_tech panel, m.model_code_base code, s.positioning,
-                   s.status, s.data_confidence
+                   s.panel_tech panel, m.model_code_base code, s.positioning
             from series s join brand b on s.brand_id=b.brand_id
             left join model m on m.series_id=s.series_id
             where b.name=%s and (%s::int is null or s.generation_year=%s)
@@ -74,12 +73,12 @@ def lineup(brand: str, year: int | None = None) -> list[dict]:
 
 # ---------------------------------------------------------------- 신제품(발표) 안내
 def whats_new(year: int, brand: str | None = None) -> list[dict]:
-    """해당 연도의 발표/출시 라인업. status='announced' 는 잠정 정보(저신뢰) 표시."""
+    """해당 연도의 발표/출시 라인업."""
     with _conn() as c:
         cur = c.cursor()
         cur.execute("""
             select b.name brand, s.marketing_name lineup, m.model_code_base code,
-                   s.tier, s.status, s.data_confidence
+                   s.tier
             from series s join brand b on s.brand_id=b.brand_id
             left join model m on m.series_id=s.series_id
             where s.generation_year=%s and (%s::text is null or b.name=%s)

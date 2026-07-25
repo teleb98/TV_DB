@@ -85,6 +85,20 @@ launchctl start com.tvspecdb.prices                # 즉시 1회 실행
 - 러너는 타깃별 예외 격리 + 3xx 추종 → 한 소스 실패해도 배치 지속. 로그: `data/logs/`.
 - ⚠ danawa 셀렉터 미설정/JS 렌더링이면 0건 수집(정상 종료). 셀렉터 확정 시 자동 축적.
 
+## DB 제공 (읽기 전용 JSON API) — 맥미니 배포
+DB 를 HTTP 로 제공하는 stdlib(의존성 무추가) 서버. `agent/query.py` 를 래핑.
+```bash
+# 로컬 실행
+PORT=3004 ./.venv/bin/python -m serve.api        # http://127.0.0.1:3004
+# 상주(LaunchAgent) 설치
+cp deploy/com.tvspecdb.web.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.tvspecdb.web.plist
+launchctl kickstart -k gui/501/com.tvspecdb.web  # 재시작
+```
+- **공개 주소**: `https://tv.rarebook.co.kr` (Cloudflare Tunnel `rarebook` → 127.0.0.1:3004).
+- **엔드포인트**(전부 GET, 읽기 전용): `/health` · `/api/brands` · `/api/lineup` · `/api/compare?samsung=` · `/api/whats_new?year=` · `/api/search` · `/api/recommend?q=` · `/api/price/{best,region,trend}`. 목록·검색어휘는 `GET /`.
+- **활용(Claude.ai 누적)**: Claude.ai 가 이 API 를 호출해 현재 DB 를 읽고, 신규 모델·가격·리뷰는 골든셋 CSV/로더로 적재 → API 가 즉시 반영. 쓰기는 API 로 노출하지 않음(파이프라인 전용).
+
 ## 완료 / 남은 일
 - [x] 4계층 스키마 · 정규화 엔진(골든셋 46/46 통과, 2023~2025) · DB upsert(멱등)
 - [x] Comparison_Map 생성기 · Agent 질의계층(compare/lineup/search/recommend)
@@ -94,8 +108,14 @@ launchctl start com.tvspecdb.prices                # 즉시 1회 실행
 - [x] 멀티리전(KR 52·US 20 variant, 2023~2025) — 지역별 SKU·통화·가격이력 + `price_by_region()`
 - [x] 지역별 OS 차이 모델링 — `variant.os_override`(예: Hisense US=Google-TV vs KR=VIDAA)
 - [x] tool-use 에이전트 — 8개 질의도구를 Claude(claude-opus-4-8)에 노출, 자연어 상담(도구계층 검증 완료; 라이브는 `ANTHROPIC_API_KEY` 필요)
-- [x] 수명주기 `status`(announced/released/eol) + `data_confidence` — 2026 잠정 데이터 격리
-- [ ] **2026 스펙/SKU 공식 확정 시 released/high 승격** (현재 삼성·LG 6종 announced/low, Sony/TCL/Hisense 보류)
+- [x] 7개 브랜드 커버 — 삼성·LG·Sony·TCL·Hisense + **Huawei·Xiaomi(2025, region=Global)**
+- [x] `series.status`/`data_confidence` 컬럼 제거(2026-07-25) — 수명주기 라벨 미사용으로 정리
+- [x] 빈 필드 보강(`scripts/enrich_fill_empties.py`, 멱등) — 국가·OS버전·key_features·availability·source_url·price_band(결정적 도출) + 오디오·무게·소비전력·디밍존(티어/사이즈 대표 추정치, **근사값·공식 대조 검수 전제**). `local_dimming_zones`는 Mini-LED/full-array만 채우고 OLED/엣지형은 NULL(해당없음).
+- [x] **추정 데이터 표기** — `model`/`variant`에 `estimated_fields TEXT[]` 컬럼으로 행별 추정 필드 표기. 근거 단일 소스 [`provenance.py`](provenance.py) + 사전 [`docs/DATA_PROVENANCE.md`](docs/DATA_PROVENANCE.md). export 파일 최상위 `provenance` 범례에 근거 동봉.
+- [x] **인치 세분화(2025–2026)** — `model.size_variants_in INT[]`에 각 브랜드 공식 사이트 확인 제공 인치(`scripts/load_sizes.py`, 소스 주석). 33종 적재 **확인 27·추정 6**. 공식 확인 불가(Hisense U6Q·Huawei 3종·Xiaomi S-OLED/A-Pro)만 `estimated_fields`에 `size_variants_in` 표기.
+- [x] **삼성 2026 모델코드 정정(2026-07-25)** — QN990G→**QN990H**(85·98), S95G→**S95H**, QN90G→**QN80H**(QN90 라인 2026 단종 → 4K Neo QLED 최상위 QN80H). 골든셋·SKU·사이즈·비교맵 정합.
+- [x] **2026 삼성 라인업 보강** — S99H(프리미엄 QD-OLED)·S90H·S85H(WOLED)·QN70H(Neo QLED 4K) 추가 → 2026 삼성 7종, 전체 **62종**.
+- [x] **인치별 variant 확장 + 가격**(`scripts/expand_variants.py`) — size_variants_in 기준 인치별 variant 생성(82→**255행**). 실제 판매 SKU 미상이라 **구성 SKU `{code}-{size}IN-{region}`**(estimated_fields에 `sku_full` 표기), 물리스펙은 사이즈별 보강. 공식 확인된 **US 인치별 MSRP**(QN90F·QM6K·QM7K, 18건) price_history 적재.
 - [ ] **골든셋 스펙값 공식 대조 검수** (현재 대표값 — 정답지 확정 필요)
 - [ ] 실사이트 셀렉터 확정 + JS 사이트는 Playwright 연동(위 가이드)
 - [x] 가격 수집 스케줄링(launchd 매일) — `collect_prices.py` + `deploy/*.plist`, 예외격리

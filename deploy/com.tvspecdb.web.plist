@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  TV Spec DB — 읽기 전용 JSON API 서버 (LaunchAgent, 상주).
+  127.0.0.1:3004 에 상주하고 Cloudflare Tunnel(rarebook)이 tv.rarebook.co.kr → 3004 로 프록시.
+
+  설치:
+    cp deploy/com.tvspecdb.web.plist ~/Library/LaunchAgents/
+    launchctl load ~/Library/LaunchAgents/com.tvspecdb.web.plist
+  재시작:  launchctl kickstart -k gui/501/com.tvspecdb.web
+  해제:    launchctl unload ~/Library/LaunchAgents/com.tvspecdb.web.plist
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.tvspecdb.web</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/mac/tv-spec-db/.venv/bin/python</string>
+        <string>-m</string>
+        <string>serve.api</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/mac/tv-spec-db</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PG_DSN</key>
+        <string>postgresql://localhost/tvspec</string>
+        <key>HOST</key>
+        <string>127.0.0.1</string>
+        <key>PORT</key>
+        <string>3004</string>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/bin:/bin</string>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/mac/tv-spec-db/data/logs/web.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/mac/tv-spec-db/data/logs/web.err.log</string>
+</dict>
+</plist>

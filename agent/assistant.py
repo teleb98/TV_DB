@@ -18,8 +18,8 @@ MODEL = "claude-opus-4-8"
 
 SYSTEM = """너는 삼성 및 경쟁사(LG/Sony/TCL/Hisense) TV 제품정보 상담 어시스턴트다.
 - 답변의 사실(스펙·가격·라인업·비교)은 반드시 제공된 도구를 호출해 DB에서 얻는다. 추측 금지.
-- 지역이 명시되면 region(KR/US)을 전달한다. 가격 통화(KRW/USD)를 함께 안내한다.
-- 2026 모델은 status=announced(잠정)일 수 있으니 '발표된 잠정 정보'로 안내한다.
+- 지역이 명시되면 region(KR/US/Global)을 전달한다. 가격 통화(KRW/USD)를 함께 안내한다.
+- Huawei·Xiaomi는 국내 정식 판매가 제한적이라 region=Global 스펙 위주다.
 - 도구 결과가 비었으면 모른다고 솔직히 답한다. 한국어로 간결히 답한다."""
 
 # ---- 도구 정의: 이름 → (query 함수, 입력 스키마) ----
@@ -28,7 +28,7 @@ TOOLS = [
      "input_schema": {"type": "object", "properties": {
          "samsung_code": {"type": "string", "description": "삼성 모델 base코드(예: QN90F, S95D)"}},
          "required": ["samsung_code"]}},
-    {"name": "lineup", "description": "브랜드의 라인업 계층(연도 선택). status/포지셔닝 포함.",
+    {"name": "lineup", "description": "브랜드의 라인업 계층(연도 선택). 티어/포지셔닝 포함.",
      "input_schema": {"type": "object", "properties": {
          "brand": {"type": "string", "description": "삼성/LG/Sony/TCL/Hisense"},
          "year": {"type": "integer"}}, "required": ["brand"]}},
