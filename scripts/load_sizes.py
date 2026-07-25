@@ -60,6 +60,12 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "U9N":     ([75, 85],                         True,  "Hisense U9N 2024 플래그십(75/85)"),
     "QM8L":    ([55, 65, 75, 85, 98],             False, "TCL QM8L 2026 SQD(65 확인, 세트 추정)"),
     "U6N":     ([55, 65, 75, 85],                 True,  "RTINGS Hisense U6N 2024(55~85)"),
+    "QN70F":   ([55, 65, 75, 85],                 True,  "RTINGS Samsung QN70F 2025 Edge Mini-LED(55~85)"),
+    "XR95II":  ([65, 75, 85, 115],                True,  "Sony BRAVIA 9 II True RGB(65~115)"),
+    "XR70II":  ([50, 55, 65, 75, 85, 98],         True,  "Sony BRAVIA 7 II True RGB(50~98)"),
+    "QNED92":  ([65, 75, 85, 100, 115],           False, "LG 2026 QNED evo(115/100 확인, 세트 추정)"),
+    "R95H":    ([65, 75, 85, 130],                True,  "samsung Micro RGB R95H(65/75/85/130)"),
+    "R85H":    ([55, 65, 75, 85, 98],             True,  "samsung Micro RGB R85H(55~98/100)"),
     # --- 2024 주요 모델 인치(공식/RTINGS 확인) ---
     "QN90D":  ([43, 50, 55, 65, 75, 85, 98],      True,  "samsung QN90D 2024"),
     "QN900D": ([65, 75, 85],                      True,  "samsung QN900D 8K 2024"),

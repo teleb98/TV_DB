@@ -1,7 +1,7 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-07-26T00:00:25.838434+09:00",
-  "model_count": 84,
+  "generated_at": "2026-07-26T05:32:50.694222+09:00",
+  "model_count": 90,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
     "estimated": {
@@ -544,6 +544,383 @@
         {
           "region": "KR",
           "model_name": "KQ85QN990HXKR",
+          "kind": "sku_root"
+        }
+      ]
+    },
+    {
+      "brand": "삼성",
+      "lineup": "Micro RGB",
+      "series_name": "R85",
+      "year": 2026,
+      "panel_tech": "Mini-LED",
+      "tier": "high",
+      "os": "Tizen",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "144Hz",
+        "고휘도(2000nit+)",
+        "HDR10+",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "R85H",
+      "resolution": "4K",
+      "refresh_rate_native": 144,
+      "hdr_formats": [
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "Micro RGB AI",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 2500,
+      "audio_channels": "2.2",
+      "audio_output_w": 40,
+      "smart_os_version": "Tizen 10.0",
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "FreeSync Premium Pro"
+      ],
+      "size_variants_in": [
+        55,
+        65,
+        75,
+        85,
+        98
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "R85H-55IN-US",
+          "size_inch": 55,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 19.0,
+          "power_w": 160,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN65R85HAFXZA",
+          "size_inch": 65,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "R85H-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "R85H-85IN-US",
+          "size_inch": 85,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "R85H-98IN-US",
+          "size_inch": 98,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 34.5,
+          "power_w": 290,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "QN65R85HAFXZA",
+          "kind": "sku_root"
+        }
+      ]
+    },
+    {
+      "brand": "삼성",
+      "lineup": "Micro RGB",
+      "series_name": "R95",
+      "year": 2026,
+      "panel_tech": "Mini-LED",
+      "tier": "flagship",
+      "os": "Tizen",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "165Hz",
+        "고휘도(2000nit+)",
+        "HDR10+",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "R95H",
+      "resolution": "4K",
+      "refresh_rate_native": 165,
+      "hdr_formats": [
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "Micro RGB AI",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 4000,
+      "audio_channels": "4.2.2",
+      "audio_output_w": 70,
+      "smart_os_version": "Tizen 10.0",
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "165Hz",
+        "FreeSync Premium Pro"
+      ],
+      "size_variants_in": [
+        65,
+        75,
+        85,
+        130
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "QN65R95HAFXZA",
+          "size_inch": 65,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "R95H-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "R95H-85IN-US",
+          "size_inch": 85,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "R95H-130IN-US",
+          "size_inch": 130,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 45.5,
+          "power_w": 390,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "QN65R95HAFXZA",
           "kind": "sku_root"
         }
       ]
@@ -2327,6 +2704,188 @@
         {
           "region": "US",
           "model_name": "QN65Q8FAFXZA",
+          "kind": "sku_root"
+        }
+      ]
+    },
+    {
+      "brand": "삼성",
+      "lineup": "Neo QLED 4K",
+      "series_name": "QN70",
+      "year": 2025,
+      "panel_tech": "Neo-QLED",
+      "tier": "mid",
+      "os": "Tizen",
+      "positioning": null,
+      "key_features": [
+        "Neo-QLED",
+        "120Hz",
+        "HDR10+",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "QN70F",
+      "resolution": "4K",
+      "refresh_rate_native": 120,
+      "hdr_formats": [
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "NQ4 AI Gen2",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 750,
+      "audio_channels": "2.0",
+      "audio_output_w": 20,
+      "smart_os_version": "Tizen 9.0",
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "FreeSync Premium"
+      ],
+      "size_variants_in": [
+        55,
+        65,
+        75,
+        85
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "QN70F-55IN-US",
+          "size_inch": 55,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 19.0,
+          "power_w": 140,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN65QN70FAFXZA",
+          "size_inch": 65,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 170,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN70F-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 200,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QN70F-85IN-US",
+          "size_inch": 85,
+          "region": "US",
+          "color": "Titan Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 29.5,
+          "power_w": 220,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": {
+        "peak_brightness_nits": 733,
+        "fullscreen_nits": null,
+        "input_lag_ms": null,
+        "dci_p3_pct": 90.0,
+        "rec2020_pct": null,
+        "contrast": null,
+        "source": "rtings",
+        "measured_date": "2025-06-01"
+      },
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "QN65QN70FAFXZA",
           "kind": "sku_root"
         }
       ]
@@ -10185,6 +10744,210 @@
     },
     {
       "brand": "LG",
+      "lineup": "QNED evo QNED92",
+      "series_name": "QNED92",
+      "year": 2026,
+      "panel_tech": "Mini-LED",
+      "tier": "flagship",
+      "os": "webOS",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "144Hz",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "QNED92",
+      "resolution": "4K",
+      "refresh_rate_native": 144,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "processor": "α8 AI Gen3",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 1500,
+      "audio_channels": "2.2",
+      "audio_output_w": 40,
+      "smart_os_version": "webOS 26",
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "FreeSync"
+      ],
+      "size_variants_in": [
+        65,
+        75,
+        85,
+        100,
+        115
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w",
+        "size_variants_in"
+      ],
+      "variants": [
+        {
+          "sku_full": "65QNED92TUA",
+          "size_inch": 65,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QNED92-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QNED92-85IN-US",
+          "size_inch": 85,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QNED92-100IN-US",
+          "size_inch": 100,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 35.0,
+          "power_w": 300,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "QNED92-115IN-US",
+          "size_inch": 115,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 40.0,
+          "power_w": 340,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "65QNED92TUA",
+          "kind": "sku_root"
+        }
+      ]
+    },
+    {
+      "brand": "LG",
       "lineup": "OLED B5",
       "series_name": "B",
       "year": 2025,
@@ -14047,6 +14810,421 @@
         {
           "region": "US",
           "model_name": "K-65S30M2",
+          "kind": "sku_root"
+        }
+      ]
+    },
+    {
+      "brand": "Sony",
+      "lineup": "BRAVIA 7 II True RGB",
+      "series_name": "BRAVIA7II",
+      "year": 2026,
+      "panel_tech": "Mini-LED",
+      "tier": "high",
+      "os": "Google-TV",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "120Hz",
+        "고휘도(2000nit+)",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "XR70II",
+      "resolution": "4K",
+      "refresh_rate_native": 120,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "processor": "XR Processor",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 2500,
+      "audio_channels": "2.2",
+      "audio_output_w": 40,
+      "smart_os_version": "Google TV",
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "120Hz"
+      ],
+      "size_variants_in": [
+        50,
+        55,
+        65,
+        75,
+        85,
+        98
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "XR70II-50IN-US",
+          "size_inch": 50,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 17.5,
+          "power_w": 150,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "XR70II-55IN-US",
+          "size_inch": 55,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 19.0,
+          "power_w": 160,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "K-65XR70M2",
+          "size_inch": 65,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "XR70II-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "XR70II-85IN-US",
+          "size_inch": 85,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "XR70II-98IN-US",
+          "size_inch": 98,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 34.5,
+          "power_w": 290,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "K-65XR70M2",
+          "kind": "sku_root"
+        }
+      ]
+    },
+    {
+      "brand": "Sony",
+      "lineup": "BRAVIA 9 II True RGB",
+      "series_name": "BRAVIA9II",
+      "year": 2026,
+      "panel_tech": "Mini-LED",
+      "tier": "flagship",
+      "os": "Google-TV",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "120Hz",
+        "고휘도(2000nit+)",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "XR95II",
+      "resolution": "4K",
+      "refresh_rate_native": 120,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "processor": "XR Processor",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 4250,
+      "audio_channels": "2.2",
+      "audio_output_w": 70,
+      "smart_os_version": "Google TV",
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "120Hz"
+      ],
+      "size_variants_in": [
+        65,
+        75,
+        85,
+        115
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "K-65XR95M2",
+          "size_inch": 65,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "XR95II-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "XR95II-85IN-US",
+          "size_inch": 85,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "XR95II-115IN-US",
+          "size_inch": 115,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 40.0,
+          "power_w": 340,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.sony.co.kr",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": {
+        "peak_brightness_nits": 4250,
+        "fullscreen_nits": null,
+        "input_lag_ms": null,
+        "dci_p3_pct": 97.0,
+        "rec2020_pct": 90.0,
+        "contrast": null,
+        "source": "reviews",
+        "measured_date": "2026-06-01"
+      },
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "K-65XR95M2",
           "kind": "sku_root"
         }
       ]

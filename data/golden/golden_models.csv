@@ -68,3 +68,9 @@ LG,M,OLED evo M5,2025,WOLED,flagship,webOS,M5,4K,144,Dolby Vision|HDR10|HLG,α11
 Hisense,U9,ULED U9N,2024,Mini-LED,flagship,Google-TV,U9N,4K,144,Dolby Vision|HDR10+|HLG,Hi-View Engine X,mini-led,5000,75U9N,75,US,,VRR|ALLM|144Hz|FreeSync Premium Pro|Game Mode Pro,HDMI2.1 x2|eARC|WiFi|Bluetooth
 TCL,QM8L,QM8L SQD Mini LED,2026,Mini-LED,flagship,Google-TV,QM8L,4K,144,Dolby Vision|HDR10+|HLG,TSR AI Pro,mini-led,6000,65QM8L,65,US,,VRR|ALLM|144Hz|FreeSync Premium Pro|Game Accelerator 288,HDMI2.1 x2|eARC|WiFi|Bluetooth
 Hisense,U6,ULED U6N,2024,Mini-LED,mid,Fire-TV,U6N,4K,60,Dolby Vision|HDR10+|HLG,Hi-View,mini-led,600,55U6N,55,US,,VRR|ALLM,HDMI2.0 x3|eARC|WiFi|Bluetooth
+삼성,QN70,Neo QLED 4K,2025,Neo-QLED,mid,Tizen,QN70F,4K,120,HDR10+|HLG,NQ4 AI Gen2,mini-led,750,QN65QN70FAFXZA,65,US,,VRR|ALLM|144Hz|FreeSync Premium,HDMI2.1 x4|eARC|WiFi|Bluetooth
+Sony,BRAVIA9II,BRAVIA 9 II True RGB,2026,Mini-LED,flagship,Google-TV,XR95II,4K,120,Dolby Vision|HDR10|HLG,XR Processor,mini-led,4250,K-65XR95M2,65,US,,VRR|ALLM|120Hz,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Sony,BRAVIA7II,BRAVIA 7 II True RGB,2026,Mini-LED,high,Google-TV,XR70II,4K,120,Dolby Vision|HDR10|HLG,XR Processor,mini-led,2500,K-65XR70M2,65,US,,VRR|ALLM|120Hz,HDMI2.1 x2|eARC|WiFi|Bluetooth
+LG,QNED92,QNED evo QNED92,2026,Mini-LED,flagship,webOS,QNED92,4K,144,Dolby Vision|HDR10|HLG,α8 AI Gen3,mini-led,1500,65QNED92TUA,65,US,,VRR|ALLM|144Hz|FreeSync,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,R95,Micro RGB,2026,Mini-LED,flagship,Tizen,R95H,4K,165,HDR10+|HLG,Micro RGB AI,mini-led,4000,QN65R95HAFXZA,65,US,,VRR|ALLM|165Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,R85,Micro RGB,2026,Mini-LED,high,Tizen,R85H,4K,144,HDR10+|HLG,Micro RGB AI,mini-led,2500,QN65R85HAFXZA,65,US,,VRR|ALLM|144Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth

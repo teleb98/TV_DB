@@ -37,6 +37,7 @@ MEASURE: dict[str, tuple] = {
     "QN80F":  (1106, 754,  None, 93.0,  None, None,     "2025-05-01", "techradar"),
     "QNED9M": (1400, None, None, 95.0,  None, None,     "2025-05-01", "reviews"),
     "Q8F":    (1520, 420,  None, 93.0,  None, None,     "2025-06-01", "reviews"),
+    "QN70F":  (733,  None, None, 90.0,  None, None,     "2025-06-01", "rtings"),
     # 2024
     "G4":     (1500, 235,  None, 97.5,  74.0, "inf",    "2024-04-01", "flatpanelshd"),
     "QN90D":  (2100, 800,  None, 90.0,  None, None,     "2024-05-01", "rtings"),
@@ -56,6 +57,7 @@ MEASURE: dict[str, tuple] = {
     "C6":     (1438, 236,  None, 99.7,  None, "inf",    "2026-03-01", "techradar"),
     "S95H":   (2704, 458,  None, 99.9,  None, "inf",    "2026-04-01", "reviews"),
     "S90H":   (2450, None, None, 99.0,  None, "inf",    "2026-04-01", "reviews"),
+    "XR95II": (4250, None, None, 97.0,  90.0, None,     "2026-06-01", "reviews"),  # Bravia 9 II True RGB
 }
 
 
