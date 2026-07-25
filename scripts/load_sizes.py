@@ -34,6 +34,10 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "QM8K":   ([65, 75, 85, 98],                  True,  "RTINGS QM8K(65/75/85/98)"),
     "QM7K":   ([55, 65, 75, 85, 98, 115],         True,  "RTINGS QM7K 55·65·75·85·98·115"),
     "QM6K":   ([50, 55, 65, 75, 85, 98],          True,  "RTINGS QM6K + TCL 50·55·65·75·85·98"),
+    # --- 추가 누락 모델(2025) ---
+    "QM9K":   ([65, 75, 85, 98],                  True,  "us.tcl.com/Tom's Guide QM9K 플래그십 65~98"),
+    "QN800F": ([65, 75, 85],                      True,  "samsung Neo QLED 8K QN800F 65/75/85"),
+    "S20M2":  ([43, 50, 55, 65, 75],              True,  "RTINGS Sony BRAVIA 2 II(43/50/55/65/75)"),
     # --- Hisense 2025 ---
     "U8Q":    ([55, 65, 75, 85, 100],             True,  "RTINGS U8QG(55/65/75/85/100)"),
     "U7Q":    ([55, 65, 75, 85, 100],             True,  "RTINGS U75QG 55·65·75·85·100"),

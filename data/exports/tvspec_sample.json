@@ -751,7 +751,7 @@
       "processor": "Hi-View AI Engine X",
       "dimming": "mini-led",
       "peak_brightness_nits": 3200,
-      "audio_channels": "2.1.2",
+      "audio_channels": "4.1.2",
       "audio_output_w": 60,
       "smart_os_version": "VIDAA U",
       "connectivity": [
@@ -990,8 +990,8 @@
           "power_w": 220,
           "local_dimming_zones": 1344,
           "audio_output_w": 60,
-          "price_msrp": null,
-          "price_street": null,
+          "price_msrp": 1499,
+          "price_street": 1299,
           "currency": "USD",
           "availability": "판매중",
           "source_url": "https://www.hisense.com",
@@ -1003,7 +1003,14 @@
             "stand_type",
             "weight_kg"
           ],
-          "price_history": []
+          "price_history": [
+            {
+              "channel": "bestbuy",
+              "price": 1299,
+              "currency": "USD",
+              "d": "2026-07-25"
+            }
+          ]
         },
         {
           "sku_full": "U8Q-85IN-US",
@@ -1283,7 +1290,7 @@
           "local_dimming_zones": null,
           "audio_output_w": 60,
           "price_msrp": 2299,
-          "price_street": 2299,
+          "price_street": 1999,
           "currency": "USD",
           "availability": "판매중",
           "source_url": "https://www.lge.co.kr",
@@ -1305,6 +1312,12 @@
               "price": 2299,
               "currency": "USD",
               "d": "2026-07-01"
+            },
+            {
+              "channel": "amazon",
+              "price": 1999,
+              "currency": "USD",
+              "d": "2026-07-25"
             }
           ]
         },
