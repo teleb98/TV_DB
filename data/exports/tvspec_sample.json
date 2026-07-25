@@ -575,7 +575,8 @@
         "contrast": null,
         "source": "rtings",
         "measured_date": "2025-05-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -742,7 +743,8 @@
         "contrast": null,
         "source": "reviews",
         "measured_date": "2025-05-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "Hisense",
@@ -1094,6 +1096,16 @@
         "contrast": null,
         "source": "rtings",
         "measured_date": "2025-06-01"
+      },
+      "certification": {
+        "energy_class_sdr": "D",
+        "energy_class_hdr": "G",
+        "power_sdr_w": 85,
+        "power_hdr_w": null,
+        "eprel_model": "75U8QxxUK(EU)",
+        "fcc_id": null,
+        "rra_id": null,
+        "source": "eprel"
       }
     },
     {
@@ -1442,6 +1454,16 @@
         "contrast": "inf",
         "source": "avforums",
         "measured_date": "2025-04-01"
+      },
+      "certification": {
+        "energy_class_sdr": "E",
+        "energy_class_hdr": "G",
+        "power_sdr_w": 85,
+        "power_hdr_w": 222,
+        "eprel_model": "OLED65G51LW",
+        "fcc_id": null,
+        "rra_id": null,
+        "source": "eprel"
       }
     },
     {
@@ -1661,7 +1683,8 @@
         "contrast": "inf",
         "source": "avforums",
         "measured_date": "2024-01-01"
-      }
+      },
+      "certification": null
     }
   ]
 }

@@ -155,6 +155,20 @@ CREATE TABLE measurement (
     updated_at           TIMESTAMPTZ DEFAULT now()
 );
 
+-- ---------- 11. Certification (EPREL 에너지·FCC·RRA 인증; 모델당 1행) ----------
+CREATE TABLE certification (
+    model_id         INT PRIMARY KEY REFERENCES model(model_id) ON DELETE CASCADE,
+    energy_class_sdr TEXT,     -- A~G (EU EPREL, SDR)
+    energy_class_hdr TEXT,     -- A~G (HDR)
+    power_sdr_w      INT,      -- SDR On-mode 소비전력(W)
+    power_hdr_w      INT,      -- HDR On-mode 소비전력(W)
+    eprel_model      TEXT,     -- EPREL 등록 모델명(EU SKU, 파생명 매핑)
+    fcc_id           TEXT,     -- 미 FCC ID
+    rra_id           TEXT,     -- 한국 전파인증(RRA) 번호
+    source           TEXT DEFAULT 'eprel',
+    updated_at       TIMESTAMPTZ DEFAULT now()
+);
+
 -- ---------- 인덱스 ----------
 CREATE INDEX idx_queue_due  ON crawl_queue(status, next_due);
 CREATE INDEX idx_raw_url    ON crawl_raw(url, fetched_at DESC);

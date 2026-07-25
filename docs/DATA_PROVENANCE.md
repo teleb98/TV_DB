@@ -64,6 +64,12 @@ RTINGS·FlatpanelsHD·AVForums 등 전문 리뷰 **실측치**. `measurement` �
 
 로더 `scripts/load_measurements.py`(WebSearch 스니펫 확인). ※ DisplaySpecifications(SoC/RAM/tuner/VESA)는 봇차단으로 미수집 — `model.tuner`/`vesa_mm` 컬럼만 준비됨. TechSpecs API는 키 필요로 미연동.
 
+## ③-d CERTIFIED — 인증/에너지 (certification 테이블, EPREL)
+
+EU **EPREL**(에너지효율 등록DB) 최고신뢰 데이터. `certification` 테이블(모델당 1행).
+`energy_class_sdr/hdr`(A~G), `power_sdr_w/power_hdr_w`(On-mode 소비전력), `eprel_model`(EU 정식 SKU=파생명 매핑).
+※ 소비전력은 등록 사이즈 기준(대개 65", U8Q는 75"). ※ FCC ID·RRA(한국)는 직접조회 제약으로 컬럼만 준비(미수집). 로더 `scripts/load_certification.py`. API `GET /api/certification?model=`.
+
 ## ④ SOURCED — 큐레이션 스펙 (골든셋 원본)
 `panel_tech·resolution·refresh_rate_native·hdr_formats·processor·dimming·sku_full·size_inch·region·price_*` 등은 골든셋 CSV의 큐레이션 대표값(공식 대조 검수 전제).
 

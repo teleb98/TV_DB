@@ -1,6 +1,6 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-07-25T23:44:34.766822+09:00",
+  "generated_at": "2026-07-25T23:51:08.601783+09:00",
   "model_count": 79,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
@@ -233,7 +233,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -405,7 +406,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -496,7 +498,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -663,7 +666,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -865,7 +869,8 @@
         "contrast": "inf",
         "source": "reviews",
         "measured_date": "2026-04-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -1015,7 +1020,8 @@
         "contrast": "inf",
         "source": "reviews",
         "measured_date": "2026-04-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -1156,7 +1162,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -1387,7 +1394,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -1537,7 +1545,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -1765,7 +1774,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -1985,7 +1995,8 @@
         "contrast": null,
         "source": "reviews",
         "measured_date": "2025-06-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -2115,7 +2126,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -2308,7 +2320,8 @@
         "contrast": null,
         "source": "techradar",
         "measured_date": "2025-05-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -2474,7 +2487,8 @@
         "contrast": null,
         "source": "choose.tv",
         "measured_date": "2025-05-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -3017,7 +3031,8 @@
         "contrast": null,
         "source": "rtings",
         "measured_date": "2025-05-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -3184,7 +3199,8 @@
         "contrast": null,
         "source": "reviews",
         "measured_date": "2025-05-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -3547,6 +3563,16 @@
         "contrast": "inf",
         "source": "avforums",
         "measured_date": "2025-05-01"
+      },
+      "certification": {
+        "energy_class_sdr": "F",
+        "energy_class_hdr": "G",
+        "power_sdr_w": 89,
+        "power_hdr_w": 204,
+        "eprel_model": "QE65S90FAT",
+        "fcc_id": null,
+        "rra_id": null,
+        "source": "eprel"
       }
     },
     {
@@ -3841,6 +3867,16 @@
         "contrast": "inf",
         "source": "rtings",
         "measured_date": "2025-04-01"
+      },
+      "certification": {
+        "energy_class_sdr": "F",
+        "energy_class_hdr": "G",
+        "power_sdr_w": null,
+        "power_hdr_w": null,
+        "eprel_model": "QE65S95FAT",
+        "fcc_id": null,
+        "rra_id": null,
+        "source": "eprel"
       }
     },
     {
@@ -4095,7 +4131,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -4165,7 +4202,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -4295,7 +4333,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -4452,7 +4491,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -4667,7 +4707,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -5109,6 +5150,16 @@
         "contrast": null,
         "source": "rtings",
         "measured_date": "2024-05-01"
+      },
+      "certification": {
+        "energy_class_sdr": null,
+        "energy_class_hdr": "G",
+        "power_sdr_w": 90,
+        "power_hdr_w": 210,
+        "eprel_model": "QE65QN90DAT",
+        "fcc_id": null,
+        "rra_id": null,
+        "source": "eprel"
       }
     },
     {
@@ -5323,7 +5374,8 @@
         "contrast": "inf",
         "source": "reviews",
         "measured_date": "2024-04-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -5546,7 +5598,8 @@
         "contrast": "inf",
         "source": "avforums",
         "measured_date": "2024-04-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -5621,7 +5674,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "삼성",
@@ -5694,7 +5748,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "Hisense",
@@ -5923,7 +5978,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "Hisense",
@@ -6119,7 +6175,8 @@
         "contrast": null,
         "source": "reviews",
         "measured_date": "2025-06-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "Hisense",
@@ -6444,7 +6501,8 @@
         "contrast": null,
         "source": "reviews",
         "measured_date": "2025-06-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "Hisense",
@@ -6796,6 +6854,16 @@
         "contrast": null,
         "source": "rtings",
         "measured_date": "2025-06-01"
+      },
+      "certification": {
+        "energy_class_sdr": "D",
+        "energy_class_hdr": "G",
+        "power_sdr_w": 85,
+        "power_hdr_w": null,
+        "eprel_model": "75U8QxxUK(EU)",
+        "fcc_id": null,
+        "rra_id": null,
+        "source": "eprel"
       }
     },
     {
@@ -6902,7 +6970,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "Hisense",
@@ -7085,7 +7154,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "Hisense",
@@ -7281,7 +7351,8 @@
         "contrast": null,
         "source": "rtings",
         "measured_date": "2024-05-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "Hisense",
@@ -7613,7 +7684,8 @@
         "contrast": null,
         "source": "avforums",
         "measured_date": "2024-05-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "Hisense",
@@ -7689,7 +7761,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "Huawei",
@@ -7845,7 +7918,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "Huawei",
@@ -7972,7 +8046,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "Huawei",
@@ -8128,7 +8203,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "LG",
@@ -8296,7 +8372,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "LG",
@@ -8499,7 +8576,8 @@
         "contrast": "inf",
         "source": "techradar",
         "measured_date": "2026-03-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "LG",
@@ -8676,7 +8754,8 @@
         "contrast": "inf",
         "source": "flatpanelshd",
         "measured_date": "2026-03-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "LG",
@@ -8991,7 +9070,8 @@
         "contrast": "inf",
         "source": "techradar",
         "measured_date": "2025-05-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "LG",
@@ -9370,7 +9450,8 @@
         "contrast": "inf",
         "source": "flatpanelshd",
         "measured_date": "2025-04-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "LG",
@@ -9718,6 +9799,16 @@
         "contrast": "inf",
         "source": "avforums",
         "measured_date": "2025-04-01"
+      },
+      "certification": {
+        "energy_class_sdr": "E",
+        "energy_class_hdr": "G",
+        "power_sdr_w": 85,
+        "power_hdr_w": 222,
+        "eprel_model": "OLED65G51LW",
+        "fcc_id": null,
+        "rra_id": null,
+        "source": "eprel"
       }
     },
     {
@@ -9897,7 +9988,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "LG",
@@ -10109,7 +10201,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "LG",
@@ -10267,7 +10360,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "LG",
@@ -10409,7 +10503,8 @@
         "contrast": null,
         "source": "reviews",
         "measured_date": "2025-05-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "LG",
@@ -10585,7 +10680,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "LG",
@@ -10776,7 +10872,8 @@
         "contrast": "inf",
         "source": "reviews",
         "measured_date": "2024-04-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "LG",
@@ -11149,7 +11246,8 @@
         "contrast": "inf",
         "source": "flatpanelshd",
         "measured_date": "2024-04-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "LG",
@@ -11477,7 +11575,8 @@
         "contrast": "inf",
         "source": "flatpanelshd",
         "measured_date": "2024-04-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "LG",
@@ -11551,7 +11650,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "LG",
@@ -11628,7 +11728,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "LG",
@@ -11704,7 +11805,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "LG",
@@ -11780,7 +11882,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "Sony",
@@ -12018,7 +12121,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "Sony",
@@ -12194,7 +12298,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "Sony",
@@ -12390,7 +12495,8 @@
         "contrast": null,
         "source": "hometheaterhifi",
         "measured_date": "2025-06-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "Sony",
@@ -12572,6 +12678,16 @@
         "contrast": "inf",
         "source": "flatpanelshd",
         "measured_date": "2025-08-01"
+      },
+      "certification": {
+        "energy_class_sdr": "F",
+        "energy_class_hdr": "G",
+        "power_sdr_w": 87,
+        "power_hdr_w": null,
+        "eprel_model": "K-65XR80M2",
+        "fcc_id": null,
+        "rra_id": null,
+        "source": "eprel"
       }
     },
     {
@@ -12741,7 +12857,8 @@
         "contrast": null,
         "source": "avforums",
         "measured_date": "2024-05-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "Sony",
@@ -12870,7 +12987,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "Sony",
@@ -13080,7 +13198,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "Sony",
@@ -13245,7 +13364,8 @@
         "contrast": "inf",
         "source": "reviews",
         "measured_date": "2024-01-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "Sony",
@@ -13464,7 +13584,8 @@
         "contrast": "inf",
         "source": "avforums",
         "measured_date": "2024-01-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "Sony",
@@ -13659,7 +13780,8 @@
         "contrast": null,
         "source": "reviews",
         "measured_date": "2024-05-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "TCL",
@@ -14079,7 +14201,8 @@
         "contrast": "7000:1",
         "source": "reviews",
         "measured_date": "2025-04-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "TCL",
@@ -14499,7 +14622,8 @@
         "contrast": "8392:1",
         "source": "rtings",
         "measured_date": "2025-05-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "TCL",
@@ -14797,7 +14921,8 @@
         "contrast": "6470:1",
         "source": "rtings",
         "measured_date": "2025-05-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "TCL",
@@ -14965,7 +15090,8 @@
         "contrast": null,
         "source": "tomsguide",
         "measured_date": "2025-10-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "TCL",
@@ -15194,7 +15320,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "TCL",
@@ -15354,7 +15481,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "TCL",
@@ -15679,7 +15807,8 @@
         "contrast": null,
         "source": "rtings",
         "measured_date": "2024-05-01"
-      }
+      },
+      "certification": null
     },
     {
       "brand": "TCL",
@@ -15874,7 +16003,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "Xiaomi",
@@ -16083,7 +16213,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "Xiaomi",
@@ -16242,7 +16373,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     },
     {
       "brand": "Xiaomi",
@@ -16371,7 +16503,8 @@
           "price_history": []
         }
       ],
-      "measurement": null
+      "measurement": null,
+      "certification": null
     }
   ]
 }

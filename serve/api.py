@@ -54,6 +54,7 @@ INDEX = {
         "GET /api/price/region?model=": "지역별 현재가·OS",
         "GET /api/price/trend?sku=&region=": "SKU 가격 이력",
         "GET /api/measurements?model=QN90F": "RTINGS 등 실측 성능(밝기·입력랙·색재현·명암비)",
+        "GET /api/certification?model=S90F": "EPREL 에너지등급·소비전력(SDR/HDR)·EU 모델명",
     },
     "search_vocab": {
         "panel": ["WOLED", "QD-OLED", "Neo-QLED", "Mini-LED", "LED-LCD"],
@@ -117,6 +118,23 @@ def measurements(code):
         return cur.fetchall()
 
 
+def certification(code):
+    with _conn() as c:
+        cur = c.cursor()
+        cur.execute("""
+            select m.model_code_base, b.name brand, s.marketing_name lineup,
+                   ce.energy_class_sdr, ce.energy_class_hdr, ce.power_sdr_w, ce.power_hdr_w,
+                   ce.eprel_model, ce.fcc_id, ce.rra_id, ce.source
+            from certification ce
+            join model m on ce.model_id=m.model_id
+            join series s on m.series_id=s.series_id
+            join brand b on s.brand_id=b.brand_id
+            where (%s::text is null or m.model_code_base=%s)
+            order by ce.power_hdr_w desc nulls last
+        """, (code, code))
+        return cur.fetchall()
+
+
 def health():
     with _conn() as c:
         cur = c.cursor()
@@ -144,6 +162,8 @@ def route(path: str, qs: dict):
         return 200, brands()
     if path == "/api/measurements":
         return 200, measurements(g("model"))
+    if path == "/api/certification":
+        return 200, certification(g("model"))
     if path == "/api/lineup":
         if not g("brand"):
             return 400, {"error": "brand 파라미터 필요"}

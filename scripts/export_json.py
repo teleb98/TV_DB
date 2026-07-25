@@ -83,6 +83,7 @@ def build():
             mid = r.pop("model_id")
             r["variants"] = fetch_variants(conn, mid)
             r["measurement"] = fetch_measurement(conn, mid)
+            r["certification"] = fetch_certification(conn, mid)
             records.append(r)
     return records
 
@@ -92,6 +93,14 @@ def fetch_measurement(conn, model_id):
     cur.execute("""select peak_brightness_nits, fullscreen_nits, input_lag_ms,
                           dci_p3_pct, rec2020_pct, contrast, source, measured_date
                    from measurement where model_id=%s""", (model_id,))
+    return cur.fetchone()
+
+
+def fetch_certification(conn, model_id):
+    cur = conn.cursor()
+    cur.execute("""select energy_class_sdr, energy_class_hdr, power_sdr_w, power_hdr_w,
+                          eprel_model, fcc_id, rra_id, source
+                   from certification where model_id=%s""", (model_id,))
     return cur.fetchone()
 
 
