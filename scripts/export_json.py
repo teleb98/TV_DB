@@ -93,7 +93,7 @@ def build():
 
 def fetch_features(conn, model_id):
     cur = conn.cursor()
-    cur.execute("""select rank, feature, source from model_feature
+    cur.execute("""select rank, category, feature, source from model_feature
                    where model_id=%s order by rank""", (model_id,))
     return cur.fetchall()
 

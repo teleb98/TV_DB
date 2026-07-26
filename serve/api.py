@@ -140,7 +140,7 @@ def features(code):
     with _conn() as c:
         cur = c.cursor()
         cur.execute("""
-            select m.model_code_base, b.name brand, f.rank, f.feature, f.source
+            select m.model_code_base, b.name brand, f.rank, f.category, f.feature, f.source
             from model_feature f join model m on f.model_id=m.model_id
             join series s on m.series_id=s.series_id
             join brand b on s.brand_id=b.brand_id

@@ -1,6 +1,6 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-07-26T06:19:56.931740+09:00",
+  "generated_at": "2026-07-26T17:06:34.194965+09:00",
   "model_count": 105,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
@@ -5189,37 +5189,92 @@
       "features": [
         {
           "rank": 1,
+          "category": "ai",
           "feature": "Samsung Vision AI",
           "source": "samsung.com"
         },
         {
           "rank": 2,
+          "category": "picture",
           "feature": "Glare Free 반사방지",
           "source": "samsung.com"
         },
         {
           "rank": 3,
+          "category": "picture",
           "feature": "Quantum Mini LED Pro(Quantum Matrix Plus)",
           "source": "samsung.com"
         },
         {
           "rank": 4,
+          "category": "ai",
           "feature": "NQ4 AI Gen3 프로세서·4K AI Upscaling Pro",
           "source": "samsung.com"
         },
         {
           "rank": 5,
-          "feature": "Motion Xcelerator 165Hz",
+          "category": "gaming",
+          "feature": "Motion Xcelerator 165Hz·Gaming Hub",
           "source": "samsung.com"
         },
         {
           "rank": 6,
+          "category": "picture",
           "feature": "Neo Quantum HDR+",
           "source": "samsung.com"
         },
         {
           "rank": 7,
-          "feature": "Object Tracking Sound+·Gaming Hub",
+          "category": "sound",
+          "feature": "Object Tracking Sound+·Q-Symphony·Dolby Atmos",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 8,
+          "category": "service",
+          "feature": "Gaming Hub(Xbox·GeForce Now·Luna 클라우드 게임)",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 9,
+          "category": "service",
+          "feature": "Samsung TV Plus(무료 채널)",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 10,
+          "category": "service",
+          "feature": "SmartThings 홈 허브·Matter",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 11,
+          "category": "service",
+          "feature": "Bixby·Alexa 음성 어시스턴트",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 12,
+          "category": "experience",
+          "feature": "Ambient Mode(배경 화면)",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 13,
+          "category": "experience",
+          "feature": "Multi View(멀티뷰)",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 14,
+          "category": "experience",
+          "feature": "Slim One Connect(원커넥트 박스)",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 15,
+          "category": "experience",
+          "feature": "SolarCell 리모컨(태양광 충전)",
           "source": "samsung.com"
         }
       ]
@@ -6337,37 +6392,86 @@
       "features": [
         {
           "rank": 1,
+          "category": "ai",
           "feature": "Samsung Vision AI",
           "source": "samsung.com"
         },
         {
           "rank": 2,
+          "category": "picture",
           "feature": "역대 최고 밝기 OLED·OLED HDR Pro",
           "source": "samsung.com"
         },
         {
           "rank": 3,
+          "category": "picture",
           "feature": "OLED Glare Free",
           "source": "samsung.com"
         },
         {
           "rank": 4,
+          "category": "ai",
           "feature": "NQ4 AI Gen3 프로세서",
           "source": "samsung.com"
         },
         {
           "rank": 5,
-          "feature": "Motion Xcelerator 165Hz",
+          "category": "gaming",
+          "feature": "Motion Xcelerator 165Hz·Gaming Hub",
           "source": "samsung.com"
         },
         {
           "rank": 6,
-          "feature": "Click to Search·Live Translate",
+          "category": "design",
+          "feature": "Infinity One Design·One Connect",
           "source": "samsung.com"
         },
         {
           "rank": 7,
-          "feature": "Infinity One Design·One Connect",
+          "category": "service",
+          "feature": "Gaming Hub(Xbox·GeForce Now·Luna 클라우드 게임)",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 8,
+          "category": "service",
+          "feature": "Samsung TV Plus(무료 채널)",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 9,
+          "category": "service",
+          "feature": "SmartThings 홈 허브·Matter",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 10,
+          "category": "service",
+          "feature": "Bixby·Alexa·Click to Search·Live Translate",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 11,
+          "category": "experience",
+          "feature": "Ambient Mode",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 12,
+          "category": "experience",
+          "feature": "Multi View",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 13,
+          "category": "experience",
+          "feature": "Q-Symphony·Dolby Atmos",
+          "source": "samsung.com"
+        },
+        {
+          "rank": 14,
+          "category": "experience",
+          "feature": "SolarCell 리모컨",
           "source": "samsung.com"
         }
       ]
@@ -10109,37 +10213,68 @@
       "features": [
         {
           "rank": 1,
+          "category": "picture",
           "feature": "MiniLED Pro·5000nit 피크",
           "source": "hisense-usa.com"
         },
         {
           "rank": 2,
-          "feature": "QLED Color(10억+ 색)",
+          "category": "picture",
+          "feature": "QLED Color·Full Array Local Dimming",
           "source": "hisense-usa.com"
         },
         {
           "rank": 3,
-          "feature": "Full Array Local Dimming(무헤일로)",
-          "source": "hisense-usa.com"
-        },
-        {
-          "rank": 4,
-          "feature": "165Hz 네이티브",
-          "source": "hisense-usa.com"
-        },
-        {
-          "rank": 5,
+          "category": "picture",
           "feature": "Anti-Glare Low Reflection Pro",
           "source": "hisense-usa.com"
         },
         {
-          "rank": 6,
+          "rank": 4,
+          "category": "gaming",
+          "feature": "165Hz 네이티브·Game Mode Pro·288 VRR",
+          "source": "hisense-usa.com"
+        },
+        {
+          "rank": 5,
+          "category": "sound",
           "feature": "Dolby Atmos 82W 4.1.2ch",
           "source": "hisense-usa.com"
         },
         {
+          "rank": 6,
+          "category": "service",
+          "feature": "Google TV(US)·VIDAA(지역별)",
+          "source": "hisense-usa.com"
+        },
+        {
           "rank": 7,
-          "feature": "Google TV",
+          "category": "service",
+          "feature": "Google Assistant·Alexa 음성",
+          "source": "hisense-usa.com"
+        },
+        {
+          "rank": 8,
+          "category": "service",
+          "feature": "Google Cast 내장",
+          "source": "hisense-usa.com"
+        },
+        {
+          "rank": 9,
+          "category": "experience",
+          "feature": "Hi-View Engine 화질 경험",
+          "source": "hisense-usa.com"
+        },
+        {
+          "rank": 10,
+          "category": "experience",
+          "feature": "IMAX Enhanced·Filmmaker Mode",
+          "source": "hisense-usa.com"
+        },
+        {
+          "rank": 11,
+          "category": "experience",
+          "feature": "와이드 시야각 패널",
           "source": "hisense-usa.com"
         }
       ]
@@ -14897,37 +15032,80 @@
       "features": [
         {
           "rank": 1,
+          "category": "picture",
           "feature": "Brightness Booster Ultimate(최대 +45%)",
           "source": "lg.com"
         },
         {
           "rank": 2,
+          "category": "ai",
           "feature": "α11 AI 프로세서 Gen2",
           "source": "lg.com"
         },
         {
           "rank": 3,
+          "category": "picture",
           "feature": "Perfect Black(OLED evo)",
           "source": "lg.com"
         },
         {
           "rank": 4,
+          "category": "gaming",
           "feature": "4K 165Hz VRR(G-Sync·FreeSync Premium)",
           "source": "lg.com"
         },
         {
           "rank": 5,
-          "feature": "webOS 25(350+ 채널·클라우드 게이밍)",
-          "source": "lg.com"
-        },
-        {
-          "rank": 6,
+          "category": "design",
           "feature": "One Wall Design",
           "source": "lg.com"
         },
         {
+          "rank": 6,
+          "category": "sound",
+          "feature": "Dolby Vision·Dolby Atmos·WOW Orchestra",
+          "source": "lg.com"
+        },
+        {
           "rank": 7,
-          "feature": "Dolby Vision·Dolby Atmos",
+          "category": "service",
+          "feature": "webOS 25(AI 홈·350+ LG Channels 무료)",
+          "source": "lg.com"
+        },
+        {
+          "rank": 8,
+          "category": "service",
+          "feature": "Gaming Portal(GeForce Now·Xbox 클라우드 게임)",
+          "source": "lg.com"
+        },
+        {
+          "rank": 9,
+          "category": "service",
+          "feature": "LG ThinQ·홈 IoT·음성 어시스턴트",
+          "source": "lg.com"
+        },
+        {
+          "rank": 10,
+          "category": "experience",
+          "feature": "Always Ready(대기 감상)",
+          "source": "lg.com"
+        },
+        {
+          "rank": 11,
+          "category": "experience",
+          "feature": "Multi View(멀티뷰)",
+          "source": "lg.com"
+        },
+        {
+          "rank": 12,
+          "category": "experience",
+          "feature": "Magic Remote(포인터·음성)",
+          "source": "lg.com"
+        },
+        {
+          "rank": 13,
+          "category": "experience",
+          "feature": "AI 컨시어지·AI 챗봇",
           "source": "lg.com"
         }
       ]
@@ -18892,32 +19070,62 @@
       "features": [
         {
           "rank": 1,
-          "feature": "XR 프로세서",
+          "category": "ai",
+          "feature": "XR 프로세서(AI)",
           "source": "sony-marketing"
         },
         {
           "rank": 2,
+          "category": "picture",
           "feature": "QD-OLED 최대 밝기·색재현",
           "source": "sony-marketing"
         },
         {
           "rank": 3,
-          "feature": "Perfect for PlayStation 5(Auto HDR Tone Mapping)",
+          "category": "gaming",
+          "feature": "Perfect for PlayStation 5(Auto HDR·Auto Genre)",
           "source": "sony-marketing"
         },
         {
           "rank": 4,
+          "category": "sound",
           "feature": "Acoustic Surface Audio+",
           "source": "sony-marketing"
         },
         {
           "rank": 5,
-          "feature": "Studio Calibrated 모드(Netflix·Prime)",
+          "category": "service",
+          "feature": "Google TV(앱·추천)",
           "source": "sony-marketing"
         },
         {
           "rank": 6,
-          "feature": "Google TV·BRAVIA",
+          "category": "service",
+          "feature": "Bravia Core(고화질 스트리밍·영화 크레딧)",
+          "source": "sony-marketing"
+        },
+        {
+          "rank": 7,
+          "category": "service",
+          "feature": "Netflix·Prime Video Calibrated 모드",
+          "source": "sony-marketing"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "Bravia Cam(제스처·화상통화·자동 최적화)",
+          "source": "sony-marketing"
+        },
+        {
+          "rank": 9,
+          "category": "experience",
+          "feature": "Studio Calibrated 모드",
+          "source": "sony-marketing"
+        },
+        {
+          "rank": 10,
+          "category": "experience",
+          "feature": "Eco 대시보드",
           "source": "sony-marketing"
         }
       ]
@@ -22016,37 +22224,68 @@
       "features": [
         {
           "rank": 1,
+          "category": "picture",
           "feature": "5000nit·Precise Dimming(5000+ 존, 30M:1)",
           "source": "tcl.com"
         },
         {
           "rank": 2,
+          "category": "picture",
           "feature": "Halo Control(Micro-OD)",
           "source": "tcl.com"
         },
         {
           "rank": 3,
+          "category": "sound",
           "feature": "Audio by Bang & Olufsen",
           "source": "tcl.com"
         },
         {
           "rank": 4,
-          "feature": "4K 144Hz·288 VRR 게이밍",
+          "category": "gaming",
+          "feature": "4K 144Hz·288 VRR·Game Master",
           "source": "tcl.com"
         },
         {
           "rank": 5,
+          "category": "ai",
           "feature": "AiPQ Pro 프로세서",
           "source": "tcl.com"
         },
         {
           "rank": 6,
-          "feature": "QD-Mini LED·QLED Color",
+          "category": "service",
+          "feature": "Google TV(앱·추천)",
           "source": "tcl.com"
         },
         {
           "rank": 7,
-          "feature": "Google TV",
+          "category": "service",
+          "feature": "Google Cast·Chromecast 내장",
+          "source": "tcl.com"
+        },
+        {
+          "rank": 8,
+          "category": "service",
+          "feature": "Google Assistant 음성",
+          "source": "tcl.com"
+        },
+        {
+          "rank": 9,
+          "category": "experience",
+          "feature": "FlexConnect(가변 무선 사운드)",
+          "source": "tcl.com"
+        },
+        {
+          "rank": 10,
+          "category": "experience",
+          "feature": "ONKYO 사운드 시스템",
+          "source": "tcl.com"
+        },
+        {
+          "rank": 11,
+          "category": "experience",
+          "feature": "제로 베젤 디자인",
           "source": "tcl.com"
         }
       ]
