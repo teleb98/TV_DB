@@ -896,7 +896,92 @@
           "kind": "sku_root"
         }
       ],
-      "features": []
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "Quantum Mini LED·Neo Quantum HDR+",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "picture",
+          "feature": "Quantum Matrix·Glare Free",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "ai",
+          "feature": "NQ8 AI Gen3 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "gaming",
+          "feature": "165Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "sound",
+          "feature": "Object Tracking Sound·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "Samsung TV Plus(무료 채널)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "service",
+          "feature": "Gaming Hub(Xbox·GeForce Now·Luna 클라우드 게임)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "service",
+          "feature": "SmartThings 홈 허브·Matter",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 9,
+          "category": "service",
+          "feature": "Bixby·Alexa 음성 어시스턴트",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 10,
+          "category": "experience",
+          "feature": "Ambient Mode(배경 화면)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 11,
+          "category": "experience",
+          "feature": "Multi View(멀티뷰)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 12,
+          "category": "experience",
+          "feature": "Q-Symphony 사운드",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 13,
+          "category": "experience",
+          "feature": "SolarCell 리모컨(태양광 충전)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 14,
+          "category": "experience",
+          "feature": "Slim/One Connect",
+          "source": "brand-generic"
+        }
+      ]
     },
     {
       "brand": "Hisense",
@@ -2083,7 +2168,68 @@
           "kind": "sku_root"
         }
       ],
-      "features": []
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "XR Triluminos·Perfect Black",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "ai",
+          "feature": "XR Processor 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "gaming",
+          "feature": "120Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "sound",
+          "feature": "Acoustic Multi Audio·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "Google TV(앱·추천)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "Bravia Core 고화질 스트리밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "service",
+          "feature": "Google Assistant·음성 검색",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "Perfect for PlayStation 5",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 9,
+          "category": "experience",
+          "feature": "Eco 대시보드",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 10,
+          "category": "experience",
+          "feature": "Bravia Cam(제스처·화상통화·자동 최적화)",
+          "source": "brand-generic"
+        }
+      ]
     }
   ]
 }
