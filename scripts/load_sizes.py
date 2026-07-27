@@ -83,6 +83,18 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "U6SF":    ([55, 65, 75, 85, 100],            True,  "hisense-usa U6 2026(U6SF Pro, 55~100)"),
     "QNED80B": ([50, 55, 65, 75, 85],             False, "lg.com 2026 QNED80(85 확인, 세트 추정)"),
     "W6":      ([77, 83],                          True,  "lg.com OLED evo W6 Wallpaper 2026(77/83)"),
+    # --- 보완가이드(§1) 누락 모델 추가 ---
+    "QN900F":  ([65, 75, 85],                      True,  "samsung.com Neo QLED 8K QN900F 2025(65/75/85)"),
+    "S85F":    ([55, 65, 77, 83],                  True,  "samsung.com S85F 2025 OLED(55/65=QD-OLED, 77/83=WOLED)"),
+    "MR95F":   ([115],                             True,  "samsung.com Micro RGB MR95F 2025(115)"),
+    "X11K":    ([85, 98],                          True,  "us.tcl.com X11K 2025 플래그십(85/98)"),
+    "X11L":    ([75, 85, 98],                      True,  "RTINGS TCL X11L 2026(75/85/98)"),
+    "UR9":     ([65, 75, 85],                      True,  "Hisense UR9 2026 RGB(65/75/85)"),
+    "UR8":     ([55, 65, 75, 85, 100],             True,  "Hisense UR8 2026 RGB(55~100)"),
+    "QNED82A": ([43, 50, 55, 65, 75, 86],          False, "lg.com QNED82A 2025(43~86, 세트 추정)"),
+    "QNED70A": ([43, 50, 55, 65, 75, 86],          False, "lg.com QNED70A 2025(43~86, 세트 추정)"),
+    "XR80":    ([55, 65, 77],                      True,  "Sony BRAVIA 8 2024 OLED(55/65/77)"),
+    "S30":     ([43, 50, 55, 65, 75, 85],          True,  "Sony BRAVIA 3 2024(43~85)"),
     # --- 2024 주요 모델 인치(공식/RTINGS 확인) ---
     "QN90D":  ([43, 50, 55, 65, 75, 85, 98],      True,  "samsung QN90D 2024"),
     "QN900D": ([65, 75, 85],                      True,  "samsung QN900D 8K 2024"),

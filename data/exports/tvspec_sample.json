@@ -1366,6 +1366,11 @@
       },
       "region_names": [
         {
+          "region": "alias",
+          "model_name": "U8QG",
+          "kind": "xlsx-alias"
+        },
+        {
           "region": "EU",
           "model_name": "75U8QxxUK(EU)",
           "kind": "eprel"

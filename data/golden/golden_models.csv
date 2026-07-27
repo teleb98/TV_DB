@@ -89,3 +89,14 @@ LG,W,OLED evo W6 Wallpaper,2026,WOLED,flagship,webOS,W6,4K,165,Dolby Vision|HDR1
 LG,QNED84B,QNED evo QNED84,2026,Mini-LED,mid,webOS,QNED84B,4K,120,Dolby Vision|HDR10|HLG,α8 AI Gen3,mini-led,900,65QNED84BUA,65,US,,VRR|ALLM|120Hz|FreeSync,HDMI2.1 x2|eARC|WiFi|Bluetooth
 LG,QNED73B,QNED QNED73,2026,Mini-LED,entry,webOS,QNED73B,4K,60,HDR10|HLG,α7 AI Gen3,mini-led,500,65QNED73BUA,65,US,,ALLM|VRR,HDMI2.0 x3|eARC|WiFi|Bluetooth
 LG,QNED92A,QNED evo QNED92A,2025,Mini-LED,flagship,webOS,QNED92A,4K,144,Dolby Vision|HDR10|HLG,α8 AI Gen2,mini-led,1520,65QNED92AUA,65,US,,VRR|ALLM|144Hz|G-Sync|FreeSync,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,QN900,Neo QLED 8K,2025,Neo-QLED,flagship,Tizen,QN900F,8K,120,HDR10+|HLG,NQ8 AI Gen2,mini-led,2000,QN65QN900FFXZA,65,US,,VRR|ALLM|165Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,S85,OLED,2025,QD-OLED,mid,Tizen,S85F,4K,120,HDR10+|HLG,NQ4 AI Gen2,per-pixel,1000,QN65S85FAFXZA,65,US,,VRR|ALLM|144Hz|FreeSync Premium,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,MR95,Micro RGB,2025,Mini-LED,flagship,Tizen,MR95F,4K,120,HDR10+|HLG,Micro RGB AI,mini-led,4000,MRN115MR95FXZA,115,US,29999,VRR|ALLM|144Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+TCL,X11,X11K QD Mini LED,2025,Mini-LED,flagship,Google-TV,X11K,4K,144,Dolby Vision|HDR10+|HLG,AiPQ Ultra,mini-led,6500,85X11K,85,US,,VRR|ALLM|144Hz|FreeSync Premium Pro|Game Master,HDMI2.1 x2|eARC|WiFi|Bluetooth
+TCL,X11L,X11L SQD Mini LED,2026,Mini-LED,flagship,Google-TV,X11L,4K,144,Dolby Vision|HDR10+|HLG,TSR AI,mini-led,6500,85X11L,85,US,,VRR|ALLM|144Hz|FreeSync Premium Pro|Game Master,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Hisense,UR9,ULED UR9 RGB,2026,Mini-LED,flagship,Google-TV,UR9,4K,165,Dolby Vision|HDR10+|HLG,Hi-View Engine X,mini-led,5000,75UR9,75,US,,VRR|ALLM|165Hz|FreeSync Premium Pro|Game Mode Pro,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Hisense,UR8,ULED UR8 RGB,2026,Mini-LED,high,Google-TV,UR8,4K,165,Dolby Vision|HDR10+|HLG,Hi-View Engine X,mini-led,4000,65UR8,65,US,,VRR|ALLM|165Hz|FreeSync Premium Pro|Game Mode Pro,HDMI2.1 x2|eARC|WiFi|Bluetooth
+LG,QNED82,QNED82A,2025,LED-LCD,mid,webOS,QNED82A,4K,120,Dolby Vision|HDR10|HLG,α8 AI Gen2,edge-lit,700,65QNED82AUA,65,US,,VRR|ALLM|120Hz|FreeSync,HDMI2.1 x2|eARC|WiFi|Bluetooth
+LG,QNED70,QNED70A,2025,LED-LCD,entry,webOS,QNED70A,4K,60,HDR10|HLG,α7 AI Gen8,none,400,65QNED70AUA,65,US,,ALLM|VRR,HDMI2.0 x3|eARC|WiFi|Bluetooth
+Sony,BRAVIA8,BRAVIA 8,2024,WOLED,high,Google-TV,XR80,4K,120,Dolby Vision|HDR10|HLG,XR Processor,per-pixel,1300,K-65XR80,65,US,,VRR|ALLM|120Hz,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Sony,BRAVIA3,BRAVIA 3,2024,LED-LCD,entry,Google-TV,S30,4K,60,Dolby Vision|HDR10|HLG,4K Processor X1,none,400,K-65S30,65,US,,ALLM,HDMI2.0 x2|eARC|WiFi|Bluetooth

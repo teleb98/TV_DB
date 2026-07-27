@@ -18,6 +18,7 @@ OVERRIDES: dict[str, dict] = {
     "S90F":  {"panel": {"WOLED": [77, 83]}},              # QD-OLED는 42~65", 대형은 WOLED
     "S90D":  {"panel": {"WOLED": [42, 48, 77, 83]}},      # 2024: QD-OLED 55/65만
     "S99H":  {"panel": {"WOLED": [83]}},                  # 2026: 83"만 WOLED
+    "S85F":  {"panel": {"WOLED": [77, 83]}},              # 2025: QD-OLED 55/65, 77/83=WOLED
     "LS03F": {"refresh": {60: [32, 43, 50]}},             # The Frame 소형 60Hz
     "Q8F":   {"refresh": {60: [43, 50]}},                 # 소형 60Hz, 대형 120Hz
     "M5":    {"refresh": {120: [97]}},                    # 97"만 120Hz(나머지 144Hz)
