@@ -1,7 +1,7 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-07-27T21:58:29.144444+09:00",
-  "model_count": 115,
+  "generated_at": "2026-07-27T22:07:14.513082+09:00",
+  "model_count": 120,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
     "estimated": {
@@ -16149,6 +16149,450 @@
     },
     {
       "brand": "Huawei",
+      "lineup": "Vision Smart Screen 6",
+      "series_name": "Vision6",
+      "year": 2026,
+      "panel_tech": "Mini-LED",
+      "tier": "flagship",
+      "os": "HarmonyOS",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "144Hz",
+        "고휘도(2000nit+)",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "Vision6",
+      "resolution": "4K",
+      "refresh_rate_native": 144,
+      "hdr_formats": [
+        "HDR10",
+        "HLG"
+      ],
+      "processor": "Honghu",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 2000,
+      "audio_channels": "2.1.2",
+      "audio_output_w": 60,
+      "smart_os_version": "HarmonyOS 4",
+      "connectivity": [
+        "HDMI2.1 x3",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "288Hz"
+      ],
+      "size_variants_in": [
+        65,
+        75,
+        85,
+        98
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "HW-VISION6-65",
+          "size_inch": 65,
+          "region": "Global",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://consumer.huawei.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "Vision6-75IN-Global",
+          "size_inch": 75,
+          "region": "Global",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://consumer.huawei.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "Vision6-85IN-Global",
+          "size_inch": 85,
+          "region": "Global",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://consumer.huawei.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "Vision6-98IN-Global",
+          "size_inch": 98,
+          "region": "Global",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 34.5,
+          "power_w": 290,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://consumer.huawei.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "Global",
+          "model_name": "HW-VISION6-65",
+          "kind": "sku_root"
+        }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "Super Mini LED·Honghu 화질",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "ai",
+          "feature": "Honghu 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "gaming",
+          "feature": "144Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "sound",
+          "feature": "하이파이 스피커·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "HarmonyOS·AppGallery",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "AI 음성·스마트홈 연동",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "experience",
+          "feature": "스마트 카메라·화상통화",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "멀티스크린 협업",
+          "source": "brand-generic"
+        }
+      ]
+    },
+    {
+      "brand": "Huawei",
+      "lineup": "Vision Smart Screen 6 SE",
+      "series_name": "Vision6SE",
+      "year": 2026,
+      "panel_tech": "Mini-LED",
+      "tier": "high",
+      "os": "HarmonyOS",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "240Hz",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "Vision6SE",
+      "resolution": "4K",
+      "refresh_rate_native": 240,
+      "hdr_formats": [
+        "HDR10",
+        "HLG"
+      ],
+      "processor": "Honghu",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 1000,
+      "audio_channels": "2.2",
+      "audio_output_w": 40,
+      "smart_os_version": "HarmonyOS 4",
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "288Hz"
+      ],
+      "size_variants_in": [
+        55,
+        65,
+        75,
+        85
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w",
+        "size_variants_in"
+      ],
+      "variants": [
+        {
+          "sku_full": "Vision6SE-55IN-Global",
+          "size_inch": 55,
+          "region": "Global",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 19.0,
+          "power_w": 160,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://consumer.huawei.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "HW-VISION6SE-65",
+          "size_inch": 65,
+          "region": "Global",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://consumer.huawei.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "Vision6SE-75IN-Global",
+          "size_inch": 75,
+          "region": "Global",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://consumer.huawei.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "Vision6SE-85IN-Global",
+          "size_inch": 85,
+          "region": "Global",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://consumer.huawei.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "Global",
+          "model_name": "HW-VISION6SE-65",
+          "kind": "sku_root"
+        }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "Super Mini LED·Honghu 화질",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "ai",
+          "feature": "Honghu 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "gaming",
+          "feature": "240Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "sound",
+          "feature": "하이파이 스피커·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "HarmonyOS·AppGallery",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "AI 음성·스마트홈 연동",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "experience",
+          "feature": "스마트 카메라·화상통화",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "멀티스크린 협업",
+          "source": "brand-generic"
+        }
+      ]
+    },
+    {
+      "brand": "Huawei",
       "lineup": "Vision Smart Screen 5",
       "series_name": "Vision 5",
       "year": 2025,
@@ -18545,7 +18989,7 @@
           "price_history": []
         },
         {
-          "sku_full": "65QNED85BUA",
+          "sku_full": "65QNED85UQA",
           "size_inch": 65,
           "region": "US",
           "color": "Black",
@@ -18572,7 +19016,7 @@
           "price_history": []
         },
         {
-          "sku_full": "65QNED85UQA",
+          "sku_full": "65QNED85BUA",
           "size_inch": 65,
           "region": "US",
           "color": "Black",
@@ -24438,6 +24882,167 @@
         },
         {
           "rank": 11,
+          "category": "experience",
+          "feature": "AI 컨시어지·AI 챗봇",
+          "source": "brand-generic"
+        }
+      ]
+    },
+    {
+      "brand": "LG",
+      "lineup": "SIGNATURE OLED T",
+      "series_name": "T",
+      "year": 2024,
+      "panel_tech": "WOLED",
+      "tier": "flagship",
+      "os": "webOS",
+      "positioning": null,
+      "key_features": [
+        "WOLED",
+        "120Hz",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "T4",
+      "resolution": "4K",
+      "refresh_rate_native": 120,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "processor": "α11 AI",
+      "dimming": "per-pixel",
+      "peak_brightness_nits": 650,
+      "audio_channels": "4.2",
+      "audio_output_w": 60,
+      "smart_os_version": "webOS 24",
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "120Hz",
+        "G-Sync",
+        "FreeSync"
+      ],
+      "size_variants_in": [
+        77
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "OLED77T4PUA",
+          "size_inch": 77,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": 60000,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "OLED77T4PUA",
+          "kind": "sku_root"
+        }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "Perfect Black(OLED evo)·자발광",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "picture",
+          "feature": "Brightness Booster",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "ai",
+          "feature": "α11 AI 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "gaming",
+          "feature": "120Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "sound",
+          "feature": "AI Sound Pro·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "webOS·LG Channels(무료 채널)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "service",
+          "feature": "Gaming Portal(GeForce Now·Xbox 클라우드)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "service",
+          "feature": "LG ThinQ·음성 어시스턴트",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 9,
+          "category": "experience",
+          "feature": "Always Ready(대기 감상)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 10,
+          "category": "experience",
+          "feature": "Multi View",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 11,
+          "category": "experience",
+          "feature": "Magic Remote(포인터·음성)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 12,
           "category": "experience",
           "feature": "AI 컨시어지·AI 챗봇",
           "source": "brand-generic"
@@ -32477,6 +33082,446 @@
           "rank": 10,
           "category": "experience",
           "feature": "FlexConnect(가변 무선 사운드)",
+          "source": "brand-generic"
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "lineup": "Xiaomi TV S Mini LED 2026",
+      "series_name": "S 2026",
+      "year": 2026,
+      "panel_tech": "Mini-LED",
+      "tier": "mid",
+      "os": "Google-TV",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "60Hz",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "S-2026",
+      "resolution": "4K",
+      "refresh_rate_native": 60,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "MediaTek",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 1200,
+      "audio_channels": "2.0",
+      "audio_output_w": 20,
+      "smart_os_version": "Google TV",
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM"
+      ],
+      "size_variants_in": [
+        55,
+        65,
+        75,
+        85,
+        98
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "S-2026-55IN-Global",
+          "size_inch": 55,
+          "region": "Global",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 19.0,
+          "power_w": 160,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://www.mi.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "XM-S26-65",
+          "size_inch": 65,
+          "region": "Global",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://www.mi.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "S-2026-75IN-Global",
+          "size_inch": 75,
+          "region": "Global",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://www.mi.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "S-2026-85IN-Global",
+          "size_inch": 85,
+          "region": "Global",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": 144,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://www.mi.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "S-2026-98IN-Global",
+          "size_inch": 98,
+          "region": "Global",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": 144,
+          "weight_kg": 34.5,
+          "power_w": 290,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://www.mi.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "Global",
+          "model_name": "XM-S26-65",
+          "kind": "sku_root"
+        }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "QD-Mini LED",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "ai",
+          "feature": "MediaTek 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "sound",
+          "feature": "Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "service",
+          "feature": "Google TV/PatchWall",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "Google Cast·음성 어시스턴트",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "experience",
+          "feature": "Xiaomi 생태계 연동",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "experience",
+          "feature": "Game Boost",
+          "source": "brand-generic"
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "lineup": "Xiaomi TV S Pro Mini LED 2026",
+      "series_name": "S Pro",
+      "year": 2026,
+      "panel_tech": "Mini-LED",
+      "tier": "high",
+      "os": "Google-TV",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "144Hz",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "model_code_base": "S-Pro26",
+      "resolution": "4K",
+      "refresh_rate_native": 144,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "MediaTek",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 1700,
+      "audio_channels": "2.2",
+      "audio_output_w": 40,
+      "smart_os_version": "Google TV",
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "Dolby Vision Gaming"
+      ],
+      "size_variants_in": [
+        55,
+        65,
+        75
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "S-Pro26-55IN-Global",
+          "size_inch": 55,
+          "region": "Global",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 19.0,
+          "power_w": 160,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://www.mi.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "XM-SPRO26-65",
+          "size_inch": 65,
+          "region": "Global",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://www.mi.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "S-Pro26-75IN-Global",
+          "size_inch": 75,
+          "region": "Global",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://www.mi.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "Global",
+          "model_name": "XM-SPRO26-65",
+          "kind": "sku_root"
+        }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "QD-Mini LED",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "ai",
+          "feature": "MediaTek 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "gaming",
+          "feature": "144Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "sound",
+          "feature": "Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "Google TV/PatchWall",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "Google Cast·음성 어시스턴트",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "experience",
+          "feature": "Xiaomi 생태계 연동",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "Game Boost",
           "source": "brand-generic"
         }
       ]

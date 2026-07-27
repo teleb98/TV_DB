@@ -100,3 +100,8 @@ LG,QNED82,QNED82A,2025,LED-LCD,mid,webOS,QNED82A,4K,120,Dolby Vision|HDR10|HLG,�
 LG,QNED70,QNED70A,2025,LED-LCD,entry,webOS,QNED70A,4K,60,HDR10|HLG,α7 AI Gen8,none,400,65QNED70AUA,65,US,,ALLM|VRR,HDMI2.0 x3|eARC|WiFi|Bluetooth
 Sony,BRAVIA8,BRAVIA 8,2024,WOLED,high,Google-TV,XR80,4K,120,Dolby Vision|HDR10|HLG,XR Processor,per-pixel,1300,K-65XR80,65,US,,VRR|ALLM|120Hz,HDMI2.1 x2|eARC|WiFi|Bluetooth
 Sony,BRAVIA3,BRAVIA 3,2024,LED-LCD,entry,Google-TV,S30,4K,60,Dolby Vision|HDR10|HLG,4K Processor X1,none,400,K-65S30,65,US,,ALLM,HDMI2.0 x2|eARC|WiFi|Bluetooth
+Huawei,Vision6,Vision Smart Screen 6,2026,Mini-LED,flagship,HarmonyOS,Vision6,4K,144,HDR10|HLG,Honghu,mini-led,2000,HW-VISION6-65,65,Global,,VRR|ALLM|288Hz,HDMI2.1 x3|eARC|WiFi|Bluetooth
+Huawei,Vision6SE,Vision Smart Screen 6 SE,2026,Mini-LED,high,HarmonyOS,Vision6SE,4K,240,HDR10|HLG,Honghu,mini-led,1000,HW-VISION6SE-65,65,Global,,VRR|ALLM|288Hz,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Xiaomi,S Pro,Xiaomi TV S Pro Mini LED 2026,2026,Mini-LED,high,Google-TV,S-Pro26,4K,144,Dolby Vision|HDR10+|HLG,MediaTek,mini-led,1700,XM-SPRO26-65,65,Global,,VRR|ALLM|144Hz|Dolby Vision Gaming,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Xiaomi,S 2026,Xiaomi TV S Mini LED 2026,2026,Mini-LED,mid,Google-TV,S-2026,4K,60,Dolby Vision|HDR10+|HLG,MediaTek,mini-led,1200,XM-S26-65,65,Global,,VRR|ALLM,HDMI2.1 x2|eARC|WiFi|Bluetooth
+LG,T,SIGNATURE OLED T,2024,WOLED,flagship,webOS,T4,4K,120,Dolby Vision|HDR10|HLG,α11 AI,per-pixel,650,OLED77T4PUA,77,US,60000,VRR|ALLM|120Hz|G-Sync|FreeSync,HDMI2.1 x4|eARC|WiFi|Bluetooth

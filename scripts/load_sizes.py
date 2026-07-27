@@ -95,6 +95,12 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "QNED70A": ([43, 50, 55, 65, 75, 86],          False, "lg.com QNED70A 2025(43~86, 세트 추정)"),
     "XR80":    ([55, 65, 77],                      True,  "Sony BRAVIA 8 2024 OLED(55/65/77)"),
     "S30":     ([43, 50, 55, 65, 75, 85],          True,  "Sony BRAVIA 3 2024(43~85)"),
+    # --- 공식 소스(mi.com/huaweicentral/lge.co.kr) 2026 ---
+    "Vision6":   ([65, 75, 85, 98],               True,  "huaweicentral Vision Smart Screen 6 2026(65~98)"),
+    "Vision6SE": ([55, 65, 75, 85],               False, "Huawei Vision 6 SE 2026(세트 추정)"),
+    "S-Pro26":   ([55, 65, 75],                   True,  "mi.com Xiaomi TV S Pro Mini LED 2026(55/65/75)"),
+    "S-2026":    ([55, 65, 75, 85, 98],           True,  "mi.com Xiaomi TV S Mini LED 2026(55~98)"),
+    "T4":        ([77],                           True,  "lg.com SIGNATURE OLED T 투명(77, OLED77T4PUA)"),
     # --- 2024 주요 모델 인치(공식/RTINGS 확인) ---
     "QN90D":  ([43, 50, 55, 65, 75, 85, 98],      True,  "samsung QN90D 2024"),
     "QN900D": ([65, 75, 85],                      True,  "samsung QN900D 8K 2024"),

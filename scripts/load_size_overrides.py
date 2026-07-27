@@ -22,6 +22,7 @@ OVERRIDES: dict[str, dict] = {
     "LS03F": {"refresh": {60: [32, 43, 50]}},             # The Frame 소형 60Hz
     "Q8F":   {"refresh": {60: [43, 50]}},                 # 소형 60Hz, 대형 120Hz
     "M5":    {"refresh": {120: [97]}},                    # 97"만 120Hz(나머지 144Hz)
+    "S-2026": {"refresh": {144: [85, 98]}},               # Xiaomi S Mini LED 2026: 55~75=60Hz, 85/98=144Hz
 }
 
 
