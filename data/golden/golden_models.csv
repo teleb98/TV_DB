@@ -105,3 +105,9 @@ Huawei,Vision6SE,Vision Smart Screen 6 SE,2026,Mini-LED,high,HarmonyOS,Vision6SE
 Xiaomi,S Pro,Xiaomi TV S Pro Mini LED 2026,2026,Mini-LED,high,Google-TV,S-Pro26,4K,144,Dolby Vision|HDR10+|HLG,MediaTek,mini-led,1700,XM-SPRO26-65,65,Global,,VRR|ALLM|144Hz|Dolby Vision Gaming,HDMI2.1 x2|eARC|WiFi|Bluetooth
 Xiaomi,S 2026,Xiaomi TV S Mini LED 2026,2026,Mini-LED,mid,Google-TV,S-2026,4K,60,Dolby Vision|HDR10+|HLG,MediaTek,mini-led,1200,XM-S26-65,65,Global,,VRR|ALLM,HDMI2.1 x2|eARC|WiFi|Bluetooth
 LG,T,SIGNATURE OLED T,2024,WOLED,flagship,webOS,T4,4K,120,Dolby Vision|HDR10|HLG,α11 AI,per-pixel,650,OLED77T4PUA,77,US,60000,VRR|ALLM|120Hz|G-Sync|FreeSync,HDMI2.1 x4|eARC|WiFi|Bluetooth
+Hisense,UX,ULED X UX 2026 RGB,2026,Mini-LED,flagship,VIDAA,UX26,4K,180,Dolby Vision|HDR10+|HLG,信芯 H7 Pro,mini-led,10000,HU-UX26-85,85,CN,34999,VRR|ALLM|180Hz|Game Mode Pro,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Hisense,E8,ULED E8S RGB,2026,Mini-LED,high,VIDAA,E8S,4K,165,Dolby Vision|HDR10+|HLG,信芯,mini-led,5000,HU-E8S-85,85,CN,17999,VRR|ALLM|165Hz|Game Mode Pro,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Huawei,V5 Max,智慧屏 V5 Max 110,2025,Mini-LED,flagship,HarmonyOS,V5Max,4K,120,HDR10|HLG,鸿鹄,mini-led,5000,HW-V5MAX-110,110,CN,69999,VRR|ALLM|120Hz,HDMI2.1 x1|HDMI2.0 x2|eARC|WiFi|Bluetooth
+Huawei,V5 Pro,智慧屏 V5 Pro,2023,Mini-LED,flagship,HarmonyOS,V5Pro,4K,120,HDR10|HLG,鸿鹄,mini-led,2000,HW-V5PRO-98,98,CN,,VRR|ALLM|120Hz,HDMI2.1 x2|eARC|WiFi|Bluetooth
+TCL,Q10K,Q10K 旗舰 Mini LED,2024,Mini-LED,flagship,Android-TV,Q10K,4K,144,Dolby Vision|HDR10+|HLG,AiPQ,mini-led,3800,TCL-Q10K-85,85,CN,,VRR|ALLM|144Hz|Game Master,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Xiaomi,大师 OLED,小米电视 大师 OLED,2024,WOLED,flagship,Android-TV,MasterOLED,4K,120,Dolby Vision|HDR10+|HLG,MediaTek,per-pixel,1000,XM-MASTER-OLED-65,65,CN,,VRR|ALLM|120Hz|Dolby Vision Gaming,HDMI2.1 x3|eARC|WiFi|Bluetooth

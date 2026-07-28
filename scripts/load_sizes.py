@@ -101,6 +101,13 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "S-Pro26":   ([55, 65, 75],                   True,  "mi.com Xiaomi TV S Pro Mini LED 2026(55/65/75)"),
     "S-2026":    ([55, 65, 75, 85, 98],           True,  "mi.com Xiaomi TV S Mini LED 2026(55~98)"),
     "T4":        ([77],                           True,  "lg.com SIGNATURE OLED T 투명(77, OLED77T4PUA)"),
+    # --- 중국 내수(中文 사이트: mi.com/vmall/hisense/ithome) ---
+    "UX26":      ([85, 100, 116],                 False, "ithome 海信 UX 2026 RGB(玲珑四芯, 85~116 추정)"),
+    "E8S":       ([75, 85, 100],                  True,  "海信 E8S RGB Mini LED(75/85/100)"),
+    "V5Max":     ([110],                          True,  "华为官网 V5 Max 110(110)"),
+    "V5Pro":     ([85, 98],                       True,  "华为官网 V5 Pro(85/98)"),
+    "Q10K":      ([65, 75, 85, 98],               True,  "ithome TCL Q10K 중국 旗舰(65~98)"),
+    "MasterOLED": ([65, 77],                      True,  "小米 大师 OLED(65/77)"),
     # --- 2024 주요 모델 인치(공식/RTINGS 확인) ---
     "QN90D":  ([43, 50, 55, 65, 75, 85, 98],      True,  "samsung QN90D 2024"),
     "QN900D": ([65, 75, 85],                      True,  "samsung QN900D 8K 2024"),

@@ -100,7 +100,8 @@ def upsert_variant(cur, rec: dict, model_id: int) -> int:
                                price_msrp, price_street, currency, os_override, availability, source_url)
            VALUES (%(mid)s, %(sku)s, %(sz)s, %(rg)s, %(col)s, %(st)s, %(pb)s, %(ld)s,
                    %(wt)s, %(pw)s, %(msrp)s, %(street)s,
-                   COALESCE(%(cur)s, CASE WHEN %(rg)s='US' THEN 'USD' ELSE 'KRW' END),
+                   COALESCE(%(cur)s, CASE %(rg)s WHEN 'US' THEN 'USD' WHEN 'CN' THEN 'CNY'
+                                                 WHEN 'EU' THEN 'EUR' ELSE 'KRW' END),
                    %(osov)s, %(av)s, %(url)s)
            ON CONFLICT (sku_full, region) DO UPDATE SET
              price_msrp   = COALESCE(EXCLUDED.price_msrp, variant.price_msrp),
