@@ -111,3 +111,13 @@ Huawei,V5 Max,智慧屏 V5 Max 110,2025,Mini-LED,flagship,HarmonyOS,V5Max,4K,120
 Huawei,V5 Pro,智慧屏 V5 Pro,2023,Mini-LED,flagship,HarmonyOS,V5Pro,4K,120,HDR10|HLG,鸿鹄,mini-led,2000,HW-V5PRO-98,98,CN,,VRR|ALLM|120Hz,HDMI2.1 x2|eARC|WiFi|Bluetooth
 TCL,Q10K,Q10K 旗舰 Mini LED,2024,Mini-LED,flagship,Android-TV,Q10K,4K,144,Dolby Vision|HDR10+|HLG,AiPQ,mini-led,3800,TCL-Q10K-85,85,CN,,VRR|ALLM|144Hz|Game Master,HDMI2.1 x2|eARC|WiFi|Bluetooth
 Xiaomi,大师 OLED,小米电视 大师 OLED,2024,WOLED,flagship,Android-TV,MasterOLED,4K,120,Dolby Vision|HDR10+|HLG,MediaTek,per-pixel,1000,XM-MASTER-OLED-65,65,CN,,VRR|ALLM|120Hz|Dolby Vision Gaming,HDMI2.1 x3|eARC|WiFi|Bluetooth
+삼성,QN90,Neo QLED 4K,2023,Neo-QLED,flagship,Tizen,QN90C,4K,120,HDR10+|HLG,NQ4 AI Gen2,mini-led,2000,QN65QN90CAFXZA,65,US,,VRR|ALLM|120Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,QN85,Neo QLED 4K,2023,Neo-QLED,high,Tizen,QN85C,4K,120,HDR10+|HLG,NQ4 AI Gen2,mini-led,1400,QN65QN85CAFXZA,65,US,,VRR|ALLM|120Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,QN900,Neo QLED 8K,2023,Neo-QLED,flagship,Tizen,QN900C,8K,120,HDR10+|HLG,NQ8 AI Gen2,mini-led,2000,QN65QN900CAFXZA,65,US,,VRR|ALLM|120Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,S90,OLED,2023,QD-OLED,flagship,Tizen,S90C,4K,120,HDR10+|HLG,NQ4 AI Gen2,per-pixel,1000,QN65S90CAFXZA,65,US,,VRR|ALLM|144Hz|FreeSync Premium,HDMI2.1 x4|eARC|WiFi|Bluetooth
+삼성,QN95,Neo QLED 4K,2024,Neo-QLED,flagship,Tizen,QN95D,4K,144,HDR10+|HLG,NQ4 AI Gen3,mini-led,2000,QE65QN95DATXXU,65,EU,,VRR|ALLM|144Hz|FreeSync Premium Pro,HDMI2.1 x4|eARC|WiFi|Bluetooth
+Sony,X95L,BRAVIA XR X95L,2023,Mini-LED,high,Google-TV,X95L,4K,120,Dolby Vision|HDR10|HLG,XR Processor,mini-led,1300,K-65X95L,65,US,,VRR|ALLM|120Hz,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Hisense,U7,ULED U7K,2023,Mini-LED,high,Google-TV,U7K,4K,144,Dolby Vision|HDR10+|HLG,Hi-View,mini-led,1000,65U7K,65,US,,VRR|ALLM|144Hz|FreeSync Premium Pro|Game Mode Pro,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Hisense,U6,ULED U6K,2023,Mini-LED,mid,Google-TV,U6K,4K,60,Dolby Vision|HDR10+|HLG,Hi-View,mini-led,600,65U6K,65,US,,VRR|ALLM,HDMI2.0 x3|eARC|WiFi|Bluetooth
+LG,B,OLED B3,2023,WOLED,mid,webOS,B3,4K,120,Dolby Vision|HDR10|HLG,α7 AI Gen6,per-pixel,650,OLED65B3PUA,65,US,,VRR|ALLM|120Hz|G-Sync|FreeSync,HDMI2.1 x4|eARC|WiFi|Bluetooth
+LG,Z,SIGNATURE OLED Z3 8K,2023,WOLED,flagship,webOS,Z3,8K,120,Dolby Vision|HDR10|HLG,α9 AI Gen6 8K,per-pixel,700,OLED77Z3PUA,77,US,,VRR|ALLM|120Hz|G-Sync|FreeSync,HDMI2.1 x4|eARC|WiFi|Bluetooth

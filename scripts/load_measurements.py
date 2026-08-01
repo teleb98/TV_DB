@@ -48,6 +48,11 @@ MEASURE: dict[str, tuple] = {
     "C4":     (1049, 200,  13.0, 96.0,  None, "inf",    "2024-04-01", "flatpanelshd"),
     "A95L":   (1348, None, None, 99.9,  None, "inf",    "2024-01-01", "avforums"),
     "XR80":   (1300, None, None, 100.0, None, "inf",    "2024-05-01", "rtings"),
+    # 2023
+    "QN90C":  (2000, 680,  None, 90.0,  None, None,     "2023-05-01", "rtings"),
+    "S90C":   (1000, 260,  None, 99.0,  None, "inf",    "2023-05-01", "rtings"),
+    "X95L":   (1300, 780,  None, 92.0,  None, None,     "2023-06-01", "rtings"),
+    "B3":     (655,  None, None, 97.0,  None, "inf",    "2023-05-01", "rtings"),
     "S95D":   (1868, None, None, 99.9,  None, "inf",    "2024-04-01", "avforums"),
     "U8N":    (2629, 695,  None, 97.0,  83.0, None,     "2024-05-01", "avforums"),
     "X90L":   (1600, 800,  None, 94.0,  76.0, None,     "2024-05-01", "reviews"),

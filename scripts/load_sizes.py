@@ -108,6 +108,17 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "V5Pro":     ([85, 98],                       True,  "华为官网 V5 Pro(85/98)"),
     "Q10K":      ([65, 75, 85, 98],               True,  "ithome TCL Q10K 중국 旗舰(65~98)"),
     "MasterOLED": ([65, 77],                      True,  "小米 大师 OLED(65/77)"),
+    # --- 2023/2024 브랜드사이트 확인 보완 ---
+    "QN90C":   ([43, 50, 55, 65, 75, 85],         True,  "samsung.com QN90C 2023(43~85)"),
+    "QN85C":   ([55, 65, 75, 85],                 True,  "samsung.com QN85C 2023(55~85)"),
+    "QN900C":  ([65, 75, 85],                     True,  "samsung.com QN900C 8K 2023(65~85)"),
+    "S90C":    ([55, 65, 77, 83],                 True,  "samsung.com S90C 2023(55/65 QD-OLED, 77/83 WOLED)"),
+    "QN95D":   ([55, 65, 75, 85],                 True,  "samsung EU QN95D 2024(55~85)"),
+    "X95L":    ([65, 75, 85, 98],                 True,  "sony X95L 2023 Mini-LED(65~98)"),
+    "U7K":     ([55, 65, 75, 85],                 True,  "hisense U7K 2023(55~85)"),
+    "U6K":     ([50, 55, 65, 75, 85],             True,  "hisense U6K 2023(50~85)"),
+    "B3":      ([48, 55, 65, 77, 83],             True,  "lg.com B3 2023(48~83)"),
+    "Z3":      ([77, 88],                         True,  "lg.com SIGNATURE Z3 8K 2023(77/88)"),
     # --- 2024 주요 모델 인치(공식/RTINGS 확인) ---
     "QN90D":  ([43, 50, 55, 65, 75, 85, 98],      True,  "samsung QN90D 2024"),
     "QN900D": ([65, 75, 85],                      True,  "samsung QN900D 8K 2024"),
