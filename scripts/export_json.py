@@ -138,7 +138,7 @@ def main():
 
     csv_path = OUT / "tvspec_models.csv"
     cols = ["brand", "lineup", "year", "tier", "panel_tech", "model_code_base",
-            "resolution", "refresh_rate_native", "peak_brightness_nits", "dimming",
+            "resolution", "refresh_rate_native", "peak_brightness_nits", "brightness_source", "dimming",
             "processor", "audio_channels", "audio_output_w", "smart_os_version",
             "hdr_formats", "gaming_features", "connectivity", "key_features",
             "size_variants_in", "estimated_fields"]
@@ -183,8 +183,30 @@ def main():
                 row["estimated_fields"] = ", ".join(row["estimated_fields"])
             w.writerow(row)
 
-    print(f"모델 {len(records)}종 / 샘플 {len(sample)}종 / variant {len(vrows)}행 내보냄:")
-    for p in (full, OUT / 'tvspec_sample.json', csv_path, var_path):
+    # 미출시 사전정보(뉴스 확인, 기존 DB에 없는 신모델) — 별도 파일로 분리 관리
+    pr_json = OUT / "tvspec_pre_release.json"
+    pr_csv = OUT / "tvspec_pre_release.csv"
+    pcols = ["brand", "tentative_model", "category", "expected_year", "confidence",
+             "corroboration", "source_country", "source_tier", "source_org", "status",
+             "spec_summary", "source_url", "report_date", "note"]
+    with psycopg.connect(DSN, row_factory=dict_row) as conn:
+        cur = conn.cursor()
+        cur.execute(f"""select {', '.join(pcols)} from pre_release_intel
+                        order by array_position(array['high','med','low']::text[], confidence),
+                                 expected_year, brand""")
+        prows = cur.fetchall()
+    pr_json.write_text(json.dumps(
+        {"note": "미출시/루머 사전정보 — 주요국 뉴스·공급망·인증DB 확인. 기존 사양 DB(model)에 없는 신모델만.",
+         "generated_at": datetime.datetime.now().astimezone().isoformat(), "records": prows},
+        ensure_ascii=False, indent=2, default=_default), encoding="utf-8")
+    with pr_csv.open("w", newline="", encoding="utf-8-sig") as f:
+        w = csv.DictWriter(f, fieldnames=pcols, extrasaction="ignore")
+        w.writeheader()
+        for r in prows:
+            w.writerow({k: r.get(k) for k in pcols})
+
+    print(f"모델 {len(records)}종 / 샘플 {len(sample)}종 / variant {len(vrows)}행 / 사전정보 {len(prows)}건 내보냄:")
+    for p in (full, OUT / 'tvspec_sample.json', csv_path, var_path, pr_json, pr_csv):
         print(f"  {p}  ({p.stat().st_size:,} B)")
 
 

@@ -1,0 +1,70 @@
+{
+  "note": "미출시/루머 사전정보 — 주요국 뉴스·공급망·인증DB 확인. 기존 사양 DB(model)에 없는 신모델만.",
+  "generated_at": "2026-08-05T23:04:41.900871+09:00",
+  "records": [
+    {
+      "brand": "LG",
+      "tentative_model": "Micro RGB evo",
+      "category": "tv",
+      "expected_year": 2026,
+      "confidence": "high",
+      "corroboration": 3,
+      "source_country": "US",
+      "source_tier": "official-teaser",
+      "source_org": "TechRadar/Engadget",
+      "status": "announced",
+      "spec_summary": "Micro RGB LED 백라이트, 100% BT.2020, 1000+ 로컬디밍존, SDR Adobe RGB/DCI-P3 100%",
+      "source_url": "https://www.techradar.com/televisions/the-age-of-next-gen-rgb-tvs-is-here",
+      "report_date": "2026-01-06",
+      "note": "삼성 Micro RGB(R95H) 대항 라인. 75/86/100인치 공식 예고. 정식 모델코드 미확정."
+    },
+    {
+      "brand": "LG",
+      "tentative_model": "QD-OLED 게이밍 모니터",
+      "category": "monitor",
+      "expected_year": 2026,
+      "confidence": "med",
+      "corroboration": 2,
+      "source_country": "KR",
+      "source_tier": "supply-chain",
+      "source_org": "디일렉(thelec)/OLED-Info",
+      "status": "rumored",
+      "spec_summary": "삼성디스플레이 QD-OLED 패널 공급 협의(4K). LG전자 첫 QD-OLED 모니터",
+      "source_url": "https://www.thelec.net/news/articleView.html?idxno=6464",
+      "report_date": "2026-05-01",
+      "note": "부품 공급망 확인. 하반기 출시 가능성. 모델명 미정."
+    },
+    {
+      "brand": "Samsung",
+      "tentative_model": "QD-OLED Penta Tandem",
+      "category": "panel",
+      "expected_year": 2026,
+      "confidence": "med",
+      "corroboration": 2,
+      "source_country": "Global",
+      "source_tier": "supply-chain",
+      "source_org": "FlatpanelsHD",
+      "status": "announced",
+      "spec_summary": "5층 탠덤 QD-OLED 패널, 4500nit 목표(캘리 ~2500nit). 55/65/77 적용 예정",
+      "source_url": "https://www.flatpanelshd.com/news.php?id=1770897946",
+      "report_date": "2026-02-01",
+      "note": "삼성디스플레이 차세대 패널 브랜딩. LG Tandem WOLED(4층) 대응."
+    },
+    {
+      "brand": "Samsung",
+      "tentative_model": "24인치 OLED 모니터 패널",
+      "category": "monitor",
+      "expected_year": 2027,
+      "confidence": "low",
+      "corroboration": 1,
+      "source_country": "US",
+      "source_tier": "leak",
+      "source_org": "choose.tv",
+      "status": "rumored",
+      "spec_summary": "삼성디스플레이 24\" OLED 모니터 패널 양산계획 유출. 첫 24인치급 OLED",
+      "source_url": "https://www.choose.tv/us/news/the-first-24-oled-monitor-will-be-available-in-2027",
+      "report_date": "2026-03-01",
+      "note": "생산계획 유출 단계. 2027 양산 목표. 단일 출처."
+    }
+  ]
+}
