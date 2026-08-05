@@ -44,7 +44,7 @@ def fetch_models(conn):
                s.positioning, s.key_features,
                m.model_id, m.model_code_base, m.resolution,
                m.refresh_rate_native, m.hdr_formats, m.processor, m.dimming,
-               m.peak_brightness_nits, m.audio_channels, m.audio_output_w,
+               m.peak_brightness_nits, m.brightness_source, m.audio_channels, m.audio_output_w,
                m.smart_os_version, m.connectivity, m.gaming_features,
                m.size_variants_in, m.estimated_fields
         from model m

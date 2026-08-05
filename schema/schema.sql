@@ -45,6 +45,7 @@ CREATE TABLE model (
     processor           TEXT,                    -- 'NQ4 AI Gen2'
     dimming             dimming_type,
     peak_brightness_nits INT,                    -- 대표값(인치별 override는 variant)
+    brightness_source   TEXT,                    -- 밝기 출처(RTINGS근사/골든셋공식·뉴스/실측 출처 부기)
     audio_channels      TEXT,                    -- '4.2.2ch'
     audio_output_w      INT,
     smart_os_version    TEXT,

@@ -60,7 +60,23 @@ def main():
                 (brand, tm, cat, summ, yr, org, country, tier, url, rdate, conf, corrob, status, note))
             n += 1
         conn.commit()
+
+        # 교차검증: pre_release_intel 은 '기존 사양 DB에 없는 모델'이어야 함.
+        cur.execute("""
+            select i.brand, i.tentative_model
+            from pre_release_intel i
+            where exists(
+              select 1 from model m join series s on m.series_id=s.series_id
+              join brand b on s.brand_id=b.brand_id
+              where (b.name=i.brand or (i.brand='Samsung' and b.name='삼성'))
+                and (m.model_code_base=i.promoted_to or i.tentative_model ilike '%'||m.model_code_base||'%')
+            )""")
+        dup = cur.fetchall()
     print(f"pre_release_intel {n}건 적재(미출시 사전정보).")
+    if dup:
+        print(f"  ⚠ 기존 DB에 이미 존재(승격/제거 검토): {[f'{b}/{t}' for b, t in dup]}")
+    else:
+        print("  ✓ 전 항목 '기존 사양 DB에 없는 신모델' 확인(격리 정상).")
 
 
 if __name__ == "__main__":

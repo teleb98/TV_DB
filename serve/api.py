@@ -183,16 +183,26 @@ def certification(code):
 def rumors(brand, year, status):
     with _conn() as c:
         cur = c.cursor()
+        # in_existing_db: 확정 model 에 이미 있는지(브랜드 별칭+코드 유사) — false 여야 '미출시 신모델'.
         cur.execute("""
-            select brand, tentative_model, category, spec_summary, expected_year,
-                   source_org, source_country, source_tier, confidence, corroboration,
-                   status, source_url, report_date, note
-            from pre_release_intel
-            where (%s::text is null or brand=%s)
-              and (%s::int is null or expected_year=%s)
-              and (%s::text is null or status=%s)
-            order by array_position(array['high','med','low']::text[], confidence),
-                     expected_year, brand
+            select i.brand, i.tentative_model, i.category, i.spec_summary, i.expected_year,
+                   i.source_org, i.source_country, i.source_tier, i.confidence, i.corroboration,
+                   i.status, i.source_url, i.report_date, i.note, i.promoted_to,
+                   exists(
+                     select 1 from model m join series s on m.series_id=s.series_id
+                     join brand b on s.brand_id=b.brand_id
+                     where (b.name = i.brand
+                            or (i.brand='Samsung' and b.name='삼성')
+                            or (b.name='삼성' and i.brand='Samsung'))
+                       and (m.model_code_base = i.promoted_to
+                            or i.tentative_model ilike '%%'||m.model_code_base||'%%')
+                   ) as in_existing_db
+            from pre_release_intel i
+            where (%s::text is null or i.brand=%s)
+              and (%s::int is null or i.expected_year=%s)
+              and (%s::text is null or i.status=%s)
+            order by array_position(array['high','med','low']::text[], i.confidence),
+                     i.expected_year, i.brand
         """, (brand, brand, _int(year), _int(year), status, status))
         return cur.fetchall()
 
