@@ -58,6 +58,7 @@ INDEX = {
         "GET /api/by_os?os=webOS": "OS별 모델(Tizen/webOS/Google-TV/VIDAA/Fire-TV/HarmonyOS)+버전",
         "GET /api/aliases?model=QN90F": "지역별 모델명(KR/US/EU SKU) 매핑",
         "GET /api/features?model=QN90F": "브랜드 마케팅 feature(우선순위 순, rank1=최상단)",
+        "GET /api/rumors?brand=&year=&status=": "미출시/루머 사전정보(주요국 뉴스·인증DB, 신뢰도·출처 표기)",
     },
     "search_vocab": {
         "panel": ["WOLED", "QD-OLED", "Neo-QLED", "Mini-LED", "LED-LCD"],
@@ -179,6 +180,23 @@ def certification(code):
         return cur.fetchall()
 
 
+def rumors(brand, year, status):
+    with _conn() as c:
+        cur = c.cursor()
+        cur.execute("""
+            select brand, tentative_model, category, spec_summary, expected_year,
+                   source_org, source_country, source_tier, confidence, corroboration,
+                   status, source_url, report_date, note
+            from pre_release_intel
+            where (%s::text is null or brand=%s)
+              and (%s::int is null or expected_year=%s)
+              and (%s::text is null or status=%s)
+            order by array_position(array['high','med','low']::text[], confidence),
+                     expected_year, brand
+        """, (brand, brand, _int(year), _int(year), status, status))
+        return cur.fetchall()
+
+
 def health():
     with _conn() as c:
         cur = c.cursor()
@@ -206,6 +224,8 @@ def route(path: str, qs: dict):
         return 200, brands()
     if path == "/api/measurements":
         return 200, measurements(g("model"))
+    if path == "/api/rumors":
+        return 200, rumors(g("brand"), g("year"), g("status"))
     if path == "/api/certification":
         return 200, certification(g("model"))
     if path == "/api/by_os":

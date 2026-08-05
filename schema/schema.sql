@@ -195,6 +195,19 @@ CREATE TABLE model_feature (
 );
 CREATE INDEX idx_feature_model ON model_feature(model_id, rank);
 
+
+-- ---------- 14. Pre_Release_Intel (미출시/루머 사전정보; 확정 model 과 분리) ----------
+CREATE TABLE pre_release_intel (
+    id BIGSERIAL PRIMARY KEY,
+    brand TEXT NOT NULL, tentative_model TEXT, category TEXT DEFAULT 'tv',
+    spec_summary TEXT, expected_year INT,
+    source_org TEXT, source_country TEXT, source_tier TEXT, source_url TEXT,
+    report_date DATE, confidence TEXT DEFAULT 'low', corroboration INT DEFAULT 1,
+    status TEXT DEFAULT 'rumored', promoted_to TEXT, note TEXT,
+    updated_at TIMESTAMPTZ DEFAULT now()
+);
+CREATE INDEX idx_intel_brand ON pre_release_intel(brand, expected_year);
+
 -- ---------- 인덱스 ----------
 CREATE INDEX idx_queue_due  ON crawl_queue(status, next_due);
 CREATE INDEX idx_raw_url    ON crawl_raw(url, fetched_at DESC);
