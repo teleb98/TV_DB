@@ -41,7 +41,7 @@ def fetch_models(conn):
     cur.execute("""
         select b.name brand, s.marketing_name lineup, s.series_name,
                s.generation_year as "year", s.panel_tech, s.tier, s.os,
-               s.positioning, s.key_features,
+               s.positioning, s.key_features, m.backlight_tech,
                m.model_id, m.model_code_base, m.resolution,
                m.refresh_rate_native, m.hdr_formats, m.processor, m.dimming,
                m.peak_brightness_nits, m.brightness_source, m.audio_channels, m.audio_output_w,
@@ -137,7 +137,7 @@ def main():
         ensure_ascii=False, indent=2, default=_default), encoding="utf-8")
 
     csv_path = OUT / "tvspec_models.csv"
-    cols = ["brand", "lineup", "year", "tier", "panel_tech", "model_code_base",
+    cols = ["brand", "lineup", "year", "tier", "panel_tech", "backlight_tech", "model_code_base",
             "resolution", "refresh_rate_native", "peak_brightness_nits", "brightness_source", "dimming",
             "processor", "audio_channels", "audio_output_w", "smart_os_version",
             "hdr_formats", "gaming_features", "connectivity", "key_features",

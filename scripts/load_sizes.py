@@ -119,6 +119,7 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "U6K":     ([50, 55, 65, 75, 85],             True,  "hisense U6K 2023(50~85)"),
     "B3":      ([48, 55, 65, 77, 83],             True,  "lg.com B3 2023(48~83)"),
     "Z3":      ([77, 88],                         True,  "lg.com SIGNATURE Z3 8K 2023(77/88)"),
+    "RM9L":    ([75, 85, 98],                     False, "TCL RM9L 2026 RGB Mini-LED(세트 추정)"),
     # --- 2024 주요 모델 인치(공식/RTINGS 확인) ---
     "QN90D":  ([43, 50, 55, 65, 75, 85, 98],      True,  "samsung QN90D 2024"),
     "QN900D": ([65, 75, 85],                      True,  "samsung QN900D 8K 2024"),

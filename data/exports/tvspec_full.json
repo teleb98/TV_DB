@@ -1,7 +1,7 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-08-05T23:04:41.882719+09:00",
-  "model_count": 136,
+  "generated_at": "2026-08-07T02:30:38.941304+09:00",
+  "model_count": 137,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
     "estimated": {
@@ -51,6 +51,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "edge-lit",
       "model_code_base": "LS03H",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -373,6 +374,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "LS03HW",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -603,6 +605,7 @@
         "60Hz",
         "HDR10+"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "M70H",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -901,6 +904,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "M80H",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -1160,6 +1164,7 @@
         "Neo-QLED",
         "HDR10+"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN70H",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -1476,6 +1481,7 @@
         "Neo-QLED",
         "HDR10+"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN80H",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -1764,6 +1770,7 @@
         "Neo-QLED",
         "HDR10+"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN990H",
       "resolution": "8K",
       "refresh_rate_native": 165,
@@ -1967,6 +1974,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "RGB-Mini-LED",
       "model_code_base": "R85H",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -2257,6 +2265,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "RGB-Mini-LED",
       "model_code_base": "R95H",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -2515,6 +2524,7 @@
         "WOLED",
         "HDR10+"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "S85H",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -2786,6 +2796,7 @@
         "QD-OLED",
         "HDR10+"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "S90H",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -3105,6 +3116,7 @@
         "QD-OLED",
         "HDR10+"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "S95H",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -3368,6 +3380,7 @@
         "QD-OLED",
         "HDR10+"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "S99H",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -3623,6 +3636,7 @@
         "60Hz",
         "HDR10+"
       ],
+      "backlight_tech": "direct-LED",
       "model_code_base": "U8000H",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -3965,6 +3979,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "edge-lit",
       "model_code_base": "LS03F",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -4287,6 +4302,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "LS03FW",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -4519,6 +4535,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "RGB-Mini-LED",
       "model_code_base": "MR95F",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -4691,6 +4708,7 @@
         "60Hz",
         "HDR10+"
       ],
+      "backlight_tech": "edge-lit",
       "model_code_base": "Q6F",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -4920,6 +4938,7 @@
         "60Hz",
         "HDR10+"
       ],
+      "backlight_tech": "edge-lit",
       "model_code_base": "Q7F",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -5234,6 +5253,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "FALD",
       "model_code_base": "Q8F",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -5543,6 +5563,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN70F",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -5800,6 +5821,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN800F",
       "resolution": "8K",
       "refresh_rate_native": 120,
@@ -6031,6 +6053,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN80F",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -6317,6 +6340,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN85F",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -6587,6 +6611,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN900F",
       "resolution": "8K",
       "refresh_rate_native": 120,
@@ -6828,6 +6853,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN90F",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -7509,6 +7535,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN95F",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -7775,6 +7802,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN990F",
       "resolution": "8K",
       "refresh_rate_native": 165,
@@ -8044,6 +8072,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "S85F",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -8297,6 +8326,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "S90F",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -8799,6 +8829,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "S95F",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -9221,6 +9252,7 @@
         "60Hz",
         "HDR10+"
       ],
+      "backlight_tech": "direct-LED",
       "model_code_base": "U8000F",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -9562,6 +9594,7 @@
         "60Hz",
         "HDR10+"
       ],
+      "backlight_tech": "edge-lit",
       "model_code_base": "DU8000",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -9706,6 +9739,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN800D",
       "resolution": "8K",
       "refresh_rate_native": 240,
@@ -9937,6 +9971,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN85D",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -10198,6 +10233,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN900D",
       "resolution": "8K",
       "refresh_rate_native": 240,
@@ -10525,6 +10561,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN90D",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -11109,6 +11146,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN95D",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -11369,6 +11407,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "S90D",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -11690,6 +11729,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "S95D",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -12025,6 +12065,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN85C",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -12286,6 +12327,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN900C",
       "resolution": "8K",
       "refresh_rate_native": 120,
@@ -12518,6 +12560,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN90C",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -12846,6 +12889,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN95C",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -13017,6 +13061,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "S90C",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -13282,6 +13327,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "S95C",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -13453,6 +13499,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "E8S",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -13661,6 +13708,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "U6SF",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -13914,6 +13962,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "U7SG",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -14212,6 +14261,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "RGB-Mini-LED",
       "model_code_base": "UR8",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -14480,6 +14530,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "RGB-Mini-LED",
       "model_code_base": "UR9",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -14690,6 +14741,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "RGB-Mini-LED",
       "model_code_base": "UX26",
       "resolution": "4K",
       "refresh_rate_native": 180,
@@ -14898,6 +14950,7 @@
         "60Hz",
         "Dolby Vision"
       ],
+      "backlight_tech": "edge-lit",
       "model_code_base": "QD6QF",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -15195,6 +15248,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "U6Q",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -15472,6 +15526,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "U7Q",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -15898,6 +15953,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "U8Q",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -16371,6 +16427,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "UX",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -16550,6 +16607,7 @@
         "60Hz",
         "Dolby Vision"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "U6N",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -16947,6 +17005,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "U7N",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -17225,6 +17284,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "U8N",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -17653,6 +17713,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "U9N",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -17833,6 +17894,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "U6K",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -18085,6 +18147,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "U7K",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -18323,6 +18386,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "U8K",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -18472,6 +18536,7 @@
         "고휘도(2000nit+)",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "Vision6",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -18694,6 +18759,7 @@
         "240Hz",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "Vision6SE",
       "resolution": "4K",
       "refresh_rate_native": 240,
@@ -18918,6 +18984,7 @@
         "고휘도(2000nit+)",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "V5Max",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -19054,6 +19121,7 @@
         "120Hz",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "Vision5",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -19276,6 +19344,7 @@
         "LED-LCD",
         "60Hz"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "VisionSE",
       "resolution": "4K",
       "refresh_rate_native": 240,
@@ -19469,6 +19538,7 @@
         "144Hz",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "VisionX",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -19693,6 +19763,7 @@
         "고휘도(2000nit+)",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "V5Pro",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -19856,6 +19927,7 @@
         "WOLED",
         "Dolby Vision"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "B6",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -20132,6 +20204,7 @@
         "WOLED",
         "Dolby Vision"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "C6",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -20442,6 +20515,7 @@
         "WOLED",
         "Dolby Vision"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "G6",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -20725,6 +20799,7 @@
         "60Hz",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QNED73B",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -20983,6 +21058,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QNED80B",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -21250,6 +21326,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QNED84B",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -21546,6 +21623,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QNED85B",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -21849,6 +21927,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QNED92",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -22123,6 +22202,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "W6",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -22314,6 +22394,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "B5",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -22731,6 +22812,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "C5",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -23223,6 +23305,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "G5",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -23699,6 +23782,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "M5",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -23945,6 +24029,7 @@
         "60Hz",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "direct-LED",
       "model_code_base": "QNED70A",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -24226,6 +24311,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "edge-lit",
       "model_code_base": "QNED80A",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -24480,6 +24566,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "edge-lit",
       "model_code_base": "QNED82A",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -24770,6 +24857,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QNED85A",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -25071,6 +25159,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QNED90A",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -25314,6 +25403,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QNED92A",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -25568,6 +25658,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QNED9M",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -25792,6 +25883,7 @@
         "60Hz",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "direct-LED",
       "model_code_base": "UA77",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -26044,6 +26136,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "B4",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -26322,6 +26415,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "C4",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -26807,6 +26901,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "G4",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -27242,6 +27337,7 @@
         "120Hz",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "edge-lit",
       "model_code_base": "QNED80T",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -27390,6 +27486,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QNED90T",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -27546,6 +27643,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "T4",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -27708,6 +27806,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "B3",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -27985,6 +28084,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "C3",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -28146,6 +28246,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "G3",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -28307,6 +28408,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "Z3",
       "resolution": "8K",
       "refresh_rate_native": 120,
@@ -28497,6 +28599,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "FALD",
       "model_code_base": "XR30M2",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -28820,6 +28923,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "XR70II",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -29115,6 +29219,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "XR95II",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -29359,6 +29464,7 @@
         "60Hz",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "direct-LED",
       "model_code_base": "S20M2",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -29606,6 +29712,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "XR50",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -29883,6 +29990,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "XR80II",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -30166,6 +30274,7 @@
         "60Hz",
         "Dolby Vision"
       ],
+      "backlight_tech": "direct-LED",
       "model_code_base": "S30",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -30440,6 +30549,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "XR70",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -30682,6 +30792,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "XR80",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -30981,6 +31092,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "XR90",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -31278,6 +31390,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "A80L",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -31522,6 +31635,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "A95L",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -31829,6 +31943,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "FALD",
       "model_code_base": "X90L",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -32099,6 +32214,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "X95L",
       "resolution": "4K",
       "refresh_rate_native": 120,
@@ -32344,6 +32460,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "QD-Mini-LED",
       "model_code_base": "QM6L",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -32635,6 +32752,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "SQD-Mini-LED",
       "model_code_base": "QM7L",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -32903,6 +33021,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "SQD-Mini-LED",
       "model_code_base": "QM8L",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -33158,6 +33277,157 @@
     },
     {
       "brand": "TCL",
+      "lineup": "RM9L RGB Mini LED",
+      "series_name": "RM9",
+      "year": 2026,
+      "panel_tech": "Mini-LED",
+      "tier": "flagship",
+      "os": "Google-TV",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "144Hz",
+        "고휘도(2000nit+)",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "backlight_tech": "RGB-Mini-LED",
+      "model_code_base": "RM9L",
+      "resolution": "4K",
+      "refresh_rate_native": 144,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "AiPQ Ultra",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 5000,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.1.2",
+      "audio_output_w": 60,
+      "smart_os_version": "Google TV",
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "FreeSync Premium Pro",
+        "Game Master"
+      ],
+      "size_variants_in": [
+        75,
+        85,
+        98
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w",
+        "size_variants_in"
+      ],
+      "variants": [
+        {
+          "sku_full": "RM9L-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "85RM9L",
+          "size_inch": 85,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "RM9L-98IN-US",
+          "size_inch": 98,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 34.5,
+          "power_w": 290,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "US",
+          "model_name": "85RM9L",
+          "kind": "sku_root"
+        }
+      ],
+      "features": []
+    },
+    {
+      "brand": "TCL",
       "lineup": "X11L SQD Mini LED",
       "series_name": "X11L",
       "year": 2026,
@@ -33172,6 +33442,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "SQD-Mini-LED",
       "model_code_base": "X11L",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -33381,6 +33652,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "QD-Mini-LED",
       "model_code_base": "QM6K",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -33891,6 +34163,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "QD-Mini-LED",
       "model_code_base": "QM7K",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -34411,6 +34684,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "QD-Mini-LED",
       "model_code_base": "QM8K",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -34807,6 +35081,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "QD-Mini-LED",
       "model_code_base": "QM9K",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -35051,6 +35326,7 @@
         "60Hz",
         "Dolby Vision"
       ],
+      "backlight_tech": "direct-LED",
       "model_code_base": "S5",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -35360,6 +35636,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "QD-Mini-LED",
       "model_code_base": "X11K",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -35550,6 +35827,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "QD-Mini-LED",
       "model_code_base": "C855",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -35789,6 +36067,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "QD-Mini-LED",
       "model_code_base": "Q10K",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -36027,6 +36306,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "QD-Mini-LED",
       "model_code_base": "QM851G",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -36448,6 +36728,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "QD-Mini-LED",
       "model_code_base": "C845",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -36723,6 +37004,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "S-2026",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -36969,6 +37251,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "S-Pro26",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -37164,6 +37447,7 @@
         "60Hz",
         "Dolby Vision"
       ],
+      "backlight_tech": "FALD",
       "model_code_base": "A-Pro",
       "resolution": "4K",
       "refresh_rate_native": 60,
@@ -37440,6 +37724,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "S-MiniLED",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -37665,6 +37950,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "S-OLED",
       "resolution": "4K",
       "refresh_rate_native": 144,
@@ -37859,6 +38145,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "MasterOLED",
       "resolution": "4K",
       "refresh_rate_native": 120,

@@ -59,6 +59,7 @@ INDEX = {
         "GET /api/aliases?model=QN90F": "지역별 모델명(KR/US/EU SKU) 매핑",
         "GET /api/features?model=QN90F": "브랜드 마케팅 feature(우선순위 순, rank1=최상단)",
         "GET /api/rumors?brand=&year=&status=": "미출시/루머 사전정보(주요국 뉴스·인증DB, 신뢰도·출처 표기)",
+        "GET /api/by_backlight?tech=SQD-Mini-LED": "백라이트 세부기술별 모델(SQD/QD/RGB Mini-LED 등)",
     },
     "search_vocab": {
         "panel": ["WOLED", "QD-OLED", "Neo-QLED", "Mini-LED", "LED-LCD"],
@@ -180,6 +181,19 @@ def certification(code):
         return cur.fetchall()
 
 
+def by_backlight(tech):
+    with _conn() as c:
+        cur = c.cursor()
+        cur.execute("""
+            select m.backlight_tech, b.name brand, m.model_code_base code, s.marketing_name lineup,
+                   s.generation_year yr, s.tier, m.peak_brightness_nits nits
+            from model m join series s on m.series_id=s.series_id join brand b on s.brand_id=b.brand_id
+            where (%s::text is null or m.backlight_tech=%s)
+            order by m.backlight_tech, s.generation_year desc, m.peak_brightness_nits desc nulls last
+        """, (tech, tech))
+        return cur.fetchall()
+
+
 def rumors(brand, year, status):
     with _conn() as c:
         cur = c.cursor()
@@ -236,6 +250,8 @@ def route(path: str, qs: dict):
         return 200, measurements(g("model"))
     if path == "/api/rumors":
         return 200, rumors(g("brand"), g("year"), g("status"))
+    if path == "/api/by_backlight":
+        return 200, by_backlight(g("tech"))
     if path == "/api/certification":
         return 200, certification(g("model"))
     if path == "/api/by_os":

@@ -50,6 +50,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN90F",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -731,6 +732,7 @@
         "HDR10+",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "QN990F",
       "resolution": "8K",
       "refresh_rate_native": 165,
@@ -1001,6 +1003,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "Mini-LED",
       "model_code_base": "U8Q",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -1474,6 +1477,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "G5",
       "resolution": "4K",
       "refresh_rate_native": 165,
@@ -1949,6 +1953,7 @@
         "Dolby Vision",
         "VRR/ALLM 게이밍"
       ],
+      "backlight_tech": "self-emissive(OLED)",
       "model_code_base": "A95L",
       "resolution": "4K",
       "refresh_rate_native": 120,
