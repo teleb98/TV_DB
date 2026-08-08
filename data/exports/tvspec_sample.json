@@ -1520,6 +1520,34 @@
       ],
       "variants": [
         {
+          "sku_full": "OLED65G57LW",
+          "size_inch": 65,
+          "region": "EU",
+          "color": null,
+          "stand_type": null,
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": null,
+          "power_w": null,
+          "local_dimming_zones": null,
+          "audio_output_w": null,
+          "price_msrp": 3999,
+          "price_street": 1699,
+          "currency": "EUR",
+          "availability": null,
+          "source_url": null,
+          "estimated_fields": null,
+          "price_history": [
+            {
+              "channel": "mediamarkt",
+              "price": 1699,
+              "currency": "EUR",
+              "d": "2026-08-08"
+            }
+          ]
+        },
+        {
           "sku_full": "G5-55IN-KR",
           "size_inch": 55,
           "region": "KR",
@@ -1707,7 +1735,7 @@
           "local_dimming_zones": null,
           "audio_output_w": 60,
           "price_msrp": 2299,
-          "price_street": 1999,
+          "price_street": 2199,
           "currency": "USD",
           "availability": "판매중",
           "source_url": "https://www.lge.co.kr",
@@ -1729,6 +1757,12 @@
               "price": 2299,
               "currency": "USD",
               "d": "2026-07-01"
+            },
+            {
+              "channel": "bestbuy",
+              "price": 2199,
+              "currency": "USD",
+              "d": "2026-07-25"
             },
             {
               "channel": "amazon",

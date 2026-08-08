@@ -20,7 +20,7 @@ CAPTURED = "2026-07-25"
 # code: { size: {"msrp": 정가|None, "channels": {채널: 가격USD}} }  — 전부 실제 확인가
 RETAIL: dict[str, dict[int, dict]] = {
     "C5":     {65: {"msrp": 2699, "channels": {"bestbuy": 1099, "walmart": 1397}}},
-    "G5":     {65: {"msrp": 2999, "channels": {"amazon": 1999}}},
+    "G5":     {65: {"msrp": 2999, "channels": {"bestbuy": 2199, "amazon": 1999}}},
     "XR80II": {65: {"msrp": 3499, "channels": {"walmart": 2398}}},
     "QM8K":   {65: {"msrp": 1499, "channels": {"bestbuy": 1258}}},
     "U8Q":    {75: {"msrp": 1499, "channels": {"bestbuy": 1299}}},
