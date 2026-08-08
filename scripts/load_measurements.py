@@ -31,6 +31,8 @@ MEASURE: dict[str, tuple] = {
     "U7Q":    (3000, None, None, 93.0,  None, None,     "2025-06-01", "reviews"),
     "U6Q":    (1000, None, None, None,  None, None,     "2025-06-01", "reviews"),
     "B5":     (688,  None, 9.0,  99.0,  None, "inf",    "2025-05-01", "techradar"),
+    "OLED910": (2100, None, None, 99.0,  None, "inf",    "2025-06-01", "flatpanelshd"),
+    "OLED810": (1300, None, None, 99.0,  None, "inf",    "2025-09-01", "flatpanelshd"),
     "QN85F":  (1700, None, None, 90.0,  None, None,     "2025-05-01", "choose.tv"),
     "QN990F": (2109, 394,  None, 94.0,  None, None,     "2025-05-01", "reviews"),
     "QM6K":   (700,  None, None, 90.0,  None, "7000:1", "2025-04-01", "reviews"),

@@ -1520,24 +1520,56 @@
       ],
       "variants": [
         {
-          "sku_full": "OLED65G57LW",
-          "size_inch": 65,
+          "sku_full": "G5-55IN-EU",
+          "size_inch": 55,
           "region": "EU",
-          "color": null,
-          "stand_type": null,
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
           "os_override": null,
           "panel_override": null,
           "refresh_override": null,
-          "weight_kg": null,
-          "power_w": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
           "local_dimming_zones": null,
-          "audio_output_w": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "OLED65G57LW",
+          "size_inch": 65,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 18.5,
+          "power_w": 150,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
           "price_msrp": 3999,
           "price_street": 1699,
           "currency": "EUR",
-          "availability": null,
-          "source_url": null,
-          "estimated_fields": null,
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
           "price_history": [
             {
               "channel": "mediamarkt",
@@ -1546,6 +1578,87 @@
               "d": "2026-08-08"
             }
           ]
+        },
+        {
+          "sku_full": "G5-77IN-EU",
+          "size_inch": 77,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "G5-83IN-EU",
+          "size_inch": 83,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 24.0,
+          "power_w": 190,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "G5-97IN-EU",
+          "size_inch": 97,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 28.0,
+          "power_w": 220,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
         },
         {
           "sku_full": "G5-55IN-KR",
@@ -1879,6 +1992,11 @@
           "region": "EU",
           "model_name": "OLED65G51LW",
           "kind": "eprel"
+        },
+        {
+          "region": "EU",
+          "model_name": "OLED65G57LW",
+          "kind": "sku_root"
         },
         {
           "region": "KR",

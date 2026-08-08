@@ -1,7 +1,7 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-08-08T20:46:50.507741+09:00",
-  "model_count": 137,
+  "generated_at": "2026-08-09T07:43:24.722714+09:00",
+  "model_count": 143,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
     "estimated": {
@@ -8868,24 +8868,56 @@
       ],
       "variants": [
         {
-          "sku_full": "GQ65S95FATXZG",
-          "size_inch": 65,
+          "sku_full": "S95F-55IN-EU",
+          "size_inch": 55,
           "region": "EU",
-          "color": null,
-          "stand_type": null,
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
           "os_override": null,
           "panel_override": null,
           "refresh_override": null,
-          "weight_kg": null,
-          "power_w": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
           "local_dimming_zones": null,
-          "audio_output_w": null,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "GQ65S95FATXZG",
+          "size_inch": 65,
+          "region": "EU",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 18.5,
+          "power_w": 150,
+          "local_dimming_zones": null,
+          "audio_output_w": 70,
           "price_msrp": null,
           "price_street": 3529,
           "currency": "EUR",
-          "availability": null,
-          "source_url": null,
-          "estimated_fields": null,
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
           "price_history": [
             {
               "channel": "mediamarkt",
@@ -8894,6 +8926,60 @@
               "d": "2026-08-08"
             }
           ]
+        },
+        {
+          "sku_full": "S95F-77IN-EU",
+          "size_inch": 77,
+          "region": "EU",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "S95F-83IN-EU",
+          "size_inch": 83,
+          "region": "EU",
+          "color": "Titan Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 24.0,
+          "power_w": 190,
+          "local_dimming_zones": null,
+          "audio_output_w": 70,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.samsung.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
         },
         {
           "sku_full": "S95F-55IN-KR",
@@ -9167,6 +9253,11 @@
           "region": "EU",
           "model_name": "QE65S95FAT",
           "kind": "eprel"
+        },
+        {
+          "region": "EU",
+          "model_name": "GQ65S95FATXZG",
+          "kind": "sku_root"
         },
         {
           "region": "KR",
@@ -23376,24 +23467,56 @@
       ],
       "variants": [
         {
-          "sku_full": "OLED65G57LW",
-          "size_inch": 65,
+          "sku_full": "G5-55IN-EU",
+          "size_inch": 55,
           "region": "EU",
-          "color": null,
-          "stand_type": null,
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
           "os_override": null,
           "panel_override": null,
           "refresh_override": null,
-          "weight_kg": null,
-          "power_w": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
           "local_dimming_zones": null,
-          "audio_output_w": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "OLED65G57LW",
+          "size_inch": 65,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 18.5,
+          "power_w": 150,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
           "price_msrp": 3999,
           "price_street": 1699,
           "currency": "EUR",
-          "availability": null,
-          "source_url": null,
-          "estimated_fields": null,
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
           "price_history": [
             {
               "channel": "mediamarkt",
@@ -23402,6 +23525,87 @@
               "d": "2026-08-08"
             }
           ]
+        },
+        {
+          "sku_full": "G5-77IN-EU",
+          "size_inch": 77,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "G5-83IN-EU",
+          "size_inch": 83,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 24.0,
+          "power_w": 190,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "G5-97IN-EU",
+          "size_inch": 97,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 28.0,
+          "power_w": 220,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.lge.co.kr",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
         },
         {
           "sku_full": "G5-55IN-KR",
@@ -23735,6 +23939,11 @@
           "region": "EU",
           "model_name": "OLED65G51LW",
           "kind": "eprel"
+        },
+        {
+          "region": "EU",
+          "model_name": "OLED65G57LW",
+          "kind": "sku_root"
         },
         {
           "region": "KR",
@@ -28647,6 +28856,937 @@
       ]
     },
     {
+      "brand": "Philips",
+      "lineup": "Ambilight OLED811",
+      "series_name": "OLED8",
+      "year": 2026,
+      "panel_tech": "WOLED",
+      "tier": "high",
+      "os": "Google-TV",
+      "positioning": null,
+      "key_features": [
+        "WOLED",
+        "144Hz",
+        "고휘도(2000nit+)",
+        "HDR10+",
+        "VRR/ALLM 게이밍"
+      ],
+      "backlight_tech": "self-emissive(OLED)",
+      "model_code_base": "OLED811",
+      "resolution": "4K",
+      "refresh_rate_native": 144,
+      "hdr_formats": [
+        "Dolby Vision 2",
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "P5 AI Gen10",
+      "dimming": "per-pixel",
+      "peak_brightness_nits": 2500,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.2",
+      "audio_output_w": 40,
+      "smart_os_version": null,
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "FreeSync"
+      ],
+      "size_variants_in": [
+        55,
+        65,
+        77
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "OLED811-55IN-EU",
+          "size_inch": 55,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "65OLED811",
+          "size_inch": 65,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 18.5,
+          "power_w": 150,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "EUR",
+          "availability": "출시예정",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "OLED811-77IN-EU",
+          "size_inch": 77,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "EU",
+          "model_name": "65OLED811",
+          "kind": "sku_root"
+        }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "Primary RGB Tandem OLED / OLED EX",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "picture",
+          "feature": "P5 AI 화질",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "ai",
+          "feature": "P5 AI Gen10 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "gaming",
+          "feature": "144Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "sound",
+          "feature": "Bowers & Wilkins·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "Google TV(Android)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "service",
+          "feature": "Google Cast·Assistant",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "Ambilight(3면 배경조명)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 9,
+          "category": "experience",
+          "feature": "P5 AI 화질엔진",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 10,
+          "category": "experience",
+          "feature": "4면 Ambilight·Bowers & Wilkins 사운드",
+          "source": "brand-generic"
+        }
+      ]
+    },
+    {
+      "brand": "Philips",
+      "lineup": "Ambilight OLED911",
+      "series_name": "OLED9",
+      "year": 2026,
+      "panel_tech": "WOLED",
+      "tier": "flagship",
+      "os": "Google-TV",
+      "positioning": null,
+      "key_features": [
+        "WOLED",
+        "165Hz",
+        "고휘도(2000nit+)",
+        "HDR10+",
+        "VRR/ALLM 게이밍"
+      ],
+      "backlight_tech": "self-emissive(OLED)",
+      "model_code_base": "OLED911",
+      "resolution": "4K",
+      "refresh_rate_native": 165,
+      "hdr_formats": [
+        "Dolby Vision 2",
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "P5 AI Gen10",
+      "dimming": "per-pixel",
+      "peak_brightness_nits": 3700,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.1.2",
+      "audio_output_w": 60,
+      "smart_os_version": null,
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "165Hz",
+        "G-Sync",
+        "FreeSync"
+      ],
+      "size_variants_in": [
+        48,
+        55,
+        65,
+        77
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "OLED911-48IN-EU",
+          "size_inch": 48,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 14.0,
+          "power_w": 110,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "OLED911-55IN-EU",
+          "size_inch": 55,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "65OLED911",
+          "size_inch": 65,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 18.5,
+          "power_w": 150,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "EUR",
+          "availability": "출시예정",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "OLED911-77IN-EU",
+          "size_inch": 77,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "EU",
+          "model_name": "65OLED911",
+          "kind": "sku_root"
+        }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "Primary RGB Tandem OLED / OLED EX",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "picture",
+          "feature": "P5 AI 화질",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "ai",
+          "feature": "P5 AI Gen10 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "gaming",
+          "feature": "165Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "sound",
+          "feature": "Bowers & Wilkins·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "Google TV(Android)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "service",
+          "feature": "Google Cast·Assistant",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "Ambilight(3면 배경조명)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 9,
+          "category": "experience",
+          "feature": "P5 AI 화질엔진",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 10,
+          "category": "experience",
+          "feature": "4면 Ambilight·Bowers & Wilkins 사운드",
+          "source": "brand-generic"
+        }
+      ]
+    },
+    {
+      "brand": "Philips",
+      "lineup": "Ambilight OLED810",
+      "series_name": "OLED8",
+      "year": 2025,
+      "panel_tech": "WOLED",
+      "tier": "high",
+      "os": "Google-TV",
+      "positioning": null,
+      "key_features": [
+        "WOLED",
+        "144Hz",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "backlight_tech": "self-emissive(OLED)",
+      "model_code_base": "OLED810",
+      "resolution": "4K",
+      "refresh_rate_native": 144,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "P5 AI Gen9",
+      "dimming": "per-pixel",
+      "peak_brightness_nits": 1500,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.2",
+      "audio_output_w": 40,
+      "smart_os_version": null,
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "FreeSync"
+      ],
+      "size_variants_in": [
+        42,
+        48,
+        55,
+        65,
+        77
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "OLED810-42IN-EU",
+          "size_inch": 42,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 12.0,
+          "power_w": 100,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "OLED810-48IN-EU",
+          "size_inch": 48,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 14.0,
+          "power_w": 110,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "OLED810-55IN-EU",
+          "size_inch": 55,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "65OLED810",
+          "size_inch": 65,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 18.5,
+          "power_w": 150,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "EUR",
+          "availability": "판매중",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "OLED810-77IN-EU",
+          "size_inch": 77,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": {
+        "peak_brightness_nits": 1300,
+        "fullscreen_nits": null,
+        "input_lag_ms": null,
+        "dci_p3_pct": 99.0,
+        "rec2020_pct": null,
+        "contrast": "inf",
+        "source": "flatpanelshd",
+        "measured_date": "2025-09-01"
+      },
+      "certification": null,
+      "region_names": [
+        {
+          "region": "EU",
+          "model_name": "65OLED810",
+          "kind": "sku_root"
+        }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "Primary RGB Tandem OLED / OLED EX",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "picture",
+          "feature": "P5 AI 화질",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "ai",
+          "feature": "P5 AI Gen9 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "gaming",
+          "feature": "144Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "sound",
+          "feature": "Bowers & Wilkins·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "Google TV(Android)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "service",
+          "feature": "Google Cast·Assistant",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "Ambilight(3면 배경조명)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 9,
+          "category": "experience",
+          "feature": "P5 AI 화질엔진",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 10,
+          "category": "experience",
+          "feature": "4면 Ambilight·Bowers & Wilkins 사운드",
+          "source": "brand-generic"
+        }
+      ]
+    },
+    {
+      "brand": "Philips",
+      "lineup": "Ambilight OLED910",
+      "series_name": "OLED9",
+      "year": 2025,
+      "panel_tech": "WOLED",
+      "tier": "flagship",
+      "os": "Google-TV",
+      "positioning": null,
+      "key_features": [
+        "WOLED",
+        "165Hz",
+        "고휘도(2000nit+)",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "backlight_tech": "self-emissive(OLED)",
+      "model_code_base": "OLED910",
+      "resolution": "4K",
+      "refresh_rate_native": 165,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "P5 AI Gen9",
+      "dimming": "per-pixel",
+      "peak_brightness_nits": 3700,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.1.2",
+      "audio_output_w": 60,
+      "smart_os_version": null,
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "165Hz",
+        "G-Sync",
+        "FreeSync"
+      ],
+      "size_variants_in": [
+        55,
+        65,
+        77
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "OLED910-55IN-EU",
+          "size_inch": 55,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "65OLED910",
+          "size_inch": 65,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 18.5,
+          "power_w": 150,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "EUR",
+          "availability": "판매중",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "OLED910-77IN-EU",
+          "size_inch": 77,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": {
+        "peak_brightness_nits": 2100,
+        "fullscreen_nits": null,
+        "input_lag_ms": null,
+        "dci_p3_pct": 99.0,
+        "rec2020_pct": null,
+        "contrast": "inf",
+        "source": "flatpanelshd",
+        "measured_date": "2025-06-01"
+      },
+      "certification": null,
+      "region_names": [
+        {
+          "region": "EU",
+          "model_name": "65OLED910",
+          "kind": "sku_root"
+        }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "Primary RGB Tandem OLED / OLED EX",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "picture",
+          "feature": "P5 AI 화질",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "ai",
+          "feature": "P5 AI Gen9 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "gaming",
+          "feature": "165Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "sound",
+          "feature": "Bowers & Wilkins·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "Google TV(Android)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "service",
+          "feature": "Google Cast·Assistant",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "Ambilight(3면 배경조명)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 9,
+          "category": "experience",
+          "feature": "P5 AI 화질엔진",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 10,
+          "category": "experience",
+          "feature": "4면 Ambilight·Bowers & Wilkins 사운드",
+          "source": "brand-generic"
+        }
+      ]
+    },
+    {
       "brand": "Sony",
       "lineup": "BRAVIA 3 II",
       "series_name": "BRAVIA3II",
@@ -33486,7 +34626,68 @@
           "kind": "sku_root"
         }
       ],
-      "features": []
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "QD-Mini LED·Precise Dimming",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "ai",
+          "feature": "AiPQ Ultra 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "gaming",
+          "feature": "144Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "sound",
+          "feature": "ONKYO·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "Google TV",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "Google Cast(Chromecast 내장)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "service",
+          "feature": "Google Assistant",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "Game Master",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 9,
+          "category": "experience",
+          "feature": "제로 베젤 디자인",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 10,
+          "category": "experience",
+          "feature": "FlexConnect(가변 무선 사운드)",
+          "source": "brand-generic"
+        }
+      ]
     },
     {
       "brand": "TCL",
@@ -37047,6 +38248,461 @@
           "rank": 10,
           "category": "experience",
           "feature": "FlexConnect(가변 무선 사운드)",
+          "source": "brand-generic"
+        }
+      ]
+    },
+    {
+      "brand": "Thomson",
+      "lineup": "Google TV MiniLED",
+      "series_name": "MG7",
+      "year": 2025,
+      "panel_tech": "Mini-LED",
+      "tier": "mid",
+      "os": "Google-TV",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "144Hz",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "backlight_tech": "Mini-LED",
+      "model_code_base": "MG7C15",
+      "resolution": "4K",
+      "refresh_rate_native": 144,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "processor": null,
+      "dimming": "mini-led",
+      "peak_brightness_nits": 1000,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.0",
+      "audio_output_w": 20,
+      "smart_os_version": null,
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz"
+      ],
+      "size_variants_in": [
+        43,
+        50,
+        55,
+        65,
+        75
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "MG7C15-43IN-EU",
+          "size_inch": 43,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 15.0,
+          "power_w": 130,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "MG7C15-50IN-EU",
+          "size_inch": 50,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 17.5,
+          "power_w": 150,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "MG7C15-55IN-EU",
+          "size_inch": 55,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 19.0,
+          "power_w": 160,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "65MG7C15",
+          "size_inch": 65,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "EUR",
+          "availability": "판매중",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "MG7C15-75IN-EU",
+          "size_inch": 75,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "EU",
+          "model_name": "65MG7C15",
+          "kind": "sku_root"
+        }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "Mini LED·Dolby Vision",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "gaming",
+          "feature": "144Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "sound",
+          "feature": "Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "service",
+          "feature": "Google TV",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "Google Cast·Assistant",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "experience",
+          "feature": "내장 서브우퍼",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "experience",
+          "feature": "슬림 디자인",
+          "source": "brand-generic"
+        }
+      ]
+    },
+    {
+      "brand": "Thomson",
+      "lineup": "Google TV QLED Pro",
+      "series_name": "UG5",
+      "year": 2025,
+      "panel_tech": "QLED",
+      "tier": "entry",
+      "os": "Google-TV",
+      "positioning": null,
+      "key_features": [
+        "QLED",
+        "60Hz",
+        "Dolby Vision"
+      ],
+      "backlight_tech": "edge-lit",
+      "model_code_base": "UG5X15",
+      "resolution": "4K",
+      "refresh_rate_native": 60,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "processor": null,
+      "dimming": "none",
+      "peak_brightness_nits": 400,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.0",
+      "audio_output_w": 20,
+      "smart_os_version": null,
+      "connectivity": [
+        "HDMI2.0 x3",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "ALLM"
+      ],
+      "size_variants_in": [
+        43,
+        50,
+        55,
+        65
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w",
+        "size_variants_in"
+      ],
+      "variants": [
+        {
+          "sku_full": "UG5X15-43IN-EU",
+          "size_inch": 43,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 15.0,
+          "power_w": 110,
+          "local_dimming_zones": null,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "UG5X15-50IN-EU",
+          "size_inch": 50,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 17.5,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "UG5X15-55IN-EU",
+          "size_inch": 55,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 19.0,
+          "power_w": 140,
+          "local_dimming_zones": null,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "65UG5X15",
+          "size_inch": 65,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 170,
+          "local_dimming_zones": null,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "EUR",
+          "availability": "판매중",
+          "source_url": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [
+        {
+          "region": "EU",
+          "model_name": "65UG5X15",
+          "kind": "sku_root"
+        }
+      ],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "QLED Quantum Dot",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "sound",
+          "feature": "Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "service",
+          "feature": "Google TV",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "service",
+          "feature": "Google Cast·Assistant",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "experience",
+          "feature": "내장 서브우퍼",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "experience",
+          "feature": "슬림 디자인",
           "source": "brand-generic"
         }
       ]

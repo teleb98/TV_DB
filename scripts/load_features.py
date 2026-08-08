@@ -29,6 +29,8 @@ BRAND_SERVICE = {
     "Hisense": [("service", "Google TV/VIDAA/Fire TV"), ("service", "Google Cast·음성 비서")],
     "Huawei": [("service", "HarmonyOS·AppGallery"), ("service", "AI 음성·스마트홈 연동")],
     "Xiaomi": [("service", "Google TV/PatchWall"), ("service", "Google Cast·음성 어시스턴트")],
+    "Philips": [("service", "Google TV(Android)"), ("service", "Google Cast·Assistant")],
+    "Thomson": [("service", "Google TV"), ("service", "Google Cast·Assistant")],
 }
 # ---------- 브랜드 공통: experience(넓게 적용) ----------
 BRAND_EXPERIENCE = {
@@ -41,6 +43,8 @@ BRAND_EXPERIENCE = {
     "Hisense": [("experience", "Game Mode Pro"), ("experience", "Filmmaker Mode")],
     "Huawei": [("experience", "스마트 카메라·화상통화"), ("experience", "멀티스크린 협업")],
     "Xiaomi": [("experience", "Xiaomi 생태계 연동"), ("experience", "Game Boost")],
+    "Philips": [("experience", "Ambilight(3면 배경조명)"), ("experience", "P5 AI 화질엔진")],
+    "Thomson": [("experience", "내장 서브우퍼"), ("experience", "슬림 디자인")],
 }
 # ---------- 프리미엄 experience(flagship/high 만) ----------
 BRAND_EXP_PREMIUM = {
@@ -50,6 +54,8 @@ BRAND_EXP_PREMIUM = {
     "TCL": [("experience", "FlexConnect(가변 무선 사운드)")],
     "Hisense": [("experience", "IMAX Enhanced·와이드 시야각")],
     "Huawei": [], "Xiaomi": [],
+    "Philips": [("experience", "4면 Ambilight·Bowers & Wilkins 사운드")],
+    "Thomson": [],
 }
 # ---------- 브랜드 sound ----------
 BRAND_SOUND = {
@@ -57,6 +63,7 @@ BRAND_SOUND = {
     "Sony": ("sound", "Acoustic Multi Audio·Dolby Atmos"), "TCL": ("sound", "ONKYO·Dolby Atmos"),
     "Hisense": ("sound", "Dolby Atmos"), "Huawei": ("sound", "하이파이 스피커·Dolby Atmos"),
     "Xiaomi": ("sound", "Dolby Atmos"),
+    "Philips": ("sound", "Bowers & Wilkins·Dolby Atmos"), "Thomson": ("sound", "Dolby Atmos"),
 }
 # ---------- picture: (brand, archetype) ----------
 PICTURE = {
@@ -80,6 +87,9 @@ PICTURE = {
     ("Xiaomi", "oled"): [("picture", "OLED 자발광")],
     ("Xiaomi", "miniled"): [("picture", "QD-Mini LED")],
     ("Xiaomi", "led"): [("picture", "4K HDR")],
+    ("Philips", "oled"): [("picture", "Primary RGB Tandem OLED / OLED EX"), ("picture", "P5 AI 화질")],
+    ("Thomson", "miniled"): [("picture", "Mini LED·Dolby Vision")],
+    ("Thomson", "qled"): [("picture", "QLED Quantum Dot")],
 }
 
 # ---------- CURATED(공식 페이지 순서 확인 6종) ----------

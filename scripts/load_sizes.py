@@ -120,6 +120,13 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "B3":      ([48, 55, 65, 77, 83],             True,  "lg.com B3 2023(48~83)"),
     "Z3":      ([77, 88],                         True,  "lg.com SIGNATURE Z3 8K 2023(77/88)"),
     "RM9L":    ([75, 85, 98],                     False, "TCL RM9L 2026 RGB Mini-LED(세트 추정)"),
+    # --- Google OS 브랜드 확대(Philips·Thomson) ---
+    "OLED910": ([55, 65, 77],                     True,  "Philips OLED910 2025 Ambilight(55~77)"),
+    "OLED810": ([42, 48, 55, 65, 77],             True,  "Philips OLED810 2025(42~77)"),
+    "OLED911": ([48, 55, 65, 77],                 True,  "Philips OLED911 2026(48~77)"),
+    "OLED811": ([55, 65, 77],                     True,  "Philips OLED811 2026(55~77)"),
+    "MG7C15":  ([43, 50, 55, 65, 75],             True,  "Thomson Google TV MiniLED 2025(43~75)"),
+    "UG5X15":  ([43, 50, 55, 65],                 False, "Thomson QLED Pro 2025(세트 추정)"),
     # --- 2024 주요 모델 인치(공식/RTINGS 확인) ---
     "QN90D":  ([43, 50, 55, 65, 75, 85, 98],      True,  "samsung QN90D 2024"),
     "QN900D": ([65, 75, 85],                      True,  "samsung QN900D 8K 2024"),

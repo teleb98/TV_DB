@@ -122,3 +122,9 @@ Hisense,U6,ULED U6K,2023,Mini-LED,mid,Google-TV,U6K,4K,60,Dolby Vision|HDR10+|HL
 LG,B,OLED B3,2023,WOLED,mid,webOS,B3,4K,120,Dolby Vision|HDR10|HLG,α7 AI Gen6,per-pixel,650,OLED65B3PUA,65,US,,VRR|ALLM|120Hz|G-Sync|FreeSync,HDMI2.1 x4|eARC|WiFi|Bluetooth
 LG,Z,SIGNATURE OLED Z3 8K,2023,WOLED,flagship,webOS,Z3,8K,120,Dolby Vision|HDR10|HLG,α9 AI Gen6 8K,per-pixel,700,OLED77Z3PUA,77,US,,VRR|ALLM|120Hz|G-Sync|FreeSync,HDMI2.1 x4|eARC|WiFi|Bluetooth
 TCL,RM9,RM9L RGB Mini LED,2026,Mini-LED,flagship,Google-TV,RM9L,4K,144,Dolby Vision|HDR10+|HLG,AiPQ Ultra,mini-led,5000,85RM9L,85,US,,VRR|ALLM|144Hz|FreeSync Premium Pro|Game Master,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Philips,OLED9,Ambilight OLED910,2025,WOLED,flagship,Google-TV,OLED910,4K,165,Dolby Vision|HDR10+|HLG,P5 AI Gen9,per-pixel,3700,65OLED910,65,EU,,VRR|ALLM|165Hz|G-Sync|FreeSync,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Philips,OLED8,Ambilight OLED810,2025,WOLED,high,Google-TV,OLED810,4K,144,Dolby Vision|HDR10+|HLG,P5 AI Gen9,per-pixel,1500,65OLED810,65,EU,,VRR|ALLM|144Hz|FreeSync,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Philips,OLED9,Ambilight OLED911,2026,WOLED,flagship,Google-TV,OLED911,4K,165,Dolby Vision 2|HDR10+|HLG,P5 AI Gen10,per-pixel,3700,65OLED911,65,EU,,VRR|ALLM|165Hz|G-Sync|FreeSync,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Philips,OLED8,Ambilight OLED811,2026,WOLED,high,Google-TV,OLED811,4K,144,Dolby Vision 2|HDR10+|HLG,P5 AI Gen10,per-pixel,2500,65OLED811,65,EU,,VRR|ALLM|144Hz|FreeSync,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Thomson,MG7,Google TV MiniLED,2025,Mini-LED,mid,Google-TV,MG7C15,4K,144,Dolby Vision|HDR10|HLG,,mini-led,1000,65MG7C15,65,EU,,VRR|ALLM|144Hz,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Thomson,UG5,Google TV QLED Pro,2025,QLED,entry,Google-TV,UG5X15,4K,60,Dolby Vision|HDR10|HLG,,none,400,65UG5X15,65,EU,,ALLM,HDMI2.0 x3|eARC|WiFi|Bluetooth
