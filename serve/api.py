@@ -57,6 +57,7 @@ INDEX = {
         "GET /api/certification?model=S90F": "EPREL 에너지등급·소비전력(SDR/HDR)·EU 모델명",
         "GET /api/by_os?os=webOS": "OS별 모델(Tizen/webOS/Google-TV/VIDAA/Fire-TV/HarmonyOS)+버전",
         "GET /api/os_share?region=Global&metric=installed_base&period=2025": "스마트TV OS 시장점유율(Omdia 등)+DB 모델수 결합",
+        "GET /api/os_profile?os=webOS": "OS 플랫폼 장점·약점·사양(음성비서·FAST·클라우드게임·AirPlay·스마트홈·업데이트·광고)+보유 모델/브랜드",
         "GET /api/aliases?model=QN90F": "지역별 모델명(KR/US/EU SKU) 매핑",
         "GET /api/features?model=QN90F": "브랜드 마케팅 feature(우선순위 순, rank1=최상단)",
         "GET /api/rumors?brand=&year=&status=": "미출시/루머 사전정보(주요국 뉴스·인증DB, 신뢰도·출처 표기)",
@@ -166,6 +167,25 @@ def os_share(region, metric, period):
     return {"market_share": market, "db_coverage": db_coverage,
             "note": "market_share=업계 리서치(Omdia 등) 시장통계, db_coverage=본 DB 보유 모델수. "
                     "estimated=true는 공개 발표치 없이 밴드중앙/잔여로 보정한 추정행."}
+
+
+def os_profile(os_name):
+    """OS 플랫폼 프로파일(장점·약점·사양) + DB 보유 모델수·브랜드."""
+    with _conn() as c:
+        cur = c.cursor()
+        cur.execute("""
+            select p.*,
+                   (select count(distinct m.model_id)
+                      from series s join model m on m.series_id=s.series_id
+                      where s.os::text = p.os) db_models,
+                   (select string_agg(distinct b.name, ', ' order by b.name)
+                      from series s join brand b on s.brand_id=b.brand_id
+                      where s.os::text = p.os) brands
+            from os_platform p
+            where (%s::text is null or p.os ilike %s)
+            order by db_models desc, p.os
+        """, (os_name, f"%{os_name}%" if os_name else None))
+        return cur.fetchall()
 
 
 def features(code):
@@ -288,6 +308,8 @@ def route(path: str, qs: dict):
         return 200, by_os(g("os"))
     if path == "/api/os_share":
         return 200, os_share(g("region"), g("metric"), g("period"))
+    if path == "/api/os_profile":
+        return 200, os_profile(g("os"))
     if path == "/api/aliases":
         return 200, aliases(g("model"))
     if path == "/api/features":

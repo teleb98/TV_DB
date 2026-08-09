@@ -232,6 +232,31 @@ CREATE TABLE os_market_share (
 );
 CREATE INDEX idx_osshare_pie ON os_market_share(region, metric, period, rank);
 
+-- ---------- 16. OS_Platform (스마트TV OS 자체의 장점·약점·플랫폼 사양) ----------
+-- 개별 model 스펙과 분리된 "OS 플랫폼" 특성. 브랜드-OS 매핑은 series.os 로 조인.
+CREATE TABLE os_platform (
+    os             TEXT PRIMARY KEY,      -- Tizen/webOS/Google-TV/Roku/Fire-TV/VIDAA/HarmonyOS/Android-TV
+    vendor         TEXT,
+    base_os        TEXT,                  -- Linux / Android(AOSP) / Fire OS(Android fork) 등
+    ui_current     TEXT,                  -- 현행 UI/버전
+    app_store      TEXT,
+    app_scale      TEXT,                  -- 앱 규모(대/중/소 + 근사치)
+    voice_assistant TEXT,
+    fast_service   TEXT,                  -- 무료 FAST 채널 서비스
+    casting        TEXT,                  -- Chromecast/Miracast/화면공유
+    airplay        BOOLEAN,               -- AirPlay 2 지원
+    cloud_gaming   TEXT,                  -- 클라우드 게임(Xbox/GeForce Now/Luna 등)
+    smart_home     TEXT,                  -- 스마트홈 허브
+    matter         BOOLEAN,               -- Matter 지원
+    update_policy  TEXT,                  -- OS 업그레이드/보안 지원 정책
+    ad_level       TEXT,                  -- 홈화면 광고 강도 low/med/high
+    strengths      TEXT[],                -- 장점(순위)
+    weaknesses     TEXT[],                -- 약점
+    best_for       TEXT,                  -- 추천 사용자
+    source_url     TEXT,
+    updated_at     TIMESTAMPTZ DEFAULT now()
+);
+
 -- ---------- 인덱스 ----------
 CREATE INDEX idx_queue_due  ON crawl_queue(status, next_due);
 CREATE INDEX idx_raw_url    ON crawl_raw(url, fetched_at DESC);

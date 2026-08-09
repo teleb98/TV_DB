@@ -233,9 +233,29 @@ def main():
         for r in orows:
             w.writerow({k: r.get(k) for k in ocols})
 
+    # OS 플랫폼 프로파일(장점·약점·사양) — model 스펙과 분리된 OS 자체 특성
+    osp_json = OUT / "tvspec_os_profile.json"
+    with psycopg.connect(DSN, row_factory=dict_row) as conn:
+        cur = conn.cursor()
+        cur.execute("""
+            select p.*,
+                   (select count(distinct m.model_id) from series s
+                      join model m on m.series_id=s.series_id where s.os::text=p.os) db_models,
+                   (select string_agg(distinct b.name, ', ' order by b.name) from series s
+                      join brand b on s.brand_id=b.brand_id where s.os::text=p.os) brands
+            from os_platform p
+            order by db_models desc, p.os
+        """)
+        oprows = cur.fetchall()
+    osp_json.write_text(json.dumps(
+        {"note": "스마트TV OS 플랫폼 프로파일 — OS 자체의 장점·약점·사양(음성비서·FAST·클라우드게임·"
+                 "AirPlay·스마트홈·업데이트·광고강도). 개별 model 스펙과 분리. db_models=본 DB 보유 모델수.",
+         "generated_at": datetime.datetime.now().astimezone().isoformat(), "platforms": oprows},
+        ensure_ascii=False, indent=2, default=_default), encoding="utf-8")
+
     print(f"모델 {len(records)}종 / 샘플 {len(sample)}종 / variant {len(vrows)}행 / "
-          f"사전정보 {len(prows)}건 / OS점유율 {len(orows)}행 내보냄:")
-    for p in (full, OUT / 'tvspec_sample.json', csv_path, var_path, pr_json, pr_csv, os_json, os_csv):
+          f"사전정보 {len(prows)}건 / OS점유율 {len(orows)}행 / OS프로파일 {len(oprows)}개 내보냄:")
+    for p in (full, OUT / 'tvspec_sample.json', csv_path, var_path, pr_json, pr_csv, os_json, os_csv, osp_json):
         print(f"  {p}  ({p.stat().st_size:,} B)")
 
 
