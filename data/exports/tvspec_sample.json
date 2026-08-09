@@ -714,7 +714,33 @@
           "feature": "SolarCell 리모컨(태양광 충전)",
           "source": "samsung.com"
         }
-      ]
+      ],
+      "os_experience": {
+        "os": "Tizen",
+        "base_os": "Linux(Tizen)",
+        "voice_assistant": "Bixby + Alexa",
+        "fast_service": "Samsung TV Plus",
+        "casting": "Tap View/미러링(Chromecast 미지원)",
+        "airplay": true,
+        "cloud_gaming": "Gaming Hub(Xbox·GeForce Now·Amazon Luna, 콘솔 없이 클라우드)",
+        "smart_home": "SmartThings 허브(Zigbee/Thread 내장 모델)",
+        "matter": true,
+        "update_policy": "OS 7년 보안·기능 업데이트(2024년형~)",
+        "ad_level": "med",
+        "strengths": [
+          "콘솔 없이 클라우드 게임(Gaming Hub)",
+          "SmartThings 스마트홈 허브 내장",
+          "AirPlay 2·모든 주요 앱 지원",
+          "장기 업데이트(7년)",
+          "Vision AI 온디바이스 기능"
+        ],
+        "best_for": "삼성 갤럭시·SmartThings 생태계, 콘솔 없이 클라우드 게임 원하는 사용자",
+        "top_strengths": [
+          "콘솔 없이 클라우드 게임(Gaming Hub)",
+          "SmartThings 스마트홈 허브 내장",
+          "AirPlay 2·모든 주요 앱 지원"
+        ]
+      }
     },
     {
       "brand": "삼성",
@@ -985,7 +1011,33 @@
           "feature": "Slim/One Connect",
           "source": "brand-generic"
         }
-      ]
+      ],
+      "os_experience": {
+        "os": "Tizen",
+        "base_os": "Linux(Tizen)",
+        "voice_assistant": "Bixby + Alexa",
+        "fast_service": "Samsung TV Plus",
+        "casting": "Tap View/미러링(Chromecast 미지원)",
+        "airplay": true,
+        "cloud_gaming": "Gaming Hub(Xbox·GeForce Now·Amazon Luna, 콘솔 없이 클라우드)",
+        "smart_home": "SmartThings 허브(Zigbee/Thread 내장 모델)",
+        "matter": true,
+        "update_policy": "OS 7년 보안·기능 업데이트(2024년형~)",
+        "ad_level": "med",
+        "strengths": [
+          "콘솔 없이 클라우드 게임(Gaming Hub)",
+          "SmartThings 스마트홈 허브 내장",
+          "AirPlay 2·모든 주요 앱 지원",
+          "장기 업데이트(7년)",
+          "Vision AI 온디바이스 기능"
+        ],
+        "best_for": "삼성 갤럭시·SmartThings 생태계, 콘솔 없이 클라우드 게임 원하는 사용자",
+        "top_strengths": [
+          "콘솔 없이 클라우드 게임(Gaming Hub)",
+          "SmartThings 스마트홈 허브 내장",
+          "AirPlay 2·모든 주요 앱 지원"
+        ]
+      }
     },
     {
       "brand": "Hisense",
@@ -1459,7 +1511,32 @@
           "feature": "와이드 시야각 패널",
           "source": "hisense-usa.com"
         }
-      ]
+      ],
+      "os_experience": {
+        "os": "VIDAA",
+        "base_os": "Linux(VIDAA)",
+        "voice_assistant": "VIDAA Voice + Alexa",
+        "fast_service": "VIDAA Free(무료 채널)",
+        "casting": "미러링(Chromecast 미지원)",
+        "airplay": true,
+        "cloud_gaming": "일부 GeForce Now(모델별)",
+        "smart_home": "제한적(스마트홈 허브 아님)",
+        "matter": false,
+        "update_policy": "정기 보안 업데이트",
+        "ad_level": "med",
+        "strengths": [
+          "가볍고 빠른 부팅·반응",
+          "저가 Hisense TV에 최적화",
+          "AirPlay 2 지원(신모델)",
+          "VIDAA Free 무료 채널"
+        ],
+        "best_for": "가성비 Hisense TV, 가벼운 스트리밍 위주 사용자",
+        "top_strengths": [
+          "가볍고 빠른 부팅·반응",
+          "저가 Hisense TV에 최적화",
+          "AirPlay 2 지원(신모델)"
+        ]
+      }
     },
     {
       "brand": "LG",
@@ -2088,7 +2165,33 @@
           "feature": "AI 컨시어지·AI 챗봇",
           "source": "lg.com"
         }
-      ]
+      ],
+      "os_experience": {
+        "os": "webOS",
+        "base_os": "Linux(webOS)",
+        "voice_assistant": "ThinQ + Google Assistant/Alexa(내장 마이크)",
+        "fast_service": "LG Channels",
+        "casting": "미러링·AirPlay(Chromecast 미지원)",
+        "airplay": true,
+        "cloud_gaming": "Gaming Portal(GeForce Now·Xbox Cloud·Luna)",
+        "smart_home": "LG ThinQ + Matter/HomeKit",
+        "matter": true,
+        "update_policy": "webOS Re:New — 구모델도 5년 UI 업그레이드 제공",
+        "ad_level": "med",
+        "strengths": [
+          "Magic Remote 포인터·직관 UX",
+          "AirPlay 2 + HomeKit 동시지원",
+          "Gaming Portal 클라우드 게임",
+          "구모델 5년 업그레이드(Re:New)",
+          "화질 중심 세밀한 설정"
+        ],
+        "best_for": "포인터 리모컨 선호, Apple(AirPlay/HomeKit) 사용자, 화질 마니아",
+        "top_strengths": [
+          "Magic Remote 포인터·직관 UX",
+          "AirPlay 2 + HomeKit 동시지원",
+          "Gaming Portal 클라우드 게임"
+        ]
+      }
     },
     {
       "brand": "Sony",
@@ -2396,7 +2499,33 @@
           "feature": "Bravia Cam(제스처·화상통화·자동 최적화)",
           "source": "brand-generic"
         }
-      ]
+      ],
+      "os_experience": {
+        "os": "Google-TV",
+        "base_os": "Android(AOSP)",
+        "voice_assistant": "Google Assistant/Gemini",
+        "fast_service": "Google TV Freeplay(라이브 탭)",
+        "casting": "Chromecast 내장(캐스팅 최강)",
+        "airplay": false,
+        "cloud_gaming": "GeForce Now 앱(브라우저·앱 기반)",
+        "smart_home": "Google Home + Matter",
+        "matter": true,
+        "update_policy": "Android TV OS 업데이트(브랜드별 상이, 통상 2~3년)",
+        "ad_level": "med",
+        "strengths": [
+          "최다 앱(Play Store 1만+)",
+          "Chromecast 내장 캐스팅",
+          "서비스 교차 개인화 추천(콘텐츠 애그리게이션)",
+          "Google Assistant/Gemini AI",
+          "다수 브랜드(Sony·TCL·Hisense·Xiaomi 등) 채택"
+        ],
+        "best_for": "앱 다양성·캐스팅 중시, Google/Android 생태계 사용자",
+        "top_strengths": [
+          "최다 앱(Play Store 1만+)",
+          "Chromecast 내장 캐스팅",
+          "서비스 교차 개인화 추천(콘텐츠 애그리게이션)"
+        ]
+      }
     }
   ]
 }

@@ -21,6 +21,32 @@ def _conn():
     return psycopg.connect(DSN, row_factory=dict_row)
 
 
+# ---------------------------------------------------------------- OS 플랫폼 경험(모델에 연결)
+_OS_CACHE: dict[str, dict | None] = {}
+
+
+def os_experience(os_name) -> dict | None:
+    """series.os → os_platform 요약(음성·FAST·클라우드게임·AirPlay·핵심 장점). 캐시."""
+    key = str(os_name) if os_name is not None else None
+    if key in _OS_CACHE:
+        return _OS_CACHE[key]
+    exp = None
+    if key:
+        with _conn() as c:
+            cur = c.cursor()
+            cur.execute("""
+                select os, base_os, voice_assistant, fast_service, casting, airplay,
+                       cloud_gaming, smart_home, matter, update_policy, ad_level,
+                       strengths, best_for
+                from os_platform where os=%s
+            """, (key,))
+            exp = cur.fetchone()
+        if exp and isinstance(exp.get("strengths"), list):
+            exp["top_strengths"] = exp["strengths"][:3]
+    _OS_CACHE[key] = exp
+    return exp
+
+
 # ---------------------------------------------------------------- 스펙 비교 상담봇
 def compare(samsung_code: str) -> dict:
     """삼성 모델코드 → 자기 스펙 + 동급 경쟁사 모델 비교표(confidence 순)."""
@@ -30,7 +56,7 @@ def compare(samsung_code: str) -> dict:
             select b.name brand, s.marketing_name lineup, m.model_code_base code,
                    s.panel_tech panel, m.resolution, m.refresh_rate_native refresh,
                    m.peak_brightness_nits nits, m.gaming_features gaming,
-                   m.connectivity, m.processor, s.tier
+                   m.connectivity, m.processor, s.tier, s.os
             from model m join series s on m.series_id=s.series_id
                          join brand b on s.brand_id=b.brand_id
             where m.model_code_base = %s and b.name='삼성'
@@ -38,12 +64,13 @@ def compare(samsung_code: str) -> dict:
         base = cur.fetchone()
         if not base:
             return {"error": f"삼성 모델 '{samsung_code}' 없음"}
+        base["os_experience"] = os_experience(base.get("os"))
 
         cur.execute("""
             select b.name brand, s.marketing_name lineup, m.model_code_base code,
                    s.panel_tech panel, m.resolution, m.refresh_rate_native refresh,
                    m.peak_brightness_nits nits, m.gaming_features gaming,
-                   m.connectivity, m.processor, cm.confidence
+                   m.connectivity, m.processor, s.os, cm.confidence
             from comparison_map cm
             join model sm on cm.samsung_model_id=sm.model_id
             join model m  on cm.competitor_model_id=m.model_id
@@ -52,7 +79,10 @@ def compare(samsung_code: str) -> dict:
             where sm.model_code_base=%s
             order by cm.confidence desc, b.name
         """, (samsung_code,))
-        return {"samsung": base, "competitors": cur.fetchall()}
+        comps = cur.fetchall()
+        for cp in comps:
+            cp["os_experience"] = os_experience(cp.get("os"))
+        return {"samsung": base, "competitors": comps}
 
 
 # ---------------------------------------------------------------- 라인업 안내
@@ -217,7 +247,7 @@ def search(panel: str | None = None, resolution: str | None = None,
         cur.execute("""
             select b.name brand, s.marketing_name lineup, m.model_code_base code,
                    s.panel_tech panel, m.resolution, m.refresh_rate_native refresh,
-                   v.size_inch, coalesce(v.price_street, v.price_msrp) price, v.currency
+                   s.os, v.size_inch, coalesce(v.price_street, v.price_msrp) price, v.currency
             from variant v join model m on v.model_id=m.model_id
             join series s on m.series_id=s.series_id
             join brand b on s.brand_id=b.brand_id
@@ -230,4 +260,7 @@ def search(panel: str | None = None, resolution: str | None = None,
             order by b.name, m.model_code_base
         """, (region, panel, panel, resolution, resolution,
               min_refresh, min_refresh, tier, tier, max_price, max_price))
-        return cur.fetchall()
+        rows = cur.fetchall()
+        for r in rows:
+            r["os_experience"] = os_experience(r.get("os"))
+        return rows

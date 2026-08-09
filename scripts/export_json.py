@@ -76,6 +76,28 @@ def fetch_variants(conn, model_id):
     return variants
 
 
+_OS_EXP_CACHE: dict = {}
+
+
+def fetch_os_experience(conn, os_name):
+    """series.os → os_platform 요약(모델에 연결). 캐시로 OS당 1회 조회."""
+    key = str(os_name) if os_name is not None else None
+    if key in _OS_EXP_CACHE:
+        return _OS_EXP_CACHE[key]
+    exp = None
+    if key:
+        cur = conn.cursor()
+        cur.execute("""select os, base_os, voice_assistant, fast_service, casting, airplay,
+                              cloud_gaming, smart_home, matter, update_policy, ad_level,
+                              strengths, best_for
+                       from os_platform where os=%s""", (key,))
+        exp = cur.fetchone()
+        if exp and isinstance(exp.get("strengths"), list):
+            exp["top_strengths"] = exp["strengths"][:3]
+    _OS_EXP_CACHE[key] = exp
+    return exp
+
+
 def build():
     with psycopg.connect(DSN, row_factory=dict_row) as conn:
         rows = fetch_models(conn)
@@ -87,6 +109,7 @@ def build():
             r["certification"] = fetch_certification(conn, mid)
             r["region_names"] = fetch_aliases(conn, mid)
             r["features"] = fetch_features(conn, mid)
+            r["os_experience"] = fetch_os_experience(conn, r.get("os"))
             records.append(r)
     return records
 
@@ -141,7 +164,10 @@ def main():
             "resolution", "refresh_rate_native", "peak_brightness_nits", "brightness_source", "dimming",
             "processor", "audio_channels", "audio_output_w", "smart_os_version",
             "hdr_formats", "gaming_features", "connectivity", "key_features",
-            "size_variants_in", "estimated_fields"]
+            "size_variants_in", "estimated_fields",
+            # OS 플랫폼 연결(os_platform 조인) — 모델별 OS 경험
+            "os", "os_base", "os_voice", "os_fast", "os_cloud_gaming", "os_airplay",
+            "os_ad_level", "os_top_strength"]
     with csv_path.open("w", newline="", encoding="utf-8-sig") as f:
         w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
         w.writeheader()
@@ -151,6 +177,14 @@ def main():
                       "estimated_fields", "size_variants_in"):
                 if isinstance(row.get(k), list):
                     row[k] = ", ".join(str(x) for x in row[k])
+            oe = row.get("os_experience") or {}
+            row["os_base"] = oe.get("base_os")
+            row["os_voice"] = oe.get("voice_assistant")
+            row["os_fast"] = oe.get("fast_service")
+            row["os_cloud_gaming"] = oe.get("cloud_gaming")
+            row["os_airplay"] = oe.get("airplay")
+            row["os_ad_level"] = oe.get("ad_level")
+            row["os_top_strength"] = "; ".join(oe.get("top_strengths") or [])
             w.writerow(row)
 
     # variant(인치별) 평면 CSV — 사이즈·가격·물리스펙 한 행씩
