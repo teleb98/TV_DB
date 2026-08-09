@@ -210,6 +210,28 @@ CREATE TABLE pre_release_intel (
 );
 CREATE INDEX idx_intel_brand ON pre_release_intel(brand, expected_year);
 
+-- ---------- 15. OS_Market_Share (스마트TV OS 시장점유율; 업계 리서치 자료) ----------
+-- 제품 model 계층과 분리된 시장 통계. metric+region+period 조합이 하나의 "파이".
+--   metric: installed_base(설치기반/활성) | shipments(출하량)
+--   estimated=true 는 공개 발표치가 없어 밴드 중앙/잔여로 보정한 추정행.
+CREATE TABLE os_market_share (
+    id         BIGSERIAL PRIMARY KEY,
+    os         TEXT NOT NULL,           -- Google-TV/Tizen/webOS/Roku/Fire-TV/VIDAA/CastOS/기타
+    vendor     TEXT,                    -- 주도 벤더
+    region     TEXT NOT NULL,           -- Global / US / ...
+    metric     TEXT NOT NULL,           -- installed_base | shipments
+    period     TEXT NOT NULL,           -- 2025 / 2025Q1 / 2024Q4
+    share_pct  NUMERIC(5,2) NOT NULL,
+    rank       INT,
+    source_org TEXT,                    -- Omdia 등
+    source_url TEXT,
+    estimated  BOOLEAN DEFAULT false,
+    note       TEXT,
+    updated_at TIMESTAMPTZ DEFAULT now(),
+    UNIQUE (os, region, metric, period)
+);
+CREATE INDEX idx_osshare_pie ON os_market_share(region, metric, period, rank);
+
 -- ---------- 인덱스 ----------
 CREATE INDEX idx_queue_due  ON crawl_queue(status, next_due);
 CREATE INDEX idx_raw_url    ON crawl_raw(url, fetched_at DESC);

@@ -1,0 +1,264 @@
+{
+  "note": "스마트TV OS 시장점유율(Omdia 등 업계 리서치). market_share=시장통계, db_coverage=본 DB 보유 모델수(별개). estimated=true는 공개치 없이 밴드중앙/잔여 보정.",
+  "generated_at": "2026-08-09T10:51:30.182478+09:00",
+  "market_share": [
+    {
+      "region": "Global",
+      "metric": "installed_base",
+      "period": "2025",
+      "rank": 1,
+      "os": "Google-TV",
+      "vendor": "Google",
+      "share_pct": 37.0,
+      "estimated": true,
+      "source_org": "Omdia",
+      "source_url": "https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media",
+      "note": "Android TV+Google TV 합산, 밴드 35~40 중앙"
+    },
+    {
+      "region": "Global",
+      "metric": "installed_base",
+      "period": "2025",
+      "rank": 2,
+      "os": "Tizen",
+      "vendor": "Samsung",
+      "share_pct": 20.0,
+      "estimated": true,
+      "source_org": "Omdia",
+      "source_url": "https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media",
+      "note": "밴드 19~23 중앙"
+    },
+    {
+      "region": "Global",
+      "metric": "installed_base",
+      "period": "2025",
+      "rank": 3,
+      "os": "webOS",
+      "vendor": "LG",
+      "share_pct": 13.0,
+      "estimated": true,
+      "source_org": "Omdia",
+      "source_url": "https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media",
+      "note": "밴드 12~14"
+    },
+    {
+      "region": "Global",
+      "metric": "installed_base",
+      "period": "2025",
+      "rank": 4,
+      "os": "Roku",
+      "vendor": "Roku",
+      "share_pct": 10.0,
+      "estimated": true,
+      "source_org": "Omdia",
+      "source_url": "https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media",
+      "note": "북미 편중"
+    },
+    {
+      "region": "Global",
+      "metric": "installed_base",
+      "period": "2025",
+      "rank": 5,
+      "os": "Fire-TV",
+      "vendor": "Amazon",
+      "share_pct": 8.0,
+      "estimated": true,
+      "source_org": "Omdia",
+      "source_url": "https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media",
+      "note": ""
+    },
+    {
+      "region": "Global",
+      "metric": "installed_base",
+      "period": "2025",
+      "rank": 6,
+      "os": "VIDAA",
+      "vendor": "Hisense",
+      "share_pct": 6.0,
+      "estimated": true,
+      "source_org": "Omdia",
+      "source_url": "https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media",
+      "note": "Toshiba(하이센스 소유) 포함, 밸류 세그먼트 최고 성장"
+    },
+    {
+      "region": "Global",
+      "metric": "installed_base",
+      "period": "2025",
+      "rank": 7,
+      "os": "기타",
+      "vendor": "Titan/HarmonyOS 등",
+      "share_pct": 6.0,
+      "estimated": true,
+      "source_org": "Omdia",
+      "source_url": "https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media",
+      "note": "Titan OS·HarmonyOS·자체 OS 등 잔여"
+    },
+    {
+      "region": "Global",
+      "metric": "shipments",
+      "period": "2024Q4",
+      "rank": 1,
+      "os": "Google-TV",
+      "vendor": "Google",
+      "share_pct": 24.0,
+      "estimated": false,
+      "source_org": "Omdia",
+      "source_url": "https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media",
+      "note": "출하량 1위(24%+)"
+    },
+    {
+      "region": "Global",
+      "metric": "shipments",
+      "period": "2024Q4",
+      "rank": 2,
+      "os": "Tizen",
+      "vendor": "Samsung",
+      "share_pct": 16.9,
+      "estimated": false,
+      "source_org": "Omdia",
+      "source_url": "https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media",
+      "note": "출하 점유율 16.9%"
+    },
+    {
+      "region": "Global",
+      "metric": "shipments",
+      "period": "2024Q4",
+      "rank": 3,
+      "os": "webOS",
+      "vendor": "LG",
+      "share_pct": 11.8,
+      "estimated": false,
+      "source_org": "Omdia",
+      "source_url": "https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media",
+      "note": "출하 점유율 11.8%"
+    },
+    {
+      "region": "US",
+      "metric": "installed_base",
+      "period": "2025Q1",
+      "rank": 1,
+      "os": "Roku",
+      "vendor": "Roku",
+      "share_pct": 34.0,
+      "estimated": false,
+      "source_org": "Omdia",
+      "source_url": "https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media",
+      "note": "Omdia 2025Q1 1위"
+    },
+    {
+      "region": "US",
+      "metric": "installed_base",
+      "period": "2025Q1",
+      "rank": 2,
+      "os": "Tizen",
+      "vendor": "Samsung",
+      "share_pct": 22.0,
+      "estimated": false,
+      "source_org": "Omdia",
+      "source_url": "https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media",
+      "note": "Omdia 2025Q1 2위"
+    },
+    {
+      "region": "US",
+      "metric": "installed_base",
+      "period": "2025Q1",
+      "rank": 3,
+      "os": "CastOS",
+      "vendor": "Vizio/Walmart",
+      "share_pct": 12.0,
+      "estimated": false,
+      "source_org": "Omdia",
+      "source_url": "https://omdia.tech.informa.com/pr/2025/oct/castos-to-exceed-15-million-shipments-set-to-dominate-north-americas-tv-os-market",
+      "note": "3위 공동, 월마트 인수 후 2029 1위 전망"
+    },
+    {
+      "region": "US",
+      "metric": "installed_base",
+      "period": "2025Q1",
+      "rank": 3,
+      "os": "Fire-TV",
+      "vendor": "Amazon",
+      "share_pct": 12.0,
+      "estimated": false,
+      "source_org": "Omdia",
+      "source_url": "https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media",
+      "note": "3위 공동"
+    },
+    {
+      "region": "US",
+      "metric": "installed_base",
+      "period": "2025Q1",
+      "rank": 5,
+      "os": "webOS",
+      "vendor": "LG",
+      "share_pct": 7.0,
+      "estimated": true,
+      "source_org": "Omdia",
+      "source_url": "https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media",
+      "note": "잔여 추정"
+    },
+    {
+      "region": "US",
+      "metric": "installed_base",
+      "period": "2025Q1",
+      "rank": 5,
+      "os": "Google-TV",
+      "vendor": "Google",
+      "share_pct": 7.0,
+      "estimated": true,
+      "source_org": "Omdia",
+      "source_url": "https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media",
+      "note": "Android TV+Google TV, 잔여 추정"
+    },
+    {
+      "region": "US",
+      "metric": "installed_base",
+      "period": "2025Q1",
+      "rank": 7,
+      "os": "기타",
+      "vendor": "VIDAA 등",
+      "share_pct": 6.0,
+      "estimated": true,
+      "source_org": "Omdia",
+      "source_url": "https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media",
+      "note": "VIDAA 등 잔여"
+    }
+  ],
+  "db_coverage": [
+    {
+      "os": "Tizen",
+      "db_models": 46,
+      "brands": "삼성"
+    },
+    {
+      "os": "Google-TV",
+      "db_models": 46,
+      "brands": "Hisense, Philips, Sony, TCL, Thomson, Xiaomi"
+    },
+    {
+      "os": "webOS",
+      "db_models": 31,
+      "brands": "LG"
+    },
+    {
+      "os": "VIDAA",
+      "db_models": 9,
+      "brands": "Hisense"
+    },
+    {
+      "os": "HarmonyOS",
+      "db_models": 7,
+      "brands": "Huawei"
+    },
+    {
+      "os": "Android-TV",
+      "db_models": 2,
+      "brands": "TCL, Xiaomi"
+    },
+    {
+      "os": "Fire-TV",
+      "db_models": 2,
+      "brands": "Hisense"
+    }
+  ]
+}

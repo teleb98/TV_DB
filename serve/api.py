@@ -56,6 +56,7 @@ INDEX = {
         "GET /api/measurements?model=QN90F": "RTINGS 등 실측 성능(밝기·입력랙·색재현·명암비)",
         "GET /api/certification?model=S90F": "EPREL 에너지등급·소비전력(SDR/HDR)·EU 모델명",
         "GET /api/by_os?os=webOS": "OS별 모델(Tizen/webOS/Google-TV/VIDAA/Fire-TV/HarmonyOS)+버전",
+        "GET /api/os_share?region=Global&metric=installed_base&period=2025": "스마트TV OS 시장점유율(Omdia 등)+DB 모델수 결합",
         "GET /api/aliases?model=QN90F": "지역별 모델명(KR/US/EU SKU) 매핑",
         "GET /api/features?model=QN90F": "브랜드 마케팅 feature(우선순위 순, rank1=최상단)",
         "GET /api/rumors?brand=&year=&status=": "미출시/루머 사전정보(주요국 뉴스·인증DB, 신뢰도·출처 표기)",
@@ -136,6 +137,35 @@ def by_os(os_name):
             order by s.os::text, s.generation_year desc, b.name
         """, (os_name, like))
         return cur.fetchall()
+
+
+def os_share(region, metric, period):
+    """스마트TV OS 시장점유율(업계 리서치) + DB 내 OS별 모델수 결합."""
+    with _conn() as c:
+        cur = c.cursor()
+        cur.execute("""
+            select os, vendor, region, metric, period,
+                   share_pct::float share_pct, rank, estimated,
+                   source_org, source_url, note
+            from os_market_share
+            where (%s::text is null or region=%s)
+              and (%s::text is null or metric=%s)
+              and (%s::text is null or period=%s)
+            order by region, metric, period, rank, share_pct desc
+        """, (region, region, metric, metric, period, period))
+        market = cur.fetchall()
+        # DB 내부 OS 커버리지(보유 모델수)
+        cur.execute("""
+            select s.os::text os, count(distinct m.model_id) models,
+                   string_agg(distinct b.name, ', ' order by b.name) brands
+            from model m join series s on m.series_id=s.series_id
+            join brand b on s.brand_id=b.brand_id
+            group by s.os::text order by models desc
+        """)
+        db_coverage = cur.fetchall()
+    return {"market_share": market, "db_coverage": db_coverage,
+            "note": "market_share=업계 리서치(Omdia 등) 시장통계, db_coverage=본 DB 보유 모델수. "
+                    "estimated=true는 공개 발표치 없이 밴드중앙/잔여로 보정한 추정행."}
 
 
 def features(code):
@@ -256,6 +286,8 @@ def route(path: str, qs: dict):
         return 200, certification(g("model"))
     if path == "/api/by_os":
         return 200, by_os(g("os"))
+    if path == "/api/os_share":
+        return 200, os_share(g("region"), g("metric"), g("period"))
     if path == "/api/aliases":
         return 200, aliases(g("model"))
     if path == "/api/features":

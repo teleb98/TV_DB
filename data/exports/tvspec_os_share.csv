@@ -1,0 +1,18 @@
+﻿region,metric,period,rank,os,vendor,share_pct,estimated,source_org,source_url,note
+Global,installed_base,2025,1,Google-TV,Google,37.00,True,Omdia,https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media,"Android TV+Google TV 합산, 밴드 35~40 중앙"
+Global,installed_base,2025,2,Tizen,Samsung,20.00,True,Omdia,https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media,밴드 19~23 중앙
+Global,installed_base,2025,3,webOS,LG,13.00,True,Omdia,https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media,밴드 12~14
+Global,installed_base,2025,4,Roku,Roku,10.00,True,Omdia,https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media,북미 편중
+Global,installed_base,2025,5,Fire-TV,Amazon,8.00,True,Omdia,https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media,
+Global,installed_base,2025,6,VIDAA,Hisense,6.00,True,Omdia,https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media,"Toshiba(하이센스 소유) 포함, 밸류 세그먼트 최고 성장"
+Global,installed_base,2025,7,기타,Titan/HarmonyOS 등,6.00,True,Omdia,https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media,Titan OS·HarmonyOS·자체 OS 등 잔여
+Global,shipments,2024Q4,1,Google-TV,Google,24.00,False,Omdia,https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media,출하량 1위(24%+)
+Global,shipments,2024Q4,2,Tizen,Samsung,16.90,False,Omdia,https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media,출하 점유율 16.9%
+Global,shipments,2024Q4,3,webOS,LG,11.80,False,Omdia,https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media,출하 점유율 11.8%
+US,installed_base,2025Q1,1,Roku,Roku,34.00,False,Omdia,https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media,Omdia 2025Q1 1위
+US,installed_base,2025Q1,2,Tizen,Samsung,22.00,False,Omdia,https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media,Omdia 2025Q1 2위
+US,installed_base,2025Q1,3,CastOS,Vizio/Walmart,12.00,False,Omdia,https://omdia.tech.informa.com/pr/2025/oct/castos-to-exceed-15-million-shipments-set-to-dominate-north-americas-tv-os-market,"3위 공동, 월마트 인수 후 2029 1위 전망"
+US,installed_base,2025Q1,3,Fire-TV,Amazon,12.00,False,Omdia,https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media,3위 공동
+US,installed_base,2025Q1,5,webOS,LG,7.00,True,Omdia,https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media,잔여 추정
+US,installed_base,2025Q1,5,Google-TV,Google,7.00,True,Omdia,https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media,"Android TV+Google TV, 잔여 추정"
+US,installed_base,2025Q1,7,기타,VIDAA 등,6.00,True,Omdia,https://omdia.tech.informa.com/blogs/2025/july/the-smart-tv-os-shakeup-amazon-walmart-and-the-coming-age-of-shoppable-media,VIDAA 등 잔여

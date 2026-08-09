@@ -205,8 +205,37 @@ def main():
         for r in prows:
             w.writerow({k: r.get(k) for k in pcols})
 
-    print(f"모델 {len(records)}종 / 샘플 {len(sample)}종 / variant {len(vrows)}행 / 사전정보 {len(prows)}건 내보냄:")
-    for p in (full, OUT / 'tvspec_sample.json', csv_path, var_path, pr_json, pr_csv):
+    # 스마트TV OS 시장점유율(업계 리서치) — DB 모델수와 별개인 시장통계
+    os_json = OUT / "tvspec_os_share.json"
+    os_csv = OUT / "tvspec_os_share.csv"
+    ocols = ["region", "metric", "period", "rank", "os", "vendor", "share_pct",
+             "estimated", "source_org", "source_url", "note"]
+    with psycopg.connect(DSN, row_factory=dict_row) as conn:
+        cur = conn.cursor()
+        cur.execute(f"""select {', '.join(ocols)} from os_market_share
+                        order by region, metric, period, rank, share_pct desc""")
+        orows = cur.fetchall()
+        cur.execute("""select s.os::text os, count(distinct m.model_id) db_models,
+                              string_agg(distinct b.name, ', ' order by b.name) brands
+                       from model m join series s on m.series_id=s.series_id
+                       join brand b on s.brand_id=b.brand_id
+                       group by s.os::text order by db_models desc""")
+        ocov = cur.fetchall()
+    os_json.write_text(json.dumps(
+        {"note": "스마트TV OS 시장점유율(Omdia 등 업계 리서치). market_share=시장통계, "
+                 "db_coverage=본 DB 보유 모델수(별개). estimated=true는 공개치 없이 밴드중앙/잔여 보정.",
+         "generated_at": datetime.datetime.now().astimezone().isoformat(),
+         "market_share": orows, "db_coverage": ocov},
+        ensure_ascii=False, indent=2, default=_default), encoding="utf-8")
+    with os_csv.open("w", newline="", encoding="utf-8-sig") as f:
+        w = csv.DictWriter(f, fieldnames=ocols, extrasaction="ignore")
+        w.writeheader()
+        for r in orows:
+            w.writerow({k: r.get(k) for k in ocols})
+
+    print(f"모델 {len(records)}종 / 샘플 {len(sample)}종 / variant {len(vrows)}행 / "
+          f"사전정보 {len(prows)}건 / OS점유율 {len(orows)}행 내보냄:")
+    for p in (full, OUT / 'tvspec_sample.json', csv_path, var_path, pr_json, pr_csv, os_json, os_csv):
         print(f"  {p}  ({p.stat().st_size:,} B)")
 
 
