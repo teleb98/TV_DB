@@ -1,0 +1,353 @@
+{
+  "note": "IT 커뮤니티 관심/화제 모델 — 여론 기반 정성 신호(하드 판매지표 아님). 출처: Reddit r/4kTV·AVSForum·RTINGS·한국 커뮤니티. buzz_score=very-high3·high2·medium1 가중합.",
+  "generated_at": "2026-08-09T11:50:18.471060+09:00",
+  "ranking": [
+    {
+      "model_code": "C5",
+      "brand": "LG",
+      "lineup": "OLED evo C5",
+      "year": 2025,
+      "panel_tech": "WOLED",
+      "tier": "high",
+      "mentions": 2,
+      "buzz_score": 6,
+      "communities": "korea,reddit"
+    },
+    {
+      "model_code": "QM8K",
+      "brand": "TCL",
+      "lineup": "QM8K",
+      "year": 2025,
+      "panel_tech": "Mini-LED",
+      "tier": "flagship",
+      "mentions": 2,
+      "buzz_score": 4,
+      "communities": "korea,reddit"
+    },
+    {
+      "model_code": "U8Q",
+      "brand": "Hisense",
+      "lineup": "ULED U8QG",
+      "year": 2025,
+      "panel_tech": "Mini-LED",
+      "tier": "flagship",
+      "mentions": 2,
+      "buzz_score": 4,
+      "communities": "korea,reddit"
+    },
+    {
+      "model_code": "G5",
+      "brand": "LG",
+      "lineup": "OLED evo G5",
+      "year": 2025,
+      "panel_tech": "WOLED",
+      "tier": "flagship",
+      "mentions": 1,
+      "buzz_score": 3,
+      "communities": "reddit"
+    },
+    {
+      "model_code": "S95H",
+      "brand": "삼성",
+      "lineup": "OLED",
+      "year": 2026,
+      "panel_tech": "QD-OLED",
+      "tier": "flagship",
+      "mentions": 1,
+      "buzz_score": 3,
+      "communities": "avsforum"
+    },
+    {
+      "model_code": "S95F",
+      "brand": "삼성",
+      "lineup": "OLED",
+      "year": 2025,
+      "panel_tech": "QD-OLED",
+      "tier": "flagship",
+      "mentions": 1,
+      "buzz_score": 3,
+      "communities": "reddit"
+    },
+    {
+      "model_code": "QM6K",
+      "brand": "TCL",
+      "lineup": "QM6K",
+      "year": 2025,
+      "panel_tech": "Mini-LED",
+      "tier": "mid",
+      "mentions": 1,
+      "buzz_score": 3,
+      "communities": "rtings"
+    },
+    {
+      "model_code": "XR80II",
+      "brand": "Sony",
+      "lineup": "BRAVIA 8 II",
+      "year": 2025,
+      "panel_tech": "QD-OLED",
+      "tier": "flagship",
+      "mentions": 1,
+      "buzz_score": 2,
+      "communities": "avsforum"
+    },
+    {
+      "model_code": "C6",
+      "brand": "LG",
+      "lineup": "OLED evo C6",
+      "year": 2026,
+      "panel_tech": "WOLED",
+      "tier": "high",
+      "mentions": 1,
+      "buzz_score": 2,
+      "communities": "avsforum"
+    },
+    {
+      "model_code": "G6",
+      "brand": "LG",
+      "lineup": "OLED evo G6",
+      "year": 2026,
+      "panel_tech": "WOLED",
+      "tier": "flagship",
+      "mentions": 1,
+      "buzz_score": 2,
+      "communities": "avsforum"
+    },
+    {
+      "model_code": "QN90F",
+      "brand": "삼성",
+      "lineup": "Neo QLED 4K",
+      "year": 2025,
+      "panel_tech": "Neo-QLED",
+      "tier": "flagship",
+      "mentions": 1,
+      "buzz_score": 2,
+      "communities": "korea"
+    },
+    {
+      "model_code": "R8C5",
+      "brand": "Roku",
+      "lineup": "Roku Pro Series",
+      "year": 2025,
+      "panel_tech": "Mini-LED",
+      "tier": "high",
+      "mentions": 1,
+      "buzz_score": 2,
+      "communities": "reddit"
+    },
+    {
+      "model_code": "S90F",
+      "brand": "삼성",
+      "lineup": "OLED",
+      "year": 2025,
+      "panel_tech": "QD-OLED",
+      "tier": "high",
+      "mentions": 1,
+      "buzz_score": 2,
+      "communities": "reddit"
+    },
+    {
+      "model_code": "U7Q",
+      "brand": "Hisense",
+      "lineup": "ULED U7QG",
+      "year": 2025,
+      "panel_tech": "Mini-LED",
+      "tier": "high",
+      "mentions": 1,
+      "buzz_score": 2,
+      "communities": "reddit"
+    },
+    {
+      "model_code": "U6Q",
+      "brand": "Hisense",
+      "lineup": "ULED U6QG",
+      "year": 2025,
+      "panel_tech": "Mini-LED",
+      "tier": "mid",
+      "mentions": 1,
+      "buzz_score": 1,
+      "communities": "reddit"
+    }
+  ],
+  "detail": [
+    {
+      "model_code": "C5",
+      "community": "korea",
+      "region": "KR",
+      "interest": "very-high",
+      "rank": 1,
+      "buzz_reason": "클리앙/퀘이사존 OLED 대세 추천",
+      "source_url": "https://www.clien.net/service/board/park/18957510",
+      "as_of": "2026-08-01"
+    },
+    {
+      "model_code": "C5",
+      "community": "reddit",
+      "region": "Global",
+      "interest": "very-high",
+      "rank": 1,
+      "buzz_reason": "가장 많이 추천되는 OLED — '거의 완벽', 가성비 플래그십",
+      "source_url": "https://www.rtings.com/tv/reviews/best/tvs-on-the-market",
+      "as_of": "2026-08-01"
+    },
+    {
+      "model_code": "G5",
+      "community": "reddit",
+      "region": "Global",
+      "interest": "very-high",
+      "rank": 2,
+      "buzz_reason": "2025 WOLED 플래그십(Primary RGB Tandem), 밝기 대폭 향상·5/5 리뷰",
+      "source_url": "https://www.rtings.com/tv/reviews/best/tvs-on-the-market",
+      "as_of": "2026-08-01"
+    },
+    {
+      "model_code": "QM6K",
+      "community": "rtings",
+      "region": "Global",
+      "interest": "very-high",
+      "rank": 1,
+      "buzz_reason": "RTINGS 2026 베스트 버짓 — $500 미만 최고 미니LED",
+      "source_url": "https://www.rtings.com/tv/reviews/best/budget",
+      "as_of": "2026-08-01"
+    },
+    {
+      "model_code": "S95F",
+      "community": "reddit",
+      "region": "Global",
+      "interest": "very-high",
+      "rank": 3,
+      "buzz_reason": "QD-OLED 최상위·Glare Free·5/5 리뷰, LG G5와 양강 비교글 다수",
+      "source_url": "https://www.rtings.com/tv/reviews/best/tvs-on-the-market",
+      "as_of": "2026-08-01"
+    },
+    {
+      "model_code": "S95H",
+      "community": "avsforum",
+      "region": "Global",
+      "interest": "very-high",
+      "rank": 1,
+      "buzz_reason": "2026 AVSForum Top Choice — 최상위 QD-OLED",
+      "source_url": "https://www.avsforum.com/threads/samsung-s95h-qd-oled-tv-review-not-just-a-pretty-frame.3343251/",
+      "as_of": "2026-08-01"
+    },
+    {
+      "model_code": "U8Q",
+      "community": "reddit",
+      "region": "Global",
+      "interest": "very-high",
+      "rank": 2,
+      "buzz_reason": "밝기 괴물 가성비 — 버짓 킹 후보로 자주 언급",
+      "source_url": "https://www.rtings.com/tv/reviews/best/tvs-on-the-market",
+      "as_of": "2026-08-01"
+    },
+    {
+      "model_code": "C6",
+      "community": "avsforum",
+      "region": "Global",
+      "interest": "high",
+      "rank": 3,
+      "buzz_reason": "2026 C시리즈 — C5 후속 관심",
+      "source_url": "https://www.avsforum.com/threads/samsung-s95h-qd-oled-tv-review-not-just-a-pretty-frame.3343251/",
+      "as_of": "2026-08-01"
+    },
+    {
+      "model_code": "G6",
+      "community": "avsforum",
+      "region": "Global",
+      "interest": "high",
+      "rank": 2,
+      "buzz_reason": "2026 WOLED 플래그십 기대작",
+      "source_url": "https://www.avsforum.com/threads/samsung-s95h-qd-oled-tv-review-not-just-a-pretty-frame.3343251/",
+      "as_of": "2026-08-01"
+    },
+    {
+      "model_code": "QM8K",
+      "community": "korea",
+      "region": "KR",
+      "interest": "high",
+      "rank": 3,
+      "buzz_reason": "쿠팡 TCL 미니LED 가성비로 화제",
+      "source_url": "https://www.clien.net/service/board/park/18957510",
+      "as_of": "2026-08-01"
+    },
+    {
+      "model_code": "QM8K",
+      "community": "reddit",
+      "region": "Global",
+      "interest": "high",
+      "rank": 6,
+      "buzz_reason": "TCL 미니LED 플래그십 — 밝기·존수 가성비",
+      "source_url": "https://www.rtings.com/tv/reviews/best/tvs-on-the-market",
+      "as_of": "2026-08-01"
+    },
+    {
+      "model_code": "QN90F",
+      "community": "korea",
+      "region": "KR",
+      "interest": "high",
+      "rank": 2,
+      "buzz_reason": "삼성 Neo QLED 대표 추천 모델",
+      "source_url": "https://www.clien.net/service/board/park/18957510",
+      "as_of": "2026-08-01"
+    },
+    {
+      "model_code": "R8C5",
+      "community": "reddit",
+      "region": "US",
+      "interest": "high",
+      "rank": 9,
+      "buzz_reason": "Roku Pro Series — 미니LED 가성비·단순 UI로 화제",
+      "source_url": "https://www.rtings.com/tv/reviews/best/tvs-on-the-market",
+      "as_of": "2026-08-01"
+    },
+    {
+      "model_code": "S90F",
+      "community": "reddit",
+      "region": "Global",
+      "interest": "high",
+      "rank": 5,
+      "buzz_reason": "스텝다운 QD-OLED가 C5보다 밝다 — 가성비 화제",
+      "source_url": "https://www.rtings.com/tv/reviews/best/tvs-on-the-market",
+      "as_of": "2026-08-01"
+    },
+    {
+      "model_code": "U7Q",
+      "community": "reddit",
+      "region": "Global",
+      "interest": "high",
+      "rank": 7,
+      "buzz_reason": "중급 미니LED 가성비 추천",
+      "source_url": "https://www.rtings.com/tv/reviews/best/tvs-on-the-market",
+      "as_of": "2026-08-01"
+    },
+    {
+      "model_code": "XR80II",
+      "community": "avsforum",
+      "region": "Global",
+      "interest": "high",
+      "rank": 4,
+      "buzz_reason": "Sony Bravia 8 II QD-OLED — 화질처리 호평(4.5/5), 비교 스레드 활발",
+      "source_url": "https://www.avsforum.com/threads/samsung-s95h-qd-oled-tv-review-not-just-a-pretty-frame.3343251/",
+      "as_of": "2026-08-01"
+    },
+    {
+      "model_code": "U6Q",
+      "community": "reddit",
+      "region": "Global",
+      "interest": "medium",
+      "rank": 8,
+      "buzz_reason": "엔트리 미니LED 인기 픽",
+      "source_url": "https://www.rtings.com/tv/reviews/best/budget",
+      "as_of": "2026-08-01"
+    },
+    {
+      "model_code": "U8Q",
+      "community": "korea",
+      "region": "KR",
+      "interest": "medium",
+      "rank": 4,
+      "buzz_reason": "하이센스 가성비 언급 증가",
+      "source_url": "https://www.clien.net/service/board/park/18957510",
+      "as_of": "2026-08-01"
+    }
+  ]
+}

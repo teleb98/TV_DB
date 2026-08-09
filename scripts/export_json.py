@@ -287,9 +287,41 @@ def main():
          "generated_at": datetime.datetime.now().astimezone().isoformat(), "platforms": oprows},
         ensure_ascii=False, indent=2, default=_default), encoding="utf-8")
 
+    # IT 커뮤니티 관심/화제 모델 — 정성 여론 신호(모델 스펙과 별개)
+    buzz_json = OUT / "tvspec_community_buzz.json"
+    with psycopg.connect(DSN, row_factory=dict_row) as conn:
+        cur = conn.cursor()
+        cur.execute("""
+            select cb.model_code, b.name brand, s.marketing_name lineup,
+                   s.generation_year as "year", s.panel_tech, s.tier,
+                   count(*) mentions,
+                   sum(case cb.interest when 'very-high' then 3 when 'high' then 2 else 1 end) buzz_score,
+                   string_agg(distinct cb.community, ',' order by cb.community) communities
+            from community_buzz cb
+            left join model m on m.model_code_base=cb.model_code
+            left join series s on m.series_id=s.series_id
+            left join brand b on s.brand_id=b.brand_id
+            group by cb.model_code, b.name, s.marketing_name, s.generation_year, s.panel_tech, s.tier
+            order by buzz_score desc, mentions desc
+        """)
+        branking = cur.fetchall()
+        cur.execute("""select model_code, community, region, interest, rank, buzz_reason,
+                              source_url, as_of from community_buzz
+                       order by array_position(array['very-high','high','medium']::text[], interest),
+                                model_code""")
+        bdetail = cur.fetchall()
+    buzz_json.write_text(json.dumps(
+        {"note": "IT 커뮤니티 관심/화제 모델 — 여론 기반 정성 신호(하드 판매지표 아님). "
+                 "출처: Reddit r/4kTV·AVSForum·RTINGS·한국 커뮤니티. buzz_score=very-high3·high2·medium1 가중합.",
+         "generated_at": datetime.datetime.now().astimezone().isoformat(),
+         "ranking": branking, "detail": bdetail},
+        ensure_ascii=False, indent=2, default=_default), encoding="utf-8")
+
     print(f"모델 {len(records)}종 / 샘플 {len(sample)}종 / variant {len(vrows)}행 / "
-          f"사전정보 {len(prows)}건 / OS점유율 {len(orows)}행 / OS프로파일 {len(oprows)}개 내보냄:")
-    for p in (full, OUT / 'tvspec_sample.json', csv_path, var_path, pr_json, pr_csv, os_json, os_csv, osp_json):
+          f"사전정보 {len(prows)}건 / OS점유율 {len(orows)}행 / OS프로파일 {len(oprows)}개 / "
+          f"커뮤니티화제 {len(branking)}종 내보냄:")
+    for p in (full, OUT / 'tvspec_sample.json', csv_path, var_path, pr_json, pr_csv,
+              os_json, os_csv, osp_json, buzz_json):
         print(f"  {p}  ({p.stat().st_size:,} B)")
 
 

@@ -58,6 +58,7 @@ INDEX = {
         "GET /api/by_os?os=webOS": "OS별 모델(Tizen/webOS/Google-TV/VIDAA/Fire-TV/HarmonyOS)+버전",
         "GET /api/os_share?region=Global&metric=installed_base&period=2025": "스마트TV OS 시장점유율(Omdia 등)+DB 모델수 결합",
         "GET /api/os_profile?os=webOS": "OS 플랫폼 장점·약점·사양(음성비서·FAST·클라우드게임·AirPlay·스마트홈·업데이트·광고)+보유 모델/브랜드",
+        "GET /api/community_buzz?model=&community=": "IT 커뮤니티 관심/화제 모델(Reddit·AVSForum·RTINGS·한국) 종합 랭킹(buzz_score)+사유·출처",
         "GET /api/aliases?model=QN90F": "지역별 모델명(KR/US/EU SKU) 매핑",
         "GET /api/features?model=QN90F": "브랜드 마케팅 feature(우선순위 순, rank1=최상단)",
         "GET /api/rumors?brand=&year=&status=": "미출시/루머 사전정보(주요국 뉴스·인증DB, 신뢰도·출처 표기)",
@@ -167,6 +168,40 @@ def os_share(region, metric, period):
     return {"market_share": market, "db_coverage": db_coverage,
             "note": "market_share=업계 리서치(Omdia 등) 시장통계, db_coverage=본 DB 보유 모델수. "
                     "estimated=true는 공개 발표치 없이 밴드중앙/잔여로 보정한 추정행."}
+
+
+def community_buzz(code, community):
+    """IT 커뮤니티 관심/화제 모델 — 종합 랭킹(가중합) + 상세. code/community 필터."""
+    with _conn() as c:
+        cur = c.cursor()
+        cur.execute("""
+            select cb.model_code, b.name brand, s.marketing_name lineup,
+                   s.generation_year yr, s.panel_tech panel, s.tier,
+                   count(*) mentions,
+                   sum(case cb.interest when 'very-high' then 3 when 'high' then 2 else 1 end) buzz_score,
+                   string_agg(distinct cb.community, ',' order by cb.community) communities
+            from community_buzz cb
+            left join model m on m.model_code_base=cb.model_code
+            left join series s on m.series_id=s.series_id
+            left join brand b on s.brand_id=b.brand_id
+            where (%s::text is null or cb.model_code=%s)
+              and (%s::text is null or cb.community=%s)
+            group by cb.model_code, b.name, s.marketing_name, s.generation_year, s.panel_tech, s.tier
+            order by buzz_score desc, mentions desc
+        """, (code, code, community, community))
+        ranking = cur.fetchall()
+        cur.execute("""
+            select model_code, community, region, interest, rank, buzz_reason, source_url, as_of
+            from community_buzz
+            where (%s::text is null or model_code=%s)
+              and (%s::text is null or community=%s)
+            order by array_position(array['very-high','high','medium']::text[], interest), model_code
+        """, (code, code, community, community))
+        detail = cur.fetchall()
+    return {"ranking": ranking, "detail": detail,
+            "note": "IT 커뮤니티 여론 기반 관심도(정성 신호, 하드 판매지표 아님). "
+                    "출처: Reddit r/4kTV·AVSForum·RTINGS·한국 커뮤니티(클리앙·퀘이사존·뽐뿌). "
+                    "buzz_score=very-high 3·high 2·medium 1 가중합."}
 
 
 def os_profile(os_name):
@@ -310,6 +345,8 @@ def route(path: str, qs: dict):
         return 200, os_share(g("region"), g("metric"), g("period"))
     if path == "/api/os_profile":
         return 200, os_profile(g("os"))
+    if path == "/api/community_buzz":
+        return 200, community_buzz(g("model"), g("community"))
     if path == "/api/aliases":
         return 200, aliases(g("model"))
     if path == "/api/features":

@@ -257,6 +257,25 @@ CREATE TABLE os_platform (
     updated_at     TIMESTAMPTZ DEFAULT now()
 );
 
+-- ---------- 17. Community_Buzz (IT 커뮤니티 관심/화제 모델; 정성 신호) ----------
+-- 커뮤니티 여론 기반 관심도(하드 지표 아님). model_code_base 로 model 과 조인.
+--   community: reddit / avsforum / rtings / korea(클리앙·퀘이사존·뽐뿌) 등
+--   interest : very-high / high / medium
+CREATE TABLE community_buzz (
+    id          BIGSERIAL PRIMARY KEY,
+    model_code  TEXT NOT NULL,          -- model.model_code_base 와 매칭
+    community   TEXT NOT NULL,
+    region      TEXT,                   -- Global / US / KR
+    interest    TEXT NOT NULL,          -- very-high / high / medium
+    rank        INT,                    -- 커뮤니티 내 화제 순위(참고)
+    buzz_reason TEXT,
+    source_url  TEXT,
+    as_of       DATE,
+    updated_at  TIMESTAMPTZ DEFAULT now(),
+    UNIQUE (model_code, community)
+);
+CREATE INDEX idx_buzz_model ON community_buzz(model_code, interest);
+
 -- ---------- 인덱스 ----------
 CREATE INDEX idx_queue_due  ON crawl_queue(status, next_due);
 CREATE INDEX idx_raw_url    ON crawl_raw(url, fetched_at DESC);
