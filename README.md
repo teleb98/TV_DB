@@ -2,7 +2,7 @@
 
 스펙 비교 상담봇 + 라인업 안내 Agent를 위한 제품정보 DB 구축 프로젝트.
 
-- **대상**: 삼성 / LG / Sony / TCL / Hisense / Huawei / Xiaomi / **Philips / Thomson**(Google TV) · KR/US/EU/Global/CN · 2023~2026
+- **대상**: 삼성 / LG / Sony / TCL / Hisense / Huawei / Xiaomi / Philips / Thomson / **Roku / Amazon / Toshiba** · KR/US/EU/Global/CN · 2023~2026 · OS 5종(Google TV·Tizen·webOS·Roku·Fire TV) 전부 실제 모델 커버
 - **핵심**: 옵션(Variant) 단위까지 모델링 + 삼성↔경쟁사 비교축
 - **모델 추가**: 📄 [**claude.ai 파일 첨부로 DB 추가하기**](docs/ADD_VIA_CLAUDE.md) — 스펙시트·리테일 페이지를 첨부하면 골든 CSV로 변환→한 줄 적재
 
@@ -133,6 +133,7 @@ launchctl kickstart -k gui/501/com.tvspecdb.web  # 재시작
 - [x] **사이즈별 세부 스펙 override**(`variant.panel_override`·`refresh_override`) — 같은 시리즈라도 사이즈마다 패널/주사율이 다른 경우(예: 삼성 S90 77/83″=WOLED, The Frame/Q8F 소형=60Hz)를 사이즈 단위로 기록. `scripts/load_size_overrides.py`.
 - [x] **OS 필터**(API `GET /api/by_os?os=`) — Tizen/webOS/Google-TV/VIDAA/Fire-TV/HarmonyOS + 버전(smart_os_version)으로 필터·비교.
 - [x] **OS 시장점유율**(`os_market_share` 테이블, `scripts/load_os_share.py`, API `GET /api/os_share?region=&metric=&period=`) — 스마트TV OS **시장점유율**(제품 model 계층과 분리된 업계 통계). 글로벌 설치기반 2025(Google-TV 37·Tizen 20·webOS 13·Roku 10·Fire-TV 8·VIDAA 6)·US 활성기반 2025Q1(Omdia: Roku 34·Tizen 22·Fire-TV/CastOS 각 12)·글로벌 출하 2024Q4(Google 24·Tizen 16.9·webOS 11.8 발표치). 응답에 DB 보유 모델수(db_coverage) 결합, `estimated` 플래그로 발표치/추정 구분. export `tvspec_os_share.{json,csv}`.
+- [x] **Roku·Fire TV 플랫폼 모델 보강** — 시장점유율 상위 플랫폼인데 공백이던 **Roku(0→3)**·**Fire TV(2→4)** 실모델 반영. Roku 자체브랜드 Pro Series(R8C5, Mini-LED QLED 120Hz·실측 1818nit)·Plus Series(R6C7, Mini-LED)·Select Series(R5D5, QLED), Amazon Fire TV Omni QLED(K7Q3MT, FALD QLED)·Toshiba C350 Fire TV(REGZA Engine). 신규 브랜드 3종(Roku·Amazon·Toshiba)+feature 템플릿. 이로써 Google TV·Tizen·webOS·Roku·Fire TV **5대 OS 전부 실제 모델 커버**(총 12브랜드·148모델).
 - [x] **인증/에너지(EPREL)**(`certification` 테이블, `scripts/load_certification.py`) — EU 에너지효율 등록DB 기반 에너지등급(SDR/HDR)·소비전력(W)·**EU 정식 모델명(파생 SKU 매핑)**. 6종(S90F·S95F·G5·XR80II·U8Q·QN90D). API `GET /api/certification?model=`. ※FCC·RRA(한국)는 직접조회 제약으로 컬럼만 준비.
 - [x] **엔트리 모델 스펙 정밀 보강** — Q6F·Q7F·U8000F·UA77·QNED80A·QD6QF·S5·BRAVIA 2 II의 로컬디밍(Q7F edge-lit)·HDR 포맷(HDR10 보강)·HDMI 포트수(4포트 정정)·VRR 유무(BRAVIA 2 II VRR 제거)·프로세서를 공식/RTINGS 사양으로 정정.
 - [x] **온라인몰 실판매가**(`scripts/load_retail_prices.py`) — WebSearch(2026-07) 확인가로 멀티채널 price_history 적재: **bestbuy·walmart·amazon**(+official-msrp). LG C5/G5·Sony 8 II·TCL QM8K·Hisense U8 등.

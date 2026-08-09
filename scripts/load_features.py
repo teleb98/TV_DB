@@ -31,6 +31,9 @@ BRAND_SERVICE = {
     "Xiaomi": [("service", "Google TV/PatchWall"), ("service", "Google Cast·음성 어시스턴트")],
     "Philips": [("service", "Google TV(Android)"), ("service", "Google Cast·Assistant")],
     "Thomson": [("service", "Google TV"), ("service", "Google Cast·Assistant")],
+    "Roku": [("service", "Roku OS·The Roku Channel(무료 채널)"), ("service", "Roku Voice·스마트홈 연동")],
+    "Amazon": [("service", "Fire TV·Alexa+ 음성"), ("service", "Prime Video·무료 채널")],
+    "Toshiba": [("service", "Fire TV·Alexa 음성"), ("service", "Prime Video·앱스토어")],
 }
 # ---------- 브랜드 공통: experience(넓게 적용) ----------
 BRAND_EXPERIENCE = {
@@ -45,6 +48,9 @@ BRAND_EXPERIENCE = {
     "Xiaomi": [("experience", "Xiaomi 생태계 연동"), ("experience", "Game Boost")],
     "Philips": [("experience", "Ambilight(3면 배경조명)"), ("experience", "P5 AI 화질엔진")],
     "Thomson": [("experience", "내장 서브우퍼"), ("experience", "슬림 디자인")],
+    "Roku": [("experience", "Roku Smart Picture"), ("experience", "간편 홈스크린·Backlit 음성 리모컨")],
+    "Amazon": [("experience", "Fire TV Ambient Experience"), ("experience", "핸즈프리 Alexa·Dialogue Boost")],
+    "Toshiba": [("experience", "REGZA Engine ZR·AI 4K 업스케일"), ("experience", "Game Mode")],
 }
 # ---------- 프리미엄 experience(flagship/high 만) ----------
 BRAND_EXP_PREMIUM = {
@@ -56,6 +62,8 @@ BRAND_EXP_PREMIUM = {
     "Huawei": [], "Xiaomi": [],
     "Philips": [("experience", "4면 Ambilight·Bowers & Wilkins 사운드")],
     "Thomson": [],
+    "Roku": [("experience", "Smart Picture Max·Backlit Voice Remote Pro")],
+    "Amazon": [], "Toshiba": [],
 }
 # ---------- 브랜드 sound ----------
 BRAND_SOUND = {
@@ -64,6 +72,8 @@ BRAND_SOUND = {
     "Hisense": ("sound", "Dolby Atmos"), "Huawei": ("sound", "하이파이 스피커·Dolby Atmos"),
     "Xiaomi": ("sound", "Dolby Atmos"),
     "Philips": ("sound", "Bowers & Wilkins·Dolby Atmos"), "Thomson": ("sound", "Dolby Atmos"),
+    "Roku": ("sound", "측면발사 Dolby Atmos·내장 서브우퍼"), "Amazon": ("sound", "Dolby Audio"),
+    "Toshiba": ("sound", "Dolby Audio·DTS"),
 }
 # ---------- picture: (brand, archetype) ----------
 PICTURE = {
@@ -90,6 +100,11 @@ PICTURE = {
     ("Philips", "oled"): [("picture", "Primary RGB Tandem OLED / OLED EX"), ("picture", "P5 AI 화질")],
     ("Thomson", "miniled"): [("picture", "Mini LED·Dolby Vision")],
     ("Thomson", "qled"): [("picture", "QLED Quantum Dot")],
+    ("Roku", "miniled"): [("picture", "Mini-LED QLED·Full Array Local Dimming"), ("picture", "Roku Smart Picture")],
+    ("Roku", "qled"): [("picture", "QLED·4K HDR")],
+    ("Amazon", "qled"): [("picture", "QLED·Full Array Local Dimming"), ("picture", "Dolby Vision IQ·HDR10+ Adaptive")],
+    ("Amazon", "led"): [("picture", "4K UHD·HDR10")],
+    ("Toshiba", "led"): [("picture", "REGZA Engine ZR·4K HDR·Dolby Vision")],
 }
 
 # ---------- CURATED(공식 페이지 순서 확인 6종) ----------

@@ -128,3 +128,8 @@ Philips,OLED9,Ambilight OLED911,2026,WOLED,flagship,Google-TV,OLED911,4K,165,Dol
 Philips,OLED8,Ambilight OLED811,2026,WOLED,high,Google-TV,OLED811,4K,144,Dolby Vision 2|HDR10+|HLG,P5 AI Gen10,per-pixel,2500,65OLED811,65,EU,,VRR|ALLM|144Hz|FreeSync,HDMI2.1 x2|eARC|WiFi|Bluetooth
 Thomson,MG7,Google TV MiniLED,2025,Mini-LED,mid,Google-TV,MG7C15,4K,144,Dolby Vision|HDR10|HLG,,mini-led,1000,65MG7C15,65,EU,,VRR|ALLM|144Hz,HDMI2.1 x2|eARC|WiFi|Bluetooth
 Thomson,UG5,Google TV QLED Pro,2025,QLED,entry,Google-TV,UG5X15,4K,60,Dolby Vision|HDR10|HLG,,none,400,65UG5X15,65,EU,,ALLM,HDMI2.0 x3|eARC|WiFi|Bluetooth
+Roku,Pro Series,Roku Pro Series,2025,Mini-LED,high,Roku,R8C5,4K,120,Dolby Vision|HDR10+|HLG,Roku Smart Picture,mini-led,1000,65R8C5,65,US,799,VRR|ALLM|120Hz|FreeSync Premium Pro,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Roku,Plus Series,Roku Plus Series,2025,Mini-LED,mid,Roku,R6C7,4K,60,Dolby Vision|HDR10+|HDR10|HLG,,mini-led,500,65R6C7,65,US,649,ALLM,HDMI2.0 x4|eARC|WiFi6|Bluetooth
+Roku,Select Series,Roku Select Series,2025,QLED,entry,Roku,R5D5,4K,60,HDR10|HLG,,none,300,65R5D5,65,US,398,ALLM,HDMI2.0 x3|ARC|WiFi|Bluetooth
+Amazon,Fire TV Omni QLED,Fire TV Omni QLED,2025,QLED,mid,Fire-TV,K7Q3MT,4K,60,Dolby Vision IQ|HDR10+ Adaptive|HLG,,full-array,600,65K7Q3MT,65,US,849,ALLM,HDMI2.1 x1|HDMI2.0 x3|eARC|WiFi|Bluetooth
+Toshiba,C350,Toshiba C350 Fire TV,2025,LED-LCD,entry,Fire-TV,C350,4K,60,Dolby Vision|HDR10|HLG,REGZA Engine ZR,none,300,55C350NU,55,US,299,ALLM,HDMI2.0 x3|ARC|WiFi|Bluetooth

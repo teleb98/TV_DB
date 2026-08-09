@@ -1,7 +1,7 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-08-09T10:51:30.158348+09:00",
-  "model_count": 143,
+  "generated_at": "2026-08-09T10:59:25.770146+09:00",
+  "model_count": 148,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
     "estimated": {
@@ -13598,6 +13598,120 @@
           "rank": 14,
           "category": "experience",
           "feature": "Slim/One Connect",
+          "source": "brand-generic"
+        }
+      ]
+    },
+    {
+      "brand": "Amazon",
+      "lineup": "Fire TV Omni QLED",
+      "series_name": "Fire TV Omni QLED",
+      "year": 2025,
+      "panel_tech": "QLED",
+      "tier": "mid",
+      "os": "Fire-TV",
+      "positioning": null,
+      "key_features": null,
+      "backlight_tech": "FALD",
+      "model_code_base": "K7Q3MT",
+      "resolution": "4K",
+      "refresh_rate_native": 60,
+      "hdr_formats": [
+        "Dolby Vision IQ",
+        "HDR10+ Adaptive",
+        "HLG"
+      ],
+      "processor": null,
+      "dimming": "full-array",
+      "peak_brightness_nits": 600,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": null,
+      "audio_output_w": null,
+      "smart_os_version": null,
+      "connectivity": [
+        "HDMI2.1 x1",
+        "HDMI2.0 x3",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "ALLM"
+      ],
+      "size_variants_in": [
+        50,
+        55,
+        65,
+        75
+      ],
+      "estimated_fields": [],
+      "variants": [
+        {
+          "sku_full": "65K7Q3MT",
+          "size_inch": 65,
+          "region": "US",
+          "color": null,
+          "stand_type": null,
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": null,
+          "power_w": null,
+          "local_dimming_zones": null,
+          "audio_output_w": null,
+          "price_msrp": 849,
+          "price_street": null,
+          "currency": "USD",
+          "availability": null,
+          "source_url": null,
+          "estimated_fields": null,
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "QLED·Full Array Local Dimming",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "picture",
+          "feature": "Dolby Vision IQ·HDR10+ Adaptive",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "sound",
+          "feature": "Dolby Audio",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "service",
+          "feature": "Fire TV·Alexa+ 음성",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "Prime Video·무료 채널",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "experience",
+          "feature": "Fire TV Ambient Experience",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "experience",
+          "feature": "핸즈프리 Alexa·Dialogue Boost",
           "source": "brand-generic"
         }
       ]
@@ -29325,7 +29439,7 @@
       "processor": "P5 AI Gen9",
       "dimming": "per-pixel",
       "peak_brightness_nits": 1500,
-      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인) · 실측 출처 flatpanelshd(1300nit)",
       "audio_channels": "2.2",
       "audio_output_w": 40,
       "smart_os_version": null,
@@ -29597,7 +29711,7 @@
       "processor": "P5 AI Gen9",
       "dimming": "per-pixel",
       "peak_brightness_nits": 3700,
-      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인) · 실측 출처 flatpanelshd(2100nit)",
       "audio_channels": "2.1.2",
       "audio_output_w": 60,
       "smart_os_version": null,
@@ -29782,6 +29896,369 @@
           "rank": 10,
           "category": "experience",
           "feature": "4면 Ambilight·Bowers & Wilkins 사운드",
+          "source": "brand-generic"
+        }
+      ]
+    },
+    {
+      "brand": "Roku",
+      "lineup": "Roku Select Series",
+      "series_name": "Select Series",
+      "year": 2025,
+      "panel_tech": "QLED",
+      "tier": "entry",
+      "os": "Roku",
+      "positioning": null,
+      "key_features": null,
+      "backlight_tech": "edge-lit",
+      "model_code_base": "R5D5",
+      "resolution": "4K",
+      "refresh_rate_native": 60,
+      "hdr_formats": [
+        "HDR10",
+        "HLG"
+      ],
+      "processor": null,
+      "dimming": "none",
+      "peak_brightness_nits": 300,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": null,
+      "audio_output_w": null,
+      "smart_os_version": null,
+      "connectivity": [
+        "HDMI2.0 x3",
+        "ARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "ALLM"
+      ],
+      "size_variants_in": [
+        43,
+        50,
+        55,
+        65,
+        75,
+        85
+      ],
+      "estimated_fields": [],
+      "variants": [
+        {
+          "sku_full": "65R5D5",
+          "size_inch": 65,
+          "region": "US",
+          "color": null,
+          "stand_type": null,
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": null,
+          "power_w": null,
+          "local_dimming_zones": null,
+          "audio_output_w": null,
+          "price_msrp": 398,
+          "price_street": null,
+          "currency": "USD",
+          "availability": null,
+          "source_url": null,
+          "estimated_fields": null,
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "QLED·4K HDR",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "sound",
+          "feature": "측면발사 Dolby Atmos·내장 서브우퍼",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "service",
+          "feature": "Roku OS·The Roku Channel(무료 채널)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "service",
+          "feature": "Roku Voice·스마트홈 연동",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "experience",
+          "feature": "Roku Smart Picture",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "experience",
+          "feature": "간편 홈스크린·Backlit 음성 리모컨",
+          "source": "brand-generic"
+        }
+      ]
+    },
+    {
+      "brand": "Roku",
+      "lineup": "Roku Plus Series",
+      "series_name": "Plus Series",
+      "year": 2025,
+      "panel_tech": "Mini-LED",
+      "tier": "mid",
+      "os": "Roku",
+      "positioning": null,
+      "key_features": null,
+      "backlight_tech": "Mini-LED",
+      "model_code_base": "R6C7",
+      "resolution": "4K",
+      "refresh_rate_native": 60,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HDR10",
+        "HLG"
+      ],
+      "processor": null,
+      "dimming": "mini-led",
+      "peak_brightness_nits": 500,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": null,
+      "audio_output_w": null,
+      "smart_os_version": null,
+      "connectivity": [
+        "HDMI2.0 x4",
+        "eARC",
+        "WiFi6",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "ALLM"
+      ],
+      "size_variants_in": [
+        55,
+        65,
+        75
+      ],
+      "estimated_fields": [],
+      "variants": [
+        {
+          "sku_full": "65R6C7",
+          "size_inch": 65,
+          "region": "US",
+          "color": null,
+          "stand_type": null,
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": null,
+          "power_w": null,
+          "local_dimming_zones": null,
+          "audio_output_w": null,
+          "price_msrp": 649,
+          "price_street": null,
+          "currency": "USD",
+          "availability": null,
+          "source_url": null,
+          "estimated_fields": null,
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "Mini-LED QLED·Full Array Local Dimming",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "picture",
+          "feature": "Roku Smart Picture",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "sound",
+          "feature": "측면발사 Dolby Atmos·내장 서브우퍼",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "service",
+          "feature": "Roku OS·The Roku Channel(무료 채널)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "Roku Voice·스마트홈 연동",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "experience",
+          "feature": "Roku Smart Picture",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "experience",
+          "feature": "간편 홈스크린·Backlit 음성 리모컨",
+          "source": "brand-generic"
+        }
+      ]
+    },
+    {
+      "brand": "Roku",
+      "lineup": "Roku Pro Series",
+      "series_name": "Pro Series",
+      "year": 2025,
+      "panel_tech": "Mini-LED",
+      "tier": "high",
+      "os": "Roku",
+      "positioning": null,
+      "key_features": null,
+      "backlight_tech": "Mini-LED",
+      "model_code_base": "R8C5",
+      "resolution": "4K",
+      "refresh_rate_native": 120,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "Roku Smart Picture",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 1000,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": null,
+      "audio_output_w": null,
+      "smart_os_version": null,
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "120Hz",
+        "FreeSync Premium Pro"
+      ],
+      "size_variants_in": [
+        55,
+        65,
+        75
+      ],
+      "estimated_fields": [],
+      "variants": [
+        {
+          "sku_full": "65R8C5",
+          "size_inch": 65,
+          "region": "US",
+          "color": null,
+          "stand_type": null,
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": null,
+          "power_w": null,
+          "local_dimming_zones": null,
+          "audio_output_w": null,
+          "price_msrp": 799,
+          "price_street": null,
+          "currency": "USD",
+          "availability": null,
+          "source_url": null,
+          "estimated_fields": null,
+          "price_history": []
+        }
+      ],
+      "measurement": {
+        "peak_brightness_nits": 1818,
+        "fullscreen_nits": null,
+        "input_lag_ms": null,
+        "dci_p3_pct": 92.0,
+        "rec2020_pct": null,
+        "contrast": null,
+        "source": "tomsguide",
+        "measured_date": "2025-11-01"
+      },
+      "certification": null,
+      "region_names": [],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "Mini-LED QLED·Full Array Local Dimming",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "picture",
+          "feature": "Roku Smart Picture",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "ai",
+          "feature": "Roku Smart Picture 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "gaming",
+          "feature": "120Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "sound",
+          "feature": "측면발사 Dolby Atmos·내장 서브우퍼",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "Roku OS·The Roku Channel(무료 채널)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "service",
+          "feature": "Roku Voice·스마트홈 연동",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "Roku Smart Picture",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 9,
+          "category": "experience",
+          "feature": "간편 홈스크린·Backlit 음성 리모컨",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 10,
+          "category": "experience",
+          "feature": "Smart Picture Max·Backlit Voice Remote Pro",
           "source": "brand-generic"
         }
       ]
@@ -38703,6 +39180,121 @@
           "rank": 6,
           "category": "experience",
           "feature": "슬림 디자인",
+          "source": "brand-generic"
+        }
+      ]
+    },
+    {
+      "brand": "Toshiba",
+      "lineup": "Toshiba C350 Fire TV",
+      "series_name": "C350",
+      "year": 2025,
+      "panel_tech": "LED-LCD",
+      "tier": "entry",
+      "os": "Fire-TV",
+      "positioning": null,
+      "key_features": null,
+      "backlight_tech": "direct-LED",
+      "model_code_base": "C350",
+      "resolution": "4K",
+      "refresh_rate_native": 60,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "processor": "REGZA Engine ZR",
+      "dimming": "none",
+      "peak_brightness_nits": 300,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": null,
+      "audio_output_w": null,
+      "smart_os_version": null,
+      "connectivity": [
+        "HDMI2.0 x3",
+        "ARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "ALLM"
+      ],
+      "size_variants_in": [
+        43,
+        50,
+        55,
+        65,
+        75,
+        85
+      ],
+      "estimated_fields": [],
+      "variants": [
+        {
+          "sku_full": "55C350NU",
+          "size_inch": 55,
+          "region": "US",
+          "color": null,
+          "stand_type": null,
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": null,
+          "power_w": null,
+          "local_dimming_zones": null,
+          "audio_output_w": null,
+          "price_msrp": 299,
+          "price_street": null,
+          "currency": "USD",
+          "availability": null,
+          "source_url": null,
+          "estimated_fields": null,
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "REGZA Engine ZR·4K HDR·Dolby Vision",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "ai",
+          "feature": "REGZA Engine ZR 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "sound",
+          "feature": "Dolby Audio·DTS",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "service",
+          "feature": "Fire TV·Alexa 음성",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "Prime Video·앱스토어",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "experience",
+          "feature": "REGZA Engine ZR·AI 4K 업스케일",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "experience",
+          "feature": "Game Mode",
           "source": "brand-generic"
         }
       ]
