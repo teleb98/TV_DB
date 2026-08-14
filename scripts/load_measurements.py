@@ -66,6 +66,8 @@ MEASURE: dict[str, tuple] = {
     "B4":     (659,  None, None, 97.0,  None, "inf",    "2024-04-01", "reviews"),
     "U7N":    (1130, 658,  None, 96.0,  None, None,     "2024-05-01", "rtings"),
     # 2026
+    "QM8L":   (4800, None, None, 98.0,  None, None,     "2026-02-01", "rtings"),      # SQD Mini-LED, 실측 3.7k~5.4k 편차 中앙
+    "M5":     (2500, None, None, 99.0,  None, "inf",    "2026-01-01", "rtings"),      # 무선 OLED, HDR ~2550nit
     "G6":     (2481, 471,  None, 99.7,  78.4, "inf",    "2026-03-01", "flatpanelshd"),
     "C6":     (1438, 236,  None, 99.7,  None, "inf",    "2026-03-01", "techradar"),
     "S95H":   (2704, 458,  None, 99.9,  None, "inf",    "2026-04-01", "reviews"),

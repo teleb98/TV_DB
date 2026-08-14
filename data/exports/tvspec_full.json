@@ -1,6 +1,6 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-08-14T23:17:30.980779+09:00",
+  "generated_at": "2026-08-14T23:23:12.405104+09:00",
   "model_count": 148,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
@@ -21201,9 +21201,9 @@
           "power_w": 200,
           "local_dimming_zones": 256,
           "audio_output_w": 20,
-          "price_msrp": null,
+          "price_msrp": 5499,
           "price_street": null,
-          "currency": "KRW",
+          "currency": "CNY",
           "availability": "해외판매",
           "source_url": "https://consumer.huawei.com",
           "estimated_fields": [
@@ -26496,7 +26496,16 @@
           "price_history": []
         }
       ],
-      "measurement": null,
+      "measurement": {
+        "peak_brightness_nits": 2500,
+        "fullscreen_nits": null,
+        "input_lag_ms": null,
+        "dci_p3_pct": 99.0,
+        "rec2020_pct": null,
+        "contrast": "inf",
+        "source": "rtings",
+        "measured_date": "2026-01-01"
+      },
       "certification": null,
       "region_names": [
         {
@@ -38192,7 +38201,16 @@
           "price_history": []
         }
       ],
-      "measurement": null,
+      "measurement": {
+        "peak_brightness_nits": 4800,
+        "fullscreen_nits": null,
+        "input_lag_ms": null,
+        "dci_p3_pct": 98.0,
+        "rec2020_pct": null,
+        "contrast": null,
+        "source": "rtings",
+        "measured_date": "2026-02-01"
+      },
       "certification": null,
       "region_names": [
         {
@@ -43402,9 +43420,9 @@
           "power_w": 200,
           "local_dimming_zones": 512,
           "audio_output_w": 40,
-          "price_msrp": null,
+          "price_msrp": 6499,
           "price_street": null,
-          "currency": "KRW",
+          "currency": "CNY",
           "availability": "출시예정",
           "source_url": "https://www.mi.com",
           "estimated_fields": [
@@ -43429,9 +43447,9 @@
           "power_w": 220,
           "local_dimming_zones": 512,
           "audio_output_w": 40,
-          "price_msrp": null,
+          "price_msrp": 7999,
           "price_street": null,
-          "currency": "KRW",
+          "currency": "CNY",
           "availability": "출시예정",
           "source_url": "https://www.mi.com",
           "estimated_fields": [
@@ -44371,7 +44389,7 @@
           "power_w": 150,
           "local_dimming_zones": null,
           "audio_output_w": 60,
-          "price_msrp": null,
+          "price_msrp": 9999,
           "price_street": null,
           "currency": "CNY",
           "availability": "판매중",
@@ -44397,9 +44415,9 @@
           "power_w": 180,
           "local_dimming_zones": null,
           "audio_output_w": 60,
-          "price_msrp": null,
+          "price_msrp": 19999,
           "price_street": null,
-          "currency": "KRW",
+          "currency": "CNY",
           "availability": "판매중",
           "source_url": "https://www.mi.com",
           "estimated_fields": [
