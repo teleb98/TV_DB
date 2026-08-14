@@ -1,6 +1,6 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-08-09T11:50:18.442798+09:00",
+  "generated_at": "2026-08-14T23:17:30.980779+09:00",
   "model_count": 148,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
@@ -14807,7 +14807,10 @@
       "tier": "mid",
       "os": "Fire-TV",
       "positioning": null,
-      "key_features": null,
+      "key_features": [
+        "QLED",
+        "60Hz"
+      ],
       "backlight_tech": "FALD",
       "model_code_base": "K7Q3MT",
       "resolution": "4K",
@@ -14821,9 +14824,9 @@
       "dimming": "full-array",
       "peak_brightness_nits": 600,
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
-      "audio_channels": null,
-      "audio_output_w": null,
-      "smart_os_version": null,
+      "audio_channels": "2.0",
+      "audio_output_w": 20,
+      "smart_os_version": "Fire OS 8",
       "connectivity": [
         "HDMI2.1 x1",
         "HDMI2.0 x3",
@@ -14840,27 +14843,36 @@
         65,
         75
       ],
-      "estimated_fields": [],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
       "variants": [
         {
           "sku_full": "65K7Q3MT",
           "size_inch": 65,
           "region": "US",
-          "color": null,
-          "stand_type": null,
+          "color": "Black",
+          "stand_type": "양측 다리",
           "os_override": null,
           "panel_override": null,
           "refresh_override": null,
-          "weight_kg": null,
-          "power_w": null,
-          "local_dimming_zones": null,
-          "audio_output_w": null,
+          "weight_kg": 23.0,
+          "power_w": 170,
+          "local_dimming_zones": 48,
+          "audio_output_w": 20,
           "price_msrp": 849,
           "price_street": null,
           "currency": "USD",
-          "availability": null,
+          "availability": "판매중",
           "source_url": null,
-          "estimated_fields": null,
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
           "price_history": []
         }
       ],
@@ -15203,7 +15215,7 @@
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
       "audio_channels": "2.0",
       "audio_output_w": 20,
-      "smart_os_version": "VIDAA U",
+      "smart_os_version": "Fire TV OS",
       "connectivity": [
         "HDMI2.0 x3",
         "eARC",
@@ -15483,7 +15495,7 @@
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
       "audio_channels": "2.2",
       "audio_output_w": 40,
-      "smart_os_version": "VIDAA U",
+      "smart_os_version": "Google TV",
       "connectivity": [
         "HDMI2.1 x2",
         "eARC",
@@ -15808,7 +15820,7 @@
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
       "audio_channels": "2.2",
       "audio_output_w": 40,
-      "smart_os_version": "VIDAA U",
+      "smart_os_version": "Google TV",
       "connectivity": [
         "HDMI2.1 x2",
         "eARC",
@@ -16103,7 +16115,7 @@
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
       "audio_channels": "2.1.2",
       "audio_output_w": 60,
-      "smart_os_version": "VIDAA U",
+      "smart_os_version": "Google TV",
       "connectivity": [
         "HDMI2.1 x2",
         "eARC",
@@ -16575,7 +16587,7 @@
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
       "audio_channels": "2.0",
       "audio_output_w": 20,
-      "smart_os_version": "VIDAA U",
+      "smart_os_version": "Fire TV OS",
       "connectivity": [
         "HDMI2.0 x4",
         "eARC",
@@ -18152,7 +18164,7 @@
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
       "audio_channels": "2.1.2",
       "audio_output_w": 60,
-      "smart_os_version": "VIDAA U",
+      "smart_os_version": "Google TV",
       "connectivity": [
         "HDMI2.1 x2",
         "eARC",
@@ -19539,7 +19551,7 @@
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
       "audio_channels": "2.1.2",
       "audio_output_w": 60,
-      "smart_os_version": "VIDAA U",
+      "smart_os_version": "Google TV",
       "connectivity": [
         "HDMI2.1 x2",
         "eARC",
@@ -19746,7 +19758,7 @@
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
       "audio_channels": "2.0",
       "audio_output_w": 20,
-      "smart_os_version": "VIDAA U",
+      "smart_os_version": "Google TV",
       "connectivity": [
         "HDMI2.0 x3",
         "eARC",
@@ -20025,7 +20037,7 @@
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
       "audio_channels": "2.2",
       "audio_output_w": 40,
-      "smart_os_version": "VIDAA U",
+      "smart_os_version": "Google TV",
       "connectivity": [
         "HDMI2.1 x2",
         "eARC",
@@ -31662,7 +31674,7 @@
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
       "audio_channels": "2.2",
       "audio_output_w": 40,
-      "smart_os_version": null,
+      "smart_os_version": "Google TV",
       "connectivity": [
         "HDMI2.1 x2",
         "eARC",
@@ -31895,7 +31907,7 @@
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
       "audio_channels": "2.1.2",
       "audio_output_w": 60,
-      "smart_os_version": null,
+      "smart_os_version": "Google TV",
       "connectivity": [
         "HDMI2.1 x2",
         "eARC",
@@ -32156,7 +32168,7 @@
       "brightness_source": "골든셋(공식 사이트/뉴스 확인) · 실측 출처 flatpanelshd(1300nit)",
       "audio_channels": "2.2",
       "audio_output_w": 40,
-      "smart_os_version": null,
+      "smart_os_version": "Google TV",
       "connectivity": [
         "HDMI2.1 x2",
         "eARC",
@@ -32454,7 +32466,7 @@
       "brightness_source": "골든셋(공식 사이트/뉴스 확인) · 실측 출처 flatpanelshd(2100nit)",
       "audio_channels": "2.1.2",
       "audio_output_w": 60,
-      "smart_os_version": null,
+      "smart_os_version": "Google TV",
       "connectivity": [
         "HDMI2.1 x2",
         "eARC",
@@ -32675,7 +32687,10 @@
       "tier": "entry",
       "os": "Roku",
       "positioning": null,
-      "key_features": null,
+      "key_features": [
+        "QLED",
+        "60Hz"
+      ],
       "backlight_tech": "edge-lit",
       "model_code_base": "R5D5",
       "resolution": "4K",
@@ -32688,9 +32703,9 @@
       "dimming": "none",
       "peak_brightness_nits": 300,
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
-      "audio_channels": null,
-      "audio_output_w": null,
-      "smart_os_version": null,
+      "audio_channels": "2.0",
+      "audio_output_w": 20,
+      "smart_os_version": "Roku OS 14",
       "connectivity": [
         "HDMI2.0 x3",
         "ARC",
@@ -32708,27 +32723,35 @@
         75,
         85
       ],
-      "estimated_fields": [],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
       "variants": [
         {
           "sku_full": "65R5D5",
           "size_inch": 65,
           "region": "US",
-          "color": null,
-          "stand_type": null,
+          "color": "Black",
+          "stand_type": "양측 다리",
           "os_override": null,
           "panel_override": null,
           "refresh_override": null,
-          "weight_kg": null,
-          "power_w": null,
+          "weight_kg": 23.0,
+          "power_w": 170,
           "local_dimming_zones": null,
-          "audio_output_w": null,
+          "audio_output_w": 20,
           "price_msrp": 398,
           "price_street": null,
           "currency": "USD",
-          "availability": null,
+          "availability": "판매중",
           "source_url": null,
-          "estimated_fields": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
           "price_history": []
         }
       ],
@@ -32809,7 +32832,11 @@
       "tier": "mid",
       "os": "Roku",
       "positioning": null,
-      "key_features": null,
+      "key_features": [
+        "Mini-LED",
+        "60Hz",
+        "Dolby Vision"
+      ],
       "backlight_tech": "Mini-LED",
       "model_code_base": "R6C7",
       "resolution": "4K",
@@ -32824,9 +32851,9 @@
       "dimming": "mini-led",
       "peak_brightness_nits": 500,
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
-      "audio_channels": null,
-      "audio_output_w": null,
-      "smart_os_version": null,
+      "audio_channels": "2.0",
+      "audio_output_w": 20,
+      "smart_os_version": "Roku OS 14",
       "connectivity": [
         "HDMI2.0 x4",
         "eARC",
@@ -32841,27 +32868,36 @@
         65,
         75
       ],
-      "estimated_fields": [],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
       "variants": [
         {
           "sku_full": "65R6C7",
           "size_inch": 65,
           "region": "US",
-          "color": null,
-          "stand_type": null,
+          "color": "Black",
+          "stand_type": "양측 다리",
           "os_override": null,
           "panel_override": null,
           "refresh_override": null,
-          "weight_kg": null,
-          "power_w": null,
-          "local_dimming_zones": null,
-          "audio_output_w": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
           "price_msrp": 649,
           "price_street": null,
           "currency": "USD",
-          "availability": null,
+          "availability": "판매중",
           "source_url": null,
-          "estimated_fields": null,
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
           "price_history": []
         }
       ],
@@ -32948,7 +32984,12 @@
       "tier": "high",
       "os": "Roku",
       "positioning": null,
-      "key_features": null,
+      "key_features": [
+        "Mini-LED",
+        "120Hz",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
       "backlight_tech": "Mini-LED",
       "model_code_base": "R8C5",
       "resolution": "4K",
@@ -32962,9 +33003,9 @@
       "dimming": "mini-led",
       "peak_brightness_nits": 1000,
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
-      "audio_channels": null,
-      "audio_output_w": null,
-      "smart_os_version": null,
+      "audio_channels": "2.2",
+      "audio_output_w": 40,
+      "smart_os_version": "Roku OS 14",
       "connectivity": [
         "HDMI2.1 x2",
         "eARC",
@@ -32982,27 +33023,36 @@
         65,
         75
       ],
-      "estimated_fields": [],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
       "variants": [
         {
           "sku_full": "65R8C5",
           "size_inch": 65,
           "region": "US",
-          "color": null,
-          "stand_type": null,
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
           "os_override": null,
           "panel_override": null,
           "refresh_override": null,
-          "weight_kg": null,
-          "power_w": null,
-          "local_dimming_zones": null,
-          "audio_output_w": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
           "price_msrp": 799,
           "price_street": null,
           "currency": "USD",
-          "availability": null,
+          "availability": "판매중",
           "source_url": null,
-          "estimated_fields": null,
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
           "price_history": []
         }
       ],
@@ -40246,7 +40296,7 @@
         "HDR10+",
         "HLG"
       ],
-      "processor": null,
+      "processor": "AiPQ Pro",
       "dimming": "mini-led",
       "peak_brightness_nits": 5000,
       "brightness_source": "골든셋(공식 사이트/뉴스 확인) · 실측 출처 tomsguide(5413nit)",
@@ -42355,7 +42405,7 @@
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
       "audio_channels": "2.0",
       "audio_output_w": 20,
-      "smart_os_version": null,
+      "smart_os_version": "Google TV",
       "connectivity": [
         "HDMI2.1 x2",
         "eARC",
@@ -42628,7 +42678,7 @@
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
       "audio_channels": "2.0",
       "audio_output_w": 20,
-      "smart_os_version": null,
+      "smart_os_version": "Google TV",
       "connectivity": [
         "HDMI2.0 x3",
         "eARC",
@@ -42841,7 +42891,11 @@
       "tier": "entry",
       "os": "Fire-TV",
       "positioning": null,
-      "key_features": null,
+      "key_features": [
+        "LED-LCD",
+        "60Hz",
+        "Dolby Vision"
+      ],
       "backlight_tech": "direct-LED",
       "model_code_base": "C350",
       "resolution": "4K",
@@ -42855,9 +42909,9 @@
       "dimming": "none",
       "peak_brightness_nits": 300,
       "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
-      "audio_channels": null,
-      "audio_output_w": null,
-      "smart_os_version": null,
+      "audio_channels": "2.0",
+      "audio_output_w": 20,
+      "smart_os_version": "Fire OS 7",
       "connectivity": [
         "HDMI2.0 x3",
         "ARC",
@@ -42875,27 +42929,35 @@
         75,
         85
       ],
-      "estimated_fields": [],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
       "variants": [
         {
           "sku_full": "55C350NU",
           "size_inch": 55,
           "region": "US",
-          "color": null,
-          "stand_type": null,
+          "color": "Black",
+          "stand_type": "양측 다리",
           "os_override": null,
           "panel_override": null,
           "refresh_override": null,
-          "weight_kg": null,
-          "power_w": null,
+          "weight_kg": 19.0,
+          "power_w": 140,
           "local_dimming_zones": null,
-          "audio_output_w": null,
+          "audio_output_w": 20,
           "price_msrp": 299,
           "price_street": null,
           "currency": "USD",
-          "availability": null,
+          "availability": "판매중",
           "source_url": null,
-          "estimated_fields": null,
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
           "price_history": []
         }
       ],

@@ -30,17 +30,38 @@ SRC = {"삼성": "https://www.samsung.com", "LG": "https://www.lge.co.kr",
 OLED = ("WOLED", "QD-OLED", "OLED")
 
 
-def os_version(brand, year):
-    if brand == "삼성":
+def os_version(brand, year, os=None):
+    """OS(series.os) 우선 도출 — 브랜드는 다중 OS(예: Hisense=VIDAA/Google/Fire)를 쓰므로
+    os 값이 있으면 그것으로 결정하고, 없을 때만 브랜드 폴백."""
+    os = str(os) if os else None
+    # ── OS 우선(정확) ──
+    if os == "Tizen" or (os is None and brand == "삼성"):
         return {2023: "Tizen 7.0", 2024: "Tizen 8.0", 2025: "Tizen 9.0", 2026: "Tizen 10.0"}.get(year, "Tizen")
-    if brand == "LG":
+    if os == "webOS" or (os is None and brand == "LG"):
         return f"webOS {str(year)[2:]}" if year else "webOS"
-    if brand in ("Sony", "TCL", "Xiaomi"):
+    if os == "VIDAA":
+        return "VIDAA U"
+    if os == "Fire-TV":
+        return {"Amazon": "Fire OS 8", "Toshiba": "Fire OS 7"}.get(brand, "Fire TV OS")
+    if os == "Roku":
+        return "Roku OS 14"
+    if os == "Android-TV":
+        return "Android TV"
+    if os == "Google-TV":
+        return "Google TV"
+    if os == "HarmonyOS" or brand == "Huawei":
+        return "HarmonyOS 4"
+    # ── 브랜드 폴백(os 불명) ──
+    if brand in ("Sony", "TCL", "Xiaomi", "Philips", "Thomson"):
         return "Google TV"
     if brand == "Hisense":
         return "VIDAA U"
-    if brand == "Huawei":
-        return "HarmonyOS 4"
+    if brand == "Roku":
+        return "Roku OS 14"
+    if brand == "Amazon":
+        return "Fire OS 8"
+    if brand == "Toshiba":
+        return "Fire OS 7"
     return None
 
 
@@ -117,17 +138,17 @@ def main():
 
         # model: smart_os_version + audio_channels/output_w
         cur.execute("""select m.model_id, b.name brand, s.generation_year yr, s.tier,
-                              m.resolution, s.panel_tech
+                              m.resolution, s.panel_tech, s.os
                        from model m join series s on m.series_id=s.series_id
                        join brand b on s.brand_id=b.brand_id""")
-        for mid, brand, yr, tier, res, panel in cur.fetchall():
+        for mid, brand, yr, tier, res, panel, os_name in cur.fetchall():
             ch, w = audio(brand, tier, res, panel)
             conn.cursor().execute("""
                 update model set
                   smart_os_version = coalesce(smart_os_version, %s),
                   audio_channels   = coalesce(audio_channels, %s),
                   audio_output_w   = coalesce(audio_output_w, %s)
-                where model_id=%s""", (os_version(brand, yr), ch, w, mid))
+                where model_id=%s""", (os_version(brand, yr, os_name), ch, w, mid))
 
         # series.key_features (모델 스펙에서 파생)
         cur.execute("""select s.series_id, s.panel_tech, m.refresh_rate_native,
