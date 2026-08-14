@@ -19,6 +19,8 @@ DSN = os.environ.get("PG_DSN", "postgresql://localhost/tvspec")
 ROWS: list[tuple] = [
     ("S-Pro26",    65,  6499, "小米 S Pro Mini LED 2026 零售价"),
     ("S-Pro26",    75,  7999, "小米 S Pro Mini LED 2026 零售价"),
+    ("S-Pro26",    85, 10499, "小米 S Pro Mini LED 2026 零售价"),
+    ("S-Pro26",    98, 15999, "小米 S Pro Mini LED 2026 零售价"),
     ("MasterOLED", 65,  9999, "小米电视 大师 OLED"),
     ("MasterOLED", 77, 19999, "小米电视 大师 OLED"),
     ("Vision5",    65,  5499, "华为 Vision 智慧屏5 起售价"),

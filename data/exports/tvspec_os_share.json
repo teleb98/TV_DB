@@ -1,6 +1,6 @@
 {
   "note": "스마트TV OS 시장점유율(Omdia 등 업계 리서치). market_share=시장통계, db_coverage=본 DB 보유 모델수(별개). estimated=true는 공개치 없이 밴드중앙/잔여 보정.",
-  "generated_at": "2026-08-14T23:23:12.429758+09:00",
+  "generated_at": "2026-08-14T23:27:09.904570+09:00",
   "market_share": [
     {
       "region": "Global",

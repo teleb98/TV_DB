@@ -98,7 +98,7 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     # --- 공식 소스(mi.com/huaweicentral/lge.co.kr) 2026 ---
     "Vision6":   ([65, 75, 85, 98],               True,  "huaweicentral Vision Smart Screen 6 2026(65~98)"),
     "Vision6SE": ([55, 65, 75, 85],               False, "Huawei Vision 6 SE 2026(세트 추정)"),
-    "S-Pro26":   ([55, 65, 75],                   True,  "mi.com Xiaomi TV S Pro Mini LED 2026(55/65/75)"),
+    "S-Pro26":   ([65, 75, 85, 98],               True,  "mi.com Xiaomi TV S Pro Mini LED 2026(65/75/85/98 4종, 55없음)"),
     "S-2026":    ([55, 65, 75, 85, 98],           True,  "mi.com Xiaomi TV S Mini LED 2026(55~98)"),
     "T4":        ([77],                           True,  "lg.com SIGNATURE OLED T 투명(77, OLED77T4PUA)"),
     # --- 중국 내수(中文 사이트: mi.com/vmall/hisense/ithome) ---
