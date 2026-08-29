@@ -132,6 +132,8 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "R5D5":    ([43, 50, 55, 65, 75, 85],         True,  "Roku Select Series 2025(43~85)"),
     "K7Q3MT":  ([50, 55, 65, 75],                 True,  "Amazon Fire TV Omni QLED 2025(50~75)"),
     "C350":    ([43, 50, 55, 65, 75, 85],         True,  "Toshiba C350 Fire TV(43~85, BestBuy)"),
+    "Q9MPro":  ([55, 65, 75, 85, 98],             True,  "TCL Q9M Pro 2026 SQD Mini-LED 中(55~98)"),
+    "E8NPro":  ([65, 75, 85, 100],                True,  "Hisense E8N Pro 2026 Mini-LED 中(65~100)"),
     # --- 2024 주요 모델 인치(공식/RTINGS 확인) ---
     "QN90D":  ([43, 50, 55, 65, 75, 85, 98],      True,  "samsung QN90D 2024"),
     "QN900D": ([65, 75, 85],                      True,  "samsung QN900D 8K 2024"),

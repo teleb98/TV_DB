@@ -24,6 +24,13 @@ ROWS: list[tuple] = [
     ("MasterOLED", 65,  9999, "小米电视 大师 OLED"),
     ("MasterOLED", 77, 19999, "小米电视 大师 OLED"),
     ("Vision5",    65,  5499, "华为 Vision 智慧屏5 起售价"),
+    # 2026 중국 신제품(년중 런칭)
+    ("Q9MPro",     55,  6199, "TCL Q9M Pro SQD-Mini LED 首发"),
+    ("Q9MPro",     98, 19999, "TCL Q9M Pro SQD-Mini LED"),
+    ("E8NPro",     65,  7099, "海信 E8N Pro Mini LED"),
+    ("E8NPro",     75,  8999, "海信 E8N Pro Mini LED"),
+    ("E8NPro",     85, 11999, "海信 E8N Pro Mini LED"),
+    ("E8NPro",    100, 21999, "海信 E8N Pro Mini LED"),
 ]
 
 
