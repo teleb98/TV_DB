@@ -1,7 +1,7 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-08-29T18:20:41.384198+09:00",
-  "model_count": 150,
+  "generated_at": "2026-08-29T18:26:43.458028+09:00",
+  "model_count": 154,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
     "estimated": {
@@ -16834,6 +16834,235 @@
           "rank": 4,
           "category": "gaming",
           "feature": "180Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "sound",
+          "feature": "Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "Google TV/VIDAA/Fire TV",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "service",
+          "feature": "Google Cast·음성 비서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "Game Mode Pro",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 9,
+          "category": "experience",
+          "feature": "Filmmaker Mode",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 10,
+          "category": "experience",
+          "feature": "IMAX Enhanced·와이드 시야각",
+          "source": "brand-generic"
+        }
+      ],
+      "os_experience": {
+        "os": "VIDAA",
+        "base_os": "Linux(VIDAA)",
+        "voice_assistant": "VIDAA Voice + Alexa",
+        "fast_service": "VIDAA Free(무료 채널)",
+        "casting": "미러링(Chromecast 미지원)",
+        "airplay": true,
+        "cloud_gaming": "일부 GeForce Now(모델별)",
+        "smart_home": "제한적(스마트홈 허브 아님)",
+        "matter": false,
+        "update_policy": "정기 보안 업데이트",
+        "ad_level": "med",
+        "strengths": [
+          "가볍고 빠른 부팅·반응",
+          "저가 Hisense TV에 최적화",
+          "AirPlay 2 지원(신모델)",
+          "VIDAA Free 무료 채널"
+        ],
+        "best_for": "가성비 Hisense TV, 가벼운 스트리밍 위주 사용자",
+        "top_strengths": [
+          "가볍고 빠른 부팅·반응",
+          "저가 Hisense TV에 최적화",
+          "AirPlay 2 지원(신모델)"
+        ]
+      }
+    },
+    {
+      "brand": "Hisense",
+      "lineup": "Hisense E8Q Pro Mini LED",
+      "series_name": "E8Q Pro",
+      "year": 2025,
+      "panel_tech": "Mini-LED",
+      "tier": "flagship",
+      "os": "VIDAA",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "165Hz",
+        "고휘도(2000nit+)",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "backlight_tech": "Mini-LED",
+      "model_code_base": "E8QPro",
+      "resolution": "4K",
+      "refresh_rate_native": 165,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "Hi-View H7",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 3000,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.1.2",
+      "audio_output_w": 60,
+      "smart_os_version": "VIDAA U",
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "165Hz",
+        "330Hz"
+      ],
+      "size_variants_in": [
+        75,
+        85,
+        100
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "75E8QPro",
+          "size_inch": 75,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": 13599,
+          "price_street": null,
+          "currency": "CNY",
+          "availability": "판매중",
+          "source_url": "mi.com/华为官网",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "E8QPro-85IN-CN",
+          "size_inch": 85,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": 17999,
+          "price_street": null,
+          "currency": "CNY",
+          "availability": "판매중",
+          "source_url": "mi.com/华为官网",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "E8QPro-100IN-CN",
+          "size_inch": 100,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 35.0,
+          "power_w": 300,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": 27999,
+          "price_street": null,
+          "currency": "CNY",
+          "availability": "판매중",
+          "source_url": "mi.com/华为官网",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "ULED MiniLED·Full Array Local Dimming",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "picture",
+          "feature": "QLED Color",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "ai",
+          "feature": "Hi-View H7 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "gaming",
+          "feature": "165Hz·VRR·ALLM 게이밍",
           "source": "brand-generic"
         },
         {
@@ -39425,6 +39654,518 @@
     },
     {
       "brand": "TCL",
+      "lineup": "TCL T7M Pro SQD Mini LED",
+      "series_name": "T7M Pro",
+      "year": 2026,
+      "panel_tech": "Mini-LED",
+      "tier": "mid",
+      "os": "Google-TV",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "144Hz",
+        "고휘도(2000nit+)",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "backlight_tech": "SQD-Mini-LED",
+      "model_code_base": "T7MPro",
+      "resolution": "4K",
+      "refresh_rate_native": 144,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "AiPQ Pro",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 2200,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.0",
+      "audio_output_w": 20,
+      "smart_os_version": "Google TV",
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "Game Master"
+      ],
+      "size_variants_in": [
+        65,
+        75,
+        85,
+        98
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "65T7MPro",
+          "size_inch": 65,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": 6199,
+          "price_street": null,
+          "currency": "CNY",
+          "availability": "출시예정",
+          "source_url": "mi.com/华为官网",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "T7MPro-75IN-CN",
+          "size_inch": 75,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "T7MPro-85IN-CN",
+          "size_inch": 85,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "T7MPro-98IN-CN",
+          "size_inch": 98,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 34.5,
+          "power_w": 290,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "QD-Mini LED·Precise Dimming",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "ai",
+          "feature": "AiPQ Pro 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "gaming",
+          "feature": "144Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "sound",
+          "feature": "ONKYO·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "Google TV",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "Google Cast(Chromecast 내장)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "service",
+          "feature": "Google Assistant",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "Game Master",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 9,
+          "category": "experience",
+          "feature": "제로 베젤 디자인",
+          "source": "brand-generic"
+        }
+      ],
+      "os_experience": {
+        "os": "Google-TV",
+        "base_os": "Android(AOSP)",
+        "voice_assistant": "Google Assistant/Gemini",
+        "fast_service": "Google TV Freeplay(라이브 탭)",
+        "casting": "Chromecast 내장(캐스팅 최강)",
+        "airplay": false,
+        "cloud_gaming": "GeForce Now 앱(브라우저·앱 기반)",
+        "smart_home": "Google Home + Matter",
+        "matter": true,
+        "update_policy": "Android TV OS 업데이트(브랜드별 상이, 통상 2~3년)",
+        "ad_level": "med",
+        "strengths": [
+          "최다 앱(Play Store 1만+)",
+          "Chromecast 내장 캐스팅",
+          "서비스 교차 개인화 추천(콘텐츠 애그리게이션)",
+          "Google Assistant/Gemini AI",
+          "다수 브랜드(Sony·TCL·Hisense·Xiaomi 등) 채택"
+        ],
+        "best_for": "앱 다양성·캐스팅 중시, Google/Android 생태계 사용자",
+        "top_strengths": [
+          "최다 앱(Play Store 1만+)",
+          "Chromecast 내장 캐스팅",
+          "서비스 교차 개인화 추천(콘텐츠 애그리게이션)"
+        ]
+      }
+    },
+    {
+      "brand": "TCL",
+      "lineup": "TCL T7M Ultra SQD Mini LED",
+      "series_name": "T7M Ultra",
+      "year": 2026,
+      "panel_tech": "Mini-LED",
+      "tier": "high",
+      "os": "Google-TV",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "144Hz",
+        "고휘도(2000nit+)",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "backlight_tech": "SQD-Mini-LED",
+      "model_code_base": "T7MUltra",
+      "resolution": "4K",
+      "refresh_rate_native": 144,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "AiPQ Pro",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 3000,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.2",
+      "audio_output_w": 40,
+      "smart_os_version": "Google TV",
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "Game Master"
+      ],
+      "size_variants_in": [
+        65,
+        75,
+        85,
+        98
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "65T7MUltra",
+          "size_inch": 65,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": 6799,
+          "price_street": null,
+          "currency": "CNY",
+          "availability": "출시예정",
+          "source_url": "mi.com/华为官网",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "T7MUltra-75IN-CN",
+          "size_inch": 75,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "T7MUltra-85IN-CN",
+          "size_inch": 85,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://www.tcl.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "T7MUltra-98IN-CN",
+          "size_inch": 98,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 34.5,
+          "power_w": 290,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": 15999,
+          "price_street": null,
+          "currency": "CNY",
+          "availability": "출시예정",
+          "source_url": "mi.com/华为官网",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "QD-Mini LED·Precise Dimming",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "ai",
+          "feature": "AiPQ Pro 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "gaming",
+          "feature": "144Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "sound",
+          "feature": "ONKYO·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "Google TV",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "Google Cast(Chromecast 내장)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "service",
+          "feature": "Google Assistant",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "Game Master",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 9,
+          "category": "experience",
+          "feature": "제로 베젤 디자인",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 10,
+          "category": "experience",
+          "feature": "FlexConnect(가변 무선 사운드)",
+          "source": "brand-generic"
+        }
+      ],
+      "os_experience": {
+        "os": "Google-TV",
+        "base_os": "Android(AOSP)",
+        "voice_assistant": "Google Assistant/Gemini",
+        "fast_service": "Google TV Freeplay(라이브 탭)",
+        "casting": "Chromecast 내장(캐스팅 최강)",
+        "airplay": false,
+        "cloud_gaming": "GeForce Now 앱(브라우저·앱 기반)",
+        "smart_home": "Google Home + Matter",
+        "matter": true,
+        "update_policy": "Android TV OS 업데이트(브랜드별 상이, 통상 2~3년)",
+        "ad_level": "med",
+        "strengths": [
+          "최다 앱(Play Store 1만+)",
+          "Chromecast 내장 캐스팅",
+          "서비스 교차 개인화 추천(콘텐츠 애그리게이션)",
+          "Google Assistant/Gemini AI",
+          "다수 브랜드(Sony·TCL·Hisense·Xiaomi 등) 채택"
+        ],
+        "best_for": "앱 다양성·캐스팅 중시, Google/Android 생태계 사용자",
+        "top_strengths": [
+          "최다 앱(Play Store 1만+)",
+          "Chromecast 내장 캐스팅",
+          "서비스 교차 개인화 추천(콘텐츠 애그리게이션)"
+        ]
+      }
+    },
+    {
+      "brand": "TCL",
       "lineup": "X11L SQD Mini LED",
       "series_name": "X11L",
       "year": 2026,
@@ -44068,6 +44809,275 @@
           "Alexa 핸즈프리 음성 최강",
           "Amazon Luna 클라우드 게임",
           "Prime Video·Amazon 생태계 밀착"
+        ]
+      }
+    },
+    {
+      "brand": "Xiaomi",
+      "lineup": "Redmi X 2026 Mini LED",
+      "series_name": "Redmi X",
+      "year": 2026,
+      "panel_tech": "Mini-LED",
+      "tier": "mid",
+      "os": "Google-TV",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "144Hz",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "backlight_tech": "Mini-LED",
+      "model_code_base": "RedmiX26",
+      "resolution": "4K",
+      "refresh_rate_native": 144,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "processor": null,
+      "dimming": "mini-led",
+      "peak_brightness_nits": 1200,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.0",
+      "audio_output_w": 20,
+      "smart_os_version": "Google TV",
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "288Hz"
+      ],
+      "size_variants_in": [
+        55,
+        65,
+        75,
+        85,
+        98
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "55RedmiX26",
+          "size_inch": 55,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 19.0,
+          "power_w": 160,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": 2499,
+          "price_street": null,
+          "currency": "CNY",
+          "availability": "출시예정",
+          "source_url": "mi.com/华为官网",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "RedmiX26-65IN-CN",
+          "size_inch": 65,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://www.mi.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "RedmiX26-75IN-CN",
+          "size_inch": 75,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://www.mi.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "RedmiX26-85IN-CN",
+          "size_inch": 85,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": 4799,
+          "price_street": null,
+          "currency": "CNY",
+          "availability": "출시예정",
+          "source_url": "mi.com/华为官网",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "RedmiX26-98IN-CN",
+          "size_inch": 98,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 34.5,
+          "power_w": 290,
+          "local_dimming_zones": 256,
+          "audio_output_w": 20,
+          "price_msrp": 7599,
+          "price_street": null,
+          "currency": "CNY",
+          "availability": "출시예정",
+          "source_url": "mi.com/华为官网",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "QD-Mini LED",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "gaming",
+          "feature": "144Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "sound",
+          "feature": "Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "service",
+          "feature": "Google TV/PatchWall",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "Google Cast·음성 어시스턴트",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "experience",
+          "feature": "Xiaomi 생태계 연동",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "experience",
+          "feature": "Game Boost",
+          "source": "brand-generic"
+        }
+      ],
+      "os_experience": {
+        "os": "Google-TV",
+        "base_os": "Android(AOSP)",
+        "voice_assistant": "Google Assistant/Gemini",
+        "fast_service": "Google TV Freeplay(라이브 탭)",
+        "casting": "Chromecast 내장(캐스팅 최강)",
+        "airplay": false,
+        "cloud_gaming": "GeForce Now 앱(브라우저·앱 기반)",
+        "smart_home": "Google Home + Matter",
+        "matter": true,
+        "update_policy": "Android TV OS 업데이트(브랜드별 상이, 통상 2~3년)",
+        "ad_level": "med",
+        "strengths": [
+          "최다 앱(Play Store 1만+)",
+          "Chromecast 내장 캐스팅",
+          "서비스 교차 개인화 추천(콘텐츠 애그리게이션)",
+          "Google Assistant/Gemini AI",
+          "다수 브랜드(Sony·TCL·Hisense·Xiaomi 등) 채택"
+        ],
+        "best_for": "앱 다양성·캐스팅 중시, Google/Android 생태계 사용자",
+        "top_strengths": [
+          "최다 앱(Play Store 1만+)",
+          "Chromecast 내장 캐스팅",
+          "서비스 교차 개인화 추천(콘텐츠 애그리게이션)"
         ]
       }
     },

@@ -1,6 +1,6 @@
 {
   "note": "스마트TV OS 플랫폼 프로파일 — OS 자체의 장점·약점·사양(음성비서·FAST·클라우드게임·AirPlay·스마트홈·업데이트·광고강도). 개별 model 스펙과 분리. db_models=본 DB 보유 모델수.",
-  "generated_at": "2026-08-29T18:20:41.415408+09:00",
+  "generated_at": "2026-08-29T18:26:43.484156+09:00",
   "platforms": [
     {
       "os": "Google-TV",
@@ -34,7 +34,7 @@
       "best_for": "앱 다양성·캐스팅 중시, Google/Android 생태계 사용자",
       "source_url": "https://www.techradar.com/televisions/best-smart-tv-platform-tizen-webos-google-tv-fire-tv-and-roku-compared-tested-and-ranked",
       "updated_at": "2026-08-09T11:06:04.685115+09:00",
-      "db_models": 47,
+      "db_models": 50,
       "brands": "Hisense, Philips, Sony, TCL, Thomson, Xiaomi"
     },
     {
@@ -135,7 +135,7 @@
       "best_for": "가성비 Hisense TV, 가벼운 스트리밍 위주 사용자",
       "source_url": "https://www.techradar.com/televisions/best-smart-tv-platform-tizen-webos-google-tv-fire-tv-and-roku-compared-tested-and-ranked",
       "updated_at": "2026-08-09T11:06:04.685115+09:00",
-      "db_models": 10,
+      "db_models": 11,
       "brands": "Hisense"
     },
     {

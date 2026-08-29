@@ -31,6 +31,15 @@ ROWS: list[tuple] = [
     ("E8NPro",     75,  8999, "海信 E8N Pro Mini LED"),
     ("E8NPro",     85, 11999, "海信 E8N Pro Mini LED"),
     ("E8NPro",    100, 21999, "海信 E8N Pro Mini LED"),
+    ("E8QPro",     75, 13599, "海信 E8Q Pro Mini LED(8320존·Devialet)"),
+    ("E8QPro",     85, 17999, "海信 E8Q Pro Mini LED"),
+    ("E8QPro",    100, 27999, "海信 E8Q Pro Mini LED"),
+    ("T7MUltra",   65,  6799, "TCL T7M Ultra SQD-Mini LED 起售价"),
+    ("T7MUltra",   98, 15999, "TCL T7M Ultra SQD-Mini LED"),
+    ("T7MPro",     65,  6199, "TCL T7M Pro SQD-Mini LED 起售价"),
+    ("RedmiX26",   55,  2499, "Redmi X 2026 Mini LED 起售价"),
+    ("RedmiX26",   85,  4799, "Redmi X 2026 Mini LED"),
+    ("RedmiX26",   98,  7599, "Redmi X 2026 Mini LED"),
 ]
 
 

@@ -21,6 +21,7 @@ EXPLICIT: dict[str, str] = {
     # TCL SQD Mini-LED (2026 플래그십 전략: Super Quantum Dot + UltraColor Filter)
     "X11L": "SQD-Mini-LED", "QM8L": "SQD-Mini-LED", "QM7L": "SQD-Mini-LED",
     "Q9MPro": "SQD-Mini-LED",                                 # TCL 2026 중국 SQD 플래그십(3552존, 5000nit XDR)
+    "T7MUltra": "SQD-Mini-LED", "T7MPro": "SQD-Mini-LED",     # TCL 2026 중국 SQD 보급형(2176/1152존)
     # TCL QD Mini-LED (2025 및 이전: QD-Mini LED)
     "X11K": "QD-Mini-LED", "QM9K": "QD-Mini-LED", "QM8K": "QD-Mini-LED",
     "QM7K": "QD-Mini-LED", "QM6K": "QD-Mini-LED", "QM6L": "QD-Mini-LED",
