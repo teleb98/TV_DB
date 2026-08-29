@@ -138,6 +138,8 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "T7MUltra":([65, 75, 85, 98],                 True,  "TCL T7M Ultra 2026 SQD Mini-LED 中(65~98)"),
     "T7MPro":  ([65, 75, 85, 98],                 True,  "TCL T7M Pro 2026 SQD Mini-LED 中(65~98)"),
     "RedmiX26":([55, 65, 75, 85, 98],             True,  "Redmi X 2026 Mini-LED 中(55~98)"),
+    "E8SPro":  ([75, 85, 100],                    True,  "Hisense E8S Pro 2025 RGB Mini-LED 中(75~100)"),
+    "Q9M":     ([65, 75, 85, 98],                 True,  "TCL Q9M 2025 RGB Mini-LED 中(65~98)"),
     # --- 2024 주요 모델 인치(공식/RTINGS 확인) ---
     "QN90D":  ([43, 50, 55, 65, 75, 85, 98],      True,  "samsung QN90D 2024"),
     "QN900D": ([65, 75, 85],                      True,  "samsung QN900D 8K 2024"),

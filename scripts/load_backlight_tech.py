@@ -30,6 +30,8 @@ EXPLICIT: dict[str, str] = {
     "RM9L": "RGB-Mini-LED",                                   # TCL 2026 RGB
     "R95H": "RGB-Mini-LED", "R85H": "RGB-Mini-LED", "MR95F": "RGB-Mini-LED",  # 삼성 Micro RGB
     "UR9": "RGB-Mini-LED", "UR8": "RGB-Mini-LED", "UX26": "RGB-Mini-LED",     # 하이센스 RGB(2026)
+    "E8SPro": "RGB-Mini-LED",                                 # 하이센스 E8S Pro RGB(2025, 6200nit·9360존)
+    "Q9M": "RGB-Mini-LED",                                    # TCL Q9M RGB 4세대(2025, 2000nit·2880존)
 }
 
 

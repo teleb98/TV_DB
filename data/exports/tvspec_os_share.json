@@ -1,6 +1,6 @@
 {
   "note": "스마트TV OS 시장점유율(Omdia 등 업계 리서치). market_share=시장통계, db_coverage=본 DB 보유 모델수(별개). estimated=true는 공개치 없이 밴드중앙/잔여 보정.",
-  "generated_at": "2026-08-29T18:26:43.479719+09:00",
+  "generated_at": "2026-08-29T18:33:16.293775+09:00",
   "market_share": [
     {
       "region": "Global",
@@ -227,7 +227,7 @@
   "db_coverage": [
     {
       "os": "Google-TV",
-      "db_models": 50,
+      "db_models": 51,
       "brands": "Hisense, Philips, Sony, TCL, Thomson, Xiaomi"
     },
     {
@@ -242,7 +242,7 @@
     },
     {
       "os": "VIDAA",
-      "db_models": 11,
+      "db_models": 12,
       "brands": "Hisense"
     },
     {
