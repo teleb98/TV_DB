@@ -46,6 +46,11 @@ ROWS: list[tuple] = [
     ("Q9M",        65,  7999, "TCL Q9M RGB-Mini LED 起售价"),
     ("Q9M",        85, 11999, "TCL Q9M RGB-Mini LED"),
     ("Q9M",        98, 19999, "TCL Q9M RGB-Mini LED"),
+    ("V6",         75,  7999, "华为智慧屏V6(灵犀笔+遥控 표준)"),
+    ("V6",         85, 10999, "华为智慧屏V6"),
+    ("V6",         98, 14999, "华为智慧屏V6"),
+    ("Max163M",   163, 249999, "TCL Max163M Micro LED(10000nit)"),
+    ("Max163MPro",163, 349999, "TCL Max163M Pro Micro LED(120Hz)"),
 ]
 
 

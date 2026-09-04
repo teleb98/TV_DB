@@ -1,7 +1,7 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-09-05T06:50:53.531148+09:00",
-  "model_count": 160,
+  "generated_at": "2026-09-05T06:55:46.595828+09:00",
+  "model_count": 164,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
     "estimated": {
@@ -21526,6 +21526,222 @@
     },
     {
       "brand": "Huawei",
+      "lineup": "华为智慧屏V6",
+      "series_name": "V6",
+      "year": 2026,
+      "panel_tech": "Mini-LED",
+      "tier": "flagship",
+      "os": "HarmonyOS",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "144Hz",
+        "고휘도(2000nit+)",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "backlight_tech": "Mini-LED",
+      "model_code_base": "V6",
+      "resolution": "4K",
+      "refresh_rate_native": 144,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "Honghu",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 2100,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.1.2",
+      "audio_output_w": 60,
+      "smart_os_version": "HarmonyOS 4",
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz"
+      ],
+      "size_variants_in": [
+        75,
+        85,
+        98
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "75V6",
+          "size_inch": 75,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": 7999,
+          "price_street": null,
+          "currency": "CNY",
+          "availability": "출시예정",
+          "source_url": "mi.com/华为官网",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "V6-85IN-CN",
+          "size_inch": 85,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": 10999,
+          "price_street": null,
+          "currency": "CNY",
+          "availability": "출시예정",
+          "source_url": "mi.com/华为官网",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "V6-98IN-CN",
+          "size_inch": 98,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 34.5,
+          "power_w": 290,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": 14999,
+          "price_street": null,
+          "currency": "CNY",
+          "availability": "출시예정",
+          "source_url": "mi.com/华为官网",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "Super Mini LED·Honghu 화질",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "ai",
+          "feature": "Honghu 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "gaming",
+          "feature": "144Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "sound",
+          "feature": "하이파이 스피커·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "HarmonyOS·AppGallery",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "AI 음성·스마트홈 연동",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "experience",
+          "feature": "스마트 카메라·화상통화",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "멀티스크린 협업",
+          "source": "brand-generic"
+        }
+      ],
+      "os_experience": {
+        "os": "HarmonyOS",
+        "base_os": "HarmonyOS(분산형)",
+        "voice_assistant": "Celia(小艺)",
+        "fast_service": "Huawei Video 채널",
+        "casting": "멀티스크린 협업·미러링",
+        "airplay": false,
+        "cloud_gaming": "Huawei Cloud Gaming(중국)",
+        "smart_home": "Huawei 스마트홈(HarmonyOS 생태계)",
+        "matter": false,
+        "update_policy": "Huawei 정기 업데이트",
+        "ad_level": "low",
+        "strengths": [
+          "Huawei 기기 간 멀티스크린 협업·끊김없는 연동",
+          "스마트 카메라·화상통화",
+          "분산형 OS로 IoT 연동 강점",
+          "홈화면 광고 적음"
+        ],
+        "best_for": "Huawei 스마트폰·IoT 생태계, 중국 내 사용자",
+        "top_strengths": [
+          "Huawei 기기 간 멀티스크린 협업·끊김없는 연동",
+          "스마트 카메라·화상통화",
+          "분산형 OS로 IoT 연동 강점"
+        ]
+      }
+    },
+    {
+      "brand": "Huawei",
       "lineup": "Vision Smart Screen 6",
       "series_name": "Vision6",
       "year": 2026,
@@ -21714,6 +21930,223 @@
           "rank": 3,
           "category": "gaming",
           "feature": "144Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "sound",
+          "feature": "하이파이 스피커·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "HarmonyOS·AppGallery",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "AI 음성·스마트홈 연동",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "experience",
+          "feature": "스마트 카메라·화상통화",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "멀티스크린 협업",
+          "source": "brand-generic"
+        }
+      ],
+      "os_experience": {
+        "os": "HarmonyOS",
+        "base_os": "HarmonyOS(분산형)",
+        "voice_assistant": "Celia(小艺)",
+        "fast_service": "Huawei Video 채널",
+        "casting": "멀티스크린 협업·미러링",
+        "airplay": false,
+        "cloud_gaming": "Huawei Cloud Gaming(중국)",
+        "smart_home": "Huawei 스마트홈(HarmonyOS 생태계)",
+        "matter": false,
+        "update_policy": "Huawei 정기 업데이트",
+        "ad_level": "low",
+        "strengths": [
+          "Huawei 기기 간 멀티스크린 협업·끊김없는 연동",
+          "스마트 카메라·화상통화",
+          "분산형 OS로 IoT 연동 강점",
+          "홈화면 광고 적음"
+        ],
+        "best_for": "Huawei 스마트폰·IoT 생태계, 중국 내 사용자",
+        "top_strengths": [
+          "Huawei 기기 간 멀티스크린 협업·끊김없는 연동",
+          "스마트 카메라·화상통화",
+          "분산형 OS로 IoT 연동 강점"
+        ]
+      }
+    },
+    {
+      "brand": "Huawei",
+      "lineup": "华为Vision智慧屏6 Pro",
+      "series_name": "Vision6 Pro",
+      "year": 2026,
+      "panel_tech": "Mini-LED",
+      "tier": "flagship",
+      "os": "HarmonyOS",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "288Hz",
+        "고휘도(2000nit+)",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "backlight_tech": "Mini-LED",
+      "model_code_base": "Vision6Pro",
+      "resolution": "4K",
+      "refresh_rate_native": 288,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": "Honghu",
+      "dimming": "mini-led",
+      "peak_brightness_nits": 2000,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.1.2",
+      "audio_output_w": 60,
+      "smart_os_version": "HarmonyOS 4",
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "288Hz"
+      ],
+      "size_variants_in": [
+        65,
+        75,
+        85
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "65Vision6Pro",
+          "size_inch": 65,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "CNY",
+          "availability": "출시예정",
+          "source_url": "https://consumer.huawei.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "Vision6Pro-75IN-CN",
+          "size_inch": 75,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://consumer.huawei.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "Vision6Pro-85IN-CN",
+          "size_inch": 85,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 29.5,
+          "power_w": 260,
+          "local_dimming_zones": 1344,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "출시예정",
+          "source_url": "https://consumer.huawei.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "Super Mini LED·Honghu 화질",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "ai",
+          "feature": "Honghu 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "gaming",
+          "feature": "288Hz·VRR·ALLM 게이밍",
           "source": "brand-generic"
         },
         {
@@ -25025,7 +25458,7 @@
           "price_history": []
         },
         {
-          "sku_full": "65QNED85UQA",
+          "sku_full": "65QNED85BUA",
           "size_inch": 65,
           "region": "US",
           "color": "Black",
@@ -25052,7 +25485,7 @@
           "price_history": []
         },
         {
-          "sku_full": "65QNED85BUA",
+          "sku_full": "65QNED85UQA",
           "size_inch": 65,
           "region": "US",
           "color": "Black",
@@ -39194,6 +39627,325 @@
           "rank": 10,
           "category": "experience",
           "feature": "Bravia Cam(제스처·화상통화·자동 최적화)",
+          "source": "brand-generic"
+        }
+      ],
+      "os_experience": {
+        "os": "Google-TV",
+        "base_os": "Android(AOSP)",
+        "voice_assistant": "Google Assistant/Gemini",
+        "fast_service": "Google TV Freeplay(라이브 탭)",
+        "casting": "Chromecast 내장(캐스팅 최강)",
+        "airplay": false,
+        "cloud_gaming": "GeForce Now 앱(브라우저·앱 기반)",
+        "smart_home": "Google Home + Matter",
+        "matter": true,
+        "update_policy": "Android TV OS 업데이트(브랜드별 상이, 통상 2~3년)",
+        "ad_level": "med",
+        "strengths": [
+          "최다 앱(Play Store 1만+)",
+          "Chromecast 내장 캐스팅",
+          "서비스 교차 개인화 추천(콘텐츠 애그리게이션)",
+          "Google Assistant/Gemini AI",
+          "다수 브랜드(Sony·TCL·Hisense·Xiaomi 등) 채택"
+        ],
+        "best_for": "앱 다양성·캐스팅 중시, Google/Android 생태계 사용자",
+        "top_strengths": [
+          "최다 앱(Play Store 1만+)",
+          "Chromecast 내장 캐스팅",
+          "서비스 교차 개인화 추천(콘텐츠 애그리게이션)"
+        ]
+      }
+    },
+    {
+      "brand": "TCL",
+      "lineup": "TCL Max163M Micro LED",
+      "series_name": "Max163M",
+      "year": 2026,
+      "panel_tech": "Micro-LED",
+      "tier": "flagship",
+      "os": "Google-TV",
+      "positioning": null,
+      "key_features": [
+        "Micro-LED",
+        "60Hz",
+        "고휘도(2000nit+)",
+        "Dolby Vision"
+      ],
+      "backlight_tech": "self-emissive(MicroLED)",
+      "model_code_base": "Max163M",
+      "resolution": "4K",
+      "refresh_rate_native": 60,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": null,
+      "dimming": "per-pixel",
+      "peak_brightness_nits": 10000,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.1.2",
+      "audio_output_w": 60,
+      "smart_os_version": "Google TV",
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "ALLM"
+      ],
+      "size_variants_in": [
+        163
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "163Max163M",
+          "size_inch": 163,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 57.0,
+          "power_w": 420,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": 249999,
+          "price_street": null,
+          "currency": "CNY",
+          "availability": "출시예정",
+          "source_url": "mi.com/华为官网",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "QD-Mini LED·Precise Dimming",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "sound",
+          "feature": "ONKYO·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "service",
+          "feature": "Google TV",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "service",
+          "feature": "Google Cast(Chromecast 내장)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "Google Assistant",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "experience",
+          "feature": "Game Master",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "experience",
+          "feature": "제로 베젤 디자인",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "FlexConnect(가변 무선 사운드)",
+          "source": "brand-generic"
+        }
+      ],
+      "os_experience": {
+        "os": "Google-TV",
+        "base_os": "Android(AOSP)",
+        "voice_assistant": "Google Assistant/Gemini",
+        "fast_service": "Google TV Freeplay(라이브 탭)",
+        "casting": "Chromecast 내장(캐스팅 최강)",
+        "airplay": false,
+        "cloud_gaming": "GeForce Now 앱(브라우저·앱 기반)",
+        "smart_home": "Google Home + Matter",
+        "matter": true,
+        "update_policy": "Android TV OS 업데이트(브랜드별 상이, 통상 2~3년)",
+        "ad_level": "med",
+        "strengths": [
+          "최다 앱(Play Store 1만+)",
+          "Chromecast 내장 캐스팅",
+          "서비스 교차 개인화 추천(콘텐츠 애그리게이션)",
+          "Google Assistant/Gemini AI",
+          "다수 브랜드(Sony·TCL·Hisense·Xiaomi 등) 채택"
+        ],
+        "best_for": "앱 다양성·캐스팅 중시, Google/Android 생태계 사용자",
+        "top_strengths": [
+          "최다 앱(Play Store 1만+)",
+          "Chromecast 내장 캐스팅",
+          "서비스 교차 개인화 추천(콘텐츠 애그리게이션)"
+        ]
+      }
+    },
+    {
+      "brand": "TCL",
+      "lineup": "TCL Max163M Pro Micro LED",
+      "series_name": "Max163M Pro",
+      "year": 2026,
+      "panel_tech": "Micro-LED",
+      "tier": "flagship",
+      "os": "Google-TV",
+      "positioning": null,
+      "key_features": [
+        "Micro-LED",
+        "120Hz",
+        "고휘도(2000nit+)",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "backlight_tech": "self-emissive(MicroLED)",
+      "model_code_base": "Max163MPro",
+      "resolution": "4K",
+      "refresh_rate_native": 120,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10+",
+        "HLG"
+      ],
+      "processor": null,
+      "dimming": "per-pixel",
+      "peak_brightness_nits": 10000,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.1.2",
+      "audio_output_w": 60,
+      "smart_os_version": "Google TV",
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "120Hz"
+      ],
+      "size_variants_in": [
+        163
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "163Max163MPro",
+          "size_inch": 163,
+          "region": "CN",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 57.0,
+          "power_w": 420,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": 349999,
+          "price_street": null,
+          "currency": "CNY",
+          "availability": "출시예정",
+          "source_url": "mi.com/华为官网",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "QD-Mini LED·Precise Dimming",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "gaming",
+          "feature": "120Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "sound",
+          "feature": "ONKYO·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "service",
+          "feature": "Google TV",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "Google Cast(Chromecast 내장)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "Google Assistant",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "experience",
+          "feature": "Game Master",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "제로 베젤 디자인",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 9,
+          "category": "experience",
+          "feature": "FlexConnect(가변 무선 사운드)",
           "source": "brand-generic"
         }
       ],

@@ -144,6 +144,10 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "RM7L":    ([65, 75, 85, 98],                 True,  "TCL RM7L 2026 RGB Mini-LED 글로벌(65~98)"),
     "Z95B":    ([55, 65, 77],                     True,  "Panasonic Z95B 2025(panasonic.com UK 55/65/77)"),
     "Z90B":    ([42, 48, 55, 65, 77],             True,  "Panasonic Z90B 2025(panasonic.com UK 42~77)"),
+    "Vision6Pro": ([65, 75, 85],                  True,  "华为 Vision智慧屏6 Pro 2026(65/75/85)"),
+    "V6":      ([75, 85, 98],                     True,  "华为智慧屏V6 2026(75/85/98)"),
+    "Max163M": ([163],                            True,  "TCL Max163M 2026 Micro LED(163단일)"),
+    "Max163MPro": ([163],                         True,  "TCL Max163M Pro 2026 Micro LED(163단일)"),
     # --- 2024 주요 모델 인치(공식/RTINGS 확인) ---
     "QN90D":  ([43, 50, 55, 65, 75, 85, 98],      True,  "samsung QN90D 2024"),
     "QN900D": ([65, 75, 85],                      True,  "samsung QN900D 8K 2024"),

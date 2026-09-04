@@ -145,3 +145,7 @@ Hisense,S7 Canvas,Hisense S7 CanvasTV,2026,QLED,high,Google-TV,S7SG,4K,144,Dolby
 TCL,RM7,TCL RM7L RGB Mini LED,2026,Mini-LED,high,Google-TV,RM7L,4K,144,Dolby Vision|HDR10+|HLG,AiPQ Pro,mini-led,2000,65RM7L,65,EU,,VRR|ALLM|144Hz|288Hz|Game Master,HDMI2.1 x2|eARC|WiFi|Bluetooth
 Panasonic,Z95,Panasonic Z95B,2025,WOLED,flagship,Fire-TV,Z95B,4K,144,Dolby Vision|HDR10+ Adaptive|HLG,HCX Pro AI MK II,per-pixel,2200,65Z95B,65,EU,,VRR|ALLM|144Hz|Game Mode Extreme,HDMI2.1 x2|eARC|WiFi|Bluetooth
 Panasonic,Z90,Panasonic Z90B,2025,WOLED,high,Fire-TV,Z90B,4K,144,Dolby Vision|HDR10+ Adaptive|HLG,HCX Pro AI MK II,per-pixel,950,65Z90B,65,EU,,VRR|ALLM|144Hz|Game Mode Extreme,HDMI2.1 x2|eARC|WiFi|Bluetooth
+Huawei,Vision6 Pro,华为Vision智慧屏6 Pro,2026,Mini-LED,flagship,HarmonyOS,Vision6Pro,4K,288,Dolby Vision|HDR10+|HLG,Honghu,mini-led,2000,65Vision6Pro,65,CN,,VRR|ALLM|144Hz|288Hz,HDMI2.1 x4|eARC|WiFi|Bluetooth
+Huawei,V6,华为智慧屏V6,2026,Mini-LED,flagship,HarmonyOS,V6,4K,144,Dolby Vision|HDR10+|HLG,Honghu,mini-led,2100,75V6,75,CN,,VRR|ALLM|144Hz,HDMI2.1 x2|eARC|WiFi|Bluetooth
+TCL,Max163M,TCL Max163M Micro LED,2026,Micro-LED,flagship,Google-TV,Max163M,4K,60,Dolby Vision|HDR10+|HLG,,per-pixel,10000,163Max163M,163,CN,,ALLM,HDMI2.1 x4|eARC|WiFi|Bluetooth
+TCL,Max163M Pro,TCL Max163M Pro Micro LED,2026,Micro-LED,flagship,Google-TV,Max163MPro,4K,120,Dolby Vision|HDR10+|HLG,,per-pixel,10000,163Max163MPro,163,CN,,VRR|ALLM|120Hz,HDMI2.1 x4|eARC|WiFi|Bluetooth
