@@ -142,6 +142,8 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "Q9M":     ([65, 75, 85, 98],                 True,  "TCL Q9M 2025 RGB Mini-LED 中(65~98)"),
     "S7SG":    ([50, 55, 65, 75, 85],             True,  "Hisense S7 CanvasTV 2026 아트TV(50~85)"),
     "RM7L":    ([65, 75, 85, 98],                 True,  "TCL RM7L 2026 RGB Mini-LED 글로벌(65~98)"),
+    "Z95B":    ([55, 65, 77],                     True,  "Panasonic Z95B 2025(panasonic.com UK 55/65/77)"),
+    "Z90B":    ([42, 48, 55, 65, 77],             True,  "Panasonic Z90B 2025(panasonic.com UK 42~77)"),
     # --- 2024 주요 모델 인치(공식/RTINGS 확인) ---
     "QN90D":  ([43, 50, 55, 65, 75, 85, 98],      True,  "samsung QN90D 2024"),
     "QN900D": ([65, 75, 85],                      True,  "samsung QN900D 8K 2024"),

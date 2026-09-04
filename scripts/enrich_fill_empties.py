@@ -20,13 +20,13 @@ import provenance as prov
 DSN = os.environ.get("PG_DSN", "postgresql://localhost/tvspec")
 
 COUNTRY = {"삼성": "대한민국", "LG": "대한민국", "Sony": "일본", "TCL": "중국",
-           "Hisense": "중국", "Huawei": "중국", "Xiaomi": "중국"}
+           "Hisense": "중국", "Huawei": "중국", "Xiaomi": "중국", "Panasonic": "일본"}
 COLOR = {"삼성": "Titan Black", "LG": "Black", "Sony": "Black", "TCL": "Black",
-         "Hisense": "Black", "Huawei": "Black", "Xiaomi": "Black"}
+         "Hisense": "Black", "Huawei": "Black", "Xiaomi": "Black", "Panasonic": "Black"}
 SRC = {"삼성": "https://www.samsung.com", "LG": "https://www.lge.co.kr",
        "Sony": "https://www.sony.co.kr", "TCL": "https://www.tcl.com",
        "Hisense": "https://www.hisense.com", "Huawei": "https://consumer.huawei.com",
-       "Xiaomi": "https://www.mi.com"}
+       "Xiaomi": "https://www.mi.com", "Panasonic": "https://www.panasonic.com"}
 OLED = ("WOLED", "QD-OLED", "OLED")
 
 
@@ -62,6 +62,8 @@ def os_version(brand, year, os=None):
         return "Fire OS 8"
     if brand == "Toshiba":
         return "Fire OS 7"
+    if brand == "Panasonic":
+        return "Fire TV OS"
     return None
 
 

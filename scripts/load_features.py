@@ -34,6 +34,7 @@ BRAND_SERVICE = {
     "Roku": [("service", "Roku OS·The Roku Channel(무료 채널)"), ("service", "Roku Voice·스마트홈 연동")],
     "Amazon": [("service", "Fire TV·Alexa+ 음성"), ("service", "Prime Video·무료 채널")],
     "Toshiba": [("service", "Fire TV·Alexa 음성"), ("service", "Prime Video·앱스토어")],
+    "Panasonic": [("service", "Fire TV·Alexa 음성"), ("service", "My Home Screen 연동")],
 }
 # ---------- 브랜드 공통: experience(넓게 적용) ----------
 BRAND_EXPERIENCE = {
@@ -51,6 +52,7 @@ BRAND_EXPERIENCE = {
     "Roku": [("experience", "Roku Smart Picture"), ("experience", "간편 홈스크린·Backlit 음성 리모컨")],
     "Amazon": [("experience", "Fire TV Ambient Experience"), ("experience", "핸즈프리 Alexa·Dialogue Boost")],
     "Toshiba": [("experience", "REGZA Engine ZR·AI 4K 업스케일"), ("experience", "Game Mode")],
+    "Panasonic": [("experience", "ThermalFlow 냉각 시스템"), ("experience", "Filmmaker Mode·시네마 색보정")],
 }
 # ---------- 프리미엄 experience(flagship/high 만) ----------
 BRAND_EXP_PREMIUM = {
@@ -64,6 +66,7 @@ BRAND_EXP_PREMIUM = {
     "Thomson": [],
     "Roku": [("experience", "Smart Picture Max·Backlit Voice Remote Pro")],
     "Amazon": [], "Toshiba": [],
+    "Panasonic": [("experience", "Primary RGB Tandem 패널·ThermalFlow(Z95B)")],
 }
 # ---------- 브랜드 sound ----------
 BRAND_SOUND = {
@@ -74,6 +77,7 @@ BRAND_SOUND = {
     "Philips": ("sound", "Bowers & Wilkins·Dolby Atmos"), "Thomson": ("sound", "Dolby Atmos"),
     "Roku": ("sound", "측면발사 Dolby Atmos·내장 서브우퍼"), "Amazon": ("sound", "Dolby Audio"),
     "Toshiba": ("sound", "Dolby Audio·DTS"),
+    "Panasonic": ("sound", "전면 스피커·30W 서브우퍼·Dolby Atmos"),
 }
 # ---------- picture: (brand, archetype) ----------
 PICTURE = {
@@ -105,6 +109,7 @@ PICTURE = {
     ("Amazon", "qled"): [("picture", "QLED·Full Array Local Dimming"), ("picture", "Dolby Vision IQ·HDR10+ Adaptive")],
     ("Amazon", "led"): [("picture", "4K UHD·HDR10")],
     ("Toshiba", "led"): [("picture", "REGZA Engine ZR·4K HDR·Dolby Vision")],
+    ("Panasonic", "oled"): [("picture", "HCX Pro AI MK II·4K Remaster Engine"), ("picture", "Master OLED Pro(OLED EX)")],
 }
 
 # ---------- CURATED(공식 페이지 순서 확인 6종) ----------

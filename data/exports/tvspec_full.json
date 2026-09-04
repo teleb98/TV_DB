@@ -1,7 +1,7 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-09-05T06:47:44.256936+09:00",
-  "model_count": 158,
+  "generated_at": "2026-09-05T06:50:53.531148+09:00",
+  "model_count": 160,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
     "estimated": {
@@ -32726,6 +32726,515 @@
           "Magic Remote 포인터·직관 UX",
           "AirPlay 2 + HomeKit 동시지원",
           "Gaming Portal 클라우드 게임"
+        ]
+      }
+    },
+    {
+      "brand": "Panasonic",
+      "lineup": "Panasonic Z90B",
+      "series_name": "Z90",
+      "year": 2025,
+      "panel_tech": "WOLED",
+      "tier": "high",
+      "os": "Fire-TV",
+      "positioning": null,
+      "key_features": [
+        "WOLED",
+        "144Hz",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "backlight_tech": "self-emissive(OLED)",
+      "model_code_base": "Z90B",
+      "resolution": "4K",
+      "refresh_rate_native": 144,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10+ Adaptive",
+        "HLG"
+      ],
+      "processor": "HCX Pro AI MK II",
+      "dimming": "per-pixel",
+      "peak_brightness_nits": 950,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.2",
+      "audio_output_w": 40,
+      "smart_os_version": "Fire TV OS",
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "Game Mode Extreme"
+      ],
+      "size_variants_in": [
+        42,
+        48,
+        55,
+        65,
+        77
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "Z90B-42IN-EU",
+          "size_inch": 42,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 12.0,
+          "power_w": 100,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.panasonic.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "Z90B-48IN-EU",
+          "size_inch": 48,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 14.0,
+          "power_w": 110,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.panasonic.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "Z90B-55IN-EU",
+          "size_inch": 55,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.panasonic.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "65Z90B",
+          "size_inch": 65,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 18.5,
+          "power_w": 150,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "EUR",
+          "availability": "판매중",
+          "source_url": "https://www.panasonic.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "Z90B-77IN-EU",
+          "size_inch": 77,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.panasonic.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "HCX Pro AI MK II·4K Remaster Engine",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "picture",
+          "feature": "Master OLED Pro(OLED EX)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "ai",
+          "feature": "HCX Pro AI MK II 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "gaming",
+          "feature": "144Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "sound",
+          "feature": "전면 스피커·30W 서브우퍼·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "Fire TV·Alexa 음성",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "service",
+          "feature": "My Home Screen 연동",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "ThermalFlow 냉각 시스템",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 9,
+          "category": "experience",
+          "feature": "Filmmaker Mode·시네마 색보정",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 10,
+          "category": "experience",
+          "feature": "Primary RGB Tandem 패널·ThermalFlow(Z95B)",
+          "source": "brand-generic"
+        }
+      ],
+      "os_experience": {
+        "os": "Fire-TV",
+        "base_os": "Fire OS(Android fork)",
+        "voice_assistant": "Alexa(핸즈프리 최강)",
+        "fast_service": "Amazon Freevee + Fire TV 채널",
+        "casting": "Miracast(Chromecast·AirPlay 미지원)",
+        "airplay": false,
+        "cloud_gaming": "Amazon Luna(클라우드 게임)",
+        "smart_home": "Alexa 스마트홈 + Matter",
+        "matter": true,
+        "update_policy": "정기 업데이트, Alexa+ 신기능 지속 배포",
+        "ad_level": "high",
+        "strengths": [
+          "Alexa 핸즈프리 음성 최강",
+          "Amazon Luna 클라우드 게임",
+          "Prime Video·Amazon 생태계 밀착",
+          "Fire TV Ambient Experience(대기화면)",
+          "Dialogue Boost 대사 강조"
+        ],
+        "best_for": "Alexa·Prime 중심 아마존 생태계, 핸즈프리 음성 중시 사용자",
+        "top_strengths": [
+          "Alexa 핸즈프리 음성 최강",
+          "Amazon Luna 클라우드 게임",
+          "Prime Video·Amazon 생태계 밀착"
+        ]
+      }
+    },
+    {
+      "brand": "Panasonic",
+      "lineup": "Panasonic Z95B",
+      "series_name": "Z95",
+      "year": 2025,
+      "panel_tech": "WOLED",
+      "tier": "flagship",
+      "os": "Fire-TV",
+      "positioning": null,
+      "key_features": [
+        "WOLED",
+        "144Hz",
+        "고휘도(2000nit+)",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "backlight_tech": "self-emissive(OLED)",
+      "model_code_base": "Z95B",
+      "resolution": "4K",
+      "refresh_rate_native": 144,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10+ Adaptive",
+        "HLG"
+      ],
+      "processor": "HCX Pro AI MK II",
+      "dimming": "per-pixel",
+      "peak_brightness_nits": 2200,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.1.2",
+      "audio_output_w": 60,
+      "smart_os_version": "Fire TV OS",
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "144Hz",
+        "Game Mode Extreme"
+      ],
+      "size_variants_in": [
+        55,
+        65,
+        77
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "Z95B-55IN-EU",
+          "size_inch": 55,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 16.0,
+          "power_w": 130,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.panasonic.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "65Z95B",
+          "size_inch": 65,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 18.5,
+          "power_w": 150,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "EUR",
+          "availability": "판매중",
+          "source_url": "https://www.panasonic.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "Z95B-77IN-EU",
+          "size_inch": 77,
+          "region": "EU",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 22.0,
+          "power_w": 180,
+          "local_dimming_zones": null,
+          "audio_output_w": 60,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "KRW",
+          "availability": "판매중",
+          "source_url": "https://www.panasonic.com",
+          "estimated_fields": [
+            "color",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "HCX Pro AI MK II·4K Remaster Engine",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "picture",
+          "feature": "Master OLED Pro(OLED EX)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "ai",
+          "feature": "HCX Pro AI MK II 프로세서",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "gaming",
+          "feature": "144Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "sound",
+          "feature": "전면 스피커·30W 서브우퍼·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "service",
+          "feature": "Fire TV·Alexa 음성",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "service",
+          "feature": "My Home Screen 연동",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 8,
+          "category": "experience",
+          "feature": "ThermalFlow 냉각 시스템",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 9,
+          "category": "experience",
+          "feature": "Filmmaker Mode·시네마 색보정",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 10,
+          "category": "experience",
+          "feature": "Primary RGB Tandem 패널·ThermalFlow(Z95B)",
+          "source": "brand-generic"
+        }
+      ],
+      "os_experience": {
+        "os": "Fire-TV",
+        "base_os": "Fire OS(Android fork)",
+        "voice_assistant": "Alexa(핸즈프리 최강)",
+        "fast_service": "Amazon Freevee + Fire TV 채널",
+        "casting": "Miracast(Chromecast·AirPlay 미지원)",
+        "airplay": false,
+        "cloud_gaming": "Amazon Luna(클라우드 게임)",
+        "smart_home": "Alexa 스마트홈 + Matter",
+        "matter": true,
+        "update_policy": "정기 업데이트, Alexa+ 신기능 지속 배포",
+        "ad_level": "high",
+        "strengths": [
+          "Alexa 핸즈프리 음성 최강",
+          "Amazon Luna 클라우드 게임",
+          "Prime Video·Amazon 생태계 밀착",
+          "Fire TV Ambient Experience(대기화면)",
+          "Dialogue Boost 대사 강조"
+        ],
+        "best_for": "Alexa·Prime 중심 아마존 생태계, 핸즈프리 음성 중시 사용자",
+        "top_strengths": [
+          "Alexa 핸즈프리 음성 최강",
+          "Amazon Luna 클라우드 게임",
+          "Prime Video·Amazon 생태계 밀착"
         ]
       }
     },
