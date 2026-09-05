@@ -35,6 +35,8 @@ BRAND_SERVICE = {
     "Amazon": [("service", "Fire TV·Alexa+ 음성"), ("service", "Prime Video·무료 채널")],
     "Toshiba": [("service", "Fire TV·Alexa 음성"), ("service", "Prime Video·앱스토어")],
     "Panasonic": [("service", "Fire TV·Alexa 음성"), ("service", "My Home Screen 연동")],
+    "Sharp": [("service", "Google TV(Android)"), ("service", "Google Cast·Assistant")],
+    "Vizio": [("service", "SmartCast·WatchFree+(무료 채널)"), ("service", "Siri·Google Assistant·Alexa 음성")],
 }
 # ---------- 브랜드 공통: experience(넓게 적용) ----------
 BRAND_EXPERIENCE = {
@@ -53,6 +55,8 @@ BRAND_EXPERIENCE = {
     "Amazon": [("experience", "Fire TV Ambient Experience"), ("experience", "핸즈프리 Alexa·Dialogue Boost")],
     "Toshiba": [("experience", "REGZA Engine ZR·AI 4K 업스케일"), ("experience", "Game Mode")],
     "Panasonic": [("experience", "ThermalFlow 냉각 시스템"), ("experience", "Filmmaker Mode·시네마 색보정")],
+    "Sharp": [("experience", "Xtreme Brightness·Deep Chroma QD"), ("experience", "85W 스피커 시스템")],
+    "Vizio": [("experience", "SmartCast Home(간편 홈스크린)"), ("experience", "게임 메뉴·저지연 모드")],
 }
 # ---------- 프리미엄 experience(flagship/high 만) ----------
 BRAND_EXP_PREMIUM = {
@@ -67,6 +71,8 @@ BRAND_EXP_PREMIUM = {
     "Roku": [("experience", "Smart Picture Max·Backlit Voice Remote Pro")],
     "Amazon": [], "Toshiba": [],
     "Panasonic": [("experience", "Primary RGB Tandem 패널·ThermalFlow(Z95B)")],
+    "Sharp": [("experience", "2000+ 로컬디밍 존·Harman/Kardon 사운드")],
+    "Vizio": [("experience", "FreeSync Premium Pro·4x HDMI 2.1")],
 }
 # ---------- 브랜드 sound ----------
 BRAND_SOUND = {
@@ -78,6 +84,8 @@ BRAND_SOUND = {
     "Roku": ("sound", "측면발사 Dolby Atmos·내장 서브우퍼"), "Amazon": ("sound", "Dolby Audio"),
     "Toshiba": ("sound", "Dolby Audio·DTS"),
     "Panasonic": ("sound", "전면 스피커·30W 서브우퍼·Dolby Atmos"),
+    "Sharp": ("sound", "85W Harman/Kardon·Dolby Atmos"),
+    "Vizio": ("sound", "Dolby Audio"),
 }
 # ---------- picture: (brand, archetype) ----------
 PICTURE = {
@@ -110,6 +118,8 @@ PICTURE = {
     ("Amazon", "led"): [("picture", "4K UHD·HDR10")],
     ("Toshiba", "led"): [("picture", "REGZA Engine ZR·4K HDR·Dolby Vision")],
     ("Panasonic", "oled"): [("picture", "HCX Pro AI MK II·4K Remaster Engine"), ("picture", "Master OLED Pro(OLED EX)")],
+    ("Sharp", "miniled"): [("picture", "Xtreme Mini LED·Deep Chroma Quantum Dot")],
+    ("Vizio", "qled"): [("picture", "Quantum Color·4K HDR")],
 }
 
 # ---------- CURATED(공식 페이지 순서 확인 6종) ----------

@@ -1,7 +1,7 @@
 {
   "source": "tvspec",
-  "generated_at": "2026-09-05T06:55:46.595828+09:00",
-  "model_count": 164,
+  "generated_at": "2026-09-05T15:27:48.541853+09:00",
+  "model_count": 166,
   "provenance": {
     "legend": "estimated_fields = 규칙 기반 추정치(모델별 편차 큼, 공식 스펙시트 대조 검수 전제). 값 자체는 채워져 있으나 정확도 보증 아님. sourced/derived 는 estimated_fields 에 없음.",
     "estimated": {
@@ -25458,7 +25458,7 @@
           "price_history": []
         },
         {
-          "sku_full": "65QNED85BUA",
+          "sku_full": "65QNED85UQA",
           "size_inch": 65,
           "region": "US",
           "color": "Black",
@@ -25485,7 +25485,7 @@
           "price_history": []
         },
         {
-          "sku_full": "65QNED85UQA",
+          "sku_full": "65QNED85BUA",
           "size_inch": 65,
           "region": "US",
           "color": "Black",
@@ -35429,6 +35429,184 @@
           "가장 단순·직관적 UI",
           "특정 스트리밍사에 치우치지 않는 중립 추천",
           "저가 하드웨어·빠른 반응"
+        ]
+      }
+    },
+    {
+      "brand": "Sharp",
+      "lineup": "Sharp AQUOS XLED",
+      "series_name": "AQUOS XLED",
+      "year": 2025,
+      "panel_tech": "Mini-LED",
+      "tier": "high",
+      "os": "Google-TV",
+      "positioning": null,
+      "key_features": [
+        "Mini-LED",
+        "60Hz",
+        "Dolby Vision"
+      ],
+      "backlight_tech": "Mini-LED",
+      "model_code_base": "4TC65FV1U",
+      "resolution": "4K",
+      "refresh_rate_native": 60,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "processor": null,
+      "dimming": "mini-led",
+      "peak_brightness_nits": 1500,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.2",
+      "audio_output_w": 40,
+      "smart_os_version": "Google TV",
+      "connectivity": [
+        "HDMI2.1 x2",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "ALLM"
+      ],
+      "size_variants_in": [
+        65,
+        75
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "4TC65FV1U",
+          "size_inch": 65,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 200,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": 3099,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.sharpusa.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "4TC65FV1U-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "중앙 스탠드",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 220,
+          "local_dimming_zones": 512,
+          "audio_output_w": 40,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "판매중",
+          "source_url": "https://www.sharpusa.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "Xtreme Mini LED·Deep Chroma Quantum Dot",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "sound",
+          "feature": "85W Harman/Kardon·Dolby Atmos",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "service",
+          "feature": "Google TV(Android)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "service",
+          "feature": "Google Cast·Assistant",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "experience",
+          "feature": "Xtreme Brightness·Deep Chroma QD",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "experience",
+          "feature": "85W 스피커 시스템",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "experience",
+          "feature": "2000+ 로컬디밍 존·Harman/Kardon 사운드",
+          "source": "brand-generic"
+        }
+      ],
+      "os_experience": {
+        "os": "Google-TV",
+        "base_os": "Android(AOSP)",
+        "voice_assistant": "Google Assistant/Gemini",
+        "fast_service": "Google TV Freeplay(라이브 탭)",
+        "casting": "Chromecast 내장(캐스팅 최강)",
+        "airplay": false,
+        "cloud_gaming": "GeForce Now 앱(브라우저·앱 기반)",
+        "smart_home": "Google Home + Matter",
+        "matter": true,
+        "update_policy": "Android TV OS 업데이트(브랜드별 상이, 통상 2~3년)",
+        "ad_level": "med",
+        "strengths": [
+          "최다 앱(Play Store 1만+)",
+          "Chromecast 내장 캐스팅",
+          "서비스 교차 개인화 추천(콘텐츠 애그리게이션)",
+          "Google Assistant/Gemini AI",
+          "다수 브랜드(Sony·TCL·Hisense·Xiaomi 등) 채택"
+        ],
+        "best_for": "앱 다양성·캐스팅 중시, Google/Android 생태계 사용자",
+        "top_strengths": [
+          "최다 앱(Play Store 1만+)",
+          "Chromecast 내장 캐스팅",
+          "서비스 교차 개인화 추천(콘텐츠 애그리게이션)"
         ]
       }
     },
@@ -47098,6 +47276,163 @@
           "Prime Video·Amazon 생태계 밀착"
         ]
       }
+    },
+    {
+      "brand": "Vizio",
+      "lineup": "Vizio Quantum Pro",
+      "series_name": "Quantum Pro",
+      "year": 2026,
+      "panel_tech": "QLED",
+      "tier": "mid",
+      "os": "SmartCast",
+      "positioning": null,
+      "key_features": [
+        "QLED",
+        "120Hz",
+        "Dolby Vision",
+        "VRR/ALLM 게이밍"
+      ],
+      "backlight_tech": "FALD",
+      "model_code_base": "VQP65C-84",
+      "resolution": "4K",
+      "refresh_rate_native": 120,
+      "hdr_formats": [
+        "Dolby Vision",
+        "HDR10",
+        "HLG"
+      ],
+      "processor": null,
+      "dimming": "full-array",
+      "peak_brightness_nits": 1000,
+      "brightness_source": "골든셋(공식 사이트/뉴스 확인)",
+      "audio_channels": "2.0",
+      "audio_output_w": 20,
+      "smart_os_version": "SmartCast 4.0",
+      "connectivity": [
+        "HDMI2.1 x4",
+        "eARC",
+        "WiFi",
+        "Bluetooth"
+      ],
+      "gaming_features": [
+        "VRR",
+        "ALLM",
+        "120Hz",
+        "FreeSync Premium Pro"
+      ],
+      "size_variants_in": [
+        65,
+        75
+      ],
+      "estimated_fields": [
+        "audio_channels",
+        "audio_output_w"
+      ],
+      "variants": [
+        {
+          "sku_full": "VQP65C-84",
+          "size_inch": 65,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 23.0,
+          "power_w": 170,
+          "local_dimming_zones": 48,
+          "audio_output_w": 20,
+          "price_msrp": 698,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.vizio.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        },
+        {
+          "sku_full": "VQP65C-84-75IN-US",
+          "size_inch": 75,
+          "region": "US",
+          "color": "Black",
+          "stand_type": "양측 다리",
+          "os_override": null,
+          "panel_override": null,
+          "refresh_override": null,
+          "weight_kg": 26.0,
+          "power_w": 200,
+          "local_dimming_zones": 48,
+          "audio_output_w": 20,
+          "price_msrp": null,
+          "price_street": null,
+          "currency": "USD",
+          "availability": "출시예정",
+          "source_url": "https://www.vizio.com",
+          "estimated_fields": [
+            "color",
+            "local_dimming_zones",
+            "power_w",
+            "sku_full",
+            "stand_type",
+            "weight_kg"
+          ],
+          "price_history": []
+        }
+      ],
+      "measurement": null,
+      "certification": null,
+      "region_names": [],
+      "features": [
+        {
+          "rank": 1,
+          "category": "picture",
+          "feature": "Quantum Color·4K HDR",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 2,
+          "category": "gaming",
+          "feature": "120Hz·VRR·ALLM 게이밍",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 3,
+          "category": "sound",
+          "feature": "Dolby Audio",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 4,
+          "category": "service",
+          "feature": "SmartCast·WatchFree+(무료 채널)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 5,
+          "category": "service",
+          "feature": "Siri·Google Assistant·Alexa 음성",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 6,
+          "category": "experience",
+          "feature": "SmartCast Home(간편 홈스크린)",
+          "source": "brand-generic"
+        },
+        {
+          "rank": 7,
+          "category": "experience",
+          "feature": "게임 메뉴·저지연 모드",
+          "source": "brand-generic"
+        }
+      ],
+      "os_experience": null
     },
     {
       "brand": "Xiaomi",

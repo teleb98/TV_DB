@@ -20,13 +20,16 @@ import provenance as prov
 DSN = os.environ.get("PG_DSN", "postgresql://localhost/tvspec")
 
 COUNTRY = {"삼성": "대한민국", "LG": "대한민국", "Sony": "일본", "TCL": "중국",
-           "Hisense": "중국", "Huawei": "중국", "Xiaomi": "중국", "Panasonic": "일본"}
+           "Hisense": "중국", "Huawei": "중국", "Xiaomi": "중국", "Panasonic": "일본",
+           "Sharp": "일본", "Vizio": "미국"}
 COLOR = {"삼성": "Titan Black", "LG": "Black", "Sony": "Black", "TCL": "Black",
-         "Hisense": "Black", "Huawei": "Black", "Xiaomi": "Black", "Panasonic": "Black"}
+         "Hisense": "Black", "Huawei": "Black", "Xiaomi": "Black", "Panasonic": "Black",
+         "Sharp": "Black", "Vizio": "Black"}
 SRC = {"삼성": "https://www.samsung.com", "LG": "https://www.lge.co.kr",
        "Sony": "https://www.sony.co.kr", "TCL": "https://www.tcl.com",
        "Hisense": "https://www.hisense.com", "Huawei": "https://consumer.huawei.com",
-       "Xiaomi": "https://www.mi.com", "Panasonic": "https://www.panasonic.com"}
+       "Xiaomi": "https://www.mi.com", "Panasonic": "https://www.panasonic.com",
+       "Sharp": "https://www.sharpusa.com", "Vizio": "https://www.vizio.com"}
 OLED = ("WOLED", "QD-OLED", "OLED")
 
 
@@ -51,6 +54,8 @@ def os_version(brand, year, os=None):
         return "Google TV"
     if os == "HarmonyOS" or brand == "Huawei":
         return "HarmonyOS 4"
+    if os == "SmartCast":
+        return "SmartCast 4.0"
     # ── 브랜드 폴백(os 불명) ──
     if brand in ("Sony", "TCL", "Xiaomi", "Philips", "Thomson"):
         return "Google TV"
@@ -64,6 +69,10 @@ def os_version(brand, year, os=None):
         return "Fire OS 7"
     if brand == "Panasonic":
         return "Fire TV OS"
+    if brand == "Sharp":
+        return "Google TV"
+    if brand == "Vizio":
+        return "SmartCast 4.0"
     return None
 
 

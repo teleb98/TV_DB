@@ -148,6 +148,8 @@ SIZES: dict[str, tuple[list[int], bool, str]] = {
     "V6":      ([75, 85, 98],                     True,  "华为智慧屏V6 2026(75/85/98)"),
     "Max163M": ([163],                            True,  "TCL Max163M 2026 Micro LED(163단일)"),
     "Max163MPro": ([163],                         True,  "TCL Max163M Pro 2026 Micro LED(163단일)"),
+    "4TC65FV1U": ([65, 75],                       True,  "Sharp AQUOS XLED FV1 2025(sharpusa.com 65/75만)"),
+    "VQP65C-84": ([65, 75],                       True,  "Vizio Quantum Pro 2026(65/75만)"),
     # --- 2024 주요 모델 인치(공식/RTINGS 확인) ---
     "QN90D":  ([43, 50, 55, 65, 75, 85, 98],      True,  "samsung QN90D 2024"),
     "QN900D": ([65, 75, 85],                      True,  "samsung QN900D 8K 2024"),

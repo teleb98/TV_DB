@@ -9,7 +9,7 @@
 CREATE TYPE panel_tech    AS ENUM ('OLED','WOLED','QD-OLED','QLED','Neo-QLED','Mini-LED','LED-LCD','Micro-LED');
 CREATE TYPE dimming_type  AS ENUM ('none','edge-lit','full-array','mini-led','per-pixel');
 CREATE TYPE tier          AS ENUM ('flagship','high','mid','entry');
-CREATE TYPE smart_os      AS ENUM ('Tizen','webOS','Google-TV','Android-TV','Roku','VIDAA','Fire-TV','HarmonyOS','other');
+CREATE TYPE smart_os      AS ENUM ('Tizen','webOS','Google-TV','Android-TV','Roku','VIDAA','Fire-TV','HarmonyOS','SmartCast','other');
 
 -- ---------- 1. Brand ----------
 CREATE TABLE brand (
